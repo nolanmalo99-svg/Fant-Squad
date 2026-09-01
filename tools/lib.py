@@ -1,5 +1,5 @@
 """Shared helpers: env loading + ESPN client. Stdlib only, no AI calls."""
-import json, os, pathlib, urllib.request, urllib.error
+import json, os, pathlib, time, urllib.request, urllib.error
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TOOLS = ROOT / "tools"
@@ -31,6 +31,41 @@ def _get(name):
 # ---------------------------------------------------------------- ESPN
 
 ESPN_HOST = "https://lm-api-reads.fantasy.espn.com"
+RETRY_ATTEMPTS = 3
+RETRY_BACKOFF = 2  # seconds, doubles each retry
+
+
+def _fetch_json(url, extra_headers=None):
+    """GET + parse JSON, with retries for transient network errors (connection resets,
+    timeouts). A 404 means "no data for this" and is not retried. A non-404 HTTP error
+    (401/403/etc) means something is actually wrong (bad creds) and stops the whole run."""
+    headers = {
+        "Cookie": f'espn_s2={_get("ESPN_S2")}; SWID={_get("ESPN_SWID")}',
+        "User-Agent": "Mozilla/5.0 (fant-squad-league-bot)",
+        "Accept": "application/json",
+    }
+    if extra_headers:
+        headers.update(extra_headers)
+    req = urllib.request.Request(url, headers=headers)
+
+    last_error = None
+    for attempt in range(1, RETRY_ATTEMPTS + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=45) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                print(f"[espn] 404 for {url}")
+                return None
+            raise SystemExit(f"ESPN HTTP {e.code} {e.reason} -- creds expired? ({url})")
+        except Exception as e:
+            last_error = e
+            print(f"[espn] attempt {attempt}/{RETRY_ATTEMPTS} failed for {url}: {e}")
+            if attempt < RETRY_ATTEMPTS:
+                time.sleep(RETRY_BACKOFF * attempt)
+
+    print(f"[espn] giving up after {RETRY_ATTEMPTS} attempts for {url}: {last_error}")
+    return None
 
 
 def espn(views, season, scoring_period=None):
@@ -38,19 +73,7 @@ def espn(views, season, scoring_period=None):
     if scoring_period is not None:
         q += f"&scoringPeriodId={scoring_period}"
     url = f"{ESPN_HOST}/apis/v3/games/ffl/seasons/{season}/segments/0/leagues/{LEAGUE_ID}?{q}"
-    req = urllib.request.Request(url, headers={
-        "Cookie": f'espn_s2={_get("ESPN_S2")}; SWID={_get("ESPN_SWID")}',
-        "User-Agent": "Mozilla/5.0 (fant-squad-league-bot)",
-        "Accept": "application/json",
-    })
-    try:
-        with urllib.request.urlopen(req, timeout=45) as r:
-            return json.load(r)
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            print(f"[espn] 404 for {url}")
-            return None  # season doesn't exist / league not visible that year
-        raise SystemExit(f"ESPN HTTP {e.code} {e.reason} -- creds expired? ({url})")
+    return _fetch_json(url)
 
 
 def espn_history(views, season):
@@ -58,21 +81,9 @@ def espn_history(views, season):
     anything further back needs this separate 'leagueHistory' endpoint, same league ID."""
     q = "&".join(f"view={v}" for v in views)
     url = f"{ESPN_HOST}/apis/v3/games/ffl/leagueHistory/{LEAGUE_ID}?seasonId={season}&{q}"
-    req = urllib.request.Request(url, headers={
-        "Cookie": f'espn_s2={_get("ESPN_S2")}; SWID={_get("ESPN_SWID")}',
-        "User-Agent": "Mozilla/5.0 (fant-squad-league-bot)",
-        "Accept": "application/json",
-    })
-    try:
-        with urllib.request.urlopen(req, timeout=45) as r:
-            data = json.load(r)
-    except urllib.error.HTTPError as e:
-        print(f"[espn_history] HTTP {e.code} for {url}")
+    data = _fetch_json(url)
+    if data is None:
         return None
-    except Exception as ex:
-        print(f"[espn_history] error for {url}: {ex}")
-        return None
-
     if isinstance(data, list):
         for entry in data:
             if entry.get("seasonId") == season:
@@ -108,18 +119,8 @@ def espn_players_by_id(season, player_ids):
         return []
     url = f"{ESPN_HOST}/apis/v3/games/ffl/seasons/{season}/segments/0/leagues/{LEAGUE_ID}?view=kona_player_info"
     filt = json.dumps({"players": {"filterIds": {"value": list(player_ids)}}})
-    req = urllib.request.Request(url, headers={
-        "Cookie": f'espn_s2={_get("ESPN_S2")}; SWID={_get("ESPN_SWID")}',
-        "User-Agent": "Mozilla/5.0 (fant-squad-league-bot)",
-        "Accept": "application/json",
-        "x-fantasy-filter": filt,
-    })
-    try:
-        with urllib.request.urlopen(req, timeout=45) as r:
-            data = json.load(r)
-        return data.get("players", [])
-    except Exception:
-        return []
+    data = _fetch_json(url, extra_headers={"x-fantasy-filter": filt})
+    return (data or {}).get("players", [])
 
 
 POS = {1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K", 16: "D/ST"}
