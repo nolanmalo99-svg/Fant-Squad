@@ -193,52 +193,40 @@ def _historical_player_pool(season):
     line, so a player's full season adds up correctly even if they were traded, dropped, or
     picked up off waivers partway through (an end-of-season-only snapshot would miss all of
     that, undercounting anyone who changed hands)."""
-    d = espn(["mTeam", "mSettings", "mMatchupScore", "mRoster", "mScoreboard"], season)
+    d = espn(["mTeam", "mRoster", "mSettings"], season)
     if not d or not d.get("teams"):
-        d = espn_history(["mTeam", "mSettings", "mMatchupScore", "mRoster", "mScoreboard"], season)
+        d = espn_history(["mTeam", "mRoster", "mSettings"], season)
     if not d or not d.get("teams"):
         print(f"[draft] season {season}: no roster data from either endpoint")
         return {}, {}
 
+    # NOTE: tried pulling week-by-week matchup-embedded rosters here (the same technique the
+    # live current season uses) so trades/waiver moves wouldn't undercount a player's real
+    # season -- but ESPN does not expose that per-week roster granularity for completed past
+    # seasons at all (confirmed: 0 players found across every historical year, even ones the
+    # primary endpoint reaches directly with no 404). So we're back to the end-of-season
+    # snapshot, which works but has one known gap: a player traded/dropped mid-season only
+    # shows stats from whichever team held them last.
+    matchup_period_count = d.get("settings", {}).get("scheduleSettings", {}).get("matchupPeriodCount", 17)
+    cutoff_week = matchup_period_count + 10  # season is over; count every week played
+
     teams_raw = d.get("teams", [])
     pool = {}
-    weeks_seen = {}  # player_id -> set of scoringPeriodIds already counted, to avoid double-counting
-    schedule = d.get("schedule", [])
-
-    for s in schedule:
-        wk = s.get("matchupPeriodId")
-        for side_key in ("home", "away"):
-            side = s.get(side_key)
-            if not side:
+    for t in teams_raw:
+        roster = (t.get("roster") or {}).get("entries", [])
+        for e in roster:
+            pl = e.get("playerPoolEntry", {}).get("player", {})
+            pid = pl.get("id")
+            if not pid:
                 continue
-            roster = (side.get("rosterForMatchupPeriod") or side.get("rosterForCurrentScoringPeriod") or {})
-            for e in roster.get("entries", []):
-                pl = e.get("playerPoolEntry", {}).get("player", {})
-                pid = pl.get("id")
-                if not pid:
-                    continue
-                week_pts = None
-                for stat in pl.get("stats", []):
-                    if stat.get("statSourceId") == 0 and stat.get("scoringPeriodId") == wk:
-                        week_pts = stat.get("appliedTotal", 0.0) or 0.0
-                        break
-                if week_pts is None:
-                    continue  # bye week or no stat line recorded for this week
-                seen = weeks_seen.setdefault(pid, set())
-                if wk in seen:
-                    continue  # already counted this week for this player (e.g. seen via both sides)
-                seen.add(wk)
-                entry = pool.setdefault(pid, {
-                    "name": pl.get("fullName", f"Player #{pid}"),
-                    "pos": POS.get(pl.get("defaultPositionId"), "?"),
-                    "pro": PRO.get(pl.get("proTeamId"), "?"),
-                    "season_total": 0.0, "games_played": 0, "dropped": False,
-                })
-                entry["season_total"] = round(entry["season_total"] + week_pts, 1)
-                entry["games_played"] += 1
-
-    print(f"[draft] season {season}: week-by-week roster pool has {len(pool)} players "
-          f"(from {len(schedule)} scheduled matchups)")
+            total, _, gp = season_stats_from_player(pl.get("stats", []), cutoff_week)
+            pool[pid] = {
+                "name": pl.get("fullName", f"Player #{pid}"),
+                "pos": POS.get(pl.get("defaultPositionId"), "?"),
+                "pro": PRO.get(pl.get("proTeamId"), "?"),
+                "season_total": total, "games_played": gp, "dropped": False,
+            }
+    print(f"[draft] season {season}: end-of-season roster pool has {len(pool)} players")
     return pool, _team_id_to_guid(teams_raw)
 
 
