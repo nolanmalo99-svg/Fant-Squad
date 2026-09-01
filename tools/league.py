@@ -20,6 +20,44 @@ def _proj_and_actual(entry, scoring_period):
     return round(proj, 1), round(actual, 1)
 
 
+def _accumulate_player_season_stats(schedule):
+    """Every player's true season-to-date total, built by walking each week's actual matchup
+    rosters rather than trusting a single "current roster" snapshot. This matters for anyone
+    traded or picked up off waivers mid-season: a snapshot only shows stats from whichever team
+    holds them *right now*, which silently undercounts their real season. Walking the schedule
+    catches every week they were active on any team's roster."""
+    totals = {}  # player_id -> {"total": float, "games": int, "name":, "pos":, "pro":}
+    seen_weeks = {}  # player_id -> set of scoringPeriodIds already counted
+    for s in schedule:
+        wk = s.get("matchupPeriodId")
+        for side_key in ("home", "away"):
+            side = s.get(side_key)
+            if not side:
+                continue
+            roster = (side.get("rosterForCurrentScoringPeriod")
+                      or side.get("rosterForMatchupPeriod") or {})
+            for e in roster.get("entries", []):
+                pl = e.get("playerPoolEntry", {}).get("player", {})
+                pid = pl.get("id")
+                if not pid:
+                    continue
+                week_pts = None
+                for stat in pl.get("stats", []):
+                    if stat.get("statSourceId") == 0 and stat.get("scoringPeriodId") == wk:
+                        week_pts = stat.get("appliedTotal", 0.0) or 0.0
+                        break
+                if week_pts is None:
+                    continue
+                seen = seen_weeks.setdefault(pid, set())
+                if wk in seen:
+                    continue
+                seen.add(wk)
+                entry = totals.setdefault(pid, {"total": 0.0, "games": 0})
+                entry["total"] = round(entry["total"] + week_pts, 1)
+                entry["games"] += 1
+    return totals
+
+
 def _side(raw_side, teams, scoring_period):
     tid = raw_side["teamId"]
     t = teams.get(tid, {"name": "?", "owner": "?", "record": "0-0", "guid": None})
@@ -188,8 +226,12 @@ def _fun_facts(m, team_games, teams, before_week):
     return facts[:3]
 
 
-def _full_roster(team_obj, scoring_period):
-    """Every rostered player (starters + bench + IR) for a team, current lineup."""
+def _full_roster(team_obj, scoring_period, weekly_totals=None):
+    """Every rostered player (starters + bench + IR) for a team, current lineup.
+    weekly_totals (from _accumulate_player_season_stats), when available, overrides the
+    roster-snapshot season total/ppg/games -- it's the untruncated version for anyone traded
+    or added mid-season; the snapshot-based figures are a safe fallback otherwise."""
+    weekly_totals = weekly_totals or {}
     entries = team_obj.get("roster", {}).get("entries", [])
     slot_rank = {s: i for i, s in enumerate(
         [0, 2, 2, 4, 4, 6, 23, 16, 17, 20, 20, 20, 20, 20, 20, 21])}  # rough starter-first ordering
@@ -197,10 +239,15 @@ def _full_roster(team_obj, scoring_period):
     for e in entries:
         slot = e.get("lineupSlotId")
         pl = e.get("playerPoolEntry", {}).get("player", {})
+        pid = pl.get("id")
         proj, act = _proj_and_actual(e, scoring_period)
         total, ppg, gp = season_stats_from_player(pl.get("stats", []), scoring_period)
+        wk_totals = weekly_totals.get(pid)
+        if wk_totals and wk_totals["total"] > total:
+            total, gp = wk_totals["total"], wk_totals["games"]
+            ppg = round(total / gp, 1) if gp else 0.0
         players.append({
-            "player_id": pl.get("id"),
+            "player_id": pid,
             "name": pl.get("fullName", "?"), "slot": SLOT.get(slot, str(slot)),
             "pos": POS.get(pl.get("defaultPositionId"), "?"),
             "pro": PRO.get(pl.get("proTeamId"), "?"),
@@ -225,6 +272,14 @@ def build_all_weeks(season):
     status = d.get("status", {})
     cur_week = status.get("currentMatchupPeriod", 1)
 
+    # sort schedule by week so team_games accumulates chronologically; also needed up-front
+    # so we can compute each player's untruncated season total before building rosters below.
+    schedule = sorted(
+        (s for s in d.get("schedule", []) if "home" in s and "away" in s),
+        key=lambda s: s.get("matchupPeriodId", 0),
+    )
+    weekly_player_totals = _accumulate_player_season_stats(schedule)
+
     teams = {}
     for t in d.get("teams", []):
         name = (t.get("name") or f'{t.get("location","")} {t.get("nickname","")}').strip()
@@ -239,14 +294,8 @@ def build_all_weeks(season):
             "pf": round(rec.get("pointsFor", 0.0), 1),
             "pa": round(rec.get("pointsAgainst", 0.0), 1),
             "waiver_rank": t.get("waiverRank"),
-            "roster": _full_roster(t, status.get("currentMatchupPeriod", 1)),
+            "roster": _full_roster(t, status.get("currentMatchupPeriod", 1), weekly_player_totals),
         }
-
-    # sort schedule by week so team_games accumulates chronologically
-    schedule = sorted(
-        (s for s in d.get("schedule", []) if "home" in s and "away" in s),
-        key=lambda s: s.get("matchupPeriodId", 0),
-    )
 
     team_games = {}  # teamId -> [{week, pts, win, opp, opp_pts}] chronological, played games only
 
