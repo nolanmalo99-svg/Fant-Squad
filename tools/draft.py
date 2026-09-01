@@ -132,6 +132,8 @@ def _refine_with_global_lookup(season, pool, player_ids, cutoff_week):
         return
     fetched = espn_players_by_id(season, player_ids)
     if not fetched:
+        print(f"[draft] season {season}: {len(player_ids)} players missing from any roster, "
+              f"best-effort lookup found 0 (lookup returned nothing usable)")
         return
     found = 0
     for entry in fetched:
