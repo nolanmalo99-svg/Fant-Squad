@@ -53,6 +53,34 @@ def espn(views, season, scoring_period=None):
         raise SystemExit(f"ESPN HTTP {e.code} {e.reason} -- creds expired? ({url})")
 
 
+def espn_history(views, season):
+    """Fallback for older seasons: ESPN's current-season endpoint only covers recent years;
+    anything further back needs this separate 'leagueHistory' endpoint, same league ID."""
+    q = "&".join(f"view={v}" for v in views)
+    url = f"{ESPN_HOST}/apis/v3/games/ffl/leagueHistory/{LEAGUE_ID}?seasonId={season}&{q}"
+    req = urllib.request.Request(url, headers={
+        "Cookie": f'espn_s2={_get("ESPN_S2")}; SWID={_get("ESPN_SWID")}',
+        "User-Agent": "Mozilla/5.0 (fant-squad-league-bot)",
+        "Accept": "application/json",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=45) as r:
+            data = json.load(r)
+    except urllib.error.HTTPError as e:
+        print(f"[espn_history] HTTP {e.code} for {url}")
+        return None
+    except Exception as ex:
+        print(f"[espn_history] error for {url}: {ex}")
+        return None
+
+    if isinstance(data, list):
+        for entry in data:
+            if entry.get("seasonId") == season:
+                return entry
+        return data[0] if data else None
+    return data
+
+
 def season_stats_from_player(player_stats, before_week):
     """Season-to-date total + average fantasy points, from actual (statSourceId=0) weekly lines."""
     played = [s for s in player_stats
