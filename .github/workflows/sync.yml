@@ -1,0 +1,47 @@
+name: Sync ESPN data
+
+on:
+  schedule:
+    - cron: "0 */4 * 9-12,1 *"
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "season year (blank = auto-detect)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch from ESPN and rebuild data files
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+        run: |
+          cd tools
+          python3 build_data.py ${{ github.event.inputs.season && format('--season {0}', github.event.inputs.season) || '' }}
+
+      - name: Commit & push if changed
+        run: |
+          if [ -n "$(git status --porcelain js/site-data.js js/matchups-data.js tools/data)" ]; then
+            git config user.name  "chabels-league-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add js/site-data.js js/matchups-data.js tools/data
+            git commit -m "sync: refresh ESPN data $(date -u +%Y-%m-%dT%H:%M)"
+            git push
+          else
+            echo "no changes"
+          fi
