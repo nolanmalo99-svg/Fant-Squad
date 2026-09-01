@@ -1,4 +1,4 @@
-window.SITE_DATA = {
+{
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
@@ -6563,4 +6563,4 @@ window.SITE_DATA = {
     2025,
     2026
   ]
-};
+}
