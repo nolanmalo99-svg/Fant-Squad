@@ -119,7 +119,7 @@
 
       <div id="tp-draft-section" style="display:none;background:#1e2128;border:1px solid #2f333b;border-top:3px solid #3c414c;border-radius:4px;padding:1.1rem;margin-top:1rem;box-shadow:0 1px 4px rgba(0,0,0,0.07);">
         <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.9rem;">
-          <div style="font-size:0.7rem;font-weight:800;color:#f5f7fa;text-transform:uppercase;letter-spacing:1px;">🎓 Draft Recap</div>
+          <div style="font-size:0.7rem;font-weight:800;color:#f5f7fa;text-transform:uppercase;letter-spacing:1px;">🎓 <span id="tp-draft-season-label">Draft Recap</span></div>
           <div id="tp-draft-grade" style="font-size:1.8rem;font-weight:900;line-height:1;"></div>
         </div>
         <p id="tp-draft-summary" style="color:#a7aebb;font-size:0.8rem;margin-bottom:0.9rem;"></p>
@@ -192,6 +192,50 @@
       }
     }
 
+    var GRADE_COLORS = { 'A+': '#3E8ED9', 'A': '#3E8ED9', 'B': '#63d98a', 'C': '#a7aebb', 'D': '#ff9f5a', 'F': '#ff6b70' };
+
+    function renderDraftRecap(draft) {
+      document.getElementById('tp-draft-season-label').textContent = draft.season + ' Draft Recap';
+      var gradeEl = document.getElementById('tp-draft-grade');
+      gradeEl.textContent = draft.grade;
+      gradeEl.style.color = GRADE_COLORS[draft.grade] || '#f5f7fa';
+      document.getElementById('tp-draft-summary').textContent =
+        'Ranked ' + draft.league_rank + ' of ' + draft.league_size + ' drafts in the league' +
+        (draft.draft_type ? ' (' + draft.draft_type.toLowerCase() + ' draft)' : '') +
+        (draft.mode === 'projected'
+          ? ', based on ESPN\'s preseason projections \u2014 will switch to real results once games are played.'
+          : ', based on how picks produced that season.');
+
+      var ptsLabel = draft.mode === 'projected' ? 'proj. pts' : 'pts';
+      function pickLine(p) {
+        return p.name + ' (Round ' + p.round + ', Pick ' + p.pick_in_round + ')' +
+          (p.dropped ? ' \u2014 since dropped' : ' \u2014 ' + p.points + ' ' + ptsLabel);
+      }
+      document.getElementById('tp-draft-best').textContent = pickLine(draft.best_pick);
+      document.getElementById('tp-draft-worst').textContent = pickLine(draft.worst_pick);
+
+      document.getElementById('tp-draft-picks').innerHTML = (draft.picks || []).map(function (p) {
+        var vColor = p.value_diff > 0 ? '#3E8ED9' : (p.value_diff < 0 ? '#ff6b70' : '#a7aebb');
+        var vLabel = (p.value_diff > 0 ? '+' : '') + p.value_diff;
+        return '<tr><td class="roster-slot">' + p.round + '.' + p.pick_in_round + '</td>' +
+          '<td class="roster-name">' + p.name + (p.dropped ? '<span class="roster-injury">DROPPED</span>' : '') + '</td>' +
+          '<td>' + p.points + '</td>' +
+          '<td style="color:' + vColor + ';font-weight:800;">' + vLabel + '</td></tr>';
+      }).join('');
+
+      // highlight the selected year chip
+      document.querySelectorAll('.tp-draft-year-chip').forEach(function (chip) {
+        chip.style.borderColor = (+chip.dataset.season === draft.season) ? '#3E8ED9' : '#2f333b';
+      });
+    }
+
+    function selectDraftYear(season) {
+      var entry = (window._teamsPageDraftHistory || []).filter(function (d) { return d.season === season; })[0];
+      if (!entry) return;
+      renderDraftRecap(entry);
+      document.getElementById('tp-draft-section').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
     function showTeam(guid) {
       var p = document.getElementById('team-profile');
       var t = CAREER[guid];
@@ -234,48 +278,30 @@
       document.getElementById('tp-banners').innerHTML = banners.join('');
 
       var draftSection = document.getElementById('tp-draft-section');
-      var draft = t.draft;
-      if (draft) {
+      var draftHistory = t.draft_history || [];
+      window._teamsPageDraftHistory = draftHistory; // used by selectDraftYear()
+
+      if (t.draft || draftHistory.length) {
         draftSection.style.display = 'block';
-        var gradeColors = { 'A+': '#3E8ED9', 'A': '#3E8ED9', 'B': '#63d98a', 'C': '#a7aebb', 'D': '#ff9f5a', 'F': '#ff6b70' };
-        var gradeEl = document.getElementById('tp-draft-grade');
-        gradeEl.textContent = draft.grade;
-        gradeEl.style.color = gradeColors[draft.grade] || '#f5f7fa';
-        document.getElementById('tp-draft-summary').textContent =
-          'Ranked ' + draft.league_rank + ' of ' + draft.league_size + ' drafts in the league' +
-          (draft.draft_type ? ' (' + draft.draft_type.toLowerCase() + ' draft)' : '') +
-          (draft.mode === 'projected'
-            ? ', based on ESPN\'s preseason projections \u2014 will switch to real results once games are played.'
-            : ', based on how picks have produced so far.');
-
-        var ptsLabel = draft.mode === 'projected' ? 'proj. pts' : 'pts so far';
-        function pickLine(p) {
-          return p.name + ' (Round ' + p.round + ', Pick ' + p.pick_in_round + ')' +
-            (p.dropped ? ' \u2014 since dropped' : ' \u2014 ' + p.points + ' ' + ptsLabel);
-        }
-        document.getElementById('tp-draft-best').textContent = pickLine(draft.best_pick);
-        document.getElementById('tp-draft-worst').textContent = pickLine(draft.worst_pick);
-
-        document.getElementById('tp-draft-picks').innerHTML = (draft.picks || []).map(function (p) {
-          var vColor = p.value_diff > 0 ? '#3E8ED9' : (p.value_diff < 0 ? '#ff6b70' : '#a7aebb');
-          var vLabel = (p.value_diff > 0 ? '+' : '') + p.value_diff;
-          return '<tr><td class="roster-slot">' + p.round + '.' + p.pick_in_round + '</td>' +
-            '<td class="roster-name">' + p.name + (p.dropped ? '<span class="roster-injury">DROPPED</span>' : '') + '</td>' +
-            '<td>' + p.points + '</td>' +
-            '<td style="color:' + vColor + ';font-weight:800;">' + vLabel + '</td></tr>';
-        }).join('');
+        // Default view: current season if we have it, else the most recent year available.
+        var defaultEntry = t.draft
+          ? Object.assign({}, t.draft, { season: window.SITE_DATA.current_season })
+          : draftHistory[draftHistory.length - 1];
+        renderDraftRecap(defaultEntry);
       } else {
         draftSection.style.display = 'none';
       }
 
       var histSection = document.getElementById('tp-draft-history-section');
-      var draftHistory = t.draft_history || [];
       if (draftHistory.length) {
         histSection.style.display = 'block';
-        var gradeColors = { 'A+': '#3E8ED9', 'A': '#3E8ED9', 'B': '#63d98a', 'C': '#a7aebb', 'D': '#ff9f5a', 'F': '#ff6b70' };
+        var currentSeason = window.SITE_DATA.current_season;
         document.getElementById('tp-draft-history').innerHTML = draftHistory.map(function (d) {
-          var color = gradeColors[d.grade] || '#f5f7fa';
-          return '<div style="background:#181a1f;border:1px solid #2f333b;border-radius:4px;padding:0.6rem 0.85rem;text-align:center;min-width:70px;">' +
+          var color = GRADE_COLORS[d.grade] || '#f5f7fa';
+          var selected = (d.season === currentSeason);
+          return '<div class="tp-draft-year-chip" data-season="' + d.season + '" onclick="selectDraftYear(' + d.season + ')" ' +
+            'style="cursor:pointer;background:#181a1f;border:1px solid ' + (selected ? '#3E8ED9' : '#2f333b') + ';border-radius:4px;' +
+            'padding:0.6rem 0.85rem;text-align:center;min-width:70px;transition:border-color 0.15s ease;">' +
             '<div style="font-size:0.62rem;color:#a7aebb;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:0.25rem;">' + d.season + '</div>' +
             '<div style="font-size:1.3rem;font-weight:900;color:' + color + ';line-height:1;">' + d.grade + '</div>' +
             '<div style="font-size:0.6rem;color:#6b7280;margin-top:0.2rem;">' + d.league_rank + '/' + d.league_size + '</div></div>';
