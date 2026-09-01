@@ -121,6 +121,44 @@ def _grade_picks(picks, draft_type, pool, team_id_to_guid, mode):
     return results
 
 
+def _refine_with_global_lookup(season, pool, player_ids, cutoff_week):
+    """The stats embedded in a team's roster snapshot can be scoped to only the weeks a player
+    was on THAT team -- if they were traded, dropped-and-repicked, or streamed off waivers, that
+    undercounts their real season. The kona_player_info lookup returns the player's global stat
+    line regardless of roster history, so we prefer it whenever it's higher than what we already
+    have. This never makes a number worse: pool totals only ever go up from this."""
+    player_ids = [pid for pid in player_ids if pid]
+    if not player_ids:
+        return
+    fetched = espn_players_by_id(season, player_ids)
+    if not fetched:
+        return
+    corrected = 0
+    for entry in fetched:
+        pl = entry.get("player", entry) or {}
+        pid = pl.get("id") or entry.get("id")
+        if not pid:
+            continue
+        total, _, gp = season_stats_from_player(pl.get("stats", []), cutoff_week)
+        existing = pool.get(pid)
+        if existing is None:
+            pool[pid] = {
+                "name": pl.get("fullName", f"Player #{pid}"), "pos": "?", "pro": "?",
+                "season_total": total, "games_played": gp,
+                "preseason_proj_total": preseason_projection(pl.get("stats", [])),
+                "dropped": True,
+            }
+        elif total > existing.get("season_total", 0.0):
+            corrected += 1
+            existing["season_total"] = total
+            existing["games_played"] = max(existing.get("games_played", 0), gp)
+            if existing.get("name", "").startswith("Player #"):
+                existing["name"] = pl.get("fullName", existing["name"])
+    if corrected:
+        print(f"[draft] season {season}: global lookup corrected {corrected} truncated/roster-scoped "
+              f"player totals (mid-season trade/waiver moves)")
+
+
 def build_draft_grades(season, standings_with_roster, current_week):
     """Live grading for the current season. standings_with_roster:
     league.build_all_weeks()['standings'] (includes 'roster' + 'team_id')."""
@@ -139,23 +177,10 @@ def build_draft_grades(season, standings_with_roster, current_week):
                     "dropped": False,
                 }
 
-    missing_ids = [pk.get("playerId") for pk in picks if pk.get("playerId") not in pool]
-    missing_ids = [pid for pid in missing_ids if pid]
-    if missing_ids:
-        fetched = espn_players_by_id(season, missing_ids)
-        for entry in fetched:
-            pl = entry.get("player", entry) or {}
-            pid = pl.get("id") or entry.get("id")
-            if not pid:
-                continue
-            total, _, gp = season_stats_from_player(pl.get("stats", []), current_week)
-            pool[pid] = {
-                "name": pl.get("fullName", f"Player #{pid}"), "pos": "?", "pro": "?",
-                "season_total": total, "games_played": gp,
-                "preseason_proj_total": preseason_projection(pl.get("stats", [])),
-                "dropped": True,
-            }
-    for pid in missing_ids:
+    all_ids = [pk.get("playerId") for pk in picks if pk.get("playerId")]
+    _refine_with_global_lookup(season, pool, all_ids, current_week)
+
+    for pid in all_ids:
         if pid not in pool:
             pool[pid] = {"name": f"Player #{pid}", "pos": "?", "pro": "?",
                          "season_total": 0.0, "games_played": 0,
@@ -213,21 +238,13 @@ def build_historical_draft_grades(first_season, last_completed_season):
         if not pool:
             continue
 
-        missing_ids = [pk.get("playerId") for pk in picks if pk.get("playerId") not in pool]
-        missing_ids = [pid for pid in missing_ids if pid]
-        if missing_ids:
-            fetched = espn_players_by_id(season, missing_ids)
-            print(f"[draft] season {season}: {len(missing_ids)} drafted-then-dropped players, "
-                  f"best-effort lookup found {len(fetched)}")
-            for entry in fetched:
-                pl = entry.get("player", entry) or {}
-                pid = pl.get("id") or entry.get("id")
-                if not pid:
-                    continue
-                total, _, gp = season_stats_from_player(pl.get("stats", []), 999)
-                pool[pid] = {"name": pl.get("fullName", f"Player #{pid}"), "pos": "?", "pro": "?",
-                             "season_total": total, "games_played": gp, "dropped": True}
-        for pid in missing_ids:
+        all_ids = [pk.get("playerId") for pk in picks if pk.get("playerId")]
+        missing_before = len([pid for pid in all_ids if pid not in pool])
+        _refine_with_global_lookup(season, pool, all_ids, 999)
+        if missing_before:
+            print(f"[draft] season {season}: {missing_before} drafted-then-dropped players in the lookup")
+
+        for pid in all_ids:
             if pid not in pool:
                 pool[pid] = {"name": f"Player #{pid}", "pos": "?", "pro": "?",
                              "season_total": 0.0, "games_played": 0, "dropped": True}
