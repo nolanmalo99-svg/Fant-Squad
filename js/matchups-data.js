@@ -624,7 +624,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 8,
+          "home_w": 12,
           "home_l": 12
         }
       },
@@ -1268,8 +1268,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 8,
-          "home_l": 9
+          "home_w": 14,
+          "home_l": 10
         }
       },
       {
@@ -1581,8 +1581,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 9,
-          "home_l": 9
+          "home_w": 12,
+          "home_l": 12
         }
       }
     ],
@@ -1667,8 +1667,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 4,
-          "home_l": 3
+          "home_w": 5,
+          "home_l": 6
         }
       },
       {
@@ -1751,8 +1751,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 4,
-          "home_l": 15
+          "home_w": 7,
+          "home_l": 16
         }
       },
       {
@@ -1793,8 +1793,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 11,
-          "home_l": 6
+          "home_w": 14,
+          "home_l": 8
         }
       }
     ],
@@ -1837,7 +1837,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 10,
+          "home_w": 13,
           "home_l": 4
         }
       },
@@ -1879,8 +1879,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 10,
-          "home_l": 7
+          "home_w": 12,
+          "home_l": 11
         }
       },
       {
@@ -1963,8 +1963,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 4,
-          "home_l": 3
+          "home_w": 6,
+          "home_l": 4
         }
       },
       {
@@ -2049,8 +2049,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 10,
-          "home_l": 7
+          "home_w": 13,
+          "home_l": 9
         }
       },
       {
@@ -2091,8 +2091,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 10,
-          "home_l": 7
+          "home_w": 12,
+          "home_l": 9
         }
       },
       {
@@ -2133,8 +2133,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 10,
-          "home_l": 9
+          "home_w": 13,
+          "home_l": 12
         }
       },
       {
@@ -2175,8 +2175,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 5,
-          "home_l": 3
+          "home_w": 6,
+          "home_l": 6
         }
       },
       {
@@ -2261,8 +2261,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 8,
-          "home_l": 6
+          "home_w": 9,
+          "home_l": 8
         }
       },
       {
@@ -2303,8 +2303,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 2,
-          "home_l": 5
+          "home_w": 6,
+          "home_l": 6
         }
       },
       {
@@ -2387,8 +2387,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 11,
-          "home_l": 8
+          "home_w": 16,
+          "home_l": 10
         }
       },
       {
@@ -2557,8 +2557,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 5,
-          "home_l": 6
+          "home_w": 8,
+          "home_l": 7
         }
       },
       {
@@ -2600,7 +2600,7 @@ window.MATCHUPS_DATA = {
         "fun_facts": [],
         "head_to_head": {
           "home_w": 6,
-          "home_l": 4
+          "home_l": 6
         }
       },
       {
@@ -2642,7 +2642,7 @@ window.MATCHUPS_DATA = {
         "fun_facts": [],
         "head_to_head": {
           "home_w": 6,
-          "home_l": 2
+          "home_l": 8
         }
       }
     ],
@@ -2769,7 +2769,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 6,
+          "home_w": 8,
           "home_l": 2
         }
       },
@@ -2811,8 +2811,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 3,
-          "home_l": 3
+          "home_w": 5,
+          "home_l": 7
         }
       },
       {
@@ -2853,8 +2853,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 4,
-          "home_l": 4
+          "home_w": 5,
+          "home_l": 6
         }
       }
     ],
@@ -2981,8 +2981,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 3,
-          "home_l": 2
+          "home_w": 4,
+          "home_l": 7
         }
       },
       {
@@ -3023,8 +3023,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 5,
-          "home_l": 6
+          "home_w": 8,
+          "home_l": 7
         }
       },
       {
@@ -3065,8 +3065,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 5,
-          "home_l": 6
+          "home_w": 6,
+          "home_l": 9
         }
       }
     ],
@@ -3151,8 +3151,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 5,
-          "home_l": 2
+          "home_w": 6,
+          "home_l": 6
         }
       },
       {
@@ -3235,8 +3235,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 8,
-          "home_l": 11
+          "home_w": 10,
+          "home_l": 16
         }
       },
       {
@@ -3277,8 +3277,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 9,
-          "home_l": 9
+          "home_w": 12,
+          "home_l": 12
         }
       }
     ],
@@ -3364,7 +3364,7 @@ window.MATCHUPS_DATA = {
         "fun_facts": [],
         "head_to_head": {
           "home_w": 12,
-          "home_l": 8
+          "home_l": 12
         }
       },
       {
@@ -3447,8 +3447,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 9,
-          "home_l": 8
+          "home_w": 10,
+          "home_l": 14
         }
       },
       {
@@ -3489,8 +3489,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 6,
-          "home_l": 11
+          "home_w": 8,
+          "home_l": 14
         }
       }
     ],
@@ -3533,8 +3533,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 4,
-          "home_l": 4
+          "home_w": 8,
+          "home_l": 5
         }
       },
       {
@@ -3575,8 +3575,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 3,
-          "home_l": 4
+          "home_w": 6,
+          "home_l": 5
         }
       },
       {
@@ -3659,8 +3659,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 15,
-          "home_l": 4
+          "home_w": 16,
+          "home_l": 7
         }
       },
       {
@@ -3745,8 +3745,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 1,
-          "home_l": 10
+          "home_w": 4,
+          "home_l": 12
         }
       },
       {
@@ -3787,8 +3787,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 7,
-          "home_l": 10
+          "home_w": 11,
+          "home_l": 12
         }
       },
       {
@@ -3829,8 +3829,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 9,
-          "home_l": 10
+          "home_w": 12,
+          "home_l": 13
         }
       },
       {
@@ -3871,8 +3871,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 3,
-          "home_l": 4
+          "home_w": 4,
+          "home_l": 6
         }
       },
       {
@@ -3957,8 +3957,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 5,
-          "home_l": 4
+          "home_w": 6,
+          "home_l": 7
         }
       },
       {
@@ -3999,8 +3999,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 7,
-          "home_l": 10
+          "home_w": 9,
+          "home_l": 12
         }
       },
       {
@@ -4083,8 +4083,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 3,
-          "home_l": 5
+          "home_w": 6,
+          "home_l": 6
         }
       },
       {
@@ -4254,7 +4254,7 @@ window.MATCHUPS_DATA = {
         "fun_facts": [],
         "head_to_head": {
           "home_w": 4,
-          "home_l": 10
+          "home_l": 13
         }
       },
       {
@@ -4295,8 +4295,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 7,
-          "home_l": 10
+          "home_w": 9,
+          "home_l": 13
         }
       },
       {
@@ -4337,8 +4337,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [],
         "head_to_head": {
-          "home_w": 6,
-          "home_l": 8
+          "home_w": 8,
+          "home_l": 9
         }
       }
     ]

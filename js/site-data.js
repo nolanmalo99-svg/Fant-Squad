@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-01T00:46:50+00:00",
+  "generated_at": "2026-09-01T00:52:09+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -174,6 +174,27 @@ window.SITE_DATA = {
   },
   "champions_timeline": [
     {
+      "season": 2015,
+      "owner": "Andy Jensen",
+      "team": "Suck My nipples",
+      "record": "7-6",
+      "pf": 1268.0
+    },
+    {
+      "season": 2016,
+      "owner": "alex raichle",
+      "team": "Leveon  A Prayer",
+      "record": "11-2",
+      "pf": 1321.0
+    },
+    {
+      "season": 2017,
+      "owner": "Dawson Leer",
+      "team": "Howard Are you?",
+      "record": "9-4",
+      "pf": 1330.0
+    },
+    {
       "season": 2018,
       "owner": "Zach Mensink",
       "team": "O-Dell No",
@@ -231,6 +252,27 @@ window.SITE_DATA = {
     }
   ],
   "last_place_timeline": [
+    {
+      "season": 2015,
+      "owner": "Abe havelka",
+      "team": "A 12",
+      "record": "7-6",
+      "pf": 1128.0
+    },
+    {
+      "season": 2016,
+      "owner": "Brady Schuster",
+      "team": "Show me your TD's",
+      "record": "2-11",
+      "pf": 1063.0
+    },
+    {
+      "season": 2017,
+      "owner": "Abe havelka",
+      "team": "Team Sad",
+      "record": "6-7",
+      "pf": 925.0
+    },
     {
       "season": 2018,
       "owner": "Abe havelka",
@@ -292,10 +334,28 @@ window.SITE_DATA = {
     "{F73EA129-47AF-46B5-BEA1-2947AF96B517}": {
       "owner": "alex raichle",
       "team": "Double D Kupps",
-      "record": "58-51",
-      "pf": 13053.8,
-      "win_pct": 53,
+      "record": "85-63",
+      "pf": 16998.8,
+      "win_pct": 57,
       "seasons": [
+        {
+          "season": 2015,
+          "team": "Leveon  A Prayer",
+          "record": "7-6",
+          "pf": 1355.0
+        },
+        {
+          "season": 2016,
+          "team": "Leveon  A Prayer",
+          "record": "11-2",
+          "pf": 1321.0
+        },
+        {
+          "season": 2017,
+          "team": "Baby got Dak",
+          "record": "9-4",
+          "pf": 1269.0
+        },
         {
           "season": 2018,
           "team": "Cant Guard Mike",
@@ -360,32 +420,38 @@ window.SITE_DATA = {
         {
           "owner": "Abe havelka",
           "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
-          "w": 2,
-          "l": 0
+          "w": 4,
+          "l": 1
         },
         {
           "owner": "Andy Jensen",
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "w": 2,
-          "l": 5
+          "w": 6,
+          "l": 6
         },
         {
           "owner": "Brady Schuster",
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
-          "w": 6,
-          "l": 5
+          "w": 7,
+          "l": 8
         },
         {
           "owner": "Dawson Leer",
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
-          "w": 5,
-          "l": 4
+          "w": 6,
+          "l": 7
+        },
+        {
+          "owner": "Ian Rubish",
+          "guid": "{3AEE3131-9488-47C7-AE31-31948847C73C}",
+          "w": 2,
+          "l": 0
         },
         {
           "owner": "Kadyn James Mulert",
           "guid": "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}",
-          "w": 8,
-          "l": 3
+          "w": 11,
+          "l": 4
         },
         {
           "owner": "Mitch Wiese",
@@ -396,14 +462,14 @@ window.SITE_DATA = {
         {
           "owner": "Noah Budach",
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
-          "w": 4,
-          "l": 15
+          "w": 7,
+          "l": 16
         },
         {
           "owner": "Nolan Malo",
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
-          "w": 8,
-          "l": 9
+          "w": 14,
+          "l": 10
         },
         {
           "owner": "Owen Koslosku",
@@ -414,19 +480,25 @@ window.SITE_DATA = {
         {
           "owner": "Zach Mensink",
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
-          "w": 7,
-          "l": 10
+          "w": 11,
+          "l": 12
         },
         {
           "owner": "spencer glynn",
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "w": 10,
-          "l": 7
+          "w": 13,
+          "l": 9
+        },
+        {
+          "owner": "tucker alstead",
+          "guid": "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}",
+          "w": 1,
+          "l": 0
         }
       ],
-      "playoff_wins": 3,
-      "playoff_appearances": 8,
-      "winning_seasons": 4,
+      "playoff_wins": 6,
+      "playoff_appearances": 11,
+      "winning_seasons": 7,
       "roster": [
         {
           "player_id": 4431452,
@@ -898,10 +970,28 @@ window.SITE_DATA = {
     "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}": {
       "owner": "Brady Schuster",
       "team": "Cee Deez Ballz",
-      "record": "48-59-2",
-      "pf": 12148.7,
-      "win_pct": 44,
+      "record": "64-82-2",
+      "pf": 15366.7,
+      "win_pct": 43,
       "seasons": [
+        {
+          "season": 2015,
+          "team": "Show me your TD's",
+          "record": "10-3",
+          "pf": 1106.0
+        },
+        {
+          "season": 2016,
+          "team": "Show me your TD's",
+          "record": "2-11",
+          "pf": 1063.0
+        },
+        {
+          "season": 2017,
+          "team": "Show me your TD's",
+          "record": "4-9",
+          "pf": 1049.0
+        },
         {
           "season": 2018,
           "team": "Show me your TD's",
@@ -966,26 +1056,32 @@ window.SITE_DATA = {
         {
           "owner": "Abe havelka",
           "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
-          "w": 4,
-          "l": 1
+          "w": 8,
+          "l": 4
         },
         {
           "owner": "Andy Jensen",
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "w": 3,
-          "l": 2
+          "w": 4,
+          "l": 7
         },
         {
           "owner": "Dawson Leer",
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
-          "w": 9,
-          "l": 10
+          "w": 12,
+          "l": 13
+        },
+        {
+          "owner": "Ian Rubish",
+          "guid": "{3AEE3131-9488-47C7-AE31-31948847C73C}",
+          "w": 0,
+          "l": 1
         },
         {
           "owner": "Kadyn James Mulert",
           "guid": "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}",
-          "w": 2,
-          "l": 4
+          "w": 3,
+          "l": 6
         },
         {
           "owner": "Mitch Wiese",
@@ -997,13 +1093,13 @@ window.SITE_DATA = {
           "owner": "Noah Budach",
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "w": 2,
-          "l": 6
+          "l": 8
         },
         {
           "owner": "Nolan Malo",
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "w": 4,
-          "l": 10
+          "l": 13
         },
         {
           "owner": "Owen Koslosku",
@@ -1014,25 +1110,31 @@ window.SITE_DATA = {
         {
           "owner": "Zach Mensink",
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
-          "w": 4,
-          "l": 4
+          "w": 5,
+          "l": 8
         },
         {
           "owner": "alex raichle",
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
-          "w": 5,
-          "l": 6
+          "w": 8,
+          "l": 7
         },
         {
           "owner": "spencer glynn",
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "w": 9,
-          "l": 9
+          "w": 12,
+          "l": 12
+        },
+        {
+          "owner": "tucker alstead",
+          "guid": "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}",
+          "w": 2,
+          "l": 0
         }
       ],
-      "playoff_wins": 10,
-      "playoff_appearances": 8,
-      "winning_seasons": 3,
+      "playoff_wins": 12,
+      "playoff_appearances": 11,
+      "winning_seasons": 4,
       "roster": [
         {
           "player_id": 4040715,
@@ -1504,10 +1606,28 @@ window.SITE_DATA = {
     "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}": {
       "owner": "spencer glynn",
       "team": "Ja'Maar-a-Lago",
-      "record": "59-50",
-      "pf": 12933.0,
+      "record": "80-68",
+      "pf": 16469.0,
       "win_pct": 54,
       "seasons": [
+        {
+          "season": 2015,
+          "team": "Decent at  Best",
+          "record": "7-6",
+          "pf": 1146.0
+        },
+        {
+          "season": 2016,
+          "team": "Suck my   Johnson",
+          "record": "9-4",
+          "pf": 1340.0
+        },
+        {
+          "season": 2017,
+          "team": "Suck my   Johnson",
+          "record": "5-8",
+          "pf": 1050.0
+        },
         {
           "season": 2018,
           "team": "Its Always  Sony",
@@ -1572,32 +1692,38 @@ window.SITE_DATA = {
         {
           "owner": "Abe havelka",
           "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
-          "w": 3,
-          "l": 1
+          "w": 6,
+          "l": 4
         },
         {
           "owner": "Andy Jensen",
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "w": 3,
-          "l": 3
+          "w": 7,
+          "l": 5
         },
         {
           "owner": "Brady Schuster",
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
-          "w": 9,
-          "l": 9
+          "w": 12,
+          "l": 12
         },
         {
           "owner": "Dawson Leer",
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
-          "w": 11,
-          "l": 6
+          "w": 14,
+          "l": 8
+        },
+        {
+          "owner": "Ian Rubish",
+          "guid": "{3AEE3131-9488-47C7-AE31-31948847C73C}",
+          "w": 3,
+          "l": 0
         },
         {
           "owner": "Kadyn James Mulert",
           "guid": "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}",
-          "w": 5,
-          "l": 0
+          "w": 6,
+          "l": 1
         },
         {
           "owner": "Mitch Wiese",
@@ -1609,13 +1735,13 @@ window.SITE_DATA = {
           "owner": "Noah Budach",
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "w": 6,
-          "l": 4
+          "l": 6
         },
         {
           "owner": "Nolan Malo",
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
-          "w": 10,
-          "l": 1
+          "w": 12,
+          "l": 4
         },
         {
           "owner": "Owen Koslosku",
@@ -1626,19 +1752,25 @@ window.SITE_DATA = {
         {
           "owner": "Zach Mensink",
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
-          "w": 5,
-          "l": 6
+          "w": 8,
+          "l": 7
         },
         {
           "owner": "alex raichle",
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
-          "w": 7,
-          "l": 10
+          "w": 9,
+          "l": 13
+        },
+        {
+          "owner": "tucker alstead",
+          "guid": "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}",
+          "w": 1,
+          "l": 0
         }
       ],
-      "playoff_wins": 12,
-      "playoff_appearances": 8,
-      "winning_seasons": 4,
+      "playoff_wins": 16,
+      "playoff_appearances": 11,
+      "winning_seasons": 6,
       "roster": [
         {
           "player_id": 4689114,
@@ -2110,10 +2242,28 @@ window.SITE_DATA = {
     "{1E802642-486D-481B-AFCD-15A8361DC042}": {
       "owner": "Nolan Malo",
       "team": "Amon-Ra Doggin",
-      "record": "55-53-1",
-      "pf": 12661.0,
-      "win_pct": 50,
+      "record": "75-72-1",
+      "pf": 16413.0,
+      "win_pct": 51,
       "seasons": [
+        {
+          "season": 2015,
+          "team": "Gronkey Kong",
+          "record": "7-6",
+          "pf": 1199.0
+        },
+        {
+          "season": 2016,
+          "team": "Gronkey Kong",
+          "record": "8-5",
+          "pf": 1320.0
+        },
+        {
+          "season": 2017,
+          "team": "Gronkey Kong",
+          "record": "5-8",
+          "pf": 1233.0
+        },
         {
           "season": 2018,
           "team": "Bad Boys",
@@ -2178,32 +2328,38 @@ window.SITE_DATA = {
         {
           "owner": "Abe havelka",
           "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
-          "w": 0,
-          "l": 2
+          "w": 2,
+          "l": 4
         },
         {
           "owner": "Andy Jensen",
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "w": 4,
-          "l": 3
+          "w": 5,
+          "l": 6
         },
         {
           "owner": "Brady Schuster",
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
-          "w": 10,
+          "w": 13,
           "l": 4
         },
         {
           "owner": "Dawson Leer",
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
-          "w": 6,
-          "l": 5
+          "w": 9,
+          "l": 6
+        },
+        {
+          "owner": "Ian Rubish",
+          "guid": "{3AEE3131-9488-47C7-AE31-31948847C73C}",
+          "w": 0,
+          "l": 2
         },
         {
           "owner": "Kadyn James Mulert",
           "guid": "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}",
-          "w": 7,
-          "l": 3
+          "w": 10,
+          "l": 4
         },
         {
           "owner": "Mitch Wiese",
@@ -2214,8 +2370,8 @@ window.SITE_DATA = {
         {
           "owner": "Noah Budach",
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
-          "w": 7,
-          "l": 10
+          "w": 9,
+          "l": 12
         },
         {
           "owner": "Owen Koslosku",
@@ -2226,25 +2382,31 @@ window.SITE_DATA = {
         {
           "owner": "Zach Mensink",
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
-          "w": 11,
-          "l": 8
+          "w": 16,
+          "l": 10
         },
         {
           "owner": "alex raichle",
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
-          "w": 9,
-          "l": 8
+          "w": 10,
+          "l": 14
         },
         {
           "owner": "spencer glynn",
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "w": 1,
-          "l": 10
+          "w": 4,
+          "l": 12
+        },
+        {
+          "owner": "tucker alstead",
+          "guid": "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}",
+          "w": 0,
+          "l": 1
         }
       ],
-      "playoff_wins": 11,
-      "playoff_appearances": 8,
-      "winning_seasons": 4,
+      "playoff_wins": 14,
+      "playoff_appearances": 11,
+      "winning_seasons": 6,
       "roster": [
         {
           "player_id": 3915511,
@@ -2716,10 +2878,28 @@ window.SITE_DATA = {
     "{B7136078-A4E9-45FF-9360-78A4E935FF3A}": {
       "owner": "Zach Mensink",
       "team": "Christian Mingle",
-      "record": "55-53-1",
-      "pf": 12971.5,
-      "win_pct": 50,
+      "record": "70-76-2",
+      "pf": 16217.5,
+      "win_pct": 47,
       "seasons": [
+        {
+          "season": 2015,
+          "team": "Team Mensink",
+          "record": "7-6",
+          "pf": 1202.0
+        },
+        {
+          "season": 2016,
+          "team": "Pitta Chips",
+          "record": "2-10-1",
+          "pf": 982.0
+        },
+        {
+          "season": 2017,
+          "team": "Miller High life",
+          "record": "6-7",
+          "pf": 1062.0
+        },
         {
           "season": 2018,
           "team": "O-Dell No",
@@ -2784,32 +2964,38 @@ window.SITE_DATA = {
         {
           "owner": "Abe havelka",
           "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
-          "w": 1,
-          "l": 1
+          "w": 3,
+          "l": 2
         },
         {
           "owner": "Andy Jensen",
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "w": 3,
-          "l": 5
+          "w": 6,
+          "l": 6
         },
         {
           "owner": "Brady Schuster",
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
-          "w": 4,
-          "l": 4
+          "w": 8,
+          "l": 5
         },
         {
           "owner": "Dawson Leer",
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
-          "w": 4,
-          "l": 4
+          "w": 5,
+          "l": 6
+        },
+        {
+          "owner": "Ian Rubish",
+          "guid": "{3AEE3131-9488-47C7-AE31-31948847C73C}",
+          "w": 1,
+          "l": 1
         },
         {
           "owner": "Kadyn James Mulert",
           "guid": "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}",
-          "w": 5,
-          "l": 6
+          "w": 7,
+          "l": 9
         },
         {
           "owner": "Mitch Wiese",
@@ -2821,13 +3007,13 @@ window.SITE_DATA = {
           "owner": "Noah Budach",
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "w": 12,
-          "l": 8
+          "l": 12
         },
         {
           "owner": "Nolan Malo",
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
-          "w": 8,
-          "l": 11
+          "w": 10,
+          "l": 16
         },
         {
           "owner": "Owen Koslosku",
@@ -2838,19 +3024,25 @@ window.SITE_DATA = {
         {
           "owner": "alex raichle",
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
-          "w": 10,
-          "l": 7
+          "w": 12,
+          "l": 11
         },
         {
           "owner": "spencer glynn",
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "w": 6,
-          "l": 5
+          "w": 7,
+          "l": 8
+        },
+        {
+          "owner": "tucker alstead",
+          "guid": "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}",
+          "w": 1,
+          "l": 0
         }
       ],
-      "playoff_wins": 9,
-      "playoff_appearances": 8,
-      "winning_seasons": 4,
+      "playoff_wins": 12,
+      "playoff_appearances": 11,
+      "winning_seasons": 5,
       "roster": [
         {
           "player_id": 4360310,
@@ -3322,10 +3514,28 @@ window.SITE_DATA = {
     "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}": {
       "owner": "Abe havelka",
       "team": "Team Sad",
-      "record": "8-16-2",
-      "pf": 2322.0,
-      "win_pct": 31,
+      "record": "26-37-2",
+      "pf": 5396.0,
+      "win_pct": 40,
       "seasons": [
+        {
+          "season": 2015,
+          "team": "A 12",
+          "record": "7-6",
+          "pf": 1128.0
+        },
+        {
+          "season": 2016,
+          "team": "Team Sad",
+          "record": "5-8",
+          "pf": 1021.0
+        },
+        {
+          "season": 2017,
+          "team": "Team Sad",
+          "record": "6-7",
+          "pf": 925.0
+        },
         {
           "season": 2018,
           "team": "Team Sad",
@@ -3348,26 +3558,32 @@ window.SITE_DATA = {
         {
           "owner": "Andy Jensen",
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "w": 1,
-          "l": 1
+          "w": 3,
+          "l": 5
         },
         {
           "owner": "Brady Schuster",
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
-          "w": 1,
-          "l": 4
+          "w": 4,
+          "l": 8
         },
         {
           "owner": "Dawson Leer",
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
-          "w": 2,
-          "l": 3
+          "w": 5,
+          "l": 7
+        },
+        {
+          "owner": "Ian Rubish",
+          "guid": "{3AEE3131-9488-47C7-AE31-31948847C73C}",
+          "w": 1,
+          "l": 1
         },
         {
           "owner": "Kadyn James Mulert",
           "guid": "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}",
-          "w": 1,
-          "l": 2
+          "w": 2,
+          "l": 3
         },
         {
           "owner": "Mitch Wiese",
@@ -3378,46 +3594,70 @@ window.SITE_DATA = {
         {
           "owner": "Noah Budach",
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
-          "w": 1,
-          "l": 1
+          "w": 2,
+          "l": 2
         },
         {
           "owner": "Nolan Malo",
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
-          "w": 2,
-          "l": 0
+          "w": 4,
+          "l": 2
         },
         {
           "owner": "Zach Mensink",
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
-          "w": 1,
-          "l": 1
+          "w": 2,
+          "l": 3
         },
         {
           "owner": "alex raichle",
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
-          "w": 0,
-          "l": 2
+          "w": 1,
+          "l": 4
         },
         {
           "owner": "spencer glynn",
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
+          "w": 4,
+          "l": 6
+        },
+        {
+          "owner": "tucker alstead",
+          "guid": "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}",
           "w": 1,
-          "l": 3
+          "l": 2
         }
       ],
-      "playoff_wins": 1,
-      "playoff_appearances": 2,
-      "winning_seasons": 0,
+      "playoff_wins": 2,
+      "playoff_appearances": 5,
+      "winning_seasons": 1,
       "roster": []
     },
     "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}": {
       "owner": "Dawson Leer",
       "team": "This Just In",
-      "record": "54-55",
-      "pf": 12300.7,
-      "win_pct": 50,
+      "record": "72-76",
+      "pf": 15761.7,
+      "win_pct": 49,
       "seasons": [
+        {
+          "season": 2015,
+          "team": "Chicken  Alfredo Morris",
+          "record": "4-9",
+          "pf": 1063.0
+        },
+        {
+          "season": 2016,
+          "team": "Luck Me",
+          "record": "5-8",
+          "pf": 1068.0
+        },
+        {
+          "season": 2017,
+          "team": "Howard Are you?",
+          "record": "9-4",
+          "pf": 1330.0
+        },
         {
           "season": 2018,
           "team": "No Name",
@@ -3482,26 +3722,32 @@ window.SITE_DATA = {
         {
           "owner": "Abe havelka",
           "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
-          "w": 3,
-          "l": 2
+          "w": 7,
+          "l": 5
         },
         {
           "owner": "Andy Jensen",
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "w": 6,
-          "l": 2
+          "l": 8
         },
         {
           "owner": "Brady Schuster",
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
-          "w": 10,
-          "l": 9
+          "w": 13,
+          "l": 12
+        },
+        {
+          "owner": "Ian Rubish",
+          "guid": "{3AEE3131-9488-47C7-AE31-31948847C73C}",
+          "w": 0,
+          "l": 1
         },
         {
           "owner": "Kadyn James Mulert",
           "guid": "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}",
-          "w": 5,
-          "l": 1
+          "w": 7,
+          "l": 2
         },
         {
           "owner": "Mitch Wiese",
@@ -3512,14 +3758,14 @@ window.SITE_DATA = {
         {
           "owner": "Noah Budach",
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
-          "w": 6,
-          "l": 8
+          "w": 8,
+          "l": 9
         },
         {
           "owner": "Nolan Malo",
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
-          "w": 5,
-          "l": 6
+          "w": 6,
+          "l": 9
         },
         {
           "owner": "Owen Koslosku",
@@ -3530,25 +3776,31 @@ window.SITE_DATA = {
         {
           "owner": "Zach Mensink",
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
-          "w": 4,
-          "l": 4
+          "w": 6,
+          "l": 5
         },
         {
           "owner": "alex raichle",
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
-          "w": 4,
-          "l": 5
+          "w": 7,
+          "l": 6
         },
         {
           "owner": "spencer glynn",
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "w": 6,
-          "l": 11
+          "w": 8,
+          "l": 14
+        },
+        {
+          "owner": "tucker alstead",
+          "guid": "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}",
+          "w": 3,
+          "l": 0
         }
       ],
-      "playoff_wins": 8,
-      "playoff_appearances": 8,
-      "winning_seasons": 3,
+      "playoff_wins": 12,
+      "playoff_appearances": 11,
+      "winning_seasons": 4,
       "roster": [
         {
           "player_id": 3139477,
@@ -4020,10 +4272,28 @@ window.SITE_DATA = {
     "{3BCB04AD-50E3-4675-8B04-AD50E3667590}": {
       "owner": "Andy Jensen",
       "team": "Hurts so good",
-      "record": "27-28",
-      "pf": 5946.7,
-      "win_pct": 49,
+      "record": "51-43",
+      "pf": 9373.7,
+      "win_pct": 54,
       "seasons": [
+        {
+          "season": 2015,
+          "team": "Suck My nipples",
+          "record": "7-6",
+          "pf": 1268.0
+        },
+        {
+          "season": 2016,
+          "team": "It ertz  When i pee",
+          "record": "9-4",
+          "pf": 1086.0
+        },
+        {
+          "season": 2017,
+          "team": "It ertz  When i pee",
+          "record": "8-5",
+          "pf": 1073.0
+        },
         {
           "season": 2018,
           "team": "It ertz  When i pee",
@@ -4064,26 +4334,32 @@ window.SITE_DATA = {
         {
           "owner": "Abe havelka",
           "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
-          "w": 1,
-          "l": 1
+          "w": 5,
+          "l": 3
         },
         {
           "owner": "Brady Schuster",
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
-          "w": 2,
-          "l": 3
+          "w": 7,
+          "l": 4
         },
         {
           "owner": "Dawson Leer",
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
-          "w": 2,
+          "w": 8,
           "l": 6
+        },
+        {
+          "owner": "Ian Rubish",
+          "guid": "{3AEE3131-9488-47C7-AE31-31948847C73C}",
+          "w": 0,
+          "l": 1
         },
         {
           "owner": "Kadyn James Mulert",
           "guid": "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}",
-          "w": 2,
-          "l": 0
+          "w": 3,
+          "l": 1
         },
         {
           "owner": "Mitch Wiese",
@@ -4094,14 +4370,14 @@ window.SITE_DATA = {
         {
           "owner": "Noah Budach",
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
-          "w": 4,
-          "l": 3
+          "w": 6,
+          "l": 4
         },
         {
           "owner": "Nolan Malo",
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
-          "w": 3,
-          "l": 4
+          "w": 6,
+          "l": 5
         },
         {
           "owner": "Owen Koslosku",
@@ -4112,25 +4388,31 @@ window.SITE_DATA = {
         {
           "owner": "Zach Mensink",
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
-          "w": 5,
-          "l": 3
+          "w": 6,
+          "l": 6
         },
         {
           "owner": "alex raichle",
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
-          "w": 5,
-          "l": 2
+          "w": 6,
+          "l": 6
         },
         {
           "owner": "spencer glynn",
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "w": 3,
-          "l": 3
+          "w": 5,
+          "l": 7
+        },
+        {
+          "owner": "tucker alstead",
+          "guid": "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}",
+          "w": 2,
+          "l": 0
         }
       ],
-      "playoff_wins": 4,
-      "playoff_appearances": 4,
-      "winning_seasons": 1,
+      "playoff_wins": 7,
+      "playoff_appearances": 7,
+      "winning_seasons": 4,
       "roster": [
         {
           "player_id": 3916387,
@@ -4599,13 +4881,185 @@ window.SITE_DATA = {
         ]
       }
     },
+    "{3AEE3131-9488-47C7-AE31-31948847C73C}": {
+      "owner": "Ian Rubish",
+      "team": "Haha  Clitand-dicks",
+      "record": "7-6",
+      "pf": 1104.0,
+      "win_pct": 54,
+      "seasons": [
+        {
+          "season": 2015,
+          "team": "Haha  Clitand-dicks",
+          "record": "7-6",
+          "pf": 1104.0
+        }
+      ],
+      "best_week": {
+        "points": 188.0,
+        "week": 14,
+        "season": 2015
+      },
+      "h2h": [
+        {
+          "owner": "Abe havelka",
+          "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
+          "w": 1,
+          "l": 1
+        },
+        {
+          "owner": "Andy Jensen",
+          "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
+          "w": 1,
+          "l": 0
+        },
+        {
+          "owner": "Brady Schuster",
+          "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
+          "w": 1,
+          "l": 0
+        },
+        {
+          "owner": "Dawson Leer",
+          "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
+          "w": 1,
+          "l": 0
+        },
+        {
+          "owner": "Nolan Malo",
+          "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
+          "w": 2,
+          "l": 0
+        },
+        {
+          "owner": "Zach Mensink",
+          "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
+          "w": 1,
+          "l": 1
+        },
+        {
+          "owner": "alex raichle",
+          "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
+          "w": 0,
+          "l": 2
+        },
+        {
+          "owner": "spencer glynn",
+          "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
+          "w": 0,
+          "l": 3
+        },
+        {
+          "owner": "tucker alstead",
+          "guid": "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}",
+          "w": 1,
+          "l": 0
+        }
+      ],
+      "playoff_wins": 1,
+      "playoff_appearances": 1,
+      "winning_seasons": 1,
+      "roster": []
+    },
+    "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}": {
+      "owner": "tucker alstead",
+      "team": "Comeback Nation",
+      "record": "2-11",
+      "pf": 980.0,
+      "win_pct": 15,
+      "seasons": [
+        {
+          "season": 2015,
+          "team": "Comeback Nation",
+          "record": "2-11",
+          "pf": 980.0
+        }
+      ],
+      "best_week": {
+        "points": 204.0,
+        "week": 15,
+        "season": 2015
+      },
+      "h2h": [
+        {
+          "owner": "Abe havelka",
+          "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
+          "w": 2,
+          "l": 1
+        },
+        {
+          "owner": "Andy Jensen",
+          "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
+          "w": 0,
+          "l": 2
+        },
+        {
+          "owner": "Brady Schuster",
+          "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
+          "w": 0,
+          "l": 2
+        },
+        {
+          "owner": "Dawson Leer",
+          "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
+          "w": 0,
+          "l": 3
+        },
+        {
+          "owner": "Ian Rubish",
+          "guid": "{3AEE3131-9488-47C7-AE31-31948847C73C}",
+          "w": 0,
+          "l": 1
+        },
+        {
+          "owner": "Nolan Malo",
+          "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
+          "w": 1,
+          "l": 0
+        },
+        {
+          "owner": "Zach Mensink",
+          "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
+          "w": 0,
+          "l": 1
+        },
+        {
+          "owner": "alex raichle",
+          "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
+          "w": 0,
+          "l": 1
+        },
+        {
+          "owner": "spencer glynn",
+          "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
+          "w": 0,
+          "l": 1
+        }
+      ],
+      "playoff_wins": 1,
+      "playoff_appearances": 1,
+      "winning_seasons": 0,
+      "roster": []
+    },
     "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}": {
       "owner": "Kadyn James Mulert",
       "team": "Team RileyReidOption",
-      "record": "23-44",
-      "pf": 6816.0,
-      "win_pct": 34,
+      "record": "35-57-1",
+      "pf": 9112.0,
+      "win_pct": 38,
       "seasons": [
+        {
+          "season": 2016,
+          "team": "Drew Breezus",
+          "record": "6-6-1",
+          "pf": 1183.0
+        },
+        {
+          "season": 2017,
+          "team": "Drew Breezus",
+          "record": "6-7",
+          "pf": 1113.0
+        },
         {
           "season": 2018,
           "team": "Drew Breezus",
@@ -4646,26 +5100,26 @@ window.SITE_DATA = {
         {
           "owner": "Abe havelka",
           "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
-          "w": 2,
-          "l": 1
+          "w": 3,
+          "l": 2
         },
         {
           "owner": "Andy Jensen",
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "w": 0,
-          "l": 2
+          "w": 1,
+          "l": 3
         },
         {
           "owner": "Brady Schuster",
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
-          "w": 4,
-          "l": 2
+          "w": 6,
+          "l": 3
         },
         {
           "owner": "Dawson Leer",
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
-          "w": 1,
-          "l": 5
+          "w": 2,
+          "l": 7
         },
         {
           "owner": "Mitch Wiese",
@@ -4676,14 +5130,14 @@ window.SITE_DATA = {
         {
           "owner": "Noah Budach",
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
-          "w": 4,
-          "l": 8
+          "w": 8,
+          "l": 9
         },
         {
           "owner": "Nolan Malo",
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
-          "w": 3,
-          "l": 7
+          "w": 4,
+          "l": 10
         },
         {
           "owner": "Owen Koslosku",
@@ -4694,34 +5148,46 @@ window.SITE_DATA = {
         {
           "owner": "Zach Mensink",
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
-          "w": 6,
-          "l": 5
+          "w": 9,
+          "l": 7
         },
         {
           "owner": "alex raichle",
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
-          "w": 3,
-          "l": 8
+          "w": 4,
+          "l": 11
         },
         {
           "owner": "spencer glynn",
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "w": 0,
-          "l": 5
+          "w": 1,
+          "l": 6
         }
       ],
-      "playoff_wins": 3,
-      "playoff_appearances": 5,
+      "playoff_wins": 6,
+      "playoff_appearances": 7,
       "winning_seasons": 1,
       "roster": []
     },
     "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}": {
       "owner": "Noah Budach",
       "team": "Give CMC the ball",
-      "record": "64-45",
-      "pf": 13064.4,
-      "win_pct": 59,
+      "record": "78-57",
+      "pf": 15423.4,
+      "win_pct": 58,
       "seasons": [
+        {
+          "season": 2016,
+          "team": "Game of Jones",
+          "record": "7-6",
+          "pf": 1229.0
+        },
+        {
+          "season": 2017,
+          "team": "Game of Jones",
+          "record": "7-6",
+          "pf": 1130.0
+        },
         {
           "season": 2018,
           "team": "Game of Jones",
@@ -4786,32 +5252,32 @@ window.SITE_DATA = {
         {
           "owner": "Abe havelka",
           "guid": "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}",
-          "w": 1,
-          "l": 1
+          "w": 2,
+          "l": 2
         },
         {
           "owner": "Andy Jensen",
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "w": 3,
-          "l": 4
+          "w": 4,
+          "l": 6
         },
         {
           "owner": "Brady Schuster",
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
-          "w": 6,
+          "w": 8,
           "l": 2
         },
         {
           "owner": "Dawson Leer",
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
-          "w": 8,
-          "l": 6
+          "w": 9,
+          "l": 8
         },
         {
           "owner": "Kadyn James Mulert",
           "guid": "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}",
-          "w": 8,
-          "l": 4
+          "w": 9,
+          "l": 8
         },
         {
           "owner": "Mitch Wiese",
@@ -4822,8 +5288,8 @@ window.SITE_DATA = {
         {
           "owner": "Nolan Malo",
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
-          "w": 10,
-          "l": 7
+          "w": 12,
+          "l": 9
         },
         {
           "owner": "Owen Koslosku",
@@ -4834,25 +5300,25 @@ window.SITE_DATA = {
         {
           "owner": "Zach Mensink",
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
-          "w": 8,
+          "w": 12,
           "l": 12
         },
         {
           "owner": "alex raichle",
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
-          "w": 15,
-          "l": 4
+          "w": 16,
+          "l": 7
         },
         {
           "owner": "spencer glynn",
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "w": 4,
+          "w": 6,
           "l": 6
         }
       ],
-      "playoff_wins": 10,
-      "playoff_appearances": 8,
-      "winning_seasons": 4,
+      "playoff_wins": 11,
+      "playoff_appearances": 10,
+      "winning_seasons": 6,
       "roster": [
         {
           "player_id": 4426348,
@@ -6543,16 +7009,19 @@ window.SITE_DATA = {
       "season": 2019
     },
     "most_career_wins": {
-      "owner": "Noah Budach",
-      "w": 64,
-      "l": 45
+      "owner": "alex raichle",
+      "w": 85,
+      "l": 63
     },
     "most_career_pf": {
-      "owner": "Noah Budach",
-      "pf": 13064.4
+      "owner": "alex raichle",
+      "pf": 16998.8
     }
   },
   "seasons_covered": [
+    2015,
+    2016,
+    2017,
     2018,
     2019,
     2020,
