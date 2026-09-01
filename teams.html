@@ -159,7 +159,7 @@
     });
 
     var CAREER = (window.SITE_DATA && window.SITE_DATA.career) || {};
-    var EXCLUDED_OWNERS = ["Abe Havelka", "Kadyn James Mulert"]
+    var EXCLUDED_OWNERS = ["Abe Havelka", "Kadyn James Mulert", "Ian Rubish", "Tucker Alstead"]
       .map(function (n) { return n.toLowerCase().replace(/[.\s]+$/, ''); });
     var owners = Object.keys(CAREER)
       .map(function (g) { return { guid: g, owner: CAREER[g].owner }; })
