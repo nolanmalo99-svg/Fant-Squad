@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-01T01:24:23+00:00",
+  "generated_at": "2026-09-01T01:31:37+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -968,6 +968,72 @@ window.SITE_DATA = {
       },
       "draft_history": [
         {
+          "season": 2015,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
+          "season": 2016,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
+          "season": 2017,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        },
+        {
+          "season": 2018,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
+        {
+          "season": 2019,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
+        {
+          "season": 2020,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
+          "season": 2021,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
+          "season": 2022,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
+          "season": 2023,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        },
+        {
+          "season": 2024,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
+          "season": 2025,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        },
+        {
           "season": 2026,
           "grade": "B",
           "league_rank": 5,
@@ -1611,6 +1677,72 @@ window.SITE_DATA = {
         ]
       },
       "draft_history": [
+        {
+          "season": 2015,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
+          "season": 2016,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
+          "season": 2017,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
+          "season": 2018,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
+          "season": 2019,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
+          "season": 2020,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
+        {
+          "season": 2021,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
+          "season": 2022,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
+          "season": 2023,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
+          "season": 2024,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
+          "season": 2025,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        },
         {
           "season": 2026,
           "grade": "C",
@@ -2256,6 +2388,72 @@ window.SITE_DATA = {
       },
       "draft_history": [
         {
+          "season": 2015,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
+        {
+          "season": 2016,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
+        {
+          "season": 2017,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        },
+        {
+          "season": 2018,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        },
+        {
+          "season": 2019,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        },
+        {
+          "season": 2020,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        },
+        {
+          "season": 2021,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
+          "season": 2022,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
+        {
+          "season": 2023,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
+          "season": 2024,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
+          "season": 2025,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
           "season": 2026,
           "grade": "F",
           "league_rank": 10,
@@ -2899,6 +3097,72 @@ window.SITE_DATA = {
         ]
       },
       "draft_history": [
+        {
+          "season": 2015,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
+          "season": 2016,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
+          "season": 2017,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
+          "season": 2018,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        },
+        {
+          "season": 2019,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
+          "season": 2020,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
+          "season": 2021,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
+          "season": 2022,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
+          "season": 2023,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
+        {
+          "season": 2024,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
+          "season": 2025,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        },
         {
           "season": 2026,
           "grade": "C",
@@ -3544,6 +3808,72 @@ window.SITE_DATA = {
       },
       "draft_history": [
         {
+          "season": 2015,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
+          "season": 2016,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        },
+        {
+          "season": 2017,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
+          "season": 2018,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
+        {
+          "season": 2019,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
+          "season": 2020,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
+        {
+          "season": 2021,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        },
+        {
+          "season": 2022,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
+        {
+          "season": 2023,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
+        {
+          "season": 2024,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        },
+        {
+          "season": 2025,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
           "season": 2026,
           "grade": "A",
           "league_rank": 4,
@@ -3671,7 +4001,39 @@ window.SITE_DATA = {
       "playoff_wins": 2,
       "playoff_appearances": 5,
       "winning_seasons": 1,
-      "roster": []
+      "roster": [],
+      "draft_history": [
+        {
+          "season": 2015,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        },
+        {
+          "season": 2016,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
+        {
+          "season": 2017,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        },
+        {
+          "season": 2018,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
+          "season": 2019,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        }
+      ]
     },
     "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}": {
       "owner": "Dawson Leer",
@@ -4310,6 +4672,72 @@ window.SITE_DATA = {
       },
       "draft_history": [
         {
+          "season": 2015,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
+          "season": 2016,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        },
+        {
+          "season": 2017,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
+          "season": 2018,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
+          "season": 2019,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
+          "season": 2020,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        },
+        {
+          "season": 2021,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        },
+        {
+          "season": 2022,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        },
+        {
+          "season": 2023,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
+          "season": 2024,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        },
+        {
+          "season": 2025,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
           "season": 2026,
           "grade": "D",
           "league_rank": 9,
@@ -4930,6 +5358,48 @@ window.SITE_DATA = {
       },
       "draft_history": [
         {
+          "season": 2015,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
+        {
+          "season": 2016,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        },
+        {
+          "season": 2017,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
+          "season": 2018,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
+          "season": 2023,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        },
+        {
+          "season": 2024,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
+        {
+          "season": 2025,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
           "season": 2026,
           "grade": "A+",
           "league_rank": 1,
@@ -5015,7 +5485,15 @@ window.SITE_DATA = {
       "playoff_wins": 1,
       "playoff_appearances": 1,
       "winning_seasons": 1,
-      "roster": []
+      "roster": [],
+      "draft_history": [
+        {
+          "season": 2015,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        }
+      ]
     },
     "{348E1C17-18CF-4DC9-94F6-A33C3BBBA2B6}": {
       "owner": "tucker alstead",
@@ -5095,7 +5573,15 @@ window.SITE_DATA = {
       "playoff_wins": 1,
       "playoff_appearances": 1,
       "winning_seasons": 0,
-      "roster": []
+      "roster": [],
+      "draft_history": [
+        {
+          "season": 2015,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        }
+      ]
     },
     "{540F3BB0-7066-4A9B-8F3B-B07066FA9B81}": {
       "owner": "Kadyn James Mulert",
@@ -5223,7 +5709,51 @@ window.SITE_DATA = {
       "playoff_wins": 6,
       "playoff_appearances": 7,
       "winning_seasons": 1,
-      "roster": []
+      "roster": [],
+      "draft_history": [
+        {
+          "season": 2016,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
+          "season": 2017,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
+        {
+          "season": 2018,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
+          "season": 2019,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        },
+        {
+          "season": 2020,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
+          "season": 2021,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
+        {
+          "season": 2022,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        }
+      ]
     },
     "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}": {
       "owner": "Noah Budach",
@@ -5844,6 +6374,66 @@ window.SITE_DATA = {
       },
       "draft_history": [
         {
+          "season": 2016,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        },
+        {
+          "season": 2017,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
+        {
+          "season": 2018,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        },
+        {
+          "season": 2019,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
+        {
+          "season": 2020,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        },
+        {
+          "season": 2021,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        },
+        {
+          "season": 2022,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
+          "season": 2023,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
+          "season": 2024,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
+        {
+          "season": 2025,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
           "season": 2026,
           "grade": "A+",
           "league_rank": 2,
@@ -6451,6 +7041,48 @@ window.SITE_DATA = {
         ]
       },
       "draft_history": [
+        {
+          "season": 2019,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
+          "season": 2020,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
+          "season": 2021,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
+          "season": 2022,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        },
+        {
+          "season": 2023,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        },
+        {
+          "season": 2024,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        },
+        {
+          "season": 2025,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        },
         {
           "season": 2026,
           "grade": "A",
@@ -7062,6 +7694,42 @@ window.SITE_DATA = {
         ]
       },
       "draft_history": [
+        {
+          "season": 2020,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        },
+        {
+          "season": 2021,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
+        {
+          "season": 2022,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        },
+        {
+          "season": 2023,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        },
+        {
+          "season": 2024,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        },
+        {
+          "season": 2025,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        },
         {
           "season": 2026,
           "grade": "B",
