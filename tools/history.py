@@ -63,6 +63,8 @@ def build_history(current_season):
     s = FIRST_SEASON
     while s <= current_season:
         snap = _season_snapshot(s)
+        print(f"[history] season {s}: "
+              f"{'found ' + str(len(snap['teams'])) + ' teams' if snap else 'NO DATA -- espn() returned nothing/404 for this season'}")
         if snap:
             seasons.append(snap)
         s += 1
