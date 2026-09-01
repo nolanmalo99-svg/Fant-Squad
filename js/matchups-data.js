@@ -1012,7 +1012,7 @@ window.MATCHUPS_DATA = {
               "pro": "CIN",
               "proj": 13.0,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Drake Maye",
@@ -1053,6 +1053,15 @@ window.MATCHUPS_DATA = {
           ],
           "bench_proj": 72.6,
           "injuries": [
+            {
+              "name": "Tee Higgins",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "CIN",
+              "proj": 13.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
             {
               "name": "Tucker Kraft",
               "slot": "TE",
