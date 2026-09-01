@@ -142,6 +142,11 @@
         <p style="color:#6b7280;font-size:0.68rem;margin-top:0.7rem;">Grades compare draft slot to season-to-date production
           across the whole league &mdash; an early read that sharpens as the season goes on. Not an official ESPN metric.</p>
       </div>
+
+      <div id="tp-draft-history-section" style="display:none;background:#1e2128;border:1px solid #2f333b;border-top:3px solid #3c414c;border-radius:4px;padding:1.1rem;margin-top:1rem;box-shadow:0 1px 4px rgba(0,0,0,0.07);">
+        <div style="font-size:0.7rem;font-weight:800;color:#f5f7fa;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.75rem;">📚 Draft History</div>
+        <div id="tp-draft-history" style="display:flex;flex-wrap:wrap;gap:0.6rem;"></div>
+      </div>
     </div>
 
     <p id="no-data-msg" style="text-align:center;color:#a7aebb;display:none;">No team data yet — run the ESPN sync to populate this page.</p>
@@ -261,6 +266,22 @@
         }).join('');
       } else {
         draftSection.style.display = 'none';
+      }
+
+      var histSection = document.getElementById('tp-draft-history-section');
+      var draftHistory = t.draft_history || [];
+      if (draftHistory.length) {
+        histSection.style.display = 'block';
+        var gradeColors = { 'A+': '#3E8ED9', 'A': '#3E8ED9', 'B': '#63d98a', 'C': '#a7aebb', 'D': '#ff9f5a', 'F': '#ff6b70' };
+        document.getElementById('tp-draft-history').innerHTML = draftHistory.map(function (d) {
+          var color = gradeColors[d.grade] || '#f5f7fa';
+          return '<div style="background:#181a1f;border:1px solid #2f333b;border-radius:4px;padding:0.6rem 0.85rem;text-align:center;min-width:70px;">' +
+            '<div style="font-size:0.62rem;color:#a7aebb;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:0.25rem;">' + d.season + '</div>' +
+            '<div style="font-size:1.3rem;font-weight:900;color:' + color + ';line-height:1;">' + d.grade + '</div>' +
+            '<div style="font-size:0.6rem;color:#6b7280;margin-top:0.2rem;">' + d.league_rank + '/' + d.league_size + '</div></div>';
+        }).join('');
+      } else {
+        histSection.style.display = 'none';
       }
 
       var roster = t.roster || [];
