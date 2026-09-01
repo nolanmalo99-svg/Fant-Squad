@@ -50,7 +50,11 @@ def run(season=None):
     if week_data is None:
         sys.exit(f"no ESPN data for season {season} -- check LEAGUE_ID / cookies")
 
-    hist = H.build_history(season)
+    try:
+        hist = H.build_history(season)
+    except Exception as e:
+        print(f"[history] build_history failed, continuing without it for this run: {e}")
+        hist = None
 
     champions_timeline = hist["champions_timeline"] if hist else []
     last_place_timeline = hist["last_place_timeline"] if hist else []
@@ -83,20 +87,31 @@ def run(season=None):
         key=lambda t: t["waiver_rank"],
     )
 
-    draft_grades = D.build_draft_grades(season, week_data["standings"], week_data["current_week"])
-    print(f"[draft] build_draft_grades returned: {'None' if draft_grades is None else len(draft_grades)} teams")
-    if draft_grades:
-        matched = set(draft_grades) & set(career_out)
-        print(f"[draft] draft guids: {len(draft_grades)}, career_out guids: {len(career_out)}, "
-              f"matched: {len(matched)}, hist_present: {hist is not None}")
-    if draft_grades and hist:
-        for guid, dg in draft_grades.items():
-            if guid in career_out:
-                career_out[guid]["draft"] = dg
+    draft_grades = None
+    try:
+        draft_grades = D.build_draft_grades(season, week_data["standings"], week_data["current_week"])
+        print(f"[draft] build_draft_grades returned: {'None' if draft_grades is None else len(draft_grades)} teams")
+        if draft_grades:
+            matched = set(draft_grades) & set(career_out)
+            print(f"[draft] draft guids: {len(draft_grades)}, career_out guids: {len(career_out)}, "
+                  f"matched: {len(matched)}, hist_present: {hist is not None}")
+        if draft_grades and hist:
+            for guid, dg in draft_grades.items():
+                if guid in career_out:
+                    career_out[guid]["draft"] = dg
+    except Exception as e:
+        print(f"[draft] current-season draft grading failed, skipping for this run: {e}")
 
     # Draft history: every past completed season's grade, so owners can see year-by-year drafts.
-    historical_draft = D.build_historical_draft_grades(FIRST_SEASON, season - 1)
-    print(f"[draft] historical seasons graded: {sorted(historical_draft.keys())}")
+    # Wrapped defensively: this makes many ESPN calls, and a network blip here should never cost
+    # us the standings/history/awards/matchups data that already succeeded above.
+    historical_draft = {}
+    try:
+        historical_draft = D.build_historical_draft_grades(FIRST_SEASON, season - 1)
+        print(f"[draft] historical seasons graded: {sorted(historical_draft.keys())}")
+    except Exception as e:
+        print(f"[draft] historical draft grading failed, skipping for this run: {e}")
+
     draft_history_by_guid = {}
     for hist_season, season_results in historical_draft.items():
         for guid, dg in season_results.items():
