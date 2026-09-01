@@ -3,7 +3,7 @@ season-by-season records, champions, and league records -- all derived live, not
 hand-typed. Owners are tracked by their stable ESPN member GUID so a name change or a
 team-name change never breaks career totals.
 """
-from lib import espn, FIRST_SEASON
+from lib import espn, espn_history, FIRST_SEASON
 
 
 def _owner_name(members, guid):
@@ -15,8 +15,11 @@ def _owner_name(members, guid):
 
 
 def _season_snapshot(season):
-    """One ESPN call -> teams, members, full schedule w/ scores for that season."""
+    """One ESPN call -> teams, members, full schedule w/ scores for that season.
+    Falls back to the leagueHistory endpoint for older seasons the main endpoint 404s on."""
     d = espn(["mTeam", "mSettings", "mMatchupScore"], season)
+    if not d or not d.get("teams"):
+        d = espn_history(["mTeam", "mSettings", "mMatchupScore"], season)
     if not d or not d.get("teams"):
         return None
     members = d.get("members", [])
