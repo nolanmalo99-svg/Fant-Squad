@@ -114,13 +114,25 @@ def preseason_projection(player_stats):
 
 
 def espn_players_by_id(season, player_ids):
-    """Best-effort lookup of specific players (e.g. drafted-then-dropped) by ESPN player id."""
+    """Best-effort lookup of specific players (e.g. drafted-then-dropped) by ESPN player id.
+    Falls back to the leagueHistory-style endpoint for old seasons, same as espn_history()."""
     if not player_ids:
         return []
-    url = f"{ESPN_HOST}/apis/v3/games/ffl/seasons/{season}/segments/0/leagues/{LEAGUE_ID}?view=kona_player_info"
     filt = json.dumps({"players": {"filterIds": {"value": list(player_ids)}}})
+
+    url = f"{ESPN_HOST}/apis/v3/games/ffl/seasons/{season}/segments/0/leagues/{LEAGUE_ID}?view=kona_player_info"
     data = _fetch_json(url, extra_headers={"x-fantasy-filter": filt})
-    return (data or {}).get("players", [])
+    if data and data.get("players"):
+        return data["players"]
+
+    hist_url = f"{ESPN_HOST}/apis/v3/games/ffl/leagueHistory/{LEAGUE_ID}?seasonId={season}&view=kona_player_info"
+    hist_data = _fetch_json(hist_url, extra_headers={"x-fantasy-filter": filt})
+    if isinstance(hist_data, list):
+        for entry in hist_data:
+            if entry.get("seasonId") == season and entry.get("players"):
+                return entry["players"]
+        return []
+    return (hist_data or {}).get("players", [])
 
 
 POS = {1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K", 16: "D/ST"}
