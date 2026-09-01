@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History — Fant Squad</title>
+  <link rel="stylesheet" href="css/style.css?v=1">
+  <style>
+    .hist-season { background:#1e2128;border:1px solid #2f333b;border-radius:6px;padding:1.3rem 1.4rem;margin-bottom:1rem; }
+    .hist-season h3 { font-size:1.1rem;font-weight:900;color:#f5f7fa;margin-bottom:0.6rem; }
+    .hist-row { display:flex;justify-content:space-between;padding:0.35rem 0;border-bottom:1px solid rgba(255,255,255,0.05);font-size:0.85rem; }
+    .hist-row:last-child { border-bottom:none; }
+    .hist-row .rank { color:#a7aebb;width:1.6rem;display:inline-block; }
+  </style>
+</head>
+<body class="polish">
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="home.html" class="nav-logo" style="display:flex;align-items:center;"><svg width="30" height="34" viewBox="0 0 60 68" style="vertical-align:middle;margin-right:0.4rem;flex-shrink:0;" aria-hidden="true">
+        <path d="M30 2 L56 12 V34 C56 50 44 60 30 66 C16 60 4 50 4 34 V12 Z" fill="#0a0a0a" stroke="#3E8ED9" stroke-width="3"/>
+        <text x="30" y="42" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#3E8ED9" text-anchor="middle">F</text>
+      </svg><span>FANT SQUAD<span class="sub">Fantasy Football League</span></span></a>
+      <div class="nav-toggle"><span></span><span></span><span></span></div>
+      <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="teams.html">Teams</a>
+        <a href="history.html" class="active">History</a>
+        <a href="awards.html">Awards</a>
+        <a href="matchups.html">Matchups</a>
+        <a href="trade-analyzer.html">Trade Analyzer</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <h1>LEAGUE <span class="gold">HISTORY</span></h1>
+    <p id="history-sub">Every season, straight from ESPN.</p>
+  </section>
+
+  <section class="section">
+    <div id="history-list" style="max-width:640px;margin:0 auto;">
+      <p style="text-align:center;color:#a7aebb;">No history yet — run the ESPN sync.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p><span class="gold">FANT SQUAD</span> &mdash; Fantasy Football &bull; Est. 2015</p>
+  </footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/gate.js"></script>
+  <script>
+    document.querySelector('.nav-toggle')?.addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+
+    (function () {
+      var d = window.SITE_DATA || {};
+      var champsBySeason = {};
+      (d.champions_timeline || []).forEach(function (c) { champsBySeason[c.season] = c; });
+      var lastBySeason = {};
+      (d.last_place_timeline || []).forEach(function (l) { lastBySeason[l.season] = l; });
+
+      // Build per-season standings by scanning every owner's season list
+      var seasons = {};
+      Object.keys(d.career || {}).forEach(function (guid) {
+        var t = d.career[guid];
+        (t.seasons || []).forEach(function (s) {
+          seasons[s.season] = seasons[s.season] || [];
+          seasons[s.season].push({ owner: t.owner, team: s.team, record: s.record, pf: s.pf });
+        });
+      });
+
+      var years = Object.keys(seasons).map(Number).sort(function (a, b) { return b - a; });
+      if (!years.length) return;
+
+      document.getElementById('history-sub').textContent =
+        d.first_season + '–' + d.current_season + ' \u2022 ' + years.length + ' seasons';
+
+      document.getElementById('history-list').innerHTML = years.map(function (y) {
+        var rows = seasons[y].slice().sort(function (a, b) {
+          var aw = +a.record.split('-')[0], bw = +b.record.split('-')[0];
+          if (bw !== aw) return bw - aw;
+          return b.pf - a.pf;
+        });
+        var champ = champsBySeason[y];
+        var body = rows.map(function (r, i) {
+          return '<div class="hist-row"><span><span class="rank">' + (i + 1) + '</span>' + r.owner +
+            ' <span style="color:#a7aebb;">— ' + r.team + '</span></span>' +
+            '<span style="font-weight:700;">' + r.record + ' \u2022 ' + r.pf + '</span></div>';
+        }).join('');
+        return '<div class="hist-season"><h3>' + y + (champ ? ' <span style="color:#3E8ED9;font-size:0.8rem;">🏆 ' + champ.owner + '</span>' : ' <span style="color:#a7aebb;font-size:0.8rem;">in progress</span>') + '</h3>' + body + '</div>';
+      }).join('');
+    })();
+  </script>
+  <script src="js/polish.js"></script>
+</body>
+</html>

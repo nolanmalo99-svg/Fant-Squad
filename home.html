@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fant Squad — Fantasy Football</title>
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body class="polish">
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="home.html" class="nav-logo" style="display:flex;align-items:center;"><svg width="30" height="34" viewBox="0 0 60 68" style="vertical-align:middle;margin-right:0.4rem;flex-shrink:0;" aria-hidden="true">
+        <path d="M30 2 L56 12 V34 C56 50 44 60 30 66 C16 60 4 50 4 34 V12 Z" fill="#0a0a0a" stroke="#3E8ED9" stroke-width="3"/>
+        <text x="30" y="42" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#3E8ED9" text-anchor="middle">F</text>
+      </svg><span>FANT SQUAD<span class="sub">Fantasy Football League</span></span></a>
+      <div class="nav-toggle"><span></span><span></span><span></span></div>
+      <div class="nav-links">
+        <a href="home.html" class="active">Home</a>
+        <a href="teams.html">Teams</a>
+        <a href="history.html">History</a>
+        <a href="awards.html">Awards</a>
+        <a href="matchups.html">Matchups</a>
+        <a href="trade-analyzer.html">Trade Analyzer</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="ticker-wrap">
+    <div class="ticker-label">Live</div>
+    <div class="ticker-track">
+      <div class="ticker-inner" id="ticker-inner">
+        <span>Loading league data…</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div style="font-size:0.68rem;color:#3E8ED9;letter-spacing:3px;text-transform:uppercase;margin-bottom:0.5rem;">🏈 Fantasy Football</div>
+    <h1><span class="gold">FANT SQUAD</span></h1>
+    <p class="hero-subtitle" id="hero-subtitle" style="margin-top:0.3rem;">&nbsp;</p>
+  </section>
+
+  <div style="background:#16181d;border-bottom:1px solid #2f333b;">
+    <div class="section" style="padding-top:1.25rem;padding-bottom:1.25rem;">
+      <div class="hero-cards" id="hero-cards"></div>
+    </div>
+  </div>
+
+  <section class="section" style="padding-top:1.25rem;padding-bottom:1.25rem;">
+    <h2 class="section-title" style="font-size:1.05rem;" id="standings-title">Standings</h2>
+    <div class="gold-line"></div>
+    <div class="table-scroll" style="overflow-x:auto;max-width:680px;margin:0 auto;">
+      <table class="data-table standings-compact" style="font-size:0.78rem;">
+        <thead>
+          <tr><th>#</th><th>Owner</th><th>Team Name</th><th>W</th><th>L</th><th>PF</th></tr>
+        </thead>
+        <tbody id="standings-body">
+          <tr><td colspan="6" style="text-align:center;color:#a7aebb;padding:1.5rem;">No data yet — run the ESPN sync.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section" id="waiver-section" style="padding-top:0.5rem;padding-bottom:1.25rem;display:none;">
+    <h2 class="section-title" style="font-size:1.05rem;">📋 Waiver Order</h2>
+    <div class="gold-line"></div>
+    <div class="table-scroll" style="overflow-x:auto;max-width:420px;margin:0 auto;">
+      <table class="data-table standings-compact" style="font-size:0.78rem;">
+        <thead><tr><th>#</th><th>Owner</th><th>Team Name</th></tr></thead>
+        <tbody id="waiver-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div style="background:#16181d;border-top:1px solid #2f333b;border-bottom:1px solid #2f333b;">
+    <section class="section" style="padding-top:1.5rem;padding-bottom:1.5rem;">
+      <h2 class="section-title">🏆 Champions</h2>
+      <div class="gold-line"></div>
+      <div id="champions-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:0.85rem;">
+        <p style="color:#a7aebb;">No completed seasons yet.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <p><span class="gold">FANT SQUAD</span> &mdash; Fantasy Football &bull; Est. 2015</p>
+  </footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/gate.js"></script>
+  <script>
+    document.querySelector('.nav-toggle')?.addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+
+    (function render() {
+      var d = window.SITE_DATA || {};
+      var s = d.standings || [];
+
+      document.getElementById('hero-subtitle').textContent =
+        (s.length ? s.length + ' teams' : '') +
+        (d.seasons_covered && d.seasons_covered.length ? ' \u2022 ' + d.seasons_covered.length + ' seasons' : '') +
+        ' \u2022 Live from ESPN';
+
+      // Ticker
+      var ticker = [];
+      if (d.reigning_champion) {
+        var c = d.reigning_champion;
+        ticker.push('🏆 ' + c.season + ' Champion: ' + c.owner + ' — "' + c.team + '" ' + c.record + ', ' + c.pf + ' PF');
+      }
+      if (d.records && d.records.best_week) {
+        var b = d.records.best_week;
+        ticker.push('🔥 All-time single-week record: ' + b.owner + ' ' + b.points + ' pts — Week ' + b.week + ', ' + b.season);
+      }
+      if (d.reigning_last_place) {
+        var lp = d.reigning_last_place;
+        ticker.push('📉 ' + lp.season + ' last place: ' + lp.owner + ' (' + lp.record + ')');
+      }
+      if (d.records && d.records.most_career_wins) {
+        var mw = d.records.most_career_wins;
+        ticker.push('👑 Career wins leader: ' + mw.owner + ' ' + mw.w + '-' + mw.l);
+      }
+      if (d.generated_at) {
+        ticker.push('🔄 Last synced: ' + new Date(d.generated_at).toLocaleString());
+      }
+      document.getElementById('ticker-inner').innerHTML =
+        (ticker.length ? ticker : ['Run the ESPN sync to populate this site.']).map(function (t) {
+          return '<span>' + t + '</span>';
+        }).join('');
+
+      // Champion / last-place cards
+      var cardsHtml = '';
+      if (d.reigning_champion) {
+        var c = d.reigning_champion;
+        cardsHtml += '<div class="lift hero-card" style="background:#1e2128;border:1px solid #2f333b;border-left:5px solid #3c414c;border-radius:6px;padding:1.4rem 1.5rem;box-shadow:0 2px 10px rgba(0,0,0,0.10);display:flex;align-items:center;gap:1.1rem;">' +
+          '<div class="hero-card-emoji" style="font-size:3.4rem;line-height:1;flex-shrink:0;">🏆</div><div>' +
+          '<div style="font-size:0.62rem;color:#3E8ED9;letter-spacing:2px;text-transform:uppercase;font-weight:800;margin-bottom:0.5rem;">Reigning Champion</div>' +
+          '<div style="font-size:1.35rem;font-weight:900;color:#f5f7fa;margin-bottom:0.15rem;">' + c.owner + '</div>' +
+          '<div style="color:#f5f7fa;font-size:0.85rem;font-style:italic;font-weight:600;margin-bottom:0.2rem;">"' + c.team + '"</div>' +
+          '<div style="color:#a7aebb;font-size:0.8rem;">' + c.record + ' \u2022 ' + c.pf + ' PF \u2022 ' + c.season + ' Season Champion</div>' +
+          '</div></div>';
+      }
+      if (d.reigning_last_place) {
+        var lp = d.reigning_last_place;
+        cardsHtml += '<div class="lift hero-card" style="background:#1e2128;border:1px solid #2f333b;border-left:5px solid #ff6b70;border-radius:6px;padding:1.4rem 1.5rem;box-shadow:0 2px 10px rgba(0,0,0,0.10);display:flex;align-items:center;gap:1.1rem;">' +
+          '<div class="hero-card-emoji" style="font-size:3.4rem;line-height:1;flex-shrink:0;">🥄</div><div>' +
+          '<div style="font-size:0.62rem;color:#ff6b70;letter-spacing:2px;text-transform:uppercase;font-weight:800;margin-bottom:0.5rem;">Last Place</div>' +
+          '<div style="font-size:1.35rem;font-weight:900;color:#f5f7fa;margin-bottom:0.15rem;">' + lp.owner + '</div>' +
+          '<div style="color:#ff6b70;font-size:0.85rem;font-style:italic;font-weight:600;margin-bottom:0.2rem;">"' + lp.team + '"</div>' +
+          '<div style="color:#a7aebb;font-size:0.8rem;">' + lp.record + ' \u2022 ' + lp.pf + ' PF \u2022 ' + lp.season + ' Season</div>' +
+          '</div></div>';
+      }
+      if (cardsHtml) document.getElementById('hero-cards').innerHTML = cardsHtml;
+
+      // Standings
+      document.getElementById('standings-title').textContent = (d.current_season || '') + ' Standings';
+      if (s.length) {
+        document.getElementById('standings-body').innerHTML = s.map(function (t, i) {
+          var rank = i + 1;
+          var rowStyle = rank === 1 ? ' style="background:#0f2436;"' : (rank === s.length ? ' style="background:#2a1b1c;"' : '');
+          var numStyle = rank === s.length ? ' style="color:#ff6b70;"' : '';
+          var href = 'teams.html?owner=' + encodeURIComponent(t.guid || '');
+          return '<tr' + rowStyle + '><td><span class="rank-num"' + numStyle + '>' + rank + '</span></td>' +
+            '<td><a href="' + href + '" class="standings-link" style="font-weight:700;color:#f5f7fa;">' + t.owner + '</a></td>' +
+            '<td><a href="' + href + '" class="standings-link" style="color:#a7aebb;">' + t.name + '</a></td>' +
+            '<td style="font-weight:700;">' + t.record.split('-')[0] + '</td>' +
+            '<td>' + (t.record.split('-')[1] || 0) + '</td>' +
+            '<td style="font-weight:700;">' + t.pf + '</td></tr>';
+        }).join('');
+      }
+
+      // Waiver order
+      var waivers = d.waiver_order || [];
+      if (waivers.length) {
+        document.getElementById('waiver-section').style.display = 'block';
+        document.getElementById('waiver-body').innerHTML = waivers.map(function (w, i) {
+          return '<tr><td><span class="rank-num">' + (i + 1) + '</span></td>' +
+            '<td style="font-weight:700;color:#f5f7fa;">' + w.owner + '</td>' +
+            '<td style="color:#a7aebb;">' + w.team + '</td></tr>';
+        }).join('');
+      }
+
+      // Champions grid
+      var champs = (d.champions_timeline || []).slice().reverse();
+      if (champs.length) {
+        document.getElementById('champions-grid').innerHTML = champs.map(function (c) {
+          return '<div class="lift" style="background:#1e2128;border:1px solid #2f333b;border-top:3px solid #3c414c;border-radius:4px;padding:1.1rem;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,0.08);">' +
+            '<div style="font-size:0.58rem;color:#a7aebb;letter-spacing:2px;text-transform:uppercase;margin-bottom:0.4rem;">' + c.season + ' Champion</div>' +
+            '<div style="font-size:1.75rem;margin-bottom:0.4rem;">🏆</div>' +
+            '<div style="font-size:1rem;font-weight:900;color:#f5f7fa;">' + c.owner + '</div>' +
+            '<div style="color:#a7aebb;font-size:0.75rem;margin-top:0.2rem;">' + c.team + '</div>' +
+            '<div style="color:#3E8ED9;font-size:0.75rem;font-weight:700;margin-top:0.15rem;">' + c.record + ' \u2022 ' + c.pf + ' PF</div></div>';
+        }).join('');
+      }
+    })();
+  </script>
+  <script src="js/polish.js"></script>
+</body>
+</html>

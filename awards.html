@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awards — Fant Squad</title>
+  <link rel="stylesheet" href="css/style.css?v=1">
+  <style>
+    .award-card { background:#1e2128;border:1px solid #2f333b;border-top:3px solid #3c414c;border-radius:6px;
+      padding:1.3rem 1.4rem;box-shadow:0 1px 4px rgba(0,0,0,0.08); }
+    .award-label { font-size:0.62rem;color:#a7aebb;letter-spacing:2px;text-transform:uppercase;font-weight:800;margin-bottom:0.5rem; }
+    .award-value { font-size:1.3rem;font-weight:900;color:#f5f7fa;margin-bottom:0.2rem; }
+    .award-sub { color:#a7aebb;font-size:0.8rem; }
+  </style>
+</head>
+<body class="polish">
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="home.html" class="nav-logo" style="display:flex;align-items:center;"><svg width="30" height="34" viewBox="0 0 60 68" style="vertical-align:middle;margin-right:0.4rem;flex-shrink:0;" aria-hidden="true">
+        <path d="M30 2 L56 12 V34 C56 50 44 60 30 66 C16 60 4 50 4 34 V12 Z" fill="#0a0a0a" stroke="#3E8ED9" stroke-width="3"/>
+        <text x="30" y="42" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#3E8ED9" text-anchor="middle">F</text>
+      </svg><span>FANT SQUAD<span class="sub">Fantasy Football League</span></span></a>
+      <div class="nav-toggle"><span></span><span></span><span></span></div>
+      <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="teams.html">Teams</a>
+        <a href="history.html">History</a>
+        <a href="awards.html" class="active">Awards</a>
+        <a href="matchups.html">Matchups</a>
+        <a href="trade-analyzer.html">Trade Analyzer</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <h1>LEAGUE <span class="gold">RECORDS</span></h1>
+    <p>All-time records, computed fresh from every game ever played.</p>
+  </section>
+
+  <section class="section">
+    <div id="awards-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0.9rem;max-width:900px;margin:0 auto;">
+      <p style="color:#a7aebb;text-align:center;">No records yet — run the ESPN sync.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p><span class="gold">FANT SQUAD</span> &mdash; Fantasy Football &bull; Est. 2015</p>
+  </footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/gate.js"></script>
+  <script>
+    document.querySelector('.nav-toggle')?.addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+
+    (function () {
+      var d = window.SITE_DATA || {};
+      var r = d.records || {};
+      var cards = [];
+
+      if (r.best_week) {
+        cards.push({ emoji: '🔥', label: 'Highest Single-Week Score', value: r.best_week.points + ' pts',
+          sub: r.best_week.owner + ' — Week ' + r.best_week.week + ', ' + r.best_week.season });
+      }
+      if (r.biggest_blowout) {
+        var b = r.biggest_blowout;
+        cards.push({ emoji: '💥', label: 'Biggest Blowout', value: b.margin + ' pt margin',
+          sub: b.winner + ' ' + b.winner_pts + ' — ' + b.loser + ' ' + b.loser_pts + ' (Wk ' + b.week + ', ' + b.season + ')' });
+      }
+      if (r.most_career_wins) {
+        cards.push({ emoji: '👑', label: 'Career Wins Leader', value: r.most_career_wins.w + '-' + r.most_career_wins.l,
+          sub: r.most_career_wins.owner });
+      }
+      if (r.most_career_pf) {
+        cards.push({ emoji: '📊', label: 'Career Points-For Leader', value: r.most_career_pf.pf,
+          sub: r.most_career_pf.owner });
+      }
+      if (d.reigning_champion) {
+        cards.push({ emoji: '🏆', label: d.reigning_champion.season + ' Champion', value: d.reigning_champion.owner,
+          sub: d.reigning_champion.team + ' \u2022 ' + d.reigning_champion.record });
+      }
+      if (d.reigning_last_place) {
+        cards.push({ emoji: '📉', label: d.reigning_last_place.season + ' Last Place', value: d.reigning_last_place.owner,
+          sub: d.reigning_last_place.team + ' \u2022 ' + d.reigning_last_place.record });
+      }
+
+      // Playoff wins / winning-seasons leaders from career data
+      var career = Object.values(d.career || {});
+      if (career.length) {
+        var topPlayoff = career.slice().sort(function (a, b) { return b.playoff_wins - a.playoff_wins; })[0];
+        if (topPlayoff && topPlayoff.playoff_wins) {
+          cards.push({ emoji: '⚔️', label: 'Most Playoff Wins', value: topPlayoff.playoff_wins, sub: topPlayoff.owner });
+        }
+        var repeats = {};
+        (d.champions_timeline || []).forEach(function (c) { repeats[c.owner] = (repeats[c.owner] || 0) + 1; });
+        var uniqueChamps = Object.keys(repeats).length;
+        var totalTitles = (d.champions_timeline || []).length;
+        if (totalTitles) {
+          cards.push({ emoji: '🎲', label: 'Parity Check', value: uniqueChamps + ' / ' + totalTitles,
+            sub: uniqueChamps + ' different champions in ' + totalTitles + ' seasons' });
+        }
+      }
+
+      if (cards.length) {
+        document.getElementById('awards-grid').innerHTML = cards.map(function (c) {
+          return '<div class="award-card"><div class="award-label">' + c.emoji + ' ' + c.label + '</div>' +
+            '<div class="award-value">' + c.value + '</div><div class="award-sub">' + c.sub + '</div></div>';
+        }).join('');
+      }
+    })();
+  </script>
+  <script src="js/polish.js"></script>
+</body>
+</html>

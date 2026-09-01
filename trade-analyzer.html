@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade Analyzer — Fant Squad</title>
+  <link rel="stylesheet" href="css/style.css?v=1">
+  <style>
+    select.ta-select {
+      background: #1e2128; color: #f5f7fa; border: 2px solid #2f333b; padding: 0.7rem 1.2rem;
+      border-radius: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 0.9rem; font-weight: 600; width: 100%; cursor: pointer;
+    }
+    select.ta-select:focus { outline: none; border-color: #f5f7fa; }
+    .ta-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; max-width: 900px; margin: 0 auto; }
+    @media (max-width: 700px) { .ta-cols { grid-template-columns: 1fr; } }
+    .ta-panel { background: #1e2128; border: 1px solid #2f333b; border-radius: 6px; padding: 1.1rem; }
+    .ta-panel-title { font-size: 0.7rem; font-weight: 800; color: #a7aebb; text-transform: uppercase;
+      letter-spacing: 1px; margin-bottom: 0.7rem; }
+    .ta-player-row { display: grid; grid-template-columns: 1.4rem 1fr auto; align-items: center;
+      gap: 0.5rem; padding: 0.4rem 0.2rem; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.85rem; }
+    .ta-player-row:last-child { border-bottom: none; }
+    .ta-player-row input { cursor: pointer; width: 1.1rem; height: 1.1rem; accent-color: #3E8ED9; }
+    .ta-p-name { font-weight: 700; color: #f5f7fa; }
+    .ta-p-meta { color: #a7aebb; font-size: 0.72rem; }
+    .ta-p-val { color: #3E8ED9; font-weight: 800; text-align: right; }
+    .ta-summary { max-width: 900px; margin: 2rem auto 0; }
+    .ta-verdict {
+      text-align: center; padding: 1.3rem; border-radius: 6px; margin-bottom: 1.2rem;
+      font-size: 1.1rem; font-weight: 900; border: 1px solid #2f333b;
+    }
+    .ta-verdict.fair { background: rgba(62, 142, 217,0.08); color: #3E8ED9; border-color: rgba(62, 142, 217,0.3); }
+    .ta-verdict.lopsided { background: rgba(255,107,112,0.08); color: #ff8a8e; border-color: rgba(255,107,112,0.3); }
+    .ta-verdict-sub { display: block; font-size: 0.75rem; font-weight: 600; color: #a7aebb; margin-top: 0.4rem; text-transform: none; letter-spacing: 0; }
+    .ta-impact { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+    @media (max-width: 700px) { .ta-impact { grid-template-columns: 1fr; } }
+    .ta-impact-card { background: #1e2128; border: 1px solid #2f333b; border-radius: 6px; padding: 1.1rem; }
+    .ta-impact-title { font-weight: 800; color: #f5f7fa; font-size: 0.95rem; margin-bottom: 0.6rem; }
+    .ta-impact-line { font-size: 0.85rem; color: #c8ccd6; padding: 0.25rem 0; }
+    .ta-net-pos { color: #3E8ED9; font-weight: 800; }
+    .ta-net-neg { color: #ff6b70; font-weight: 800; }
+    .ta-pos-chip { display: inline-block; font-size: 0.7rem; font-weight: 700; padding: 0.15rem 0.5rem;
+      border-radius: 10px; background: rgba(255,255,255,0.06); color: #c8ccd6; margin: 0.1rem 0.15rem 0.1rem 0; }
+    .ta-disclaimer { max-width: 900px; margin: 1.5rem auto 0; text-align: center; color: #6b7280; font-size: 0.75rem; }
+  </style>
+</head>
+<body class="polish">
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="home.html" class="nav-logo" style="display:flex;align-items:center;"><svg width="30" height="34" viewBox="0 0 60 68" style="vertical-align:middle;margin-right:0.4rem;flex-shrink:0;" aria-hidden="true">
+        <path d="M30 2 L56 12 V34 C56 50 44 60 30 66 C16 60 4 50 4 34 V12 Z" fill="#0a0a0a" stroke="#3E8ED9" stroke-width="3"/>
+        <text x="30" y="42" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#3E8ED9" text-anchor="middle">F</text>
+      </svg><span>FANT SQUAD<span class="sub">Fantasy Football League</span></span></a>
+      <div class="nav-toggle"><span></span><span></span><span></span></div>
+      <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="teams.html">Teams</a>
+        <a href="history.html">History</a>
+        <a href="awards.html">Awards</a>
+        <a href="matchups.html">Matchups</a>
+        <a href="trade-analyzer.html" class="active">Trade Analyzer</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <h1>TRADE <span class="gold">ANALYZER</span></h1>
+    <p>Pick two owners, choose who's sending what, and see if it's a fair deal.</p>
+  </section>
+
+  <section class="section">
+    <div class="ta-cols" style="margin-bottom:1.3rem;">
+      <select class="ta-select" id="team-a-select" onchange="rebuild()"><option value="">— Team A —</option></select>
+      <select class="ta-select" id="team-b-select" onchange="rebuild()"><option value="">— Team B —</option></select>
+    </div>
+
+    <div class="ta-cols">
+      <div class="ta-panel">
+        <div class="ta-panel-title" id="ta-a-title">Team A sends</div>
+        <div id="ta-a-roster"></div>
+      </div>
+      <div class="ta-panel">
+        <div class="ta-panel-title" id="ta-b-title">Team B sends</div>
+        <div id="ta-b-roster"></div>
+      </div>
+    </div>
+
+    <div class="ta-summary" id="ta-summary" style="display:none;">
+      <div class="ta-verdict" id="ta-verdict"></div>
+      <div class="ta-impact">
+        <div class="ta-impact-card">
+          <div class="ta-impact-title" id="ta-impact-a-title"></div>
+          <div id="ta-impact-a"></div>
+        </div>
+        <div class="ta-impact-card">
+          <div class="ta-impact-title" id="ta-impact-b-title"></div>
+          <div id="ta-impact-b"></div>
+        </div>
+      </div>
+    </div>
+
+    <p id="ta-empty-msg" style="text-align:center;color:#a7aebb;">Select two teams above to build a trade.</p>
+
+    <p class="ta-disclaimer">Player value here = season-to-date average fantasy points (actual scoring, not a
+      third-party valuation). It doesn't account for schedule, playoff run, or positional need — use your judgment.</p>
+  </section>
+
+  <footer class="footer">
+    <p><span class="gold">FANT SQUAD</span> &mdash; Fantasy Football &bull; Est. 2015</p>
+  </footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/gate.js"></script>
+  <script>
+    document.querySelector('.nav-toggle')?.addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+
+    var CAREER = (window.SITE_DATA && window.SITE_DATA.career) || {};
+    var EXCLUDED_OWNERS = []
+      .map(function (n) { return n.toLowerCase().replace(/[.\s]+$/, ''); });
+
+    var teamsList = Object.keys(CAREER)
+      .map(function (g) { return { guid: g, owner: CAREER[g].owner, roster: CAREER[g].roster || [] }; })
+      .filter(function (t) {
+        var norm = t.owner.trim().toLowerCase().replace(/[.\s]+$/, '');
+        return EXCLUDED_OWNERS.indexOf(norm) === -1 && t.roster.length > 0;
+      })
+      .sort(function (a, b) { return a.owner.localeCompare(b.owner); });
+
+    var selA = document.getElementById('team-a-select');
+    var selB = document.getElementById('team-b-select');
+    teamsList.forEach(function (t) {
+      [selA, selB].forEach(function (sel) {
+        var opt = document.createElement('option');
+        opt.value = t.guid; opt.textContent = t.owner;
+        sel.appendChild(opt);
+      });
+    });
+    if (!teamsList.length) {
+      document.getElementById('ta-empty-msg').textContent = 'No roster data yet — run the ESPN sync to populate this page.';
+    }
+
+    function teamByGuid(guid) {
+      return teamsList.filter(function (t) { return t.guid === guid; })[0];
+    }
+
+    function playerValue(p) {
+      // fall back to this-week projection if no games played yet (early season)
+      return p.games_played > 0 ? p.season_ppg : p.proj;
+    }
+
+    function renderRoster(containerId, team, side) {
+      var el = document.getElementById(containerId);
+      if (!team) { el.innerHTML = ''; return; }
+      el.innerHTML = team.roster.map(function (p, i) {
+        var val = playerValue(p);
+        return '<label class="ta-player-row">' +
+          '<input type="checkbox" data-side="' + side + '" data-idx="' + i + '" onchange="updateSummary()">' +
+          '<span><span class="ta-p-name">' + p.name +
+            (p.injury ? '<span style="color:#ff6b70;font-size:0.62rem;margin-left:0.3rem;">' + p.injury + '</span>' : '') +
+          '</span><br><span class="ta-p-meta">' + p.pos + ' \u2022 ' + p.pro + (p.starter ? '' : ' \u2022 Bench') + '</span></span>' +
+          '<span class="ta-p-val">' + val.toFixed(1) + '</span></label>';
+      }).join('');
+    }
+
+    function selectedPlayers(team, side) {
+      var boxes = document.querySelectorAll('input[data-side="' + side + '"]:checked');
+      var idxs = Array.prototype.map.call(boxes, function (b) { return +b.dataset.idx; });
+      return idxs.map(function (i) { return team.roster[i]; });
+    }
+
+    function posBreakdown(players) {
+      var counts = {};
+      players.forEach(function (p) { counts[p.pos] = (counts[p.pos] || 0) + 1; });
+      return Object.keys(counts).sort().map(function (pos) {
+        return '<span class="ta-pos-chip">' + counts[pos] + ' ' + pos + '</span>';
+      }).join('') || '<span style="color:#6b7280;">none selected</span>';
+    }
+
+    // Called when either team dropdown changes: rebuilds the roster lists (checkboxes reset).
+    function rebuild() {
+      var teamA = teamByGuid(selA.value);
+      var teamB = teamByGuid(selB.value);
+
+      document.getElementById('ta-a-title').textContent = teamA ? (teamA.owner + ' sends') : 'Team A sends';
+      document.getElementById('ta-b-title').textContent = teamB ? (teamB.owner + ' sends') : 'Team B sends';
+      renderRoster('ta-a-roster', teamA, 'a');
+      renderRoster('ta-b-roster', teamB, 'b');
+      updateSummary();
+    }
+
+    // Called on every checkbox change: only recomputes the summary, never touches the roster lists/checkboxes.
+    function updateSummary() {
+      var teamA = teamByGuid(selA.value);
+      var teamB = teamByGuid(selB.value);
+
+      var summary = document.getElementById('ta-summary');
+      var emptyMsg = document.getElementById('ta-empty-msg');
+      if (!teamA || !teamB || teamA.guid === teamB.guid) {
+        summary.style.display = 'none';
+        emptyMsg.style.display = 'block';
+        emptyMsg.textContent = (teamA && teamB && teamA.guid === teamB.guid)
+          ? 'Pick two different teams.' : 'Select two teams above to build a trade.';
+        return;
+      }
+      emptyMsg.style.display = 'none';
+
+      var aGives = selectedPlayers(teamA, 'a');
+      var bGives = selectedPlayers(teamB, 'b');
+
+      if (!aGives.length && !bGives.length) {
+        summary.style.display = 'none';
+        emptyMsg.style.display = 'block';
+        emptyMsg.textContent = 'Check players on each side to build a proposed trade.';
+        return;
+      }
+      summary.style.display = 'block';
+
+      var aOut = aGives.reduce(function (s, p) { return s + playerValue(p); }, 0);
+      var bOut = bGives.reduce(function (s, p) { return s + playerValue(p); }, 0);
+      var diff = Math.abs(aOut - bOut);
+      var bigger = aOut - bOut;
+
+      var verdictEl = document.getElementById('ta-verdict');
+      var pctBase = Math.max(aOut, bOut, 1);
+      var pctDiff = diff / pctBase;
+      if (pctDiff < 0.15) {
+        verdictEl.className = 'ta-verdict fair';
+        verdictEl.innerHTML = '\u2696\ufe0f Looks Fair<span class="ta-verdict-sub">' +
+          teamA.owner + ' gives up ' + aOut.toFixed(1) + ' vs ' + teamB.owner + "'s " + bOut.toFixed(1) +
+          ' in season PPG value \u2014 close enough to call even.</span>';
+      } else {
+        var winner = bigger < 0 ? teamA.owner : teamB.owner;
+        var loser = bigger < 0 ? teamB.owner : teamA.owner;
+        verdictEl.className = 'ta-verdict lopsided';
+        verdictEl.innerHTML = '\u2696\ufe0f Lopsided \u2014 ' + winner + ' likely wins this trade' +
+          '<span class="ta-verdict-sub">' + teamA.owner + ': ' + aOut.toFixed(1) + ' out vs ' +
+          teamB.owner + ': ' + bOut.toFixed(1) + ' out. ' + loser + ' is giving up more value than they get back.</span>';
+      }
+
+      function impactBlock(name, gives, receives, giveVal, receiveVal) {
+        var net = receiveVal - giveVal;
+        return '<div class="ta-impact-line">Sends: ' + posBreakdown(gives) + '</div>' +
+          '<div class="ta-impact-line">Receives: ' + posBreakdown(receives) + '</div>' +
+          '<div class="ta-impact-line" style="margin-top:0.5rem;">Value out: <strong>' + giveVal.toFixed(1) + '</strong> \u2022 ' +
+          'Value in: <strong>' + receiveVal.toFixed(1) + '</strong></div>' +
+          '<div class="ta-impact-line">Net PPG change: <span class="' + (net >= 0 ? 'ta-net-pos' : 'ta-net-neg') + '">' +
+          (net >= 0 ? '+' : '') + net.toFixed(1) + '</span></div>';
+      }
+
+      document.getElementById('ta-impact-a-title').textContent = teamA.owner;
+      document.getElementById('ta-impact-a').innerHTML = impactBlock(teamA.owner, aGives, bGives, aOut, bOut);
+      document.getElementById('ta-impact-b-title').textContent = teamB.owner;
+      document.getElementById('ta-impact-b').innerHTML = impactBlock(teamB.owner, bGives, aGives, bOut, aOut);
+    }
+  </script>
+  <script src="js/polish.js"></script>
+</body>
+</html>
