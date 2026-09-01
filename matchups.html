@@ -159,8 +159,16 @@
           ' (' + m.revenge.home_pts + '-' + m.revenge.away_pts + ')</span>');
       }
       if (m.head_to_head) {
-        chips.push('<span class="mx-chip">\ud83c\udfc6 All-time: ' + m.home.owner + ' leads ' +
-          m.head_to_head.home_w + '-' + m.head_to_head.home_l + ' vs ' + m.away.owner + '</span>');
+        var hw = m.head_to_head.home_w, hl = m.head_to_head.home_l;
+        var h2hText;
+        if (hw > hl) {
+          h2hText = m.home.owner + ' leads ' + hw + '-' + hl + ' vs ' + m.away.owner;
+        } else if (hl > hw) {
+          h2hText = m.away.owner + ' leads ' + hl + '-' + hw + ' vs ' + m.home.owner;
+        } else {
+          h2hText = m.home.owner + ' and ' + m.away.owner + ' are tied ' + hw + '-' + hl + ' all-time';
+        }
+        chips.push('<span class="mx-chip">\ud83c\udfc6 All-time: ' + h2hText + '</span>');
       }
       return chips.join('');
     }
