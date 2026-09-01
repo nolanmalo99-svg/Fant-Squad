@@ -94,6 +94,26 @@ def run(season=None):
             if guid in career_out:
                 career_out[guid]["draft"] = dg
 
+    # Draft history: every past completed season's grade, so owners can see year-by-year drafts.
+    historical_draft = D.build_historical_draft_grades(FIRST_SEASON, season - 1)
+    print(f"[draft] historical seasons graded: {sorted(historical_draft.keys())}")
+    draft_history_by_guid = {}
+    for hist_season, season_results in historical_draft.items():
+        for guid, dg in season_results.items():
+            draft_history_by_guid.setdefault(guid, []).append({
+                "season": hist_season, "grade": dg["grade"],
+                "league_rank": dg["league_rank"], "league_size": dg["league_size"],
+            })
+    if draft_grades:
+        for guid, dg in draft_grades.items():
+            draft_history_by_guid.setdefault(guid, []).append({
+                "season": season, "grade": dg["grade"],
+                "league_rank": dg["league_rank"], "league_size": dg["league_size"],
+            })
+    for guid, timeline in draft_history_by_guid.items():
+        if guid in career_out:
+            career_out[guid]["draft_history"] = sorted(timeline, key=lambda x: x["season"])
+
     site_data = {
         "league_name": LEAGUE_NAME,
         "first_season": FIRST_SEASON,
