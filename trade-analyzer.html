@@ -3,45 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trade Analyzer — Fant Squad</title>
+  <title>Teams — Fant Squad</title>
   <link rel="stylesheet" href="css/style.css?v=1">
   <style>
-    select.ta-select {
-      background: #1e2128; color: #f5f7fa; border: 2px solid #2f333b; padding: 0.7rem 1.2rem;
+    #tp-h2h > div, #tp-seasons > div { border-bottom: 1px solid #2f333b !important; padding: 0.5rem 0.1rem !important; }
+    #tp-h2h > div:last-child, #tp-seasons > div:last-child { border-bottom: none !important; }
+    #tp-h2h span:first-child, #tp-seasons span:first-child { color: #f5f7fa !important; font-weight: 500; }
+    #tp-seasons > div { display: grid !important; grid-template-columns: 3.2rem 3.2rem 5.5rem 1fr !important; align-items: center !important; column-gap: 0.5rem !important; }
+    #tp-seasons > div > span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    #tp-seasons > div > span:nth-child(4) { text-align: right; color: #a7aebb !important; }
+    #tp-h2h > div { display: grid !important; grid-template-columns: 1fr auto !important; align-items: center !important; column-gap: 0.75rem !important; }
+    @media (max-width: 480px) {
+      #tp-seasons > div { grid-template-columns: 2.6rem 2.8rem 4.4rem 1fr !important; column-gap: 0.4rem !important; font-size: 0.8rem !important; }
+      #tp-seasons > div > span:nth-child(3) { font-size: 0.74rem !important; }
+      #tp-seasons > div > span:nth-child(4) { font-size: 0.72rem !important; }
+    }
+    select#team-select {
+      background: #1e2128; color: #f5f7fa; border: 2px solid #2f333b; padding: 0.75rem 1.5rem;
       border-radius: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 0.9rem; font-weight: 600; width: 100%; cursor: pointer;
+      font-size: 0.95rem; font-weight: 600; min-width: 260px; cursor: pointer; transition: border-color 0.18s ease;
     }
-    select.ta-select:focus { outline: none; border-color: #f5f7fa; }
-    .ta-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; max-width: 900px; margin: 0 auto; }
-    @media (max-width: 700px) { .ta-cols { grid-template-columns: 1fr; } }
-    .ta-panel { background: #1e2128; border: 1px solid #2f333b; border-radius: 6px; padding: 1.1rem; }
-    .ta-panel-title { font-size: 0.7rem; font-weight: 800; color: #a7aebb; text-transform: uppercase;
-      letter-spacing: 1px; margin-bottom: 0.7rem; }
-    .ta-player-row { display: grid; grid-template-columns: 1.4rem 1fr auto; align-items: center;
-      gap: 0.5rem; padding: 0.4rem 0.2rem; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.85rem; }
-    .ta-player-row:last-child { border-bottom: none; }
-    .ta-player-row input { cursor: pointer; width: 1.1rem; height: 1.1rem; accent-color: #3E8ED9; }
-    .ta-p-name { font-weight: 700; color: #f5f7fa; }
-    .ta-p-meta { color: #a7aebb; font-size: 0.72rem; }
-    .ta-p-val { color: #3E8ED9; font-weight: 800; text-align: right; }
-    .ta-summary { max-width: 900px; margin: 2rem auto 0; }
-    .ta-verdict {
-      text-align: center; padding: 1.3rem; border-radius: 6px; margin-bottom: 1.2rem;
-      font-size: 1.1rem; font-weight: 900; border: 1px solid #2f333b;
+    select#team-select:focus { outline: none; border-color: #f5f7fa; }
+    .pl-banner {
+      display: inline-block; color: #ffffff; padding: 0.2rem 0.6rem; border-radius: 3px; font-size: 0.62rem;
+      font-weight: 800; letter-spacing: 0.3px; text-transform: uppercase; margin: 0.15rem; white-space: nowrap;
     }
-    .ta-verdict.fair { background: rgba(62, 142, 217,0.08); color: #3E8ED9; border-color: rgba(62, 142, 217,0.3); }
-    .ta-verdict.lopsided { background: rgba(255,107,112,0.08); color: #ff8a8e; border-color: rgba(255,107,112,0.3); }
-    .ta-verdict-sub { display: block; font-size: 0.75rem; font-weight: 600; color: #a7aebb; margin-top: 0.4rem; text-transform: none; letter-spacing: 0; }
-    .ta-impact { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
-    @media (max-width: 700px) { .ta-impact { grid-template-columns: 1fr; } }
-    .ta-impact-card { background: #1e2128; border: 1px solid #2f333b; border-radius: 6px; padding: 1.1rem; }
-    .ta-impact-title { font-weight: 800; color: #f5f7fa; font-size: 0.95rem; margin-bottom: 0.6rem; }
-    .ta-impact-line { font-size: 0.85rem; color: #c8ccd6; padding: 0.25rem 0; }
-    .ta-net-pos { color: #3E8ED9; font-weight: 800; }
-    .ta-net-neg { color: #ff6b70; font-weight: 800; }
-    .ta-pos-chip { display: inline-block; font-size: 0.7rem; font-weight: 700; padding: 0.15rem 0.5rem;
-      border-radius: 10px; background: rgba(255,255,255,0.06); color: #c8ccd6; margin: 0.1rem 0.15rem 0.1rem 0; }
-    .ta-disclaimer { max-width: 900px; margin: 1.5rem auto 0; text-align: center; color: #6b7280; font-size: 0.75rem; }
+    .roster-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .roster-table th { text-align: left; color: #a7aebb; font-size: 0.62rem; text-transform: uppercase;
+      letter-spacing: 0.5px; font-weight: 800; padding: 0.4rem 0.5rem; border-bottom: 1px solid #2f333b; }
+    .roster-table td { padding: 0.45rem 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.05); color: #e8e8e8; }
+    .roster-table tr.bench-row td { color: #a7aebb; }
+    .roster-table tr.bench-row td:first-child { color: #a7aebb; }
+    .roster-slot { color: #a7aebb; font-size: 0.72rem; font-weight: 700; width: 3rem; }
+    .roster-name { font-weight: 700; color: #f5f7fa; }
+    .roster-injury { color: #ff6b70; font-weight: 800; font-size: 0.62rem; margin-left: 0.35rem; }
+    .roster-divider td { padding: 0.5rem 0.5rem 0.3rem; font-size: 0.6rem; color: #6b7280;
+      text-transform: uppercase; letter-spacing: 1px; font-weight: 800; border-bottom: none; }
   </style>
 </head>
 <body class="polish">
@@ -55,55 +52,99 @@
       <div class="nav-toggle"><span></span><span></span><span></span></div>
       <div class="nav-links">
         <a href="home.html">Home</a>
-        <a href="teams.html">Teams</a>
+        <a href="teams.html" class="active">Teams</a>
         <a href="history.html">History</a>
         <a href="awards.html">Awards</a>
         <a href="matchups.html">Matchups</a>
-        <a href="trade-analyzer.html" class="active">Trade Analyzer</a>
+        <a href="trade-analyzer.html">Trade Analyzer</a>
       </div>
     </div>
   </nav>
 
   <section class="page-header">
-    <h1>TRADE <span class="gold">ANALYZER</span></h1>
-    <p>Pick two owners, choose who's sending what, and see if it's a fair deal.</p>
+    <h1>TEAM <span class="gold">PROFILES</span></h1>
+    <p>Select an owner to see their full history, head-to-head record, and career stats.</p>
   </section>
 
   <section class="section">
-    <div class="ta-cols" style="margin-bottom:1.3rem;">
-      <select class="ta-select" id="team-a-select" onchange="rebuild()"><option value="">— Team A —</option></select>
-      <select class="ta-select" id="team-b-select" onchange="rebuild()"><option value="">— Team B —</option></select>
+    <div style="text-align:center;margin-bottom:2rem;">
+      <select id="team-select" onchange="showTeam(this.value)">
+        <option value="">— Select Owner —</option>
+      </select>
     </div>
 
-    <div class="ta-cols">
-      <div class="ta-panel">
-        <div class="ta-panel-title" id="ta-a-title">Team A sends</div>
-        <div id="ta-a-roster"></div>
-      </div>
-      <div class="ta-panel">
-        <div class="ta-panel-title" id="ta-b-title">Team B sends</div>
-        <div id="ta-b-roster"></div>
-      </div>
-    </div>
-
-    <div class="ta-summary" id="ta-summary" style="display:none;">
-      <div class="ta-verdict" id="ta-verdict"></div>
-      <div class="ta-impact">
-        <div class="ta-impact-card">
-          <div class="ta-impact-title" id="ta-impact-a-title"></div>
-          <div id="ta-impact-a"></div>
+    <div id="team-profile" style="display:none;">
+      <div style="background:#13151a;border-radius:4px;padding:1.1rem 1.4rem;margin-bottom:1.1rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem;">
+        <div>
+          <h2 id="tp-name" style="font-size:1.3rem;font-weight:900;color:#ffffff;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:0.1rem;"></h2>
+          <p id="tp-career" style="color:#a7aebb;font-size:0.8rem;"></p>
         </div>
-        <div class="ta-impact-card">
-          <div class="ta-impact-title" id="ta-impact-b-title"></div>
-          <div id="ta-impact-b"></div>
+        <div id="tp-win-pct" style="font-size:2rem;font-weight:900;color:#3E8ED9;line-height:1;"></div>
+      </div>
+
+      <div id="tp-banners" style="margin-bottom:1.1rem;display:flex;flex-wrap:wrap;gap:0;"></div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.1rem;">
+        <div style="background:#1e2128;border:1px solid #2f333b;border-top:3px solid #3c414c;border-radius:4px;padding:1.1rem;box-shadow:0 1px 4px rgba(0,0,0,0.07);">
+          <div style="font-size:0.7rem;font-weight:800;color:#f5f7fa;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.75rem;">📅 Season by Season</div>
+          <div id="tp-seasons" style="font-size:0.85rem;"></div>
         </div>
+        <div style="background:#1e2128;border:1px solid #2f333b;border-top:3px solid #3c414c;border-radius:4px;padding:1.1rem;box-shadow:0 1px 4px rgba(0,0,0,0.07);">
+          <div style="font-size:0.7rem;font-weight:800;color:#f5f7fa;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.75rem;">🆚 Head-to-Head All-Time</div>
+          <div id="tp-h2h" style="font-size:0.85rem;"></div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.85rem;">
+        <div style="background:#1e2128;border:1px solid #2f333b;border-radius:4px;padding:1rem;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,0.07);">
+          <div style="color:#a7aebb;font-size:0.65rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.4rem;font-weight:700;">Best Single Week</div>
+          <div id="tp-best" style="color:#3E8ED9;font-size:2rem;font-weight:900;line-height:1;margin-bottom:0.15rem;"></div>
+          <div id="tp-best-info" style="color:#a7aebb;font-size:0.75rem;"></div>
+        </div>
+        <div style="background:#1e2128;border:1px solid #2f333b;border-radius:4px;padding:1rem;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,0.07);">
+          <div style="color:#a7aebb;font-size:0.65rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.4rem;font-weight:700;">Career Points For</div>
+          <div id="tp-pf" style="color:#3E8ED9;font-size:2rem;font-weight:900;line-height:1;"></div>
+        </div>
+      </div>
+
+      <div style="background:#1e2128;border:1px solid #2f333b;border-top:3px solid #3c414c;border-radius:4px;padding:1.1rem;margin-top:1rem;box-shadow:0 1px 4px rgba(0,0,0,0.07);">
+        <div style="font-size:0.7rem;font-weight:800;color:#f5f7fa;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.75rem;">📋 Current Roster</div>
+        <div style="overflow-x:auto;">
+          <table class="roster-table">
+            <thead><tr><th></th><th>Player</th><th>Pos</th><th>NFL</th><th>Proj</th><th>Actual</th></tr></thead>
+            <tbody id="tp-roster"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="tp-draft-section" style="display:none;background:#1e2128;border:1px solid #2f333b;border-top:3px solid #3c414c;border-radius:4px;padding:1.1rem;margin-top:1rem;box-shadow:0 1px 4px rgba(0,0,0,0.07);">
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.9rem;">
+          <div style="font-size:0.7rem;font-weight:800;color:#f5f7fa;text-transform:uppercase;letter-spacing:1px;">🎓 Draft Recap</div>
+          <div id="tp-draft-grade" style="font-size:1.8rem;font-weight:900;line-height:1;"></div>
+        </div>
+        <p id="tp-draft-summary" style="color:#a7aebb;font-size:0.8rem;margin-bottom:0.9rem;"></p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.85rem;margin-bottom:0.9rem;">
+          <div style="background:#181a1f;border:1px solid #2f333b;border-radius:4px;padding:0.8rem;">
+            <div style="font-size:0.6rem;color:#3E8ED9;text-transform:uppercase;letter-spacing:1px;font-weight:800;margin-bottom:0.4rem;">✅ Best Value</div>
+            <div id="tp-draft-best" style="font-size:0.82rem;color:#e8e8e8;"></div>
+          </div>
+          <div style="background:#181a1f;border:1px solid #2f333b;border-radius:4px;padding:0.8rem;">
+            <div style="font-size:0.6rem;color:#ff6b70;text-transform:uppercase;letter-spacing:1px;font-weight:800;margin-bottom:0.4rem;">❌ Roughest Pick</div>
+            <div id="tp-draft-worst" style="font-size:0.82rem;color:#e8e8e8;"></div>
+          </div>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="roster-table">
+            <thead><tr><th>Rd.Pk</th><th>Player</th><th>Pts</th><th>Value</th></tr></thead>
+            <tbody id="tp-draft-picks"></tbody>
+          </table>
+        </div>
+        <p style="color:#6b7280;font-size:0.68rem;margin-top:0.7rem;">Grades compare draft slot to season-to-date production
+          across the whole league &mdash; an early read that sharpens as the season goes on. Not an official ESPN metric.</p>
       </div>
     </div>
 
-    <p id="ta-empty-msg" style="text-align:center;color:#a7aebb;">Select two teams above to build a trade.</p>
-
-    <p class="ta-disclaimer">Player value here = season-to-date average fantasy points (actual scoring, not a
-      third-party valuation). It doesn't account for schedule, playoff run, or positional need — use your judgment.</p>
+    <p id="no-data-msg" style="text-align:center;color:#a7aebb;display:none;">No team data yet — run the ESPN sync to populate this page.</p>
   </section>
 
   <footer class="footer">
@@ -118,142 +159,131 @@
     });
 
     var CAREER = (window.SITE_DATA && window.SITE_DATA.career) || {};
-    var EXCLUDED_OWNERS = ["Abe Havelka", "Kadyn James Mulert"]
+    var EXCLUDED_OWNERS = ["Abe Havelka", "Kadyn James Mulert", "Ian Rubish", "Tucker Alstead"]
       .map(function (n) { return n.toLowerCase().replace(/[.\s]+$/, ''); });
-
-    var teamsList = Object.keys(CAREER)
-      .map(function (g) { return { guid: g, owner: CAREER[g].owner, roster: CAREER[g].roster || [] }; })
-      .filter(function (t) {
-        var norm = t.owner.trim().toLowerCase().replace(/[.\s]+$/, '');
-        return EXCLUDED_OWNERS.indexOf(norm) === -1 && t.roster.length > 0;
+    var owners = Object.keys(CAREER)
+      .map(function (g) { return { guid: g, owner: CAREER[g].owner }; })
+      .filter(function (o) {
+        var norm = o.owner.trim().toLowerCase().replace(/[.\s]+$/, '');
+        return EXCLUDED_OWNERS.indexOf(norm) === -1;
       })
       .sort(function (a, b) { return a.owner.localeCompare(b.owner); });
 
-    var selA = document.getElementById('team-a-select');
-    var selB = document.getElementById('team-b-select');
-    teamsList.forEach(function (t) {
-      [selA, selB].forEach(function (sel) {
+    if (!owners.length) {
+      document.getElementById('no-data-msg').style.display = 'block';
+    } else {
+      var sel = document.getElementById('team-select');
+      owners.forEach(function (o) {
         var opt = document.createElement('option');
-        opt.value = t.guid; opt.textContent = t.owner;
+        opt.value = o.guid; opt.textContent = o.owner;
         sel.appendChild(opt);
       });
-    });
-    if (!teamsList.length) {
-      document.getElementById('ta-empty-msg').textContent = 'No roster data yet — run the ESPN sync to populate this page.';
+
+      // Deep link from home.html (e.g. teams.html?owner=<guid>) auto-selects that owner.
+      var requestedGuid = new URLSearchParams(window.location.search).get('owner');
+      if (requestedGuid && CAREER[requestedGuid]) {
+        sel.value = requestedGuid;
+        showTeam(requestedGuid);
+      }
     }
 
-    function teamByGuid(guid) {
-      return teamsList.filter(function (t) { return t.guid === guid; })[0];
-    }
+    function showTeam(guid) {
+      var p = document.getElementById('team-profile');
+      var t = CAREER[guid];
+      if (!guid || !t) { p.style.display = 'none'; return; }
+      p.style.display = 'block';
 
-    function playerValue(p) {
-      // fall back to this-week projection if no games played yet (early season)
-      return p.games_played > 0 ? p.season_ppg : p.proj;
-    }
+      document.getElementById('tp-name').textContent = t.owner;
+      document.getElementById('tp-career').textContent =
+        t.record + ' career (' + t.win_pct + '%) | ' + t.pf + ' career PF';
+      document.getElementById('tp-win-pct').textContent = t.win_pct + '%';
 
-    function renderRoster(containerId, team, side) {
-      var el = document.getElementById(containerId);
-      if (!team) { el.innerHTML = ''; return; }
-      el.innerHTML = team.roster.map(function (p, i) {
-        var val = playerValue(p);
-        return '<label class="ta-player-row">' +
-          '<input type="checkbox" data-side="' + side + '" data-idx="' + i + '" onchange="updateSummary()">' +
-          '<span><span class="ta-p-name">' + p.name +
-            (p.injury ? '<span style="color:#ff6b70;font-size:0.62rem;margin-left:0.3rem;">' + p.injury + '</span>' : '') +
-          '</span><br><span class="ta-p-meta">' + p.pos + ' \u2022 ' + p.pro + (p.starter ? '' : ' \u2022 Bench') + '</span></span>' +
-          '<span class="ta-p-val">' + val.toFixed(1) + '</span></label>';
+      document.getElementById('tp-seasons').innerHTML = (t.seasons || []).slice().reverse().map(function (s) {
+        return '<div><span>' + s.season + '</span><span style="font-weight:600;">' + s.record + '</span>' +
+          '<span style="color:var(--gray);">' + s.pf + ' PF</span>' +
+          '<span style="color:var(--gray);font-size:0.8rem;">' + s.team + '</span></div>';
       }).join('');
-    }
 
-    function selectedPlayers(team, side) {
-      var boxes = document.querySelectorAll('input[data-side="' + side + '"]:checked');
-      var idxs = Array.prototype.map.call(boxes, function (b) { return +b.dataset.idx; });
-      return idxs.map(function (i) { return team.roster[i]; });
-    }
+      document.getElementById('tp-h2h').innerHTML = (t.h2h || []).slice().sort(function (a, b) {
+        return (b.w - b.l) - (a.w - a.l);
+      }).map(function (h) {
+        var diff = h.w - h.l;
+        var color = diff > 0 ? '#3E8ED9' : (diff < 0 ? '#ff6b70' : '#a7aebb');
+        return '<div><span>' + h.owner + '</span><span style="color:' + color + ';font-weight:700;">' + h.w + '-' + h.l + '</span></div>';
+      }).join('') || '<p style="color:#a7aebb;">No head-to-head games yet.</p>';
 
-    function posBreakdown(players) {
-      var counts = {};
-      players.forEach(function (p) { counts[p.pos] = (counts[p.pos] || 0) + 1; });
-      return Object.keys(counts).sort().map(function (pos) {
-        return '<span class="ta-pos-chip">' + counts[pos] + ' ' + pos + '</span>';
-      }).join('') || '<span style="color:#6b7280;">none selected</span>';
-    }
+      var best = t.best_week;
+      document.getElementById('tp-best').textContent = best ? best.points : '—';
+      document.getElementById('tp-best-info').textContent = best ? ('Week ' + best.week + ', ' + best.season) : '';
+      document.getElementById('tp-pf').textContent = t.pf;
 
-    // Called when either team dropdown changes: rebuilds the roster lists (checkboxes reset).
-    function rebuild() {
-      var teamA = teamByGuid(selA.value);
-      var teamB = teamByGuid(selB.value);
+      var banners = [];
+      // reigning champion banner
+      var champs = (window.SITE_DATA.champions_timeline || []).filter(function (c) { return c.owner === t.owner; });
+      champs.forEach(function (c) {
+        banners.push('<span class="pl-banner" style="background:#333844;padding:0.75rem 1.5rem;font-size:0.9rem;">🏆 CHAMPION ' + c.season + '</span>');
+      });
+      if (t.playoff_appearances) banners.push('<span class="pl-banner" style="background:#2a2f37;">🏅 PLAYOFF APPEARANCES ×' + t.playoff_appearances + '</span>');
+      if (t.playoff_wins) banners.push('<span class="pl-banner" style="background:#2a2f37;">⚔️ PLAYOFF WINS: ' + t.playoff_wins + '</span>');
+      if (t.winning_seasons) banners.push('<span class="pl-banner" style="background:#2a2f37;">📈 WINNING SEASONS: ' + t.winning_seasons + '</span>');
+      document.getElementById('tp-banners').innerHTML = banners.join('');
 
-      document.getElementById('ta-a-title').textContent = teamA ? (teamA.owner + ' sends') : 'Team A sends';
-      document.getElementById('ta-b-title').textContent = teamB ? (teamB.owner + ' sends') : 'Team B sends';
-      renderRoster('ta-a-roster', teamA, 'a');
-      renderRoster('ta-b-roster', teamB, 'b');
-      updateSummary();
-    }
+      var draftSection = document.getElementById('tp-draft-section');
+      var draft = t.draft;
+      if (draft) {
+        draftSection.style.display = 'block';
+        var gradeColors = { 'A+': '#3E8ED9', 'A': '#3E8ED9', 'B': '#63d98a', 'C': '#a7aebb', 'D': '#ff9f5a', 'F': '#ff6b70' };
+        var gradeEl = document.getElementById('tp-draft-grade');
+        gradeEl.textContent = draft.grade;
+        gradeEl.style.color = gradeColors[draft.grade] || '#f5f7fa';
+        document.getElementById('tp-draft-summary').textContent =
+          'Ranked ' + draft.league_rank + ' of ' + draft.league_size + ' drafts in the league' +
+          (draft.draft_type ? ' (' + draft.draft_type.toLowerCase() + ' draft)' : '') +
+          (draft.mode === 'projected'
+            ? ', based on ESPN\'s preseason projections \u2014 will switch to real results once games are played.'
+            : ', based on how picks have produced so far.');
 
-    // Called on every checkbox change: only recomputes the summary, never touches the roster lists/checkboxes.
-    function updateSummary() {
-      var teamA = teamByGuid(selA.value);
-      var teamB = teamByGuid(selB.value);
+        var ptsLabel = draft.mode === 'projected' ? 'proj. pts' : 'pts so far';
+        function pickLine(p) {
+          return p.name + ' (Round ' + p.round + ', Pick ' + p.pick_in_round + ')' +
+            (p.dropped ? ' \u2014 since dropped' : ' \u2014 ' + p.points + ' ' + ptsLabel);
+        }
+        document.getElementById('tp-draft-best').textContent = pickLine(draft.best_pick);
+        document.getElementById('tp-draft-worst').textContent = pickLine(draft.worst_pick);
 
-      var summary = document.getElementById('ta-summary');
-      var emptyMsg = document.getElementById('ta-empty-msg');
-      if (!teamA || !teamB || teamA.guid === teamB.guid) {
-        summary.style.display = 'none';
-        emptyMsg.style.display = 'block';
-        emptyMsg.textContent = (teamA && teamB && teamA.guid === teamB.guid)
-          ? 'Pick two different teams.' : 'Select two teams above to build a trade.';
-        return;
-      }
-      emptyMsg.style.display = 'none';
-
-      var aGives = selectedPlayers(teamA, 'a');
-      var bGives = selectedPlayers(teamB, 'b');
-
-      if (!aGives.length && !bGives.length) {
-        summary.style.display = 'none';
-        emptyMsg.style.display = 'block';
-        emptyMsg.textContent = 'Check players on each side to build a proposed trade.';
-        return;
-      }
-      summary.style.display = 'block';
-
-      var aOut = aGives.reduce(function (s, p) { return s + playerValue(p); }, 0);
-      var bOut = bGives.reduce(function (s, p) { return s + playerValue(p); }, 0);
-      var diff = Math.abs(aOut - bOut);
-      var bigger = aOut - bOut;
-
-      var verdictEl = document.getElementById('ta-verdict');
-      var pctBase = Math.max(aOut, bOut, 1);
-      var pctDiff = diff / pctBase;
-      if (pctDiff < 0.15) {
-        verdictEl.className = 'ta-verdict fair';
-        verdictEl.innerHTML = '\u2696\ufe0f Looks Fair<span class="ta-verdict-sub">' +
-          teamA.owner + ' gives up ' + aOut.toFixed(1) + ' vs ' + teamB.owner + "'s " + bOut.toFixed(1) +
-          ' in season PPG value \u2014 close enough to call even.</span>';
+        document.getElementById('tp-draft-picks').innerHTML = (draft.picks || []).map(function (p) {
+          var vColor = p.value_diff > 0 ? '#3E8ED9' : (p.value_diff < 0 ? '#ff6b70' : '#a7aebb');
+          var vLabel = (p.value_diff > 0 ? '+' : '') + p.value_diff;
+          return '<tr><td class="roster-slot">' + p.round + '.' + p.pick_in_round + '</td>' +
+            '<td class="roster-name">' + p.name + (p.dropped ? '<span class="roster-injury">DROPPED</span>' : '') + '</td>' +
+            '<td>' + p.points + '</td>' +
+            '<td style="color:' + vColor + ';font-weight:800;">' + vLabel + '</td></tr>';
+        }).join('');
       } else {
-        var winner = bigger < 0 ? teamA.owner : teamB.owner;
-        var loser = bigger < 0 ? teamB.owner : teamA.owner;
-        verdictEl.className = 'ta-verdict lopsided';
-        verdictEl.innerHTML = '\u2696\ufe0f Lopsided \u2014 ' + winner + ' likely wins this trade' +
-          '<span class="ta-verdict-sub">' + teamA.owner + ': ' + aOut.toFixed(1) + ' out vs ' +
-          teamB.owner + ': ' + bOut.toFixed(1) + ' out. ' + loser + ' is giving up more value than they get back.</span>';
+        draftSection.style.display = 'none';
       }
 
-      function impactBlock(name, gives, receives, giveVal, receiveVal) {
-        var net = receiveVal - giveVal;
-        return '<div class="ta-impact-line">Sends: ' + posBreakdown(gives) + '</div>' +
-          '<div class="ta-impact-line">Receives: ' + posBreakdown(receives) + '</div>' +
-          '<div class="ta-impact-line" style="margin-top:0.5rem;">Value out: <strong>' + giveVal.toFixed(1) + '</strong> \u2022 ' +
-          'Value in: <strong>' + receiveVal.toFixed(1) + '</strong></div>' +
-          '<div class="ta-impact-line">Net PPG change: <span class="' + (net >= 0 ? 'ta-net-pos' : 'ta-net-neg') + '">' +
-          (net >= 0 ? '+' : '') + net.toFixed(1) + '</span></div>';
+      var roster = t.roster || [];
+      var starters = roster.filter(function (p) { return p.starter; });
+      var bench = roster.filter(function (p) { return !p.starter; });
+      function playerRow(p) {
+        return '<tr' + (p.starter ? '' : ' class="bench-row"') + '>' +
+          '<td class="roster-slot">' + p.slot + '</td>' +
+          '<td class="roster-name">' + p.name + (p.injury ? '<span class="roster-injury">' + p.injury + '</span>' : '') + '</td>' +
+          '<td>' + p.pos + '</td><td>' + p.pro + '</td><td>' + p.proj + '</td><td>' + p.actual + '</td></tr>';
       }
+      var rosterHtml = '';
+      if (roster.length) {
+        rosterHtml += starters.map(playerRow).join('');
+        if (bench.length) {
+          rosterHtml += '<tr class="roster-divider"><td colspan="6">Bench</td></tr>' + bench.map(playerRow).join('');
+        }
+      } else {
+        rosterHtml = '<tr><td colspan="6" style="color:#a7aebb;text-align:center;padding:1rem;">No current roster data — this owner may not have an active team this season.</td></tr>';
+      }
+      document.getElementById('tp-roster').innerHTML = rosterHtml;
 
-      document.getElementById('ta-impact-a-title').textContent = teamA.owner;
-      document.getElementById('ta-impact-a').innerHTML = impactBlock(teamA.owner, aGives, bGives, aOut, bOut);
-      document.getElementById('ta-impact-b-title').textContent = teamB.owner;
-      document.getElementById('ta-impact-b').innerHTML = impactBlock(teamB.owner, bGives, aGives, bOut, aOut);
+      window.scrollTo({ top: p.offsetTop - 80, behavior: 'smooth' });
     }
   </script>
   <script src="js/polish.js"></script>
