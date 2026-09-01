@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-01T02:15:02+00:00",
+  "generated_at": "2026-09-01T04:00:49+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -551,7 +551,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "NE",
-          "proj": 13.7,
+          "proj": 14.3,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -581,7 +581,7 @@
           "slot": "TE",
           "pos": "TE",
           "pro": "GB",
-          "proj": 10.1,
+          "proj": 9.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -671,7 +671,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "GB",
-          "proj": 10.9,
+          "proj": 11.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -686,12 +686,12 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "PHI",
-          "proj": 9.7,
+          "proj": 8.5,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
-          "preseason_proj_total": 156.3,
+          "preseason_proj_total": 155.2,
           "starter": false,
           "injury": null
         },
@@ -731,12 +731,12 @@
           "slot": "BE",
           "pos": "TE",
           "pro": "NYJ",
-          "proj": 6.2,
+          "proj": 5.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
-          "preseason_proj_total": 148.2,
+          "preseason_proj_total": 146.1,
           "starter": false,
           "injury": "QUESTIONABLE"
         }
@@ -877,7 +877,7 @@
             "overall_pick": 85,
             "bid_amount": null,
             "points": 160.0,
-            "value_diff": -18,
+            "value_diff": -19,
             "dropped": false
           },
           {
@@ -900,8 +900,8 @@
             "pick_in_round": 5,
             "overall_pick": 105,
             "bid_amount": null,
-            "points": 156.3,
-            "value_diff": -1,
+            "points": 155.2,
+            "value_diff": -3,
             "dropped": false
           },
           {
@@ -936,8 +936,8 @@
             "pick_in_round": 6,
             "overall_pick": 136,
             "bid_amount": null,
-            "points": 148.2,
-            "value_diff": 25,
+            "points": 146.1,
+            "value_diff": 24,
             "dropped": false
           },
           {
@@ -3589,7 +3589,7 @@
               "overall_pick": 85,
               "bid_amount": null,
               "points": 160.0,
-              "value_diff": -18,
+              "value_diff": -19,
               "dropped": false
             },
             {
@@ -3612,8 +3612,8 @@
               "pick_in_round": 5,
               "overall_pick": 105,
               "bid_amount": null,
-              "points": 156.3,
-              "value_diff": -1,
+              "points": 155.2,
+              "value_diff": -3,
               "dropped": false
             },
             {
@@ -3648,8 +3648,8 @@
               "pick_in_round": 6,
               "overall_pick": 136,
               "bid_amount": null,
-              "points": 148.2,
-              "value_diff": 25,
+              "points": 146.1,
+              "value_diff": 24,
               "dropped": false
             },
             {
@@ -3901,7 +3901,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "DAL",
-          "proj": 17.3,
+          "proj": 17.2,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -4006,7 +4006,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "GB",
-          "proj": 10.9,
+          "proj": 11.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -4081,7 +4081,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "SF",
-          "proj": 8.3,
+          "proj": 8.9,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -7216,21 +7216,6 @@
           "injury": null
         },
         {
-          "player_id": 4870808,
-          "name": "Jeremiyah Love",
-          "slot": "RB",
-          "pos": "RB",
-          "pro": "ARI",
-          "proj": 16.2,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 278.1,
-          "starter": true,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4239996,
           "name": "Travis Etienne Jr.",
           "slot": "RB",
@@ -7246,12 +7231,27 @@
           "injury": null
         },
         {
+          "player_id": 4870808,
+          "name": "Jeremiyah Love",
+          "slot": "RB",
+          "pos": "RB",
+          "pro": "ARI",
+          "proj": 14.7,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 276.5,
+          "starter": true,
+          "injury": "QUESTIONABLE"
+        },
+        {
           "player_id": 4362628,
           "name": "Ja'Marr Chase",
           "slot": "WR",
           "pos": "WR",
           "pro": "CIN",
-          "proj": 20.0,
+          "proj": 19.9,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -7266,7 +7266,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "NYJ",
-          "proj": 14.7,
+          "proj": 14.8,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -7492,7 +7492,7 @@
             "pick_in_round": 5,
             "overall_pick": 15,
             "bid_amount": null,
-            "points": 278.1,
+            "points": 276.5,
             "value_diff": -19,
             "dropped": false
           },
@@ -7529,7 +7529,7 @@
             "overall_pick": 46,
             "bid_amount": null,
             "points": 155.2,
-            "value_diff": -62,
+            "value_diff": -61,
             "dropped": false
           },
           {
@@ -7625,7 +7625,7 @@
             "overall_pick": 126,
             "bid_amount": null,
             "points": 146.8,
-            "value_diff": 14,
+            "value_diff": 15,
             "dropped": false
           },
           {
@@ -10204,7 +10204,7 @@
               "pick_in_round": 5,
               "overall_pick": 15,
               "bid_amount": null,
-              "points": 278.1,
+              "points": 276.5,
               "value_diff": -19,
               "dropped": false
             },
@@ -10241,7 +10241,7 @@
               "overall_pick": 46,
               "bid_amount": null,
               "points": 155.2,
-              "value_diff": -62,
+              "value_diff": -61,
               "dropped": false
             },
             {
@@ -10337,7 +10337,7 @@
               "overall_pick": 126,
               "bid_amount": null,
               "points": 146.8,
-              "value_diff": 14,
+              "value_diff": 15,
               "dropped": false
             },
             {
@@ -10706,7 +10706,7 @@
           "slot": "BE",
           "pos": "RB",
           "pro": "GB",
-          "proj": 13.5,
+          "proj": 12.9,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -10736,7 +10736,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "SF",
-          "proj": 10.0,
+          "proj": 10.6,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -10766,7 +10766,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "NE",
-          "proj": 8.3,
+          "proj": 8.2,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -10938,7 +10938,7 @@
             "pick_in_round": 2,
             "overall_pick": 92,
             "bid_amount": null,
-            "points": 65.2,
+            "points": 67.1,
             "value_diff": -56,
             "dropped": true
           },
@@ -13650,7 +13650,7 @@
               "pick_in_round": 2,
               "overall_pick": 92,
               "bid_amount": null,
-              "points": 65.2,
+              "points": 67.1,
               "value_diff": -56,
               "dropped": true
             },
@@ -14066,6 +14066,21 @@
           "injury": null
         },
         {
+          "player_id": 4710714,
+          "name": "De'Zhaun Stribling",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "SF",
+          "proj": 9.6,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 160.2,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
           "player_id": 4036133,
           "name": "T.J. Hockenson",
           "slot": "BE",
@@ -14092,21 +14107,6 @@
           "season_total": 0.0,
           "games_played": 0,
           "preseason_proj_total": 179.1,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
-          "player_id": 4710714,
-          "name": "De'Zhaun Stribling",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "SF",
-          "proj": 9.0,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 158.9,
           "starter": false,
           "injury": "QUESTIONABLE"
         },
@@ -14348,8 +14348,8 @@
             "pick_in_round": 8,
             "overall_pick": 148,
             "bid_amount": null,
-            "points": 158.9,
-            "value_diff": 44,
+            "points": 160.2,
+            "value_diff": 45,
             "dropped": false
           },
           {
@@ -17060,8 +17060,8 @@
               "pick_in_round": 8,
               "overall_pick": 148,
               "bid_amount": null,
-              "points": 158.9,
-              "value_diff": 44,
+              "points": 160.2,
+              "value_diff": 45,
               "dropped": false
             },
             {
@@ -18670,21 +18670,6 @@
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 4360078,
-          "name": "Alec Pierce",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "IND",
-          "proj": 10.8,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 70.9,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4429025,
           "name": "Quentin Johnston",
           "slot": "BE",
@@ -18696,6 +18681,36 @@
           "season_total": 0.0,
           "games_played": 0,
           "preseason_proj_total": 163.9,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4360078,
+          "name": "Alec Pierce",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "IND",
+          "proj": 9.7,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 70.9,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "player_id": 2976212,
+          "name": "Stefon Diggs",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "WSH",
+          "proj": 9.7,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 160.8,
           "starter": false,
           "injury": null
         },
@@ -18713,21 +18728,6 @@
           "preseason_proj_total": 196.4,
           "starter": false,
           "injury": "QUESTIONABLE"
-        },
-        {
-          "player_id": 2976212,
-          "name": "Stefon Diggs",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "WSH",
-          "proj": 9.2,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 160.8,
-          "starter": false,
-          "injury": null
         },
         {
           "player_id": 4570037,
@@ -21881,7 +21881,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "NYG",
-          "proj": 14.9,
+          "proj": 13.8,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -22001,7 +22001,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "GB",
-          "proj": 10.0,
+          "proj": 10.2,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -22046,7 +22046,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "NYJ",
-          "proj": 8.0,
+          "proj": 8.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -26607,7 +26607,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "SF",
-          "proj": 18.3,
+          "proj": 18.4,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -26667,7 +26667,7 @@
           "slot": "TE",
           "pos": "TE",
           "pro": "ARI",
-          "proj": 14.3,
+          "proj": 14.4,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -29695,7 +29695,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "LV",
-          "proj": 20.0,
+          "proj": 18.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -30099,7 +30099,7 @@
             "overall_pick": 122,
             "bid_amount": null,
             "points": 156.0,
-            "value_diff": 15,
+            "value_diff": 16,
             "dropped": false
           },
           {
@@ -31907,7 +31907,7 @@
               "overall_pick": 122,
               "bid_amount": null,
               "points": 156.0,
-              "value_diff": 15,
+              "value_diff": 16,
               "dropped": false
             },
             {
@@ -32138,7 +32138,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "DAL",
-          "proj": 14.0,
+          "proj": 14.7,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -32238,21 +32238,6 @@
           "injury": null
         },
         {
-          "player_id": 3040151,
-          "name": "George Kittle",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "SF",
-          "proj": 11.4,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 227.7,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4432773,
           "name": "Brian Thomas Jr.",
           "slot": "BE",
@@ -32279,6 +32264,21 @@
           "season_total": 0.0,
           "games_played": 0,
           "preseason_proj_total": 128.1,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "player_id": 3040151,
+          "name": "George Kittle",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "SF",
+          "proj": 8.4,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 227.7,
           "starter": false,
           "injury": "QUESTIONABLE"
         },
