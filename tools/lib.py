@@ -127,12 +127,12 @@ def espn_players_by_id(season, player_ids):
 
     hist_url = f"{ESPN_HOST}/apis/v3/games/ffl/leagueHistory/{LEAGUE_ID}?seasonId={season}&view=kona_player_info"
     hist_data = _fetch_json(hist_url, extra_headers={"x-fantasy-filter": filt})
-    print(f"[espn_players_by_id] season {season}: leagueHistory fallback returned "
-          f"type={type(hist_data).__name__}, "
-          f"content={str(hist_data)[:200] if hist_data is not None else 'None'}")
     if isinstance(hist_data, list):
+        # This response shape doesn't carry a seasonId per entry (unlike the mTeam/mSettings
+        # leagueHistory calls) -- the seasonId query param already scoped it, so just take the
+        # first entry that actually has players in it.
         for entry in hist_data:
-            if entry.get("seasonId") == season and entry.get("players"):
+            if entry.get("players"):
                 return entry["players"]
         return []
     return (hist_data or {}).get("players", [])
