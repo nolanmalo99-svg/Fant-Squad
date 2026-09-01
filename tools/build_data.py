@@ -115,16 +115,14 @@ def run(season=None):
     draft_history_by_guid = {}
     for hist_season, season_results in historical_draft.items():
         for guid, dg in season_results.items():
-            draft_history_by_guid.setdefault(guid, []).append({
-                "season": hist_season, "grade": dg["grade"],
-                "league_rank": dg["league_rank"], "league_size": dg["league_size"],
-            })
+            entry = dict(dg)
+            entry["season"] = hist_season
+            draft_history_by_guid.setdefault(guid, []).append(entry)
     if draft_grades:
         for guid, dg in draft_grades.items():
-            draft_history_by_guid.setdefault(guid, []).append({
-                "season": season, "grade": dg["grade"],
-                "league_rank": dg["league_rank"], "league_size": dg["league_size"],
-            })
+            entry = dict(dg)
+            entry["season"] = season
+            draft_history_by_guid.setdefault(guid, []).append(entry)
     for guid, timeline in draft_history_by_guid.items():
         if guid in career_out:
             career_out[guid]["draft_history"] = sorted(timeline, key=lambda x: x["season"])
