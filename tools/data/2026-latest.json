@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-01T01:17:46+00:00",
+  "generated_at": "2026-09-01T01:24:23+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -965,7 +965,15 @@
             "dropped": false
           }
         ]
-      }
+      },
+      "draft_history": [
+        {
+          "season": 2026,
+          "grade": "B",
+          "league_rank": 5,
+          "league_size": 10
+        }
+      ]
     },
     "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}": {
       "owner": "Brady Schuster",
@@ -1601,7 +1609,15 @@
             "dropped": true
           }
         ]
-      }
+      },
+      "draft_history": [
+        {
+          "season": 2026,
+          "grade": "C",
+          "league_rank": 7,
+          "league_size": 10
+        }
+      ]
     },
     "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}": {
       "owner": "spencer glynn",
@@ -2237,7 +2253,15 @@
             "dropped": false
           }
         ]
-      }
+      },
+      "draft_history": [
+        {
+          "season": 2026,
+          "grade": "F",
+          "league_rank": 10,
+          "league_size": 10
+        }
+      ]
     },
     "{1E802642-486D-481B-AFCD-15A8361DC042}": {
       "owner": "Nolan Malo",
@@ -2873,7 +2897,15 @@
             "dropped": false
           }
         ]
-      }
+      },
+      "draft_history": [
+        {
+          "season": 2026,
+          "grade": "C",
+          "league_rank": 8,
+          "league_size": 10
+        }
+      ]
     },
     "{B7136078-A4E9-45FF-9360-78A4E935FF3A}": {
       "owner": "Zach Mensink",
@@ -3509,7 +3541,15 @@
             "dropped": false
           }
         ]
-      }
+      },
+      "draft_history": [
+        {
+          "season": 2026,
+          "grade": "A",
+          "league_rank": 4,
+          "league_size": 10
+        }
+      ]
     },
     "{DCCBF916-8702-48BA-B93E-8457B9DEBFB2}": {
       "owner": "Abe havelka",
@@ -4267,7 +4307,15 @@
             "dropped": false
           }
         ]
-      }
+      },
+      "draft_history": [
+        {
+          "season": 2026,
+          "grade": "D",
+          "league_rank": 9,
+          "league_size": 10
+        }
+      ]
     },
     "{3BCB04AD-50E3-4675-8B04-AD50E3667590}": {
       "owner": "Andy Jensen",
@@ -4879,7 +4927,15 @@
             "dropped": false
           }
         ]
-      }
+      },
+      "draft_history": [
+        {
+          "season": 2026,
+          "grade": "A+",
+          "league_rank": 1,
+          "league_size": 10
+        }
+      ]
     },
     "{3AEE3131-9488-47C7-AE31-31948847C73C}": {
       "owner": "Ian Rubish",
@@ -5785,7 +5841,15 @@
             "dropped": false
           }
         ]
-      }
+      },
+      "draft_history": [
+        {
+          "season": 2026,
+          "grade": "A+",
+          "league_rank": 2,
+          "league_size": 10
+        }
+      ]
     },
     "{B97EE695-6529-497F-BEE6-956529B97FC0}": {
       "owner": "Mitch Wiese",
@@ -6385,7 +6449,15 @@
             "dropped": false
           }
         ]
-      }
+      },
+      "draft_history": [
+        {
+          "season": 2026,
+          "grade": "A",
+          "league_rank": 3,
+          "league_size": 10
+        }
+      ]
     },
     "{DA878304-DA9C-4C32-9E61-B326DA584F1B}": {
       "owner": "Owen Koslosku",
@@ -6988,7 +7060,15 @@
             "dropped": false
           }
         ]
-      }
+      },
+      "draft_history": [
+        {
+          "season": 2026,
+          "grade": "B",
+          "league_rank": 6,
+          "league_size": 10
+        }
+      ]
     }
   },
   "records": {
