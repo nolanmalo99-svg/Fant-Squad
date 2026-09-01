@@ -48,6 +48,7 @@ def espn(views, season, scoring_period=None):
             return json.load(r)
     except urllib.error.HTTPError as e:
         if e.code == 404:
+            print(f"[espn] 404 for {url}")
             return None  # season doesn't exist / league not visible that year
         raise SystemExit(f"ESPN HTTP {e.code} {e.reason} -- creds expired? ({url})")
 
