@@ -1343,7 +1343,7 @@ window.MATCHUPS_DATA = {
               "pro": "JAX",
               "proj": 12.4,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Jaxson Dart",
@@ -1390,6 +1390,15 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "ARI",
               "proj": 14.7,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Bhayshul Tuten",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "JAX",
+              "proj": 12.4,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
