@@ -233,6 +233,9 @@ def _full_roster(team_obj, scoring_period, weekly_totals=None):
     or added mid-season; the snapshot-based figures are a safe fallback otherwise."""
     weekly_totals = weekly_totals or {}
     entries = team_obj.get("roster", {}).get("entries", [])
+    if not entries:
+        print(f"[league] _full_roster: team {team_obj.get('id')} has 0 roster entries "
+              f"(roster key present: {bool(team_obj.get('roster'))})")
     slot_rank = {s: i for i, s in enumerate(
         [0, 2, 2, 4, 4, 6, 23, 16, 17, 20, 20, 20, 20, 20, 20, 21])}  # rough starter-first ordering
     players = []
@@ -285,6 +288,11 @@ def build_all_weeks(season):
         name = (t.get("name") or f'{t.get("location","")} {t.get("nickname","")}').strip()
         rec = t.get("record", {}).get("overall", {})
         guid = t.get("primaryOwner") or (t.get("owners") or [None])[0]
+        roster_raw = t.get("roster")
+        if t is d.get("teams", [None])[0]:
+            print(f"[league] team {t.get('id')}: roster key type={type(roster_raw).__name__}, "
+                  f"has_entries_key={'entries' in (roster_raw or {})}, "
+                  f"entries_count={len((roster_raw or {}).get('entries', []))}")
         teams[t["id"]] = {
             "team_id": t["id"],
             "name": name, "guid": guid,
