@@ -208,7 +208,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 62.0,
+          "bench_proj": 56.4,
           "injuries": [
             {
               "name": "Puka Nacua",
@@ -654,7 +654,7 @@ window.MATCHUPS_DATA = {
               "pro": "KC",
               "proj": 14.7,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Rashee Rice",
@@ -722,15 +722,6 @@ window.MATCHUPS_DATA = {
           ],
           "bench_proj": 71.9,
           "injuries": [
-            {
-              "name": "Kenneth Walker III",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "KC",
-              "proj": 14.7,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
             {
               "name": "Sam LaPorta",
               "slot": "TE",
@@ -828,7 +819,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "HOU",
-              "proj": 5.3,
+              "proj": 5.2,
               "actual": 0.0,
               "injury": null
             },
@@ -918,7 +909,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 7.4,
-            "away_proj": 5.3,
+            "away_proj": 5.2,
             "edge": "home"
           },
           {
@@ -967,14 +958,14 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 118.0,
+          "projected": 118.1,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
               "slot": "RB",
               "pos": "RB",
               "pro": "DET",
-              "proj": 21.5,
+              "proj": 21.7,
               "actual": 0.0,
               "injury": null
             },
@@ -1051,7 +1042,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 72.6,
+          "bench_proj": 72.5,
           "injuries": [
             {
               "name": "Tee Higgins",
@@ -1164,7 +1155,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 68.9,
+          "bench_proj": 68.6,
           "injuries": [
             {
               "name": "Zay Flowers",
@@ -1191,7 +1182,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (0-0) at alex raichle (0-0). Projected: Nolan Malo 121.3 - alex raichle 118.0. Nolan Malo favored by 3.3.",
+        "blurb": "Nolan Malo (0-0) at alex raichle (0-0). Projected: Nolan Malo 121.3 - alex raichle 118.1. Nolan Malo favored by 3.2.",
         "home_form": null,
         "away_form": null,
         "players_to_watch": [
@@ -1200,7 +1191,7 @@ window.MATCHUPS_DATA = {
             "slot": "RB",
             "pos": "RB",
             "pro": "DET",
-            "proj": 21.5,
+            "proj": 21.7,
             "actual": 0.0,
             "injury": null,
             "owner": "alex raichle"
@@ -1257,7 +1248,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 51.5,
+            "home_proj": 51.7,
             "away_proj": 30.1,
             "edge": "home"
           },
@@ -1289,7 +1280,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 123.1,
+          "projected": 123.6,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -1341,7 +1332,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "JAX",
-              "proj": 12.4,
+              "proj": 12.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -1373,7 +1364,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 76.0,
+          "bench_proj": 76.3,
           "injuries": [
             {
               "name": "Ja'Marr Chase",
@@ -1398,7 +1389,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "JAX",
-              "proj": 12.4,
+              "proj": 12.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -1513,7 +1504,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (0-0) at spencer glynn (0-0). Projected: Brady Schuster 125.0 - spencer glynn 123.1. Brady Schuster favored by 1.9.",
+        "blurb": "Brady Schuster (0-0) at spencer glynn (0-0). Projected: Brady Schuster 125.0 - spencer glynn 123.6. Brady Schuster favored by 1.4.",
         "home_form": null,
         "away_form": null,
         "players_to_watch": [
@@ -1579,7 +1570,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 42.1,
+            "home_proj": 42.6,
             "away_proj": 29.7,
             "edge": "home"
           },
