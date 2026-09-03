@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-03T08:01:14+00:00",
+  "generated_at": "2026-09-03T12:00:58+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -14282,15 +14282,15 @@
           },
           {
             "name": "Tony Pollard",
-            "pos": "?",
-            "pro": "?",
+            "pos": "RB",
+            "pro": "TEN",
             "round": 10,
             "pick_in_round": 3,
             "overall_pick": 93,
             "bid_amount": null,
             "points": 222.1,
             "value_diff": 26,
-            "dropped": true
+            "dropped": false
           },
           {
             "name": "Matthew Stafford",
@@ -16994,15 +16994,15 @@
             },
             {
               "name": "Tony Pollard",
-              "pos": "?",
-              "pro": "?",
+              "pos": "RB",
+              "pro": "TEN",
               "round": 10,
               "pick_in_round": 3,
               "overall_pick": 93,
               "bid_amount": null,
               "points": 222.1,
               "value_diff": 26,
-              "dropped": true
+              "dropped": false
             },
             {
               "name": "Matthew Stafford",
@@ -32238,6 +32238,21 @@
           "injury": null
         },
         {
+          "player_id": 3916148,
+          "name": "Tony Pollard",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "TEN",
+          "proj": 11.5,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 222.1,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4432773,
           "name": "Brian Thomas Jr.",
           "slot": "BE",
@@ -32249,6 +32264,21 @@
           "season_total": 0.0,
           "games_played": 0,
           "preseason_proj_total": 270.0,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4428718,
+          "name": "Tre Tucker",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "LV",
+          "proj": 9.1,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 130.6,
           "starter": false,
           "injury": null
         },
@@ -32281,36 +32311,6 @@
           "preseason_proj_total": 227.7,
           "starter": false,
           "injury": "QUESTIONABLE"
-        },
-        {
-          "player_id": 4362619,
-          "name": "Chris Rodriguez Jr.",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "JAX",
-          "proj": 4.8,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 33.9,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4361529,
-          "name": "Isiah Pacheco",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "DET",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 213.8,
-          "starter": false,
-          "injury": "INJURY_RESERVE"
         },
         {
           "player_id": 4426385,
@@ -32505,15 +32505,15 @@
           },
           {
             "name": "Chris Rodriguez Jr.",
-            "pos": "RB",
-            "pro": "JAX",
+            "pos": "?",
+            "pro": "?",
             "round": 13,
             "pick_in_round": 10,
             "overall_pick": 130,
             "bid_amount": null,
             "points": 33.9,
             "value_diff": -25,
-            "dropped": false
+            "dropped": true
           },
           {
             "name": "Zach Charbonnet",
@@ -34087,15 +34087,15 @@
             },
             {
               "name": "Chris Rodriguez Jr.",
-              "pos": "RB",
-              "pro": "JAX",
+              "pos": "?",
+              "pro": "?",
               "round": 13,
               "pick_in_round": 10,
               "overall_pick": 130,
               "bid_amount": null,
               "points": 33.9,
               "value_diff": -25,
-              "dropped": false
+              "dropped": true
             },
             {
               "name": "Zach Charbonnet",

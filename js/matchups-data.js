@@ -208,7 +208,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 56.4,
+          "bench_proj": 72.2,
           "injuries": [
             {
               "name": "Puka Nacua",
