@@ -183,13 +183,6 @@
         opt.value = o.guid; opt.textContent = o.owner;
         sel.appendChild(opt);
       });
-
-      // Deep link from home.html (e.g. teams.html?owner=<guid>) auto-selects that owner.
-      var requestedGuid = new URLSearchParams(window.location.search).get('owner');
-      if (requestedGuid && CAREER[requestedGuid]) {
-        sel.value = requestedGuid;
-        showTeam(requestedGuid);
-      }
     }
 
     var GRADE_COLORS = { 'A+': '#3E8ED9', 'A': '#3E8ED9', 'B': '#63d98a', 'C': '#a7aebb', 'D': '#ff9f5a', 'F': '#ff6b70' };
@@ -332,6 +325,18 @@
 
       window.scrollTo({ top: p.offsetTop - 80, behavior: 'smooth' });
     }
+
+    // Deep link from home.html (e.g. teams.html?owner=<guid>) auto-selects that owner.
+    // Must run down here, after showTeam/renderDraftRecap/GRADE_COLORS are all defined --
+    // calling it earlier in the script hits them before they're assigned.
+    (function () {
+      var requestedGuid = new URLSearchParams(window.location.search).get('owner');
+      if (requestedGuid && CAREER[requestedGuid]) {
+        var sel = document.getElementById('team-select');
+        sel.value = requestedGuid;
+        showTeam(requestedGuid);
+      }
+    })();
   </script>
   <script src="js/polish.js"></script>
 </body>
