@@ -378,7 +378,7 @@ window.MATCHUPS_DATA = {
               "pro": "CHI",
               "proj": 12.4,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Jayden Daniels",
@@ -425,6 +425,15 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "SF",
               "proj": 18.4,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Rome Odunze",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "CHI",
+              "proj": 12.4,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -482,7 +491,7 @@ window.MATCHUPS_DATA = {
               "pro": "CHI",
               "proj": 12.3,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "DJ Moore",
@@ -531,7 +540,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 56.4,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "D'Andre Swift",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "CHI",
+              "proj": 12.3,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
