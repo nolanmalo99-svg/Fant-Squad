@@ -491,7 +491,7 @@ window.MATCHUPS_DATA = {
               "pro": "CHI",
               "proj": 12.3,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "DJ Moore",
@@ -540,17 +540,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 56.4,
-          "injuries": [
-            {
-              "name": "D'Andre Swift",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "CHI",
-              "proj": 12.3,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "played": false,
         "playoff": false,
