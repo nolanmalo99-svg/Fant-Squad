@@ -768,7 +768,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 109.6,
+          "projected": 122.2,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -825,13 +825,13 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "TreVeyon Henderson",
+              "name": "Jaylen Warren",
               "slot": "RB",
               "pos": "RB",
-              "pro": "NE",
-              "proj": 0.0,
+              "pro": "PIT",
+              "proj": 12.6,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Texans D/ST",
@@ -852,7 +852,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 77.0,
+          "bench_proj": 64.4,
           "injuries": [
             {
               "name": "Ashton Jeanty",
@@ -860,15 +860,6 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "LV",
               "proj": 18.1,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "TreVeyon Henderson",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "NE",
-              "proj": 0.0,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -879,7 +870,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (0-0) at Dawson Leer (0-0). Projected: Mitch Wiese 109.6 - Dawson Leer 116.4. Dawson Leer favored by 6.8.",
+        "blurb": "Mitch Wiese (0-0) at Dawson Leer (0-0). Projected: Mitch Wiese 122.2 - Dawson Leer 116.4. Mitch Wiese favored by 5.8.",
         "home_form": null,
         "away_form": null,
         "players_to_watch": [
@@ -946,7 +937,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 41.6,
-            "away_proj": 18.1,
+            "away_proj": 30.7,
             "edge": "home"
           },
           {

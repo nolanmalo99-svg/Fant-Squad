@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-08T00:01:02+00:00",
+  "generated_at": "2026-09-08T04:00:56+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -10778,7 +10778,7 @@ window.SITE_DATA = {
         {
           "player_id": 4366031,
           "name": "Tank Dell",
-          "slot": "BE",
+          "slot": "IR",
           "pos": "WR",
           "pro": "HOU",
           "proj": 0.0,
@@ -29705,19 +29705,19 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 4432710,
-          "name": "TreVeyon Henderson",
+          "player_id": 4569987,
+          "name": "Jaylen Warren",
           "slot": "RB",
           "pos": "RB",
-          "pro": "NE",
-          "proj": 0.0,
+          "pro": "PIT",
+          "proj": 12.6,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
-          "preseason_proj_total": 223.8,
+          "preseason_proj_total": 250.2,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4258173,
@@ -29825,21 +29825,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4569987,
-          "name": "Jaylen Warren",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "PIT",
-          "proj": 12.6,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 250.2,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4371733,
           "name": "Kenny Gainwell",
           "slot": "BE",
@@ -29913,6 +29898,21 @@ window.SITE_DATA = {
           "preseason_proj_total": 133.6,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4432710,
+          "name": "TreVeyon Henderson",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "NE",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 223.8,
+          "starter": false,
+          "injury": "QUESTIONABLE"
         }
       ],
       "draft": {
