@@ -781,7 +781,7 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Drake London",
-              "slot": "WR",
+              "slot": "FLEX",
               "pos": "WR",
               "pro": "ATL",
               "proj": 15.1,
@@ -817,7 +817,7 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Jameson Williams",
-              "slot": "FLEX",
+              "slot": "WR",
               "pos": "WR",
               "pro": "DET",
               "proj": 12.1,

@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-08T12:01:34+00:00",
+  "generated_at": "2026-09-08T16:01:21+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -29735,17 +29735,17 @@
           "injury": null
         },
         {
-          "player_id": 4426502,
-          "name": "Drake London",
+          "player_id": 4426388,
+          "name": "Jameson Williams",
           "slot": "WR",
           "pos": "WR",
-          "pro": "ATL",
-          "proj": 15.1,
+          "pro": "DET",
+          "proj": 12.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
-          "preseason_proj_total": 267.4,
+          "preseason_proj_total": 218.6,
           "starter": true,
           "injury": null
         },
@@ -29765,17 +29765,17 @@
           "injury": null
         },
         {
-          "player_id": 4426388,
-          "name": "Jameson Williams",
+          "player_id": 4426502,
+          "name": "Drake London",
           "slot": "FLEX",
           "pos": "WR",
-          "pro": "DET",
-          "proj": 12.1,
+          "pro": "ATL",
+          "proj": 15.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
-          "preseason_proj_total": 218.6,
+          "preseason_proj_total": 267.4,
           "starter": true,
           "injury": null
         },
