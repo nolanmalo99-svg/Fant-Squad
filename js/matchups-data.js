@@ -1394,7 +1394,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 125.0,
+          "projected": 125.4,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1424,15 +1424,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Cam Skattebo",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "NYG",
-              "proj": 13.7,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Emeka Egbuka",
               "slot": "FLEX",
               "pos": "WR",
@@ -1447,6 +1438,15 @@ window.MATCHUPS_DATA = {
               "pos": "QB",
               "pro": "PHI",
               "proj": 20.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Rhamondre Stevenson",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "NE",
+              "proj": 14.1,
               "actual": 0.0,
               "injury": null
             },
@@ -1478,7 +1478,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 75.3,
+          "bench_proj": 74.9,
           "injuries": [
             {
               "name": "Emeka Egbuka",
@@ -1496,7 +1496,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (0-0) at spencer glynn (0-0). Projected: Brady Schuster 125.0 - spencer glynn 123.7. Brady Schuster favored by 1.3.",
+        "blurb": "Brady Schuster (0-0) at spencer glynn (0-0). Projected: Brady Schuster 125.4 - spencer glynn 123.7. Brady Schuster favored by 1.7.",
         "home_form": null,
         "away_form": null,
         "players_to_watch": [
@@ -1563,7 +1563,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 42.6,
-            "away_proj": 29.7,
+            "away_proj": 30.1,
             "edge": "home"
           },
           {

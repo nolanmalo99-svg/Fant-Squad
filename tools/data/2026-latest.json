@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-09T00:01:16+00:00",
+  "generated_at": "2026-09-09T04:00:52+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -3881,17 +3881,17 @@
           "injury": null
         },
         {
-          "player_id": 4696981,
-          "name": "Cam Skattebo",
+          "player_id": 4569173,
+          "name": "Rhamondre Stevenson",
           "slot": "RB",
           "pos": "RB",
-          "pro": "NYG",
-          "proj": 13.7,
+          "pro": "NE",
+          "proj": 14.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
-          "preseason_proj_total": 139.3,
+          "preseason_proj_total": 173.1,
           "starter": true,
           "injury": null
         },
@@ -3986,17 +3986,17 @@
           "injury": null
         },
         {
-          "player_id": 4569173,
-          "name": "Rhamondre Stevenson",
+          "player_id": 4696981,
+          "name": "Cam Skattebo",
           "slot": "BE",
           "pos": "RB",
-          "pro": "NE",
-          "proj": 14.1,
+          "pro": "NYG",
+          "proj": 13.7,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
-          "preseason_proj_total": 173.1,
+          "preseason_proj_total": 139.3,
           "starter": false,
           "injury": null
         },
