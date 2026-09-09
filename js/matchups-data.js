@@ -133,7 +133,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 21.1,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Jonathan Taylor",
@@ -211,15 +211,6 @@ window.MATCHUPS_DATA = {
           "bench_proj": 72.2,
           "injuries": [
             {
-              "name": "Puka Nacua",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "LAR",
-              "proj": 21.1,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
               "name": "Breece Hall",
               "slot": "RB",
               "pos": "RB",
@@ -246,7 +237,7 @@ window.MATCHUPS_DATA = {
             "pro": "LAR",
             "proj": 21.1,
             "actual": 0.0,
-            "injury": "QUESTIONABLE",
+            "injury": null,
             "owner": "Owen Koslosku"
           },
           {
@@ -342,7 +333,7 @@ window.MATCHUPS_DATA = {
               "pro": "SF",
               "proj": 18.4,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Saquon Barkley",
@@ -419,15 +410,6 @@ window.MATCHUPS_DATA = {
           ],
           "bench_proj": 76.7,
           "injuries": [
-            {
-              "name": "Christian McCaffrey",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "SF",
-              "proj": 18.4,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
             {
               "name": "Rome Odunze",
               "slot": "WR",
@@ -578,7 +560,7 @@ window.MATCHUPS_DATA = {
             "pro": "SF",
             "proj": 18.4,
             "actual": 0.0,
-            "injury": "QUESTIONABLE",
+            "injury": null,
             "owner": "Noah Budach"
           },
           {
