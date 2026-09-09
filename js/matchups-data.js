@@ -834,7 +834,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 64.4,
+          "bench_proj": 71.2,
           "injuries": [
             {
               "name": "Ashton Jeanty",
