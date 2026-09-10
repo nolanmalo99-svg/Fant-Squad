@@ -11,7 +11,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 122.3,
+          "projected": 123.0,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -86,11 +86,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Broncos D/ST",
+              "name": "Jets D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "DEN",
-              "proj": 5.9,
+              "pro": "NYJ",
+              "proj": 6.6,
               "actual": 0.0,
               "injury": null
             }
@@ -207,7 +207,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (0-0) at Andy Jensen (0-0). Projected: Owen Koslosku 125.8 - Andy Jensen 122.3. Owen Koslosku favored by 3.5.",
+        "blurb": "Owen Koslosku (0-0) at Andy Jensen (0-0). Projected: Owen Koslosku 125.8 - Andy Jensen 123.0. Owen Koslosku favored by 2.8.",
         "home_form": null,
         "away_form": null,
         "players_to_watch": [
@@ -255,9 +255,9 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 5.9,
+            "home_proj": 6.6,
             "away_proj": 7.5,
-            "edge": "away"
+            "edge": "even"
           },
           {
             "pos": "K",
@@ -305,7 +305,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 120.2,
+          "projected": 117.8,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -376,7 +376,7 @@ window.MATCHUPS_DATA = {
               "pos": "K",
               "pro": "SEA",
               "proj": 9.4,
-              "actual": 0.0,
+              "actual": 7.0,
               "injury": null
             },
             {
@@ -409,7 +409,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 120.0,
+          "projected": 127.3,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -417,7 +417,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "SEA",
               "proj": 18.9,
-              "actual": 0.0,
+              "actual": 26.2,
               "injury": null
             },
             {
@@ -501,7 +501,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Zach Mensink (0-0) at Noah Budach (0-0). Projected: Zach Mensink 120.0 - Noah Budach 120.2. Noah Budach favored by 0.2.",
+        "blurb": "Zach Mensink (0-0) at Noah Budach (0-0). Projected: Zach Mensink 127.3 - Noah Budach 117.8. Zach Mensink favored by 9.5.",
         "home_form": null,
         "away_form": null,
         "players_to_watch": [
@@ -511,7 +511,7 @@ window.MATCHUPS_DATA = {
             "pos": "WR",
             "pro": "SEA",
             "proj": 18.9,
-            "actual": 0.0,
+            "actual": 26.2,
             "injury": null,
             "owner": "Zach Mensink"
           },
@@ -893,7 +893,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 118.6,
+          "projected": 103.3,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -919,8 +919,8 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "NE",
               "proj": 14.2,
-              "actual": 0.0,
-              "injury": null
+              "actual": 5.6,
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Bucky Irving",
@@ -946,7 +946,7 @@ window.MATCHUPS_DATA = {
               "pos": "QB",
               "pro": "NE",
               "proj": 16.2,
-              "actual": 0.0,
+              "actual": 9.5,
               "injury": null
             },
             {
@@ -978,7 +978,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 72.4,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "A.J. Brown",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "NE",
+              "proj": 14.2,
+              "actual": 5.6,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 4,
@@ -1089,7 +1099,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (0-0) at alex raichle (0-0). Projected: Nolan Malo 122.3 - alex raichle 118.6. Nolan Malo favored by 3.7.",
+        "blurb": "Nolan Malo (0-0) at alex raichle (0-0). Projected: Nolan Malo 122.3 - alex raichle 103.3. Nolan Malo favored by 19.0.",
         "home_form": null,
         "away_form": null,
         "players_to_watch": [
@@ -1291,7 +1301,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 125.3,
+          "projected": 125.8,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1344,7 +1354,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "NE",
               "proj": 14.0,
-              "actual": 0.0,
+              "actual": 14.5,
               "injury": null
             },
             {
@@ -1383,7 +1393,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (0-0) at spencer glynn (0-0). Projected: Brady Schuster 125.3 - spencer glynn 123.6. Brady Schuster favored by 1.7.",
+        "blurb": "Brady Schuster (0-0) at spencer glynn (0-0). Projected: Brady Schuster 125.8 - spencer glynn 123.6. Brady Schuster favored by 2.2.",
         "home_form": null,
         "away_form": null,
         "players_to_watch": [
