@@ -18,6 +18,7 @@
     .mx-link:hover .mx-sub{color:#3E8ED9}
     .mx-pts{font-weight:900;font-size:1.5rem;color:#f5f7fa}
     .mx-pts.win{color:#3E8ED9}
+    .mx-proj-sub{font-size:.68rem;color:#6b7280;margin-top:.15rem;font-weight:600}
     .mx-vs{font-weight:800;font-size:.7rem;color:#6b7280;letter-spacing:.1em;padding:0 .4rem}
     .mx-body{padding:1.1rem 1.3rem}
     .mx-body p{color:#c8ccd6;font-size:.9rem;line-height:1.6;margin:0}
@@ -211,7 +212,10 @@
           '<div class="mx-team away"><a href="' + awayHref + '" class="mx-link"><span class="mx-owner">' + m.away.owner + '</span></a>' +
           '<a href="' + awayHref + '" class="mx-link"><span class="mx-sub">' + m.away.team + '</span></a> \u2022 <span class="mx-sub">' + m.away.record + '</span></div>' +
           '<div style="text-align:center"><div class="mx-pts' + (aWin ? ' win' : '') + '">' + aPts.toFixed(1) + '</div>' +
-          '<div class="mx-vs">' + mid + '</div><div class="mx-pts' + (hWin ? ' win' : '') + '">' + hPts.toFixed(1) + '</div></div>' +
+          (phase !== 'preview' ? '<div class="mx-proj-sub">proj ' + m.away.projected.toFixed(1) + '</div>' : '') +
+          '<div class="mx-vs">' + mid + '</div><div class="mx-pts' + (hWin ? ' win' : '') + '">' + hPts.toFixed(1) + '</div>' +
+          (phase !== 'preview' ? '<div class="mx-proj-sub">proj ' + m.home.projected.toFixed(1) + '</div>' : '') +
+          '</div>' +
           '<div class="mx-team"><a href="' + homeHref + '" class="mx-link"><span class="mx-owner">' + m.home.owner + '</span></a>' +
           '<a href="' + homeHref + '" class="mx-link"><span class="mx-sub">' + m.home.team + '</span></a> \u2022 <span class="mx-sub">' + m.home.record + '</span></div></div>' +
           '<div class="mx-body"><span class="mx-badge">' + badge + (m.playoff ? ' \u2022 Playoffs' : '') + '</span>' +
