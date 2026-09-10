@@ -81,9 +81,14 @@ def _side(raw_side, teams, scoring_period):
             "injury": pl.get("injuryStatus") if pl.get("injuryStatus") not in HEALTHY else None,
         })
     proj_total = sum(s["proj"] for s in starters)
+    actual_total = sum(s["actual"] for s in starters)
+    # ESPN's raw "totalPoints" field can lag behind real live scoring during an active game --
+    # individual players' stat lines update in real time, but the team-level total sometimes
+    # doesn't catch up immediately. Summing starters' actuals directly catches a live game that
+    # totalPoints hasn't reflected yet.
     return {
         "teamId": tid, "guid": t.get("guid"), "team": t["name"], "owner": t["owner"], "record": t["record"],
-        "actual": round(raw_side.get("totalPoints", 0.0), 1),
+        "actual": round(max(raw_side.get("totalPoints", 0.0), actual_total), 1),
         "projected": round(raw_side.get("totalProjectedPointsLive") or proj_total, 1),
         "starters": starters,
         "bench_proj": round(bench_proj, 1),
