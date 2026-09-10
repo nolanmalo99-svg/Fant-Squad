@@ -10,16 +10,16 @@
     .mx-card{background:#1e2128;border:1px solid #2f333b;border-radius:6px;margin-bottom:1.1rem;overflow:hidden}
     .mx-score{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:.5rem;padding:1.1rem 1.3rem;border-bottom:1px solid #2f333b}
     .mx-team{display:flex;flex-direction:column;gap:.15rem}
-    .mx-team.away{text-align:right}
+    .mx-team.away{text-align:right;align-items:flex-end}
     .mx-owner{font-weight:800;font-size:1.05rem;color:#f5f7fa}
     .mx-sub{font-size:.72rem;color:#a7aebb}
     .mx-link{text-decoration:none;transition:all 0.18s ease}
     .mx-link:hover .mx-owner{color:#3E8ED9}
     .mx-link:hover .mx-sub{color:#3E8ED9}
-    .mx-pts{font-weight:900;font-size:1.5rem;color:#f5f7fa}
+    .mx-pts{font-weight:900;font-size:1.65rem;color:#f5f7fa;margin-top:.35rem}
     .mx-pts.win{color:#3E8ED9}
-    .mx-proj-sub{font-size:.68rem;color:#6b7280;margin-top:.15rem;font-weight:600}
-    .mx-vs{font-weight:800;font-size:.7rem;color:#6b7280;letter-spacing:.1em;padding:0 .4rem}
+    .mx-proj-sub{font-size:.68rem;color:#6b7280;margin-top:.1rem;font-weight:600}
+    .mx-vs{font-weight:800;font-size:.7rem;color:#6b7280;letter-spacing:.1em;padding:0 .4rem;text-align:center}
     .mx-body{padding:1.1rem 1.3rem}
     .mx-body p{color:#c8ccd6;font-size:.9rem;line-height:1.6;margin:0}
     .mx-badge{display:inline-block;font-size:.6rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
@@ -207,17 +207,19 @@
 
         var awayHref = 'teams.html?owner=' + encodeURIComponent(m.away.guid || '');
         var homeHref = 'teams.html?owner=' + encodeURIComponent(m.home.guid || '');
+        var awayProjLine = phase !== 'preview' ? '<div class="mx-proj-sub">proj ' + m.away.projected.toFixed(1) + '</div>' : '';
+        var homeProjLine = phase !== 'preview' ? '<div class="mx-proj-sub">proj ' + m.home.projected.toFixed(1) + '</div>' : '';
 
         return '<article class="mx-card"><div class="mx-score">' +
           '<div class="mx-team away"><a href="' + awayHref + '" class="mx-link"><span class="mx-owner">' + m.away.owner + '</span></a>' +
-          '<a href="' + awayHref + '" class="mx-link"><span class="mx-sub">' + m.away.team + '</span></a> \u2022 <span class="mx-sub">' + m.away.record + '</span></div>' +
-          '<div style="text-align:center"><div class="mx-pts' + (aWin ? ' win' : '') + '">' + aPts.toFixed(1) + '</div>' +
-          (phase !== 'preview' ? '<div class="mx-proj-sub">proj ' + m.away.projected.toFixed(1) + '</div>' : '') +
-          '<div class="mx-vs">' + mid + '</div><div class="mx-pts' + (hWin ? ' win' : '') + '">' + hPts.toFixed(1) + '</div>' +
-          (phase !== 'preview' ? '<div class="mx-proj-sub">proj ' + m.home.projected.toFixed(1) + '</div>' : '') +
+          '<div><a href="' + awayHref + '" class="mx-link"><span class="mx-sub">' + m.away.team + '</span></a> \u2022 <span class="mx-sub">' + m.away.record + '</span></div>' +
+          '<div class="mx-pts' + (aWin ? ' win' : '') + '">' + aPts.toFixed(1) + '</div>' + awayProjLine +
           '</div>' +
+          '<div class="mx-vs">' + mid + '</div>' +
           '<div class="mx-team"><a href="' + homeHref + '" class="mx-link"><span class="mx-owner">' + m.home.owner + '</span></a>' +
-          '<a href="' + homeHref + '" class="mx-link"><span class="mx-sub">' + m.home.team + '</span></a> \u2022 <span class="mx-sub">' + m.home.record + '</span></div></div>' +
+          '<div><a href="' + homeHref + '" class="mx-link"><span class="mx-sub">' + m.home.team + '</span></a> \u2022 <span class="mx-sub">' + m.home.record + '</span></div>' +
+          '<div class="mx-pts' + (hWin ? ' win' : '') + '">' + hPts.toFixed(1) + '</div>' + homeProjLine +
+          '</div></div>' +
           '<div class="mx-body"><span class="mx-badge">' + badge + (m.playoff ? ' \u2022 Playoffs' : '') + '</span>' +
           '<p style="margin-top:0.7rem;">' + m.blurb + '</p></div>' + extra + '</article>';
       }).join('');
