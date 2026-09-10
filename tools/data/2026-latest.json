@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-10T04:01:39+00:00",
+  "generated_at": "2026-09-10T08:01:02+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -32325,7 +32325,7 @@
           "games_played": 0,
           "preseason_proj_total": 227.7,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4426385,
