@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-09T20:01:07+00:00",
+  "generated_at": "2026-09-10T00:00:58+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -521,7 +521,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "DET",
-          "proj": 22.5,
+          "proj": 22.4,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -573,7 +573,7 @@
           "games_played": 0,
           "preseason_proj_total": 265.4,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4572680,
@@ -588,7 +588,7 @@
           "games_played": 0,
           "preseason_proj_total": 160.0,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4596448,
@@ -716,7 +716,7 @@
           "slot": "BE",
           "pos": "D/ST",
           "pro": "SEA",
-          "proj": 7.4,
+          "proj": 7.2,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -738,7 +738,7 @@
           "games_played": 0,
           "preseason_proj_total": 146.0,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         }
       ],
       "draft": {
@@ -3886,7 +3886,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "NE",
-          "proj": 14.1,
+          "proj": 14.0,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -3953,7 +3953,7 @@
           "games_played": 0,
           "preseason_proj_total": 176.0,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16030,
@@ -4013,7 +4013,7 @@
           "games_played": 0,
           "preseason_proj_total": 240.5,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4701936,
@@ -7258,7 +7258,7 @@
           "games_played": 0,
           "preseason_proj_total": 340.0,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4569618,
@@ -7296,14 +7296,14 @@
           "slot": "FLEX",
           "pos": "RB",
           "pro": "JAX",
-          "proj": 12.9,
+          "proj": 12.8,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
           "preseason_proj_total": 4.7,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16023,
@@ -7356,7 +7356,7 @@
           "slot": "BE",
           "pos": "RB",
           "pro": "CAR",
-          "proj": 11.5,
+          "proj": 11.8,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -7371,7 +7371,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "JAX",
-          "proj": 10.8,
+          "proj": 11.3,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -10566,6 +10566,21 @@
           "injury": null
         },
         {
+          "player_id": 4379399,
+          "name": "James Cook III",
+          "slot": "RB",
+          "pos": "RB",
+          "pro": "BUF",
+          "proj": 15.9,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 269.9,
+          "starter": true,
+          "injury": null
+        },
+        {
           "player_id": 4361579,
           "name": "Javonte Williams",
           "slot": "RB",
@@ -10577,21 +10592,6 @@
           "season_total": 0.0,
           "games_played": 0,
           "preseason_proj_total": 217.2,
-          "starter": true,
-          "injury": null
-        },
-        {
-          "player_id": 4379399,
-          "name": "James Cook III",
-          "slot": "RB",
-          "pos": "RB",
-          "pro": "BUF",
-          "proj": 14.9,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 269.9,
           "starter": true,
           "injury": null
         },
@@ -10638,7 +10638,7 @@
           "games_played": 0,
           "preseason_proj_total": 166.1,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 3121422,
@@ -10721,7 +10721,7 @@
           "slot": "BE",
           "pos": "RB",
           "pro": "CAR",
-          "proj": 11.5,
+          "proj": 11.2,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -10736,7 +10736,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "SF",
-          "proj": 10.6,
+          "proj": 10.7,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -10751,7 +10751,7 @@
           "slot": "BE",
           "pos": "TE",
           "pro": "NYG",
-          "proj": 9.4,
+          "proj": 9.5,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -10938,7 +10938,7 @@
             "pick_in_round": 2,
             "overall_pick": 92,
             "bid_amount": null,
-            "points": 67.1,
+            "points": 67.3,
             "value_diff": -56,
             "dropped": false
           },
@@ -13650,7 +13650,7 @@
               "pick_in_round": 2,
               "overall_pick": 92,
               "bid_amount": null,
-              "points": 67.1,
+              "points": 67.3,
               "value_diff": -56,
               "dropped": false
             },
@@ -13943,7 +13943,7 @@
           "games_played": 0,
           "preseason_proj_total": 226.8,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4430878,
@@ -14011,7 +14011,7 @@
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "PHI",
-          "proj": 6.2,
+          "proj": 6.3,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -14108,7 +14108,7 @@
           "games_played": 0,
           "preseason_proj_total": 179.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4819231,
@@ -18592,7 +18592,7 @@
           "games_played": 0,
           "preseason_proj_total": 191.8,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4685702,
@@ -18667,7 +18667,7 @@
           "games_played": 0,
           "preseason_proj_total": 91.5,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4429025,
@@ -18697,7 +18697,7 @@
           "games_played": 0,
           "preseason_proj_total": 70.9,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 2976212,
@@ -18727,7 +18727,7 @@
           "games_played": 0,
           "preseason_proj_total": 196.4,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4570037,
@@ -21926,7 +21926,7 @@
           "slot": "FLEX",
           "pos": "WR",
           "pro": "LAC",
-          "proj": 13.8,
+          "proj": 13.7,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -21963,7 +21963,7 @@
           "games_played": 0,
           "preseason_proj_total": 143.9,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4426338,
@@ -26689,7 +26689,7 @@
           "games_played": 0,
           "preseason_proj_total": 51.6,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16014,
@@ -26697,7 +26697,7 @@
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "LAR",
-          "proj": 6.2,
+          "proj": 6.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -26727,7 +26727,7 @@
           "slot": "BE",
           "pos": "QB",
           "pro": "SF",
-          "proj": 15.5,
+          "proj": 15.4,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -26749,7 +26749,7 @@
           "games_played": 0,
           "preseason_proj_total": 201.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4871023,
@@ -26764,7 +26764,7 @@
           "games_played": 0,
           "preseason_proj_total": 202.2,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 3916433,
@@ -29680,7 +29680,7 @@
           "slot": "QB",
           "pos": "QB",
           "pro": "BUF",
-          "proj": 19.1,
+          "proj": 19.2,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -29695,14 +29695,14 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "LV",
-          "proj": 18.1,
+          "proj": 18.3,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
           "preseason_proj_total": 302.0,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4569987,
@@ -29750,17 +29750,17 @@
           "injury": null
         },
         {
-          "player_id": 4432665,
-          "name": "Brock Bowers",
+          "player_id": 4242355,
+          "name": "Jake Ferguson",
           "slot": "TE",
           "pos": "TE",
-          "pro": "LV",
-          "proj": 15.6,
+          "pro": "DAL",
+          "proj": 9.8,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
-          "preseason_proj_total": 262.2,
+          "preseason_proj_total": 150.4,
           "starter": true,
           "injury": null
         },
@@ -29852,21 +29852,6 @@
           "games_played": 0,
           "preseason_proj_total": 152.8,
           "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
-          "player_id": 4242355,
-          "name": "Jake Ferguson",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "DAL",
-          "proj": 9.8,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 150.4,
-          "starter": false,
           "injury": null
         },
         {
@@ -29905,14 +29890,29 @@
           "slot": "BE",
           "pos": "RB",
           "pro": "LV",
-          "proj": 6.8,
+          "proj": 7.1,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 0,
-          "preseason_proj_total": 67.1,
+          "preseason_proj_total": 67.3,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4432665,
+          "name": "Brock Bowers",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "LV",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 262.2,
+          "starter": false,
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 4432710,
@@ -32130,7 +32130,7 @@
           "games_played": 0,
           "preseason_proj_total": 226.0,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4426515,
@@ -32138,7 +32138,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "LAR",
-          "proj": 21.1,
+          "proj": 21.0,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -32288,7 +32288,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "LV",
-          "proj": 9.1,
+          "proj": 10.0,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -32310,7 +32310,7 @@
           "games_played": 0,
           "preseason_proj_total": 128.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 3040151,
