@@ -7,11 +7,11 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
-          "actual": 0.0,
-          "projected": 123.0,
+          "actual": 5.6,
+          "projected": 114.8,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -46,7 +46,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "LAR",
               "proj": 13.8,
-              "actual": 0.0,
+              "actual": 5.6,
               "injury": null
             },
             {
@@ -114,8 +114,8 @@ window.MATCHUPS_DATA = {
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
           "record": "0-0",
-          "actual": 0.0,
-          "projected": 125.8,
+          "actual": 15.6,
+          "projected": 109.9,
           "starters": [
             {
               "name": "Puka Nacua",
@@ -123,7 +123,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "LAR",
               "proj": 21.0,
-              "actual": 0.0,
+              "actual": 12.4,
               "injury": null
             },
             {
@@ -163,21 +163,21 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Kyle Pitts Sr.",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "ATL",
-              "proj": 10.4,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Dak Prescott",
               "slot": "QB",
               "pos": "QB",
               "pro": "DAL",
               "proj": 16.6,
               "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "George Kittle",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "SF",
+              "proj": 8.4,
+              "actual": 3.2,
               "injury": null
             },
             {
@@ -199,103 +199,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 73.1,
+          "bench_proj": 75.1,
           "injuries": []
         },
-        "played": false,
+        "played": true,
         "playoff": false,
-        "margin": null,
-        "winner": null,
-        "phase": "preview",
-        "blurb": "Owen Koslosku (0-0) at Andy Jensen (0-0). Projected: Owen Koslosku 125.8 - Andy Jensen 123.0. Owen Koslosku favored by 2.8.",
-        "home_form": null,
-        "away_form": null,
-        "players_to_watch": [
-          {
-            "name": "Puka Nacua",
-            "slot": "WR",
-            "pos": "WR",
-            "pro": "LAR",
-            "proj": 21.0,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Owen Koslosku"
-          },
-          {
-            "name": "Bijan Robinson",
-            "slot": "RB",
-            "pos": "RB",
-            "pro": "ATL",
-            "proj": 19.3,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Andy Jensen"
-          },
-          {
-            "name": "Lamar Jackson",
-            "slot": "QB",
-            "pos": "QB",
-            "pro": "BAL",
-            "proj": 19.0,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Andy Jensen"
-          },
-          {
-            "name": "Jonathan Taylor",
-            "slot": "RB",
-            "pos": "RB",
-            "pro": "IND",
-            "proj": 17.8,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Owen Koslosku"
-          }
-        ],
-        "positional_edges": [
-          {
-            "pos": "D/ST",
-            "home_proj": 6.6,
-            "away_proj": 7.5,
-            "edge": "even"
-          },
-          {
-            "pos": "K",
-            "home_proj": 10.3,
-            "away_proj": 9.0,
-            "edge": "home"
-          },
-          {
-            "pos": "QB",
-            "home_proj": 19.0,
-            "away_proj": 16.6,
-            "edge": "home"
-          },
-          {
-            "pos": "RB",
-            "home_proj": 35.7,
-            "away_proj": 34.3,
-            "edge": "home"
-          },
-          {
-            "pos": "TE",
-            "home_proj": 10.1,
-            "away_proj": 10.4,
-            "edge": "even"
-          },
-          {
-            "pos": "WR",
-            "home_proj": 41.3,
-            "away_proj": 47.9,
-            "edge": "away"
-          }
-        ],
-        "revenge": null,
-        "fun_facts": [],
-        "head_to_head": {
-          "home_w": 2,
-          "home_l": 5
-        }
+        "margin": 10.0,
+        "winner": "Owen Koslosku",
+        "phase": "recap",
+        "blurb": "Final: Owen Koslosku 15.6 - Andy Jensen 5.6. Owen Koslosku won by 10.0. Top scorers for Owen Koslosku: Puka Nacua (12.4), George Kittle (3.2)."
       },
       {
         "home": {
@@ -304,8 +216,8 @@ window.MATCHUPS_DATA = {
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
           "record": "0-0",
-          "actual": 7.0,
-          "projected": 117.8,
+          "actual": 21.8,
+          "projected": 108.1,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -313,7 +225,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "SF",
               "proj": 18.4,
-              "actual": 0.0,
+              "actual": 13.8,
               "injury": null
             },
             {
@@ -385,7 +297,7 @@ window.MATCHUPS_DATA = {
               "pos": "D/ST",
               "pro": "LAR",
               "proj": 6.1,
-              "actual": 0.0,
+              "actual": 1.0,
               "injury": null
             }
           ],
@@ -498,10 +410,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 19.2,
+        "margin": 4.4,
         "winner": "Zach Mensink",
         "phase": "recap",
-        "blurb": "Final: Zach Mensink 26.2 - Noah Budach 7.0. Zach Mensink won by 19.2. Top scorers for Zach Mensink: Jaxon Smith-Njigba (26.2), De'Von Achane (0.0)."
+        "blurb": "Final: Zach Mensink 26.2 - Noah Budach 21.8. Zach Mensink won by 4.4. Top scorers for Zach Mensink: Jaxon Smith-Njigba (26.2), De'Von Achane (0.0)."
       },
       {
         "home": {
@@ -510,8 +422,8 @@ window.MATCHUPS_DATA = {
           "team": "This Just In",
           "owner": "Dawson Leer",
           "record": "0-0",
-          "actual": 0.0,
-          "projected": 116.4,
+          "actual": 15.5,
+          "projected": 118.2,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -546,7 +458,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "LAR",
               "proj": 13.7,
-              "actual": 0.0,
+              "actual": 15.5,
               "injury": null
             },
             {
@@ -604,8 +516,8 @@ window.MATCHUPS_DATA = {
           "team": "Idk how im here",
           "owner": "Mitch Wiese",
           "record": "0-0",
-          "actual": 0.0,
-          "projected": 116.7,
+          "actual": 10.0,
+          "projected": 118.0,
           "starters": [
             {
               "name": "Drake London",
@@ -685,107 +597,19 @@ window.MATCHUPS_DATA = {
               "pos": "K",
               "pro": "SF",
               "proj": 8.7,
-              "actual": 0.0,
+              "actual": 10.0,
               "injury": null
             }
           ],
           "bench_proj": 61.7,
           "injuries": []
         },
-        "played": false,
+        "played": true,
         "playoff": false,
-        "margin": null,
-        "winner": null,
-        "phase": "preview",
-        "blurb": "Mitch Wiese (0-0) at Dawson Leer (0-0). Projected: Mitch Wiese 116.7 - Dawson Leer 116.4. Mitch Wiese favored by 0.3.",
-        "home_form": null,
-        "away_form": null,
-        "players_to_watch": [
-          {
-            "name": "Josh Allen",
-            "slot": "QB",
-            "pos": "QB",
-            "pro": "BUF",
-            "proj": 19.2,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Mitch Wiese"
-          },
-          {
-            "name": "Ashton Jeanty",
-            "slot": "RB",
-            "pos": "RB",
-            "pro": "LV",
-            "proj": 18.3,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Mitch Wiese"
-          },
-          {
-            "name": "Justin Jefferson",
-            "slot": "WR",
-            "pos": "WR",
-            "pro": "MIN",
-            "proj": 17.1,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Dawson Leer"
-          },
-          {
-            "name": "Nico Collins",
-            "slot": "WR",
-            "pos": "WR",
-            "pro": "HOU",
-            "proj": 15.6,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Mitch Wiese"
-          }
-        ],
-        "positional_edges": [
-          {
-            "pos": "D/ST",
-            "home_proj": 7.4,
-            "away_proj": 5.2,
-            "edge": "home"
-          },
-          {
-            "pos": "K",
-            "home_proj": 9.8,
-            "away_proj": 8.7,
-            "edge": "home"
-          },
-          {
-            "pos": "QB",
-            "home_proj": 15.3,
-            "away_proj": 19.2,
-            "edge": "away"
-          },
-          {
-            "pos": "RB",
-            "home_proj": 41.6,
-            "away_proj": 30.9,
-            "edge": "home"
-          },
-          {
-            "pos": "TE",
-            "home_proj": 11.0,
-            "away_proj": 9.8,
-            "edge": "home"
-          },
-          {
-            "pos": "WR",
-            "home_proj": 31.5,
-            "away_proj": 42.8,
-            "edge": "away"
-          }
-        ],
-        "revenge": null,
-        "fun_facts": [],
-        "head_to_head": {
-          "home_w": 7,
-          "home_l": 8
-        }
+        "margin": 5.5,
+        "winner": "Dawson Leer",
+        "phase": "recap",
+        "blurb": "Final: Mitch Wiese 10.0 - Dawson Leer 15.5. Dawson Leer won by 5.5. Top scorers for Dawson Leer: Kyren Williams (15.5), Justin Jefferson (0.0)."
       },
       {
         "home": {
@@ -1104,8 +928,8 @@ window.MATCHUPS_DATA = {
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
           "record": "0-0",
-          "actual": 14.5,
-          "projected": 125.8,
+          "actual": 15.5,
+          "projected": 117.4,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1176,7 +1000,7 @@ window.MATCHUPS_DATA = {
               "pos": "K",
               "pro": "LAR",
               "proj": 9.4,
-              "actual": 0.0,
+              "actual": 1.0,
               "injury": null
             },
             {
@@ -1194,10 +1018,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 14.5,
+        "margin": 15.5,
         "winner": "Brady Schuster",
         "phase": "recap",
-        "blurb": "Final: Brady Schuster 14.5 - spencer glynn 0.0. Brady Schuster won by 14.5. Top scorers for Brady Schuster: Rhamondre Stevenson (14.5), CeeDee Lamb (0.0)."
+        "blurb": "Final: Brady Schuster 15.5 - spencer glynn 0.0. Brady Schuster won by 15.5. Top scorers for Brady Schuster: Rhamondre Stevenson (14.5), Harrison Mevis (1.0)."
       }
     ],
     "2": [
@@ -1241,12 +1065,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "W",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Zach Mensink's worst week of the season."
+          "If the projection holds, this would be Zach Mensink's worst week of the season.",
+          "If the projection holds, this would be Mitch Wiese's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 8,
@@ -1269,7 +1102,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -1293,11 +1126,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "L",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Andy Jensen's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 5,
           "home_l": 6
@@ -1337,18 +1180,27 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Brady Schuster's worst week of the season."
+          "If the projection holds, this would be Brady Schuster's worst week of the season.",
+          "If the projection holds, this would be Owen Koslosku's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 9,
@@ -1398,8 +1250,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1456,11 +1308,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "L",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Dawson Leer's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 14,
           "home_l": 8
@@ -1511,8 +1373,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1620,7 +1482,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "spencer glynn (0-0) at Mitch Wiese (0-0). Projected: spencer glynn 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
@@ -1633,7 +1503,9 @@ window.MATCHUPS_DATA = {
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Mitch Wiese's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 6,
           "home_l": 8
@@ -1643,7 +1515,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -1670,12 +1542,20 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Noah Budach (0-0) at Andy Jensen (0-0). Projected: Noah Budach 0 - Andy Jensen 0. Andy Jensen favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1684,6 +1564,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Andy Jensen's worst week of the season.",
           "If the projection holds, this would be Noah Budach's worst week of the season."
         ],
         "head_to_head": {
@@ -1722,12 +1603,31 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Dawson Leer (0-0) at Owen Koslosku (0-0). Projected: Dawson Leer 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
-        "home_form": null,
-        "away_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's worst week of the season.",
+          "If the projection holds, this would be Dawson Leer's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 7,
           "home_l": 6
@@ -1829,8 +1729,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1886,12 +1786,20 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Brady Schuster (0-0) at Dawson Leer (0-0). Projected: Brady Schuster 0 - Dawson Leer 0. Dawson Leer favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1900,6 +1808,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Dawson Leer's worst week of the season.",
           "If the projection holds, this would be Brady Schuster's worst week of the season."
         ],
         "head_to_head": {
@@ -1911,7 +1820,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -1938,7 +1847,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Zach Mensink (0-0) at Andy Jensen (0-0). Projected: Zach Mensink 0 - Andy Jensen 0. Andy Jensen favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
@@ -1952,6 +1869,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Andy Jensen's worst week of the season.",
           "If the projection holds, this would be Zach Mensink's worst week of the season."
         ],
         "head_to_head": {
@@ -1990,12 +1908,31 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Mitch Wiese (0-0) at Owen Koslosku (0-0). Projected: Mitch Wiese 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
-        "home_form": null,
-        "away_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's worst week of the season.",
+          "If the projection holds, this would be Mitch Wiese's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 8,
           "home_l": 5
@@ -2037,18 +1974,27 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Noah Budach's worst week of the season."
+          "If the projection holds, this would be Noah Budach's worst week of the season.",
+          "If the projection holds, this would be Dawson Leer's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 9,
@@ -2071,7 +2017,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -2095,12 +2041,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "W",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be alex raichle's worst week of the season."
+          "If the projection holds, this would be alex raichle's worst week of the season.",
+          "If the projection holds, this would be Andy Jensen's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 6,
@@ -2147,11 +2102,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "L",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 4,
           "home_l": 8
@@ -2251,18 +2216,27 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Brady Schuster's worst week of the season."
+          "If the projection holds, this would be Brady Schuster's worst week of the season.",
+          "If the projection holds, this would be Mitch Wiese's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 9,
@@ -2302,7 +2276,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Zach Mensink (0-0) at Owen Koslosku (0-0). Projected: Zach Mensink 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
@@ -2316,6 +2298,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's worst week of the season.",
           "If the projection holds, this would be Zach Mensink's worst week of the season."
         ],
         "head_to_head": {
@@ -2354,7 +2337,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Nolan Malo (0-0) at Mitch Wiese (0-0). Projected: Nolan Malo 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
@@ -2367,7 +2358,9 @@ window.MATCHUPS_DATA = {
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Mitch Wiese's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 3,
           "home_l": 6
@@ -2407,8 +2400,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2477,8 +2470,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2510,7 +2503,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -2525,12 +2518,31 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Andy Jensen (0-0) at Dawson Leer (0-0). Projected: Andy Jensen 0 - Dawson Leer 0. Dawson Leer favored by 0.",
-        "home_form": null,
-        "away_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Dawson Leer's worst week of the season.",
+          "If the projection holds, this would be Andy Jensen's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 6,
           "home_l": 8
@@ -2578,11 +2590,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "L",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 5,
           "home_l": 3
@@ -2628,12 +2650,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "W",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be alex raichle's worst week of the season."
+          "If the projection holds, this would be alex raichle's worst week of the season.",
+          "If the projection holds, this would be Mitch Wiese's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 5,
@@ -2674,8 +2705,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2683,8 +2714,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2705,7 +2736,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -2732,7 +2763,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "spencer glynn (0-0) at Andy Jensen (0-0). Projected: spencer glynn 0 - Andy Jensen 0. Andy Jensen favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
@@ -2745,7 +2784,9 @@ window.MATCHUPS_DATA = {
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Andy Jensen's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 5,
           "home_l": 7
@@ -2791,12 +2832,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "W",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Zach Mensink's worst week of the season."
+          "If the projection holds, this would be Zach Mensink's worst week of the season.",
+          "If the projection holds, this would be Dawson Leer's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 5,
@@ -2836,7 +2886,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "alex raichle (0-0) at Owen Koslosku (0-0). Projected: alex raichle 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
@@ -2850,6 +2908,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's worst week of the season.",
           "If the projection holds, this would be alex raichle's worst week of the season."
         ],
         "head_to_head": {
@@ -2888,12 +2947,20 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Noah Budach (0-0) at Mitch Wiese (0-0). Projected: Noah Budach 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2902,6 +2969,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Mitch Wiese's worst week of the season.",
           "If the projection holds, this would be Noah Budach's worst week of the season."
         ],
         "head_to_head": {
@@ -2925,7 +2993,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -2943,18 +3011,27 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Brady Schuster's worst week of the season."
+          "If the projection holds, this would be Brady Schuster's worst week of the season.",
+          "If the projection holds, this would be Andy Jensen's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 4,
@@ -3052,7 +3129,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Nolan Malo (0-0) at Dawson Leer (0-0). Projected: Nolan Malo 0 - Dawson Leer 0. Dawson Leer favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
@@ -3065,7 +3150,9 @@ window.MATCHUPS_DATA = {
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Dawson Leer's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 6,
           "home_l": 9
@@ -3107,18 +3194,27 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Noah Budach's worst week of the season."
+          "If the projection holds, this would be Noah Budach's worst week of the season.",
+          "If the projection holds, this would be Owen Koslosku's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 6,
@@ -3129,7 +3225,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -3156,7 +3252,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "alex raichle (0-0) at Andy Jensen (0-0). Projected: alex raichle 0 - Andy Jensen 0. Andy Jensen favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
@@ -3170,6 +3274,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Andy Jensen's worst week of the season.",
           "If the projection holds, this would be alex raichle's worst week of the season."
         ],
         "head_to_head": {
@@ -3208,12 +3313,37 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Dawson Leer (0-0) at Mitch Wiese (0-0). Projected: Dawson Leer 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
-        "home_form": null,
-        "away_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
-        "revenge": null,
-        "fun_facts": [],
+        "revenge": {
+          "week": 1,
+          "home_won": false,
+          "home_pts": 10.0,
+          "away_pts": 15.5
+        },
+        "fun_facts": [
+          "This is their 2nd meeting this season.",
+          "If the projection holds, this would be Mitch Wiese's worst week of the season.",
+          "If the projection holds, this would be Dawson Leer's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 8,
           "home_l": 7
@@ -3313,8 +3443,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3333,7 +3463,7 @@ window.MATCHUPS_DATA = {
         "revenge": {
           "week": 1,
           "home_won": true,
-          "home_pts": 14.5,
+          "home_pts": 15.5,
           "away_pts": 0.0
         },
         "fun_facts": [
@@ -3351,7 +3481,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -3378,12 +3508,31 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Mitch Wiese (0-0) at Andy Jensen (0-0). Projected: Mitch Wiese 0 - Andy Jensen 0. Andy Jensen favored by 0.",
-        "home_form": null,
-        "away_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Andy Jensen's worst week of the season.",
+          "If the projection holds, this would be Mitch Wiese's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 2,
           "home_l": 2
@@ -3432,8 +3581,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3444,7 +3593,7 @@ window.MATCHUPS_DATA = {
           "week": 1,
           "home_won": true,
           "home_pts": 26.2,
-          "away_pts": 7.0
+          "away_pts": 21.8
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
@@ -3487,12 +3636,20 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Brady Schuster (0-0) at Owen Koslosku (0-0). Projected: Brady Schuster 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3501,6 +3658,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's worst week of the season.",
           "If the projection holds, this would be Brady Schuster's worst week of the season."
         ],
         "head_to_head": {
@@ -3605,7 +3763,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "spencer glynn (0-0) at Dawson Leer (0-0). Projected: spencer glynn 0 - Dawson Leer 0. Dawson Leer favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
@@ -3618,7 +3784,9 @@ window.MATCHUPS_DATA = {
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Dawson Leer's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 8,
           "home_l": 14
@@ -3669,8 +3837,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3691,7 +3859,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -3718,7 +3886,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Nolan Malo (0-0) at Andy Jensen (0-0). Projected: Nolan Malo 0 - Andy Jensen 0. Andy Jensen favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
@@ -3731,7 +3907,9 @@ window.MATCHUPS_DATA = {
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Andy Jensen's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 6,
           "home_l": 5
@@ -3777,11 +3955,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "L",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Mitch Wiese's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 8,
           "home_l": 6
@@ -3821,8 +4009,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3879,12 +4067,31 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Owen Koslosku (0-0) at Dawson Leer (0-0). Projected: Owen Koslosku 0 - Dawson Leer 0. Dawson Leer favored by 0.",
-        "home_form": null,
-        "away_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Dawson Leer's worst week of the season.",
+          "If the projection holds, this would be Owen Koslosku's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 6,
           "home_l": 7
@@ -4045,18 +4252,27 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Brady Schuster's worst week of the season."
+          "If the projection holds, this would be Brady Schuster's worst week of the season.",
+          "If the projection holds, this would be Dawson Leer's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 12,
@@ -4079,7 +4295,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -4097,18 +4313,27 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Noah Budach's worst week of the season."
+          "If the projection holds, this would be Noah Budach's worst week of the season.",
+          "If the projection holds, this would be Andy Jensen's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 4,
@@ -4146,12 +4371,31 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Owen Koslosku (0-0) at Mitch Wiese (0-0). Projected: Owen Koslosku 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
-        "home_form": null,
-        "away_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Mitch Wiese's worst week of the season.",
+          "If the projection holds, this would be Owen Koslosku's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 5,
           "home_l": 8
@@ -4199,12 +4443,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "W",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be alex raichle's worst week of the season."
+          "If the projection holds, this would be alex raichle's worst week of the season.",
+          "If the projection holds, this would be Dawson Leer's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 6,
@@ -4254,8 +4507,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4302,7 +4555,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "spencer glynn (0-0) at Owen Koslosku (0-0). Projected: spencer glynn 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
@@ -4315,7 +4576,9 @@ window.MATCHUPS_DATA = {
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 8,
           "home_l": 4
@@ -4337,7 +4600,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -4361,12 +4624,21 @@ window.MATCHUPS_DATA = {
           "streak_type": "W",
           "trend": "steady"
         },
-        "away_form": null,
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Zach Mensink's worst week of the season."
+          "If the projection holds, this would be Zach Mensink's worst week of the season.",
+          "If the projection holds, this would be Andy Jensen's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 6,
@@ -4404,12 +4676,20 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Brady Schuster (0-0) at Mitch Wiese (0-0). Projected: Brady Schuster 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4418,6 +4698,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Mitch Wiese's worst week of the season.",
           "If the projection holds, this would be Brady Schuster's worst week of the season."
         ],
         "head_to_head": {
@@ -4443,7 +4724,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
-          "team": "Hurts so good",
+          "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 0.0,
@@ -4458,12 +4739,37 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Andy Jensen (0-0) at Owen Koslosku (0-0). Projected: Andy Jensen 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
-        "home_form": null,
-        "away_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.6,
+          "recent_avg": 15.6,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
+        "away_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 5.6,
+          "recent_avg": 5.6,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "players_to_watch": [],
         "positional_edges": [],
-        "revenge": null,
-        "fun_facts": [],
+        "revenge": {
+          "week": 1,
+          "home_won": true,
+          "home_pts": 15.6,
+          "away_pts": 5.6
+        },
+        "fun_facts": [
+          "This is their 2nd meeting this season.",
+          "If the projection holds, this would be Owen Koslosku's worst week of the season.",
+          "If the projection holds, this would be Andy Jensen's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 5,
           "home_l": 2
@@ -4500,7 +4806,15 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Zach Mensink (0-0) at Mitch Wiese (0-0). Projected: Zach Mensink 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "0-1",
+          "games_considered": 1,
+          "season_avg": 10.0,
+          "recent_avg": 10.0,
+          "streak": 1,
+          "streak_type": "L",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
@@ -4514,6 +4828,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Mitch Wiese's worst week of the season.",
           "If the projection holds, this would be Zach Mensink's worst week of the season."
         ],
         "head_to_head": {
@@ -4555,8 +4870,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 14.5,
-          "recent_avg": 14.5,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4672,12 +4987,20 @@ window.MATCHUPS_DATA = {
         "winner": null,
         "phase": "preview",
         "blurb": "Noah Budach (0-0) at Dawson Leer (0-0). Projected: Noah Budach 0 - Dawson Leer 0. Dawson Leer favored by 0.",
-        "home_form": null,
+        "home_form": {
+          "record_last_n": "1-0",
+          "games_considered": 1,
+          "season_avg": 15.5,
+          "recent_avg": 15.5,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "steady"
+        },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 7.0,
-          "recent_avg": 7.0,
+          "season_avg": 21.8,
+          "recent_avg": 21.8,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4686,6 +5009,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Dawson Leer's worst week of the season.",
           "If the projection holds, this would be Noah Budach's worst week of the season."
         ],
         "head_to_head": {
