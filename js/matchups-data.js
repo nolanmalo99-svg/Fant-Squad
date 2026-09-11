@@ -646,7 +646,7 @@ window.MATCHUPS_DATA = {
               "pro": "NE",
               "proj": 14.2,
               "actual": 5.6,
-              "injury": "QUESTIONABLE"
+              "injury": "INJURY_RESERVE"
             },
             {
               "name": "Bucky Irving",
@@ -712,7 +712,7 @@ window.MATCHUPS_DATA = {
               "pro": "NE",
               "proj": 14.2,
               "actual": 5.6,
-              "injury": "QUESTIONABLE"
+              "injury": "INJURY_RESERVE"
             }
           ]
         },
