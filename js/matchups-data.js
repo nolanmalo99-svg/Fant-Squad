@@ -574,7 +574,7 @@ window.MATCHUPS_DATA = {
               "pro": "KC",
               "proj": 15.3,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Ka'imi Fairbairn",
@@ -596,17 +596,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 71.9,
-          "injuries": [
-            {
-              "name": "Patrick Mahomes",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "KC",
-              "proj": 15.3,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "away": {
           "teamId": 8,
@@ -936,7 +926,7 @@ window.MATCHUPS_DATA = {
               "pro": "BAL",
               "proj": 14.2,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Javonte Williams",
@@ -994,17 +984,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 68.2,
-          "injuries": [
-            {
-              "name": "Zay Flowers",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "BAL",
-              "proj": 14.2,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "played": true,
         "playoff": false,
