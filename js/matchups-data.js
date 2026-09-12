@@ -11,14 +11,14 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 5.6,
-          "projected": 114.8,
+          "projected": 114.4,
           "starters": [
             {
               "name": "Bijan Robinson",
               "slot": "RB",
               "pos": "RB",
               "pro": "ATL",
-              "proj": 19.3,
+              "proj": 18.9,
               "actual": 0.0,
               "injury": null
             },
@@ -90,12 +90,12 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "NYJ",
-              "proj": 6.6,
+              "proj": 6.5,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 65.1,
+          "bench_proj": 71.1,
           "injuries": [
             {
               "name": "Malik Nabers",
@@ -122,7 +122,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "LAR",
-              "proj": 21.0,
+              "proj": 21.1,
               "actual": 12.4,
               "injury": null
             },
@@ -185,7 +185,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "LAC",
-              "proj": 7.5,
+              "proj": 7.4,
               "actual": 0.0,
               "injury": null
             },
@@ -199,7 +199,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 75.1,
+          "bench_proj": 74.5,
           "injuries": []
         },
         "played": true,
@@ -224,7 +224,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "SF",
-              "proj": 18.4,
+              "proj": 18.5,
               "actual": 13.8,
               "injury": null
             },
@@ -296,12 +296,12 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "LAR",
-              "proj": 6.1,
+              "proj": 6.2,
               "actual": 1.0,
               "injury": null
             }
           ],
-          "bench_proj": 76.6,
+          "bench_proj": 77.2,
           "injuries": [
             {
               "name": "Rome Odunze",
@@ -321,14 +321,14 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "0-0",
           "actual": 26.2,
-          "projected": 127.3,
+          "projected": 127.1,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
               "slot": "WR",
               "pos": "WR",
               "pro": "SEA",
-              "proj": 18.9,
+              "proj": 19.0,
               "actual": 26.2,
               "injury": null
             },
@@ -382,7 +382,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "JAX",
-              "proj": 16.8,
+              "proj": 16.7,
               "actual": 0.0,
               "injury": null
             },
@@ -400,7 +400,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "PHI",
-              "proj": 6.3,
+              "proj": 6.2,
               "actual": 0.0,
               "injury": null
             }
@@ -423,7 +423,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "0-0",
           "actual": 15.5,
-          "projected": 118.2,
+          "projected": 118.1,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -502,7 +502,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "DET",
-              "proj": 7.4,
+              "proj": 7.3,
               "actual": 0.0,
               "injury": null
             }
@@ -517,14 +517,14 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 10.0,
-          "projected": 118.0,
+          "projected": 116.7,
           "starters": [
             {
               "name": "Drake London",
               "slot": "FLEX",
               "pos": "WR",
               "pro": "ATL",
-              "proj": 15.1,
+              "proj": 13.8,
               "actual": 0.0,
               "injury": null
             },
@@ -587,7 +587,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "HOU",
-              "proj": 5.2,
+              "proj": 5.3,
               "actual": 0.0,
               "injury": null
             },
@@ -601,7 +601,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 61.7,
+          "bench_proj": 62.9,
           "injuries": []
         },
         "played": true,
@@ -619,7 +619,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "0-0",
           "actual": 15.1,
-          "projected": 103.3,
+          "projected": 104.4,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -653,7 +653,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "TB",
-              "proj": 12.4,
+              "proj": 13.5,
               "actual": 0.0,
               "injury": null
             },
@@ -703,7 +703,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 72.4,
+          "bench_proj": 72.9,
           "injuries": [
             {
               "name": "A.J. Brown",
@@ -723,7 +723,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 122.3,
+          "projected": 122.2,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -757,7 +757,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "DAL",
-              "proj": 15.2,
+              "proj": 15.3,
               "actual": 0.0,
               "injury": null
             },
@@ -802,7 +802,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "BAL",
-              "proj": 6.8,
+              "proj": 6.6,
               "actual": 0.0,
               "injury": null
             }
@@ -825,7 +825,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-0",
           "actual": 0.0,
-          "projected": 123.6,
+          "projected": 121.0,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -841,7 +841,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "ARI",
-              "proj": 14.7,
+              "proj": 13.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -859,7 +859,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "NO",
-              "proj": 15.0,
+              "proj": 14.3,
               "actual": 0.0,
               "injury": null
             },
@@ -868,7 +868,7 @@ window.MATCHUPS_DATA = {
               "slot": "TE",
               "pos": "TE",
               "pro": "CHI",
-              "proj": 12.0,
+              "proj": 12.1,
               "actual": 0.0,
               "injury": null
             },
@@ -877,7 +877,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "JAX",
-              "proj": 12.8,
+              "proj": 12.0,
               "actual": 0.0,
               "injury": null
             },
@@ -895,7 +895,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "PIT",
-              "proj": 7.5,
+              "proj": 7.2,
               "actual": 0.0,
               "injury": null
             },
@@ -916,7 +916,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "ARI",
-              "proj": 14.7,
+              "proj": 13.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -936,7 +936,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "DAL",
-              "proj": 17.2,
+              "proj": 17.3,
               "actual": 0.0,
               "injury": null
             },
@@ -1013,7 +1013,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 74.9,
+          "bench_proj": 75.0,
           "injuries": []
         },
         "played": true,
