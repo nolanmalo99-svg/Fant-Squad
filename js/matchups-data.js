@@ -11,7 +11,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "0-0",
           "actual": 5.6,
-          "projected": 114.4,
+          "projected": 110.6,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -30,15 +30,6 @@ window.MATCHUPS_DATA = {
               "proj": 16.4,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Malik Nabers",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "NYG",
-              "proj": 13.8,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
             },
             {
               "name": "Davante Adams",
@@ -64,6 +55,15 @@ window.MATCHUPS_DATA = {
               "pos": "QB",
               "pro": "BAL",
               "proj": 19.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jayden Reed",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "GB",
+              "proj": 10.0,
               "actual": 0.0,
               "injury": null
             },
@@ -95,18 +95,8 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 71.1,
-          "injuries": [
-            {
-              "name": "Malik Nabers",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "NYG",
-              "proj": 13.8,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "bench_proj": 74.9,
+          "injuries": []
         },
         "away": {
           "teamId": 6,

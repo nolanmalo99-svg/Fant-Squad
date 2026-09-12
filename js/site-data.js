@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-12T16:00:57+00:00",
+  "generated_at": "2026-09-12T20:00:54+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -21876,21 +21876,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4595348,
-          "name": "Malik Nabers",
-          "slot": "WR",
-          "pos": "WR",
-          "pro": "NYG",
-          "proj": 13.8,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 301.4,
-          "starter": true,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 16800,
           "name": "Davante Adams",
           "slot": "WR",
@@ -21902,6 +21887,21 @@ window.SITE_DATA = {
           "season_total": 5.6,
           "games_played": 1,
           "preseason_proj_total": 257.1,
+          "starter": true,
+          "injury": null
+        },
+        {
+          "player_id": 4362249,
+          "name": "Jayden Reed",
+          "slot": "WR",
+          "pos": "WR",
+          "pro": "GB",
+          "proj": 10.0,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 177.8,
           "starter": true,
           "injury": null
         },
@@ -21981,6 +21981,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4595348,
+          "name": "Malik Nabers",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "NYG",
+          "proj": 13.8,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 0,
+          "preseason_proj_total": 301.4,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
           "player_id": 3128429,
           "name": "Courtland Sutton",
           "slot": "BE",
@@ -21992,21 +22007,6 @@ window.SITE_DATA = {
           "season_total": 0.0,
           "games_played": 0,
           "preseason_proj_total": 227.6,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4362249,
-          "name": "Jayden Reed",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "GB",
-          "proj": 10.0,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 0,
-          "preseason_proj_total": 177.8,
           "starter": false,
           "injury": null
         },
