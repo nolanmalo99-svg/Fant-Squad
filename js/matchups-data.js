@@ -95,7 +95,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 74.8,
+          "bench_proj": 68.8,
           "injuries": []
         },
         "away": {
@@ -252,7 +252,7 @@ window.MATCHUPS_DATA = {
               "pro": "CHI",
               "proj": 12.4,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Jayden Daniels",
@@ -292,17 +292,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 77.2,
-          "injuries": [
-            {
-              "name": "Rome Odunze",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "CHI",
-              "proj": 12.4,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "away": {
           "teamId": 5,
