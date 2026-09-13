@@ -90,12 +90,12 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "NYJ",
-              "proj": 6.5,
+              "proj": 6.6,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 74.9,
+          "bench_proj": 74.8,
           "injuries": []
         },
         "away": {
@@ -311,7 +311,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "0-0",
           "actual": 26.2,
-          "projected": 127.1,
+          "projected": 127.0,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -390,7 +390,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "PHI",
-              "proj": 6.2,
+              "proj": 6.1,
               "actual": 0.0,
               "injury": null
             }
@@ -507,7 +507,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 10.0,
-          "projected": 116.7,
+          "projected": 116.4,
           "starters": [
             {
               "name": "Drake London",
@@ -541,7 +541,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "LV",
-              "proj": 18.3,
+              "proj": 17.9,
               "actual": 0.0,
               "injury": null
             },
@@ -591,7 +591,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 62.9,
+          "bench_proj": 63.2,
           "injuries": []
         },
         "played": true,
@@ -693,7 +693,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 72.9,
+          "bench_proj": 72.8,
           "injuries": [
             {
               "name": "A.J. Brown",
