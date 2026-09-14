@@ -10,8 +10,8 @@ window.MATCHUPS_DATA = {
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "0-0",
-          "actual": 138.1,
-          "projected": 149.8,
+          "actual": 151.0,
+          "projected": 151.0,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -29,6 +29,15 @@ window.MATCHUPS_DATA = {
               "pro": "BAL",
               "proj": 16.4,
               "actual": 35.3,
+              "injury": null
+            },
+            {
+              "name": "Malik Nabers",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "NYG",
+              "proj": 12.7,
+              "actual": 12.9,
               "injury": null
             },
             {
@@ -59,15 +68,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Courtland Sutton",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "DEN",
-              "proj": 11.7,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Cameron Dicker",
               "slot": "K",
               "pos": "K",
@@ -95,7 +95,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 66.0,
+          "bench_proj": 65.0,
           "injuries": [
             {
               "name": "Ladd McConkey",
@@ -114,8 +114,8 @@ window.MATCHUPS_DATA = {
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
           "record": "0-0",
-          "actual": 68.5,
-          "projected": 112.1,
+          "actual": 88.5,
+          "projected": 100.7,
           "starters": [
             {
               "name": "Puka Nacua",
@@ -141,7 +141,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "DAL",
               "proj": 14.7,
-              "actual": 0.0,
+              "actual": 5.8,
               "injury": null
             },
             {
@@ -168,7 +168,7 @@ window.MATCHUPS_DATA = {
               "pos": "QB",
               "pro": "DAL",
               "proj": 16.6,
-              "actual": 0.0,
+              "actual": 14.2,
               "injury": null
             },
             {
@@ -204,10 +204,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 69.6,
+        "margin": 62.5,
         "winner": "Andy Jensen",
         "phase": "recap",
-        "blurb": "Final: Owen Koslosku 68.5 - Andy Jensen 138.1. Andy Jensen won by 69.6. Top scorers for Andy Jensen: Derrick Henry (35.3), Bijan Robinson (31.3)."
+        "blurb": "Final: Owen Koslosku 88.5 - Andy Jensen 151.0. Andy Jensen won by 62.5. Top scorers for Andy Jensen: Derrick Henry (35.3), Bijan Robinson (31.3)."
       },
       {
         "home": {
@@ -310,8 +310,8 @@ window.MATCHUPS_DATA = {
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
           "record": "0-0",
-          "actual": 135.7,
-          "projected": 145.6,
+          "actual": 137.7,
+          "projected": 137.7,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -382,7 +382,7 @@ window.MATCHUPS_DATA = {
               "pos": "K",
               "pro": "DAL",
               "proj": 9.9,
-              "actual": 0.0,
+              "actual": 2.0,
               "injury": null
             },
             {
@@ -400,10 +400,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 27.0,
+        "margin": 29.0,
         "winner": "Zach Mensink",
         "phase": "recap",
-        "blurb": "Final: Zach Mensink 135.7 - Noah Budach 108.7. Zach Mensink won by 27.0. Top scorers for Zach Mensink: D'Andre Swift (32.4), Jaxon Smith-Njigba (26.2)."
+        "blurb": "Final: Zach Mensink 137.7 - Noah Budach 108.7. Zach Mensink won by 29.0. Top scorers for Zach Mensink: D'Andre Swift (32.4), Jaxon Smith-Njigba (26.2)."
       },
       {
         "home": {
@@ -503,11 +503,11 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
-          "actual": 119.7,
-          "projected": 129.5,
+          "actual": 122.3,
+          "projected": 122.3,
           "starters": [
             {
               "name": "Drake London",
@@ -569,7 +569,7 @@ window.MATCHUPS_DATA = {
               "pos": "TE",
               "pro": "DAL",
               "proj": 9.8,
-              "actual": 0.0,
+              "actual": 2.6,
               "injury": null
             },
             {
@@ -596,10 +596,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 42.2,
+        "margin": 44.8,
         "winner": "Mitch Wiese",
         "phase": "recap",
-        "blurb": "Final: Mitch Wiese 119.7 - Dawson Leer 77.5. Mitch Wiese won by 42.2. Top scorers for Mitch Wiese: Josh Allen (35.5), Ashton Jeanty (32.7)."
+        "blurb": "Final: Mitch Wiese 122.3 - Dawson Leer 77.5. Mitch Wiese won by 44.8. Top scorers for Mitch Wiese: Josh Allen (35.5), Ashton Jeanty (32.7)."
       },
       {
         "home": {
@@ -712,8 +712,8 @@ window.MATCHUPS_DATA = {
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
           "record": "0-0",
-          "actual": 112.3,
-          "projected": 127.6,
+          "actual": 136.5,
+          "projected": 136.5,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -748,7 +748,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "DAL",
               "proj": 15.3,
-              "actual": 0.0,
+              "actual": 24.2,
               "injury": null
             },
             {
@@ -812,10 +812,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 1.6,
+        "margin": 25.8,
         "winner": "Nolan Malo",
         "phase": "recap",
-        "blurb": "Final: Nolan Malo 112.3 - alex raichle 110.7. Nolan Malo won by 1.6. Top scorers for Nolan Malo: Amon-Ra St. Brown (28.7), Zay Flowers (26.0)."
+        "blurb": "Final: Nolan Malo 136.5 - alex raichle 110.7. Nolan Malo won by 25.8. Top scorers for Nolan Malo: Amon-Ra St. Brown (28.7), Zay Flowers (26.0)."
       },
       {
         "home": {
@@ -824,8 +824,8 @@ window.MATCHUPS_DATA = {
           "team": "Ja'Maar-a-Lago",
           "owner": "spencer glynn",
           "record": "0-0",
-          "actual": 91.4,
-          "projected": 109.9,
+          "actual": 118.0,
+          "projected": 118.0,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -878,7 +878,7 @@ window.MATCHUPS_DATA = {
               "pos": "QB",
               "pro": "NYG",
               "proj": 18.5,
-              "actual": 0.0,
+              "actual": 26.6,
               "injury": null
             },
             {
@@ -918,8 +918,8 @@ window.MATCHUPS_DATA = {
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
           "record": "0-0",
-          "actual": 136.1,
-          "projected": 153.4,
+          "actual": 151.5,
+          "projected": 151.5,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -927,7 +927,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "DAL",
               "proj": 17.3,
-              "actual": 0.0,
+              "actual": 15.4,
               "injury": null
             },
             {
@@ -1008,10 +1008,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 44.7,
+        "margin": 33.5,
         "winner": "Brady Schuster",
         "phase": "recap",
-        "blurb": "Final: Brady Schuster 136.1 - spencer glynn 91.4. Brady Schuster won by 44.7. Top scorers for Brady Schuster: Chris Olave (28.2), Jalen Hurts (24.6)."
+        "blurb": "Final: Brady Schuster 151.5 - spencer glynn 118.0. Brady Schuster won by 33.5. Top scorers for Brady Schuster: Chris Olave (28.2), Jalen Hurts (24.6)."
       }
     ],
     "2": [
@@ -1031,7 +1031,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -1049,8 +1049,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1058,8 +1058,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1110,8 +1110,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1119,8 +1119,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1171,8 +1171,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1180,8 +1180,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1293,8 +1293,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1356,8 +1356,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1365,8 +1365,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1417,8 +1417,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1448,7 +1448,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -1478,8 +1478,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1487,8 +1487,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1539,8 +1539,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1600,8 +1600,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1672,8 +1672,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1733,8 +1733,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1794,8 +1794,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1846,8 +1846,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1855,8 +1855,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -1889,7 +1889,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -1907,8 +1907,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1916,8 +1916,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2040,8 +2040,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2092,8 +2092,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2101,8 +2101,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2153,8 +2153,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2162,8 +2162,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2196,7 +2196,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -2214,8 +2214,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2223,8 +2223,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2277,8 +2277,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2286,8 +2286,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2308,7 +2308,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -2338,8 +2338,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2347,8 +2347,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2399,8 +2399,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2460,8 +2460,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2530,8 +2530,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2584,8 +2584,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2593,8 +2593,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2627,7 +2627,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -2654,8 +2654,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2715,8 +2715,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2767,8 +2767,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2776,8 +2776,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2828,8 +2828,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -2891,8 +2891,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2922,7 +2922,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -2952,8 +2952,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3013,8 +3013,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3022,8 +3022,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3074,8 +3074,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3083,8 +3083,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3144,8 +3144,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3207,8 +3207,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3259,8 +3259,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3290,7 +3290,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -3320,8 +3320,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3340,7 +3340,7 @@ window.MATCHUPS_DATA = {
         "revenge": {
           "week": 1,
           "home_won": true,
-          "home_pts": 119.7,
+          "home_pts": 122.3,
           "away_pts": 77.5
         },
         "fun_facts": [
@@ -3387,8 +3387,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3396,8 +3396,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3448,8 +3448,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3457,8 +3457,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3468,8 +3468,8 @@ window.MATCHUPS_DATA = {
         "revenge": {
           "week": 1,
           "home_won": true,
-          "home_pts": 136.1,
-          "away_pts": 91.4
+          "home_pts": 151.5,
+          "away_pts": 118.0
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
@@ -3499,7 +3499,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -3517,8 +3517,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3526,8 +3526,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3578,8 +3578,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3598,7 +3598,7 @@ window.MATCHUPS_DATA = {
         "revenge": {
           "week": 1,
           "home_won": true,
-          "home_pts": 135.7,
+          "home_pts": 137.7,
           "away_pts": 108.7
         },
         "fun_facts": [
@@ -3645,8 +3645,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3654,8 +3654,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3706,8 +3706,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3726,7 +3726,7 @@ window.MATCHUPS_DATA = {
         "revenge": {
           "week": 1,
           "home_won": true,
-          "home_pts": 112.3,
+          "home_pts": 136.5,
           "away_pts": 110.7
         },
         "fun_facts": [
@@ -3782,8 +3782,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3836,8 +3836,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3845,8 +3845,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3897,8 +3897,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3906,8 +3906,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -3940,7 +3940,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -3958,8 +3958,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3967,8 +3967,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4089,8 +4089,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4143,8 +4143,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4152,8 +4152,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4213,8 +4213,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4265,8 +4265,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4335,8 +4335,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4357,7 +4357,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -4387,8 +4387,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4396,8 +4396,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4511,8 +4511,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4572,8 +4572,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4581,8 +4581,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4633,8 +4633,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4642,8 +4642,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4664,7 +4664,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -4694,8 +4694,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4703,8 +4703,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4757,8 +4757,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 68.5,
-          "recent_avg": 68.5,
+          "season_avg": 88.5,
+          "recent_avg": 88.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4766,8 +4766,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 138.1,
-          "recent_avg": 138.1,
+          "season_avg": 151.0,
+          "recent_avg": 151.0,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4777,8 +4777,8 @@ window.MATCHUPS_DATA = {
         "revenge": {
           "week": 1,
           "home_won": false,
-          "home_pts": 68.5,
-          "away_pts": 138.1
+          "home_pts": 88.5,
+          "away_pts": 151.0
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
@@ -4794,7 +4794,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 8,
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
-          "team": "Idk how im here",
+          "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "0-0",
           "actual": 0.0,
@@ -4824,8 +4824,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 119.7,
-          "recent_avg": 119.7,
+          "season_avg": 122.3,
+          "recent_avg": 122.3,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4833,8 +4833,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 135.7,
-          "recent_avg": 135.7,
+          "season_avg": 137.7,
+          "recent_avg": 137.7,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4885,8 +4885,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 136.1,
-          "recent_avg": 136.1,
+          "season_avg": 151.5,
+          "recent_avg": 151.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4894,8 +4894,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 112.3,
-          "recent_avg": 112.3,
+          "season_avg": 136.5,
+          "recent_avg": 136.5,
           "streak": 1,
           "streak_type": "W",
           "trend": "steady"
@@ -4946,8 +4946,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 91.4,
-          "recent_avg": 91.4,
+          "season_avg": 118.0,
+          "recent_avg": 118.0,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
