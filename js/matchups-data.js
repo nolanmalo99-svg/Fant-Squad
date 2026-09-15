@@ -114,8 +114,8 @@ window.MATCHUPS_DATA = {
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
           "record": "0-0",
-          "actual": 88.5,
-          "projected": 100.7,
+          "actual": 89.7,
+          "projected": 89.7,
           "starters": [
             {
               "name": "Puka Nacua",
@@ -159,7 +159,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "DEN",
               "proj": 12.2,
-              "actual": 0.0,
+              "actual": 1.2,
               "injury": null
             },
             {
@@ -204,10 +204,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 62.5,
+        "margin": 61.3,
         "winner": "Andy Jensen",
         "phase": "recap",
-        "blurb": "Final: Owen Koslosku 88.5 - Andy Jensen 151.0. Andy Jensen won by 62.5. Top scorers for Andy Jensen: Derrick Henry (35.3), Bijan Robinson (31.3)."
+        "blurb": "Final: Owen Koslosku 89.7 - Andy Jensen 151.0. Andy Jensen won by 61.3. Top scorers for Andy Jensen: Derrick Henry (35.3), Bijan Robinson (31.3)."
       },
       {
         "home": {
@@ -412,8 +412,8 @@ window.MATCHUPS_DATA = {
           "team": "This Just In",
           "owner": "Dawson Leer",
           "record": "0-0",
-          "actual": 77.5,
-          "projected": 121.9,
+          "actual": 143.0,
+          "projected": 143.0,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -430,7 +430,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "KC",
               "proj": 14.7,
-              "actual": 0.0,
+              "actual": 34.1,
               "injury": null
             },
             {
@@ -439,7 +439,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "KC",
               "proj": 14.4,
-              "actual": 0.0,
+              "actual": 9.9,
               "injury": null
             },
             {
@@ -475,7 +475,7 @@ window.MATCHUPS_DATA = {
               "pos": "QB",
               "pro": "KC",
               "proj": 15.3,
-              "actual": 0.0,
+              "actual": 21.5,
               "injury": null
             },
             {
@@ -596,10 +596,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 44.8,
-        "winner": "Mitch Wiese",
+        "margin": 20.7,
+        "winner": "Dawson Leer",
         "phase": "recap",
-        "blurb": "Final: Mitch Wiese 122.3 - Dawson Leer 77.5. Mitch Wiese won by 44.8. Top scorers for Mitch Wiese: Josh Allen (35.5), Ashton Jeanty (32.7)."
+        "blurb": "Final: Mitch Wiese 122.3 - Dawson Leer 143.0. Dawson Leer won by 20.7. Top scorers for Dawson Leer: Kenneth Walker III (34.1), Justin Jefferson (31.2)."
       },
       {
         "home": {
@@ -1056,12 +1056,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -1180,8 +1180,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1300,12 +1300,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -1476,12 +1476,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "spencer glynn (0-0) at Mitch Wiese (0-0). Projected: spencer glynn 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -1600,19 +1600,19 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -1783,12 +1783,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Brady Schuster (0-0) at Dawson Leer (0-0). Projected: Brady Schuster 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -1907,19 +1907,19 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -1977,12 +1977,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -2101,8 +2101,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2221,12 +2221,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -2277,8 +2277,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2336,12 +2336,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Nolan Malo (0-0) at Mitch Wiese (0-0). Projected: Nolan Malo 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -2519,12 +2519,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Andy Jensen (0-0) at Dawson Leer (0-0). Projected: Andy Jensen 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -2593,8 +2593,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2652,12 +2652,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -2835,12 +2835,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -2891,8 +2891,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2950,12 +2950,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Noah Budach (0-0) at Mitch Wiese (0-0). Projected: Noah Budach 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -3133,12 +3133,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Nolan Malo (0-0) at Dawson Leer (0-0). Projected: Nolan Malo 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -3207,8 +3207,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3318,30 +3318,30 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Dawson Leer (0-0) at Mitch Wiese (0-0). Projected: Dawson Leer 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": {
           "week": 1,
-          "home_won": true,
+          "home_won": false,
           "home_pts": 122.3,
-          "away_pts": 77.5
+          "away_pts": 143.0
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
@@ -3524,12 +3524,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -3645,8 +3645,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3771,12 +3771,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "spencer glynn (0-0) at Dawson Leer (0-0). Projected: spencer glynn 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -3965,12 +3965,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -4078,19 +4078,19 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Owen Koslosku (0-0) at Dawson Leer (0-0). Projected: Owen Koslosku 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4272,12 +4272,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -4385,19 +4385,19 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Owen Koslosku (0-0) at Mitch Wiese (0-0). Projected: Owen Koslosku 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4457,12 +4457,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -4572,8 +4572,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4692,12 +4692,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Brady Schuster (0-0) at Mitch Wiese (0-0). Projected: Brady Schuster 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -4757,8 +4757,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
-          "season_avg": 88.5,
-          "recent_avg": 88.5,
+          "season_avg": 89.7,
+          "recent_avg": 89.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4777,7 +4777,7 @@ window.MATCHUPS_DATA = {
         "revenge": {
           "week": 1,
           "home_won": false,
-          "home_pts": 88.5,
+          "home_pts": 89.7,
           "away_pts": 151.0
         },
         "fun_facts": [
@@ -4822,12 +4822,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Zach Mensink (0-0) at Mitch Wiese (0-0). Projected: Zach Mensink 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "1-0",
+          "record_last_n": "0-1",
           "games_considered": 1,
           "season_avg": 122.3,
           "recent_avg": 122.3,
           "streak": 1,
-          "streak_type": "W",
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -5005,12 +5005,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Noah Budach (0-0) at Dawson Leer (0-0). Projected: Noah Budach 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "0-1",
+          "record_last_n": "1-0",
           "games_considered": 1,
-          "season_avg": 77.5,
-          "recent_avg": 77.5,
+          "season_avg": 143.0,
+          "recent_avg": 143.0,
           "streak": 1,
-          "streak_type": "L",
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
