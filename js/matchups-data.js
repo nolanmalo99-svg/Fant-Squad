@@ -476,7 +476,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "1-0",
           "actual": 0.0,
-          "projected": 124.4,
+          "projected": 124.5,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -524,20 +524,20 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Terry McLaurin",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "WSH",
-              "proj": 12.4,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Joe Burrow",
               "slot": "QB",
               "pos": "QB",
               "pro": "CIN",
               "proj": 16.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Mike Evans",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "SF",
+              "proj": 12.5,
               "actual": 0.0,
               "injury": null
             },
@@ -560,7 +560,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 54.3,
+          "bench_proj": 54.2,
           "injuries": [
             {
               "name": "Zay Flowers",
@@ -682,7 +682,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (1-0) at Nolan Malo (1-0). Projected: Andy Jensen 127.8 - Nolan Malo 124.4. Andy Jensen favored by 3.4.",
+        "blurb": "Andy Jensen (1-0) at Nolan Malo (1-0). Projected: Andy Jensen 127.8 - Nolan Malo 124.5. Andy Jensen favored by 3.3.",
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
@@ -776,7 +776,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 47.5,
+            "home_proj": 47.6,
             "away_proj": 43.2,
             "edge": "home"
           }

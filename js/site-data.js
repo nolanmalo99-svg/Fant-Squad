@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-15T20:01:08+00:00",
+  "generated_at": "2026-09-16T00:00:58+00:00",
   "current_week": 2,
   "standings": [
     {
@@ -10641,17 +10641,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 3121422,
-          "name": "Terry McLaurin",
+          "player_id": 16737,
+          "name": "Mike Evans",
           "slot": "FLEX",
           "pos": "WR",
-          "pro": "WSH",
-          "proj": 12.4,
+          "pro": "SF",
+          "proj": 12.5,
           "actual": 0.0,
-          "season_ppg": 3.4,
-          "season_total": 3.4,
+          "season_ppg": 16.9,
+          "season_total": 16.9,
           "games_played": 1,
-          "preseason_proj_total": 247.7,
+          "preseason_proj_total": 235.1,
           "starter": true,
           "injury": null
         },
@@ -10686,17 +10686,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 16737,
-          "name": "Mike Evans",
+          "player_id": 3121422,
+          "name": "Terry McLaurin",
           "slot": "BE",
           "pos": "WR",
-          "pro": "SF",
-          "proj": 12.5,
+          "pro": "WSH",
+          "proj": 12.4,
           "actual": 0.0,
-          "season_ppg": 16.9,
-          "season_total": 16.9,
+          "season_ppg": 3.4,
+          "season_total": 3.4,
           "games_played": 1,
-          "preseason_proj_total": 235.1,
+          "preseason_proj_total": 247.7,
           "starter": false,
           "injury": null
         },
