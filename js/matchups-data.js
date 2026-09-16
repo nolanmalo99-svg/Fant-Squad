@@ -530,7 +530,7 @@ window.MATCHUPS_DATA = {
               "pro": "CIN",
               "proj": 16.4,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Mike Evans",
@@ -568,6 +568,15 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "BAL",
               "proj": 15.2,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Joe Burrow",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "CIN",
+              "proj": 16.4,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
