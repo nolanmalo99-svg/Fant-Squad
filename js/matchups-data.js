@@ -799,7 +799,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-0",
           "actual": 0.0,
-          "projected": 121.1,
+          "projected": 124.1,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -874,11 +874,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jaguars D/ST",
+              "name": "Chiefs D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "JAX",
-              "proj": 4.3,
+              "pro": "KC",
+              "proj": 7.2,
               "actual": 0.0,
               "injury": null
             }
@@ -985,7 +985,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (0-1) at Brady Schuster (1-0). Projected: Owen Koslosku 128.8 - Brady Schuster 121.1. Owen Koslosku favored by 7.7.",
+        "blurb": "Owen Koslosku (0-1) at Brady Schuster (1-0). Projected: Owen Koslosku 128.8 - Brady Schuster 124.1. Owen Koslosku favored by 4.7.",
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
@@ -1049,9 +1049,9 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 4.3,
+            "home_proj": 7.2,
             "away_proj": 6.8,
-            "edge": "away"
+            "edge": "even"
           },
           {
             "pos": "K",
@@ -1102,7 +1102,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "0-1",
           "actual": 0.0,
-          "projected": 123.1,
+          "projected": 124.3,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -1168,6 +1168,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Seahawks D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "SEA",
+              "proj": 7.6,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Trey Smack",
               "slot": "K",
               "pos": "K",
@@ -1175,18 +1184,9 @@ window.MATCHUPS_DATA = {
               "proj": 8.6,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Bears D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "CHI",
-              "proj": 6.4,
-              "actual": 0.0,
-              "injury": null
             }
           ],
-          "bench_proj": 72.3,
+          "bench_proj": 74.2,
           "injuries": []
         },
         "away": {
@@ -1288,7 +1288,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (0-1) at alex raichle (0-1). Projected: Noah Budach 126.7 - alex raichle 123.1. Noah Budach favored by 3.6.",
+        "blurb": "Noah Budach (0-1) at alex raichle (0-1). Projected: Noah Budach 126.7 - alex raichle 124.3. Noah Budach favored by 2.4.",
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
@@ -1352,9 +1352,9 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 6.4,
+            "home_proj": 7.6,
             "away_proj": 8.0,
-            "edge": "away"
+            "edge": "even"
           },
           {
             "pos": "K",
@@ -1499,7 +1499,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "1-0",
           "actual": 0.0,
-          "projected": 119.7,
+          "projected": 122.8,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -1574,11 +1574,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Lions D/ST",
+              "name": "Patriots D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "DET",
-              "proj": 3.5,
+              "pro": "NE",
+              "proj": 6.6,
               "actual": 0.0,
               "injury": null
             }
@@ -1591,7 +1591,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (1-0) at spencer glynn (0-1). Projected: Dawson Leer 119.7 - spencer glynn 118.6. Dawson Leer favored by 1.1.",
+        "blurb": "Dawson Leer (1-0) at spencer glynn (0-1). Projected: Dawson Leer 122.8 - spencer glynn 118.6. Dawson Leer favored by 4.2.",
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
@@ -1656,8 +1656,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 5.9,
-            "away_proj": 3.5,
-            "edge": "home"
+            "away_proj": 6.6,
+            "edge": "even"
           },
           {
             "pos": "K",
