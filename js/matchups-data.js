@@ -560,7 +560,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 54.5,
+          "bench_proj": 63.4,
           "injuries": [
             {
               "name": "Zay Flowers",
@@ -1186,7 +1186,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 64.4,
+          "bench_proj": 72.3,
           "injuries": []
         },
         "away": {
@@ -1196,7 +1196,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "0-1",
           "actual": 0.0,
-          "projected": 124.6,
+          "projected": 126.7,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -1271,11 +1271,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Rams D/ST",
+              "name": "Buccaneers D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "LAR",
-              "proj": 5.9,
+              "pro": "TB",
+              "proj": 8.0,
               "actual": 0.0,
               "injury": null
             }
@@ -1288,7 +1288,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (0-1) at alex raichle (0-1). Projected: Noah Budach 124.6 - alex raichle 123.1. Noah Budach favored by 1.5.",
+        "blurb": "Noah Budach (0-1) at alex raichle (0-1). Projected: Noah Budach 126.7 - alex raichle 123.1. Noah Budach favored by 3.6.",
         "home_form": {
           "record_last_n": "0-1",
           "games_considered": 1,
@@ -1353,8 +1353,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 6.4,
-            "away_proj": 5.9,
-            "edge": "even"
+            "away_proj": 8.0,
+            "edge": "away"
           },
           {
             "pos": "K",
@@ -1583,7 +1583,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 70.3,
+          "bench_proj": 70.8,
           "injuries": []
         },
         "played": false,
