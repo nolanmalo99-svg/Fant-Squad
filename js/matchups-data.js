@@ -846,7 +846,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-0",
           "actual": 0.0,
-          "projected": 123.9,
+          "projected": 125.4,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -894,11 +894,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Rhamondre Stevenson",
+              "name": "Aaron Jones Sr.",
               "slot": "RB",
               "pos": "RB",
-              "pro": "NE",
-              "proj": 12.9,
+              "pro": "MIN",
+              "proj": 14.4,
               "actual": 0.0,
               "injury": null
             },
@@ -930,7 +930,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 80.9,
+          "bench_proj": 79.4,
           "injuries": []
         },
         "away": {
@@ -1042,7 +1042,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (0-1) at Brady Schuster (1-0). Projected: Owen Koslosku 128.9 - Brady Schuster 123.9. Owen Koslosku favored by 5.0.",
+        "blurb": "Owen Koslosku (0-1) at Brady Schuster (1-0). Projected: Owen Koslosku 128.9 - Brady Schuster 125.4. Owen Koslosku favored by 3.5.",
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
@@ -1124,7 +1124,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 28.3,
+            "home_proj": 29.8,
             "away_proj": 48.2,
             "edge": "away"
           },

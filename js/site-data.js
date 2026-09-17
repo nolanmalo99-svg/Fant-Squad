@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-17T12:01:11+00:00",
+  "generated_at": "2026-09-17T16:01:13+00:00",
   "current_week": 2,
   "standings": [
     {
@@ -3896,17 +3896,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4569173,
-          "name": "Rhamondre Stevenson",
+          "player_id": 3042519,
+          "name": "Aaron Jones Sr.",
           "slot": "RB",
           "pos": "RB",
-          "pro": "NE",
-          "proj": 12.9,
+          "pro": "MIN",
+          "proj": 14.4,
           "actual": 0.0,
-          "season_ppg": 14.5,
-          "season_total": 14.5,
+          "season_ppg": 10.0,
+          "season_total": 10.0,
           "games_played": 1,
-          "preseason_proj_total": 173.1,
+          "preseason_proj_total": 216.3,
           "starter": true,
           "injury": null
         },
@@ -4001,17 +4001,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 3042519,
-          "name": "Aaron Jones Sr.",
+          "player_id": 4569173,
+          "name": "Rhamondre Stevenson",
           "slot": "BE",
           "pos": "RB",
-          "pro": "MIN",
-          "proj": 14.4,
+          "pro": "NE",
+          "proj": 12.9,
           "actual": 0.0,
-          "season_ppg": 10.0,
-          "season_total": 10.0,
+          "season_ppg": 14.5,
+          "season_total": 14.5,
           "games_played": 1,
-          "preseason_proj_total": 216.3,
+          "preseason_proj_total": 173.1,
           "starter": false,
           "injury": null
         },
