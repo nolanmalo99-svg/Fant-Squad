@@ -209,7 +209,7 @@ window.MATCHUPS_DATA = {
               "pro": "CHI",
               "proj": 13.4,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "DJ Moore",
@@ -258,7 +258,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 47.6,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "D'Andre Swift",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "CHI",
+              "proj": 13.4,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 8,
@@ -285,7 +295,7 @@ window.MATCHUPS_DATA = {
               "pro": "HOU",
               "proj": 16.2,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Josh Allen",
@@ -348,11 +358,30 @@ window.MATCHUPS_DATA = {
               "pro": "SF",
               "proj": 9.9,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             }
           ],
           "bench_proj": 73.2,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Nico Collins",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "HOU",
+              "proj": 16.2,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Eddy Pineiro",
+              "slot": "K",
+              "pos": "K",
+              "pro": "SF",
+              "proj": 9.9,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
@@ -965,7 +994,7 @@ window.MATCHUPS_DATA = {
               "pro": "SF",
               "proj": 10.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Chargers D/ST",
@@ -986,8 +1015,18 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 69.5,
-          "injuries": []
+          "bench_proj": 70.4,
+          "injuries": [
+            {
+              "name": "George Kittle",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "SF",
+              "proj": 10.5,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
@@ -1268,7 +1307,7 @@ window.MATCHUPS_DATA = {
               "pro": "CHI",
               "proj": 9.9,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Jason Myers",
@@ -1290,7 +1329,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 83.4,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Kyle Monangai",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "CHI",
+              "proj": 9.9,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
