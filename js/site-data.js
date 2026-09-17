@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-17T08:01:00+00:00",
+  "generated_at": "2026-09-17T12:01:11+00:00",
   "current_week": 2,
   "standings": [
     {
@@ -29780,19 +29780,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4242355,
-          "name": "Jake Ferguson",
+          "player_id": 4432665,
+          "name": "Brock Bowers",
           "slot": "TE",
           "pos": "TE",
-          "pro": "DAL",
-          "proj": 9.6,
+          "pro": "LV",
+          "proj": 14.4,
           "actual": 0.0,
-          "season_ppg": 2.6,
-          "season_total": 2.6,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
           "games_played": 1,
-          "preseason_proj_total": 150.4,
+          "preseason_proj_total": 262.2,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4426502,
@@ -29855,21 +29855,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4432665,
-          "name": "Brock Bowers",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "LV",
-          "proj": 14.4,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 1,
-          "preseason_proj_total": 262.2,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4371733,
           "name": "Kenny Gainwell",
           "slot": "BE",
@@ -29881,6 +29866,21 @@ window.SITE_DATA = {
           "season_total": 2.8,
           "games_played": 1,
           "preseason_proj_total": 193.2,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4242355,
+          "name": "Jake Ferguson",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "DAL",
+          "proj": 9.6,
+          "actual": 0.0,
+          "season_ppg": 2.6,
+          "season_total": 2.6,
+          "games_played": 1,
+          "preseason_proj_total": 150.4,
           "starter": false,
           "injury": null
         },
@@ -29915,6 +29915,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4432710,
+          "name": "TreVeyon Henderson",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "NE",
+          "proj": 9.3,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 1,
+          "preseason_proj_total": 223.8,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4686658,
           "name": "Mike Washington Jr.",
           "slot": "BE",
@@ -29932,7 +29947,7 @@ window.SITE_DATA = {
         {
           "player_id": 4360569,
           "name": "Jordan Mason",
-          "slot": "BE",
+          "slot": "IR",
           "pos": "RB",
           "pro": "MIN",
           "proj": 0.0,
@@ -29943,21 +29958,6 @@ window.SITE_DATA = {
           "preseason_proj_total": 133.6,
           "starter": false,
           "injury": "INJURY_RESERVE"
-        },
-        {
-          "player_id": 4432710,
-          "name": "TreVeyon Henderson",
-          "slot": "IR",
-          "pos": "RB",
-          "pro": "NE",
-          "proj": 9.3,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 1,
-          "preseason_proj_total": 223.8,
-          "starter": false,
-          "injury": null
         }
       ],
       "draft": {

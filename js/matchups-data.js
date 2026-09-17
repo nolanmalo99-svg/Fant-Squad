@@ -277,8 +277,17 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "0-1",
           "actual": 0.0,
-          "projected": 121.3,
+          "projected": 126.1,
           "starters": [
+            {
+              "name": "Brock Bowers",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "LV",
+              "proj": 14.4,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
             {
               "name": "Drake London",
               "slot": "FLEX",
@@ -334,15 +343,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jake Ferguson",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "DAL",
-              "proj": 9.6,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Texans D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
@@ -361,8 +361,17 @@ window.MATCHUPS_DATA = {
               "injury": "QUESTIONABLE"
             }
           ],
-          "bench_proj": 63.5,
+          "bench_proj": 68.0,
           "injuries": [
+            {
+              "name": "Brock Bowers",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "LV",
+              "proj": 14.4,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
             {
               "name": "Nico Collins",
               "slot": "WR",
@@ -388,7 +397,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (0-1) at Zach Mensink (1-0). Projected: Mitch Wiese 121.3 - Zach Mensink 119.0. Mitch Wiese favored by 2.3.",
+        "blurb": "Mitch Wiese (0-1) at Zach Mensink (1-0). Projected: Mitch Wiese 126.1 - Zach Mensink 119.0. Mitch Wiese favored by 7.1.",
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
@@ -477,8 +486,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "TE",
             "home_proj": 10.1,
-            "away_proj": 9.6,
-            "edge": "even"
+            "away_proj": 14.4,
+            "edge": "away"
           },
           {
             "pos": "WR",
@@ -490,7 +499,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Zach Mensink's worst week of the season.",
-          "If the projection holds, this would be Mitch Wiese's worst week of the season."
+          "If the projection holds, this would be Mitch Wiese's best week of the season."
         ],
         "head_to_head": {
           "home_w": 8,
