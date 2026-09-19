@@ -277,17 +277,8 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "0-1",
           "actual": 45.8,
-          "projected": 104.5,
+          "projected": 123.4,
           "starters": [
-            {
-              "name": "Brock Bowers",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "LV",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
             {
               "name": "Drake London",
               "slot": "WR",
@@ -296,15 +287,6 @@ window.MATCHUPS_DATA = {
               "proj": 12.8,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Nico Collins",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "HOU",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
             },
             {
               "name": "Josh Allen",
@@ -334,11 +316,29 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "TreVeyon Henderson",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "NE",
+              "proj": 9.3,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Jaylen Warren",
               "slot": "RB",
               "pos": "RB",
               "pro": "PIT",
               "proj": 11.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jake Ferguson",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "DAL",
+              "proj": 9.6,
               "actual": 0.0,
               "injury": null
             },
@@ -361,26 +361,8 @@ window.MATCHUPS_DATA = {
               "injury": "QUESTIONABLE"
             }
           ],
-          "bench_proj": 68.0,
+          "bench_proj": 49.1,
           "injuries": [
-            {
-              "name": "Brock Bowers",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "LV",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Nico Collins",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "HOU",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
             {
               "name": "Eddy Pineiro",
               "slot": "K",
@@ -735,7 +717,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 21.2,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Jonathan Taylor",
@@ -789,7 +771,7 @@ window.MATCHUPS_DATA = {
               "pro": "SF",
               "proj": 10.5,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Chargers D/ST",
@@ -813,11 +795,11 @@ window.MATCHUPS_DATA = {
           "bench_proj": 71.0,
           "injuries": [
             {
-              "name": "George Kittle",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "SF",
-              "proj": 10.5,
+              "name": "Puka Nacua",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "LAR",
+              "proj": 21.2,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -855,7 +837,7 @@ window.MATCHUPS_DATA = {
             "pro": "LAR",
             "proj": 21.2,
             "actual": 0.0,
-            "injury": null,
+            "injury": "QUESTIONABLE",
             "owner": "Owen Koslosku"
           },
           {

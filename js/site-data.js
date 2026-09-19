@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-18T20:00:58+00:00",
+  "generated_at": "2026-09-19T00:01:00+00:00",
   "current_week": 2,
   "standings": [
     {
@@ -26839,7 +26839,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 219.6,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4035687,
@@ -29780,34 +29780,34 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4432665,
-          "name": "Brock Bowers",
+          "player_id": 4242355,
+          "name": "Jake Ferguson",
           "slot": "TE",
           "pos": "TE",
-          "pro": "LV",
-          "proj": 0.0,
+          "pro": "DAL",
+          "proj": 9.6,
+          "actual": 0.0,
+          "season_ppg": 2.6,
+          "season_total": 2.6,
+          "games_played": 1,
+          "preseason_proj_total": 150.4,
+          "starter": true,
+          "injury": null
+        },
+        {
+          "player_id": 4432710,
+          "name": "TreVeyon Henderson",
+          "slot": "FLEX",
+          "pos": "RB",
+          "pro": "NE",
+          "proj": 9.3,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 1,
-          "preseason_proj_total": 262.2,
+          "preseason_proj_total": 223.8,
           "starter": true,
-          "injury": "QUESTIONABLE"
-        },
-        {
-          "player_id": 4258173,
-          "name": "Nico Collins",
-          "slot": "FLEX",
-          "pos": "WR",
-          "pro": "HOU",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 21.2,
-          "season_total": 21.2,
-          "games_played": 1,
-          "preseason_proj_total": 289.1,
-          "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16034,
@@ -29870,21 +29870,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4242355,
-          "name": "Jake Ferguson",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "DAL",
-          "proj": 9.6,
-          "actual": 0.0,
-          "season_ppg": 2.6,
-          "season_total": 2.6,
-          "games_played": 1,
-          "preseason_proj_total": 150.4,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4569587,
           "name": "Wan'Dale Robinson",
           "slot": "BE",
@@ -29915,21 +29900,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4432710,
-          "name": "TreVeyon Henderson",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "NE",
-          "proj": 9.3,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 1,
-          "preseason_proj_total": 223.8,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4686658,
           "name": "Mike Washington Jr.",
           "slot": "BE",
@@ -29943,6 +29913,36 @@ window.SITE_DATA = {
           "preseason_proj_total": 56.5,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4432665,
+          "name": "Brock Bowers",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "LV",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 1,
+          "preseason_proj_total": 262.2,
+          "starter": false,
+          "injury": "DOUBTFUL"
+        },
+        {
+          "player_id": 4258173,
+          "name": "Nico Collins",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "HOU",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 21.2,
+          "season_total": 21.2,
+          "games_played": 1,
+          "preseason_proj_total": 289.1,
+          "starter": false,
+          "injury": "OUT"
         },
         {
           "player_id": 4360569,
@@ -32175,7 +32175,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 298.6,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4426354,
@@ -32205,7 +32205,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 227.7,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4035538,
@@ -32325,7 +32325,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 270.0,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4432708,
