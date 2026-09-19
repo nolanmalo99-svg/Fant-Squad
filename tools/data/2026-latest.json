@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-19T16:00:39+00:00",
+  "generated_at": "2026-09-19T20:00:59+00:00",
   "current_week": 2,
   "standings": [
     {
@@ -10626,19 +10626,19 @@
           "injury": null
         },
         {
-          "player_id": 4429615,
-          "name": "Zay Flowers",
+          "player_id": 3121422,
+          "name": "Terry McLaurin",
           "slot": "WR",
           "pos": "WR",
-          "pro": "BAL",
-          "proj": 0.0,
+          "pro": "WSH",
+          "proj": 12.4,
           "actual": 0.0,
-          "season_ppg": 26.0,
-          "season_total": 26.0,
+          "season_ppg": 3.4,
+          "season_total": 3.4,
           "games_played": 1,
-          "preseason_proj_total": 232.5,
+          "preseason_proj_total": 247.7,
           "starter": true,
-          "injury": "DOUBTFUL"
+          "injury": null
         },
         {
           "player_id": 4431459,
@@ -10698,21 +10698,6 @@
           "games_played": 1,
           "preseason_proj_total": 135.8,
           "starter": true,
-          "injury": null
-        },
-        {
-          "player_id": 3121422,
-          "name": "Terry McLaurin",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "WSH",
-          "proj": 12.4,
-          "actual": 0.0,
-          "season_ppg": 3.4,
-          "season_total": 3.4,
-          "games_played": 1,
-          "preseason_proj_total": 247.7,
-          "starter": false,
           "injury": null
         },
         {
@@ -10789,6 +10774,21 @@
           "preseason_proj_total": 0.0,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4429615,
+          "name": "Zay Flowers",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "BAL",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 26.0,
+          "season_total": 26.0,
+          "games_played": 1,
+          "preseason_proj_total": 232.5,
+          "starter": false,
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 3917315,
@@ -26854,7 +26854,7 @@
           "games_played": 1,
           "preseason_proj_total": 201.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         }
       ],
       "draft": {

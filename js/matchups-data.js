@@ -389,7 +389,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "1-0",
           "actual": 56.1,
-          "projected": 128.5,
+          "projected": 140.9,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -410,15 +410,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Zay Flowers",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "BAL",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "DOUBTFUL"
-            },
-            {
               "name": "Javonte Williams",
               "slot": "RB",
               "pos": "RB",
@@ -433,6 +424,15 @@ window.MATCHUPS_DATA = {
               "pos": "TE",
               "pro": "IND",
               "proj": 11.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Terry McLaurin",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "WSH",
+              "proj": 12.4,
               "actual": 0.0,
               "injury": null
             },
@@ -473,17 +473,8 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 63.3,
+          "bench_proj": 50.9,
           "injuries": [
-            {
-              "name": "Zay Flowers",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "BAL",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "DOUBTFUL"
-            },
             {
               "name": "Joe Burrow",
               "slot": "QB",
