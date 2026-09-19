@@ -257,7 +257,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 48.3,
+          "bench_proj": 48.2,
           "injuries": [
             {
               "name": "DJ Moore",
@@ -277,7 +277,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "0-1",
           "actual": 45.8,
-          "projected": 123.4,
+          "projected": 123.5,
           "starters": [
             {
               "name": "Drake London",
@@ -293,7 +293,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "BUF",
-              "proj": 22.5,
+              "proj": 22.4,
               "actual": 40.5,
               "injury": null
             },
@@ -441,7 +441,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "CIN",
-              "proj": 16.4,
+              "proj": 16.3,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -468,7 +468,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "BAL",
-              "proj": 6.8,
+              "proj": 6.9,
               "actual": 0.0,
               "injury": null
             }
@@ -489,7 +489,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "CIN",
-              "proj": 16.4,
+              "proj": 16.3,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -502,7 +502,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "1-0",
           "actual": 0.0,
-          "projected": 127.6,
+          "projected": 127.7,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -545,7 +545,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "BAL",
-              "proj": 21.6,
+              "proj": 21.5,
               "actual": 0.0,
               "injury": null
             },
@@ -554,7 +554,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "DEN",
-              "proj": 11.9,
+              "proj": 12.0,
               "actual": 0.0,
               "injury": null
             },
@@ -586,7 +586,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 79.4,
+          "bench_proj": 79.5,
           "injuries": []
         },
         "played": true,
@@ -620,7 +620,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "CIN",
-              "proj": 15.4,
+              "proj": 15.5,
               "actual": 0.0,
               "injury": null
             },
@@ -778,7 +778,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "LAC",
-              "proj": 6.7,
+              "proj": 6.8,
               "actual": 0.0,
               "injury": null
             },
@@ -875,7 +875,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 7.2,
-            "away_proj": 6.7,
+            "away_proj": 6.8,
             "edge": "even"
           },
           {
@@ -892,7 +892,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 29.5,
+            "home_proj": 29.6,
             "away_proj": 48.4,
             "edge": "away"
           },
@@ -927,7 +927,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "0-1",
           "actual": 23.3,
-          "projected": 123.1,
+          "projected": 123.2,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -1021,7 +1021,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "0-1",
           "actual": 0.0,
-          "projected": 126.0,
+          "projected": 126.1,
           "starters": [
             {
               "name": "Christian McCaffrey",
