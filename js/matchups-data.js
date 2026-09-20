@@ -257,7 +257,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 48.2,
+          "bench_proj": 47.7,
           "injuries": [
             {
               "name": "DJ Moore",
@@ -611,7 +611,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "CIN",
-              "proj": 15.5,
+              "proj": 15.4,
               "actual": 0.0,
               "injury": null
             },
@@ -699,14 +699,14 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "0-1",
           "actual": 0.0,
-          "projected": 129.3,
+          "projected": 129.4,
           "starters": [
             {
               "name": "Puka Nacua",
               "slot": "WR",
               "pos": "WR",
               "pro": "LAR",
-              "proj": 21.2,
+              "proj": 21.3,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -790,7 +790,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "LAR",
-              "proj": 21.2,
+              "proj": 21.3,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -801,7 +801,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (0-1) at Brady Schuster (1-0). Projected: Owen Koslosku 129.3 - Brady Schuster 124.6. Owen Koslosku favored by 4.7.",
+        "blurb": "Owen Koslosku (0-1) at Brady Schuster (1-0). Projected: Owen Koslosku 129.4 - Brady Schuster 124.6. Owen Koslosku favored by 4.8.",
         "home_form": {
           "record_last_n": "1-0",
           "games_considered": 1,
@@ -826,7 +826,7 @@ window.MATCHUPS_DATA = {
             "slot": "WR",
             "pos": "WR",
             "pro": "LAR",
-            "proj": 21.2,
+            "proj": 21.3,
             "actual": 0.0,
             "injury": "QUESTIONABLE",
             "owner": "Owen Koslosku"
@@ -883,7 +883,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 29.6,
+            "home_proj": 29.5,
             "away_proj": 48.4,
             "edge": "away"
           },
@@ -896,7 +896,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 47.7,
-            "away_proj": 36.0,
+            "away_proj": 36.1,
             "edge": "home"
           }
         ],
@@ -918,7 +918,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "0-1",
           "actual": 23.3,
-          "projected": 123.2,
+          "projected": 123.1,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
