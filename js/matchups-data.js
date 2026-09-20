@@ -1114,7 +1114,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-1",
           "actual": 0.0,
-          "projected": 119.5,
+          "projected": 118.8,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -1122,15 +1122,6 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "CIN",
               "proj": 19.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Jeremiyah Love",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "ARI",
-              "proj": 12.9,
               "actual": 0.0,
               "injury": null
             },
@@ -1158,6 +1149,15 @@ window.MATCHUPS_DATA = {
               "pos": "TE",
               "pro": "CHI",
               "proj": 11.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Parker Washington",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "JAX",
+              "proj": 12.2,
               "actual": 0.0,
               "injury": null
             },
@@ -1198,7 +1198,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 81.5,
+          "bench_proj": 82.2,
           "injuries": []
         },
         "away": {
