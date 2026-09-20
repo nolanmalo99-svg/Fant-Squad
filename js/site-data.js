@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-20T12:00:50+00:00",
+  "generated_at": "2026-09-20T16:01:02+00:00",
   "current_week": 2,
   "standings": [
     {
@@ -3938,7 +3938,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 209.8,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 3121023,
@@ -10578,7 +10578,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 330.3,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4379399,
@@ -22001,7 +22001,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "QB",
           "pro": "DEN",
-          "proj": 18.4,
+          "proj": 18.5,
           "actual": 0.0,
           "season_ppg": 5.4,
           "season_total": 5.4,
@@ -22031,7 +22031,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "RB",
           "pro": "DEN",
-          "proj": 11.7,
+          "proj": 12.6,
           "actual": 0.0,
           "season_ppg": 3.6,
           "season_total": 3.6,
@@ -26797,21 +26797,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4568490,
-          "name": "RJ Harvey",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "DEN",
-          "proj": 10.0,
-          "actual": 0.0,
-          "season_ppg": 8.1,
-          "season_total": 8.1,
-          "games_played": 1,
-          "preseason_proj_total": 207.3,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 3116165,
           "name": "Chris Godwin Jr.",
           "slot": "BE",
@@ -26855,6 +26840,21 @@ window.SITE_DATA = {
           "preseason_proj_total": 201.1,
           "starter": false,
           "injury": "OUT"
+        },
+        {
+          "player_id": 4568490,
+          "name": "RJ Harvey",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "DEN",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 8.1,
+          "season_total": 8.1,
+          "games_played": 1,
+          "preseason_proj_total": 207.3,
+          "starter": false,
+          "injury": "QUESTIONABLE"
         }
       ],
       "draft": {
@@ -32258,7 +32258,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "DEN",
-          "proj": 12.1,
+          "proj": 12.2,
           "actual": 0.0,
           "season_ppg": 1.2,
           "season_total": 1.2,

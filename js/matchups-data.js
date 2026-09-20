@@ -443,7 +443,7 @@ window.MATCHUPS_DATA = {
               "pro": "CIN",
               "proj": 16.3,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Mike Evans",
@@ -474,17 +474,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 50.9,
-          "injuries": [
-            {
-              "name": "Joe Burrow",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "CIN",
-              "proj": 16.3,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "away": {
           "teamId": 9,
@@ -577,7 +567,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 79.5,
+          "bench_proj": 80.5,
           "injuries": []
         },
         "played": true,
@@ -622,7 +612,7 @@ window.MATCHUPS_DATA = {
               "pro": "NO",
               "proj": 15.9,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Emeka Egbuka",
@@ -680,17 +670,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 80.4,
-          "injuries": [
-            {
-              "name": "Chris Olave",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "NO",
-              "proj": 15.9,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "away": {
           "teamId": 6,
@@ -783,7 +763,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 71.0,
+          "bench_proj": 71.1,
           "injuries": [
             {
               "name": "Puka Nacua",
@@ -1096,7 +1076,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 72.0,
+          "bench_proj": 62.0,
           "injuries": []
         },
         "played": true,
