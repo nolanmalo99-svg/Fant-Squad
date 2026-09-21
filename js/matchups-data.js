@@ -378,8 +378,8 @@ window.MATCHUPS_DATA = {
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
           "record": "1-0",
-          "actual": 107.4,
-          "projected": 118.8,
+          "actual": 121.8,
+          "projected": 121.8,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -414,7 +414,7 @@ window.MATCHUPS_DATA = {
               "pos": "TE",
               "pro": "IND",
               "proj": 11.4,
-              "actual": 0.0,
+              "actual": 14.4,
               "injury": null
             },
             {
@@ -482,8 +482,8 @@ window.MATCHUPS_DATA = {
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "1-0",
-          "actual": 58.9,
-          "projected": 99.9,
+          "actual": 84.0,
+          "projected": 114.4,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -545,7 +545,7 @@ window.MATCHUPS_DATA = {
               "pos": "TE",
               "pro": "KC",
               "proj": 10.5,
-              "actual": 0.0,
+              "actual": 25.1,
               "injury": null
             },
             {
@@ -572,10 +572,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 48.5,
+        "margin": 37.8,
         "winner": "Nolan Malo",
         "phase": "recap",
-        "blurb": "Final: Andy Jensen 58.9 - Nolan Malo 107.4. Nolan Malo won by 48.5. Top scorers for Nolan Malo: Amon-Ra St. Brown (35.2), James Cook III (20.9)."
+        "blurb": "Final: Andy Jensen 84.0 - Nolan Malo 121.8. Nolan Malo won by 37.8. Top scorers for Nolan Malo: Amon-Ra St. Brown (35.2), James Cook III (20.9)."
       },
       {
         "home": {
@@ -584,8 +584,8 @@ window.MATCHUPS_DATA = {
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
           "record": "1-0",
-          "actual": 107.3,
-          "projected": 123.9,
+          "actual": 108.3,
+          "projected": 117.7,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -665,7 +665,7 @@ window.MATCHUPS_DATA = {
               "pos": "D/ST",
               "pro": "KC",
               "proj": 7.2,
-              "actual": 0.0,
+              "actual": 1.0,
               "injury": null
             }
           ],
@@ -688,8 +688,8 @@ window.MATCHUPS_DATA = {
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
           "record": "0-1",
-          "actual": 84.0,
-          "projected": 102.4,
+          "actual": 113.2,
+          "projected": 113.2,
           "starters": [
             {
               "name": "Puka Nacua",
@@ -706,7 +706,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "IND",
               "proj": 18.4,
-              "actual": 0.0,
+              "actual": 29.2,
               "injury": null
             },
             {
@@ -788,10 +788,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 23.3,
-        "winner": "Brady Schuster",
+        "margin": 4.9,
+        "winner": "Owen Koslosku",
         "phase": "recap",
-        "blurb": "Final: Owen Koslosku 84.0 - Brady Schuster 107.3. Brady Schuster won by 23.3. Top scorers for Brady Schuster: CeeDee Lamb (35.3), Chris Olave (22.6)."
+        "blurb": "Final: Owen Koslosku 113.2 - Brady Schuster 108.3. Owen Koslosku won by 4.9. Top scorers for Owen Koslosku: Dak Prescott (29.4), Jonathan Taylor (29.2)."
       },
       {
         "home": {
@@ -949,7 +949,7 @@ window.MATCHUPS_DATA = {
               "pro": "WSH",
               "proj": 19.4,
               "actual": 14.5,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             },
             {
               "name": "Kyle Monangai",
@@ -997,7 +997,7 @@ window.MATCHUPS_DATA = {
               "pro": "WSH",
               "proj": 19.4,
               "actual": 14.5,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             }
           ]
         },
@@ -1109,8 +1109,8 @@ window.MATCHUPS_DATA = {
           "team": "This Just In",
           "owner": "Dawson Leer",
           "record": "1-0",
-          "actual": 61.5,
-          "projected": 126.7,
+          "actual": 126.5,
+          "projected": 141.0,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -1127,7 +1127,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "KC",
               "proj": 17.8,
-              "actual": 0.0,
+              "actual": 23.8,
               "injury": null
             },
             {
@@ -1136,7 +1136,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "KC",
               "proj": 15.0,
-              "actual": 0.0,
+              "actual": 12.3,
               "injury": null
             },
             {
@@ -1172,7 +1172,7 @@ window.MATCHUPS_DATA = {
               "pos": "QB",
               "pro": "KC",
               "proj": 17.8,
-              "actual": 0.0,
+              "actual": 28.9,
               "injury": null
             },
             {
@@ -1199,10 +1199,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 39.3,
-        "winner": "spencer glynn",
+        "margin": 25.7,
+        "winner": "Dawson Leer",
         "phase": "recap",
-        "blurb": "Final: Dawson Leer 61.5 - spencer glynn 100.8. spencer glynn won by 39.3. Top scorers for spencer glynn: Ja'Marr Chase (26.5), Parker Washington (16.8)."
+        "blurb": "Final: Dawson Leer 126.5 - spencer glynn 100.8. Dawson Leer won by 25.7. Top scorers for Dawson Leer: Patrick Mahomes (28.9), Kenneth Walker III (23.8)."
       }
     ],
     "3": [
@@ -1240,19 +1240,19 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -1261,7 +1261,7 @@ window.MATCHUPS_DATA = {
         "fun_facts": [
           "If the projection holds, this would be Nolan Malo's worst week of the season.",
           "If the projection holds, this would be Brady Schuster's worst week of the season.",
-          "Brady Schuster owns the league's longest active winning streak at 2 games."
+          "Nolan Malo owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 13,
@@ -1370,12 +1370,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -1424,8 +1424,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1483,21 +1483,21 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Dawson Leer (1-0) at Owen Koslosku (0-1). Projected: Dawson Leer 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -1555,12 +1555,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -1618,8 +1618,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -1629,7 +1629,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Noah Budach's worst week of the season.",
-          "If the projection holds, this would be Nolan Malo's worst week of the season."
+          "If the projection holds, this would be Nolan Malo's worst week of the season.",
+          "Nolan Malo owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 12,
@@ -1668,21 +1669,21 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Brady Schuster (1-0) at Dawson Leer (1-0). Projected: Brady Schuster 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -1690,8 +1691,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Dawson Leer's worst week of the season.",
-          "If the projection holds, this would be Brady Schuster's worst week of the season.",
-          "Brady Schuster owns the league's longest active winning streak at 2 games."
+          "If the projection holds, this would be Brady Schuster's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 13,
@@ -1732,8 +1732,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1791,12 +1791,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Mitch Wiese (0-1) at Owen Koslosku (0-1). Projected: Mitch Wiese 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -1863,12 +1863,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -1926,8 +1926,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -1976,21 +1976,21 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Owen Koslosku (0-1) at spencer glynn (0-1). Projected: Owen Koslosku 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -2039,8 +2039,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -2059,7 +2059,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Nolan Malo's worst week of the season.",
-          "If the projection holds, this would be Zach Mensink's worst week of the season."
+          "If the projection holds, this would be Zach Mensink's worst week of the season.",
+          "Nolan Malo owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 16,
@@ -2098,12 +2099,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Mitch Wiese (0-1) at Brady Schuster (1-0). Projected: Mitch Wiese 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -2120,8 +2121,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Brady Schuster's worst week of the season.",
-          "If the projection holds, this would be Mitch Wiese's worst week of the season.",
-          "Brady Schuster owns the league's longest active winning streak at 2 games."
+          "If the projection holds, this would be Mitch Wiese's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 9,
@@ -2162,12 +2162,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Zach Mensink (1-0) at Owen Koslosku (0-1). Projected: Zach Mensink 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -2234,8 +2234,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -2245,7 +2245,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Mitch Wiese's worst week of the season.",
-          "If the projection holds, this would be Nolan Malo's worst week of the season."
+          "If the projection holds, this would be Nolan Malo's worst week of the season.",
+          "Nolan Malo owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 3,
@@ -2284,12 +2285,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "alex raichle (0-1) at Brady Schuster (1-0). Projected: alex raichle 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -2306,8 +2307,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Brady Schuster's worst week of the season.",
-          "If the projection holds, this would be alex raichle's worst week of the season.",
-          "Brady Schuster owns the league's longest active winning streak at 2 games."
+          "If the projection holds, this would be alex raichle's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 8,
@@ -2346,12 +2346,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Noah Budach (0-1) at spencer glynn (0-1). Projected: Noah Budach 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -2407,19 +2407,19 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Andy Jensen (1-0) at Dawson Leer (1-0). Projected: Andy Jensen 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2472,19 +2472,19 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -2492,7 +2492,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Nolan Malo's worst week of the season.",
-          "If the projection holds, this would be Owen Koslosku's worst week of the season."
+          "If the projection holds, this would be Owen Koslosku's worst week of the season.",
+          "Nolan Malo owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 5,
@@ -2601,12 +2602,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -2614,8 +2615,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Noah Budach's worst week of the season.",
-          "If the projection holds, this would be Brady Schuster's worst week of the season.",
-          "Brady Schuster owns the league's longest active winning streak at 2 games."
+          "If the projection holds, this would be Brady Schuster's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 8,
@@ -2656,19 +2656,19 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -2724,12 +2724,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -2778,12 +2778,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "alex raichle (0-1) at Owen Koslosku (0-1). Projected: alex raichle 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -2900,19 +2900,19 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Andy Jensen (1-0) at Brady Schuster (1-0). Projected: Andy Jensen 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -2922,8 +2922,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Brady Schuster's worst week of the season.",
-          "If the projection holds, this would be Andy Jensen's worst week of the season.",
-          "Brady Schuster owns the league's longest active winning streak at 2 games."
+          "If the projection holds, this would be Andy Jensen's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 4,
@@ -2962,12 +2961,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Zach Mensink (1-0) at spencer glynn (0-1). Projected: Zach Mensink 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -3023,19 +3022,19 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Nolan Malo (1-0) at Dawson Leer (1-0). Projected: Nolan Malo 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -3045,7 +3044,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Dawson Leer's worst week of the season.",
-          "If the projection holds, this would be Nolan Malo's worst week of the season."
+          "If the projection holds, this would be Nolan Malo's worst week of the season.",
+          "Nolan Malo owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 6,
@@ -3095,12 +3095,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -3149,8 +3149,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3217,12 +3217,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -3286,8 +3286,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -3297,7 +3297,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Zach Mensink's worst week of the season.",
-          "If the projection holds, this would be Nolan Malo's worst week of the season."
+          "If the projection holds, this would be Nolan Malo's worst week of the season.",
+          "Nolan Malo owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 10,
@@ -3336,21 +3337,21 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "spencer glynn (0-1) at Brady Schuster (1-0). Projected: spencer glynn 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -3407,8 +3408,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3533,30 +3534,30 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Brady Schuster (1-0) at Owen Koslosku (0-1). Projected: Brady Schuster 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": {
           "week": 2,
-          "home_won": false,
-          "home_pts": 84.0,
-          "away_pts": 107.3
+          "home_won": true,
+          "home_pts": 113.2,
+          "away_pts": 108.3
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
@@ -3602,8 +3603,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -3667,29 +3668,29 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "spencer glynn (0-1) at Dawson Leer (1-0). Projected: spencer glynn 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": {
           "week": 2,
-          "home_won": false,
-          "home_pts": 61.5,
+          "home_won": true,
+          "home_pts": 126.5,
           "away_pts": 100.8
         },
         "fun_facts": [
@@ -3745,12 +3746,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -3758,8 +3759,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Zach Mensink's worst week of the season.",
-          "If the projection holds, this would be Brady Schuster's worst week of the season.",
-          "Brady Schuster owns the league's longest active winning streak at 2 games."
+          "If the projection holds, this would be Brady Schuster's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 8,
@@ -3800,8 +3800,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -3809,8 +3809,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -3820,8 +3820,8 @@ window.MATCHUPS_DATA = {
         "revenge": {
           "week": 2,
           "home_won": false,
-          "home_pts": 58.9,
-          "away_pts": 107.4
+          "home_pts": 84.0,
+          "away_pts": 121.8
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
@@ -3865,12 +3865,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Mitch Wiese (0-1) at spencer glynn (0-1). Projected: Mitch Wiese 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -3993,21 +3993,21 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Owen Koslosku (0-1) at Dawson Leer (1-0). Projected: Owen Koslosku 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -4058,19 +4058,19 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -4078,7 +4078,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Nolan Malo's worst week of the season.",
-          "If the projection holds, this would be spencer glynn's worst week of the season."
+          "If the projection holds, this would be spencer glynn's worst week of the season.",
+          "Nolan Malo owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 4,
@@ -4178,21 +4179,21 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Dawson Leer (1-0) at Brady Schuster (1-0). Projected: Dawson Leer 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -4200,8 +4201,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Brady Schuster's worst week of the season.",
-          "If the projection holds, this would be Dawson Leer's worst week of the season.",
-          "Brady Schuster owns the league's longest active winning streak at 2 games."
+          "If the projection holds, this would be Dawson Leer's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 12,
@@ -4251,8 +4251,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4310,12 +4310,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -4373,12 +4373,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -4427,8 +4427,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -4447,7 +4447,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Nolan Malo's worst week of the season.",
-          "If the projection holds, this would be Noah Budach's worst week of the season."
+          "If the projection holds, this would be Noah Budach's worst week of the season.",
+          "Nolan Malo owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 9,
@@ -4486,21 +4487,21 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "spencer glynn (0-1) at Owen Koslosku (0-1). Projected: spencer glynn 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -4558,8 +4559,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4617,12 +4618,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -4630,8 +4631,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Mitch Wiese's worst week of the season.",
-          "If the projection holds, this would be Brady Schuster's worst week of the season.",
-          "Brady Schuster owns the league's longest active winning streak at 2 games."
+          "If the projection holds, this would be Brady Schuster's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 8,
@@ -4672,19 +4672,19 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Andy Jensen (1-0) at Owen Koslosku (0-1). Projected: Andy Jensen 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "0-2",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 86.8,
-          "recent_avg": 86.8,
-          "streak": 2,
-          "streak_type": "L",
+          "season_avg": 101.5,
+          "recent_avg": 101.5,
+          "streak": 1,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 105.0,
-          "recent_avg": 105.0,
+          "season_avg": 117.5,
+          "recent_avg": 117.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "steady"
@@ -4806,19 +4806,19 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Nolan Malo (1-0) at Brady Schuster (1-0). Projected: Nolan Malo 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
-          "record_last_n": "2-0",
+          "record_last_n": "1-1",
           "games_considered": 2,
-          "season_avg": 129.4,
-          "recent_avg": 129.4,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 129.9,
+          "recent_avg": 129.9,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 122.0,
-          "recent_avg": 122.0,
+          "season_avg": 129.2,
+          "recent_avg": 129.2,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -4829,7 +4829,7 @@ window.MATCHUPS_DATA = {
         "fun_facts": [
           "If the projection holds, this would be Brady Schuster's worst week of the season.",
           "If the projection holds, this would be Nolan Malo's worst week of the season.",
-          "Brady Schuster owns the league's longest active winning streak at 2 games."
+          "Nolan Malo owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 4,
@@ -4868,12 +4868,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "alex raichle (0-1) at spencer glynn (0-1). Projected: alex raichle 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "0-2",
           "games_considered": 2,
           "season_avg": 109.4,
           "recent_avg": 109.4,
-          "streak": 1,
-          "streak_type": "W",
+          "streak": 2,
+          "streak_type": "L",
           "trend": "steady"
         },
         "away_form": {
@@ -4929,12 +4929,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Noah Budach (0-1) at Dawson Leer (1-0). Projected: Noah Budach 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "1-1",
+          "record_last_n": "2-0",
           "games_considered": 2,
-          "season_avg": 102.2,
-          "recent_avg": 102.2,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 134.8,
+          "recent_avg": 134.8,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
