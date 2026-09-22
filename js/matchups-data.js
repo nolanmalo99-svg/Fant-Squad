@@ -969,8 +969,17 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 117.3,
+          "projected": 95.3,
           "starters": [
+            {
+              "name": "Brock Bowers",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "LV",
+              "proj": 14.2,
+              "actual": 0.0,
+              "injury": "OUT"
+            },
             {
               "name": "Drake London",
               "slot": "WR",
@@ -979,6 +988,15 @@ window.MATCHUPS_DATA = {
               "proj": 15.4,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Nico Collins",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "HOU",
+              "proj": 15.8,
+              "actual": 0.0,
+              "injury": "OUT"
             },
             {
               "name": "Josh Allen",
@@ -1000,7 +1018,7 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Jameson Williams",
-              "slot": "WR",
+              "slot": "FLEX",
               "pos": "WR",
               "pro": "DET",
               "proj": 10.9,
@@ -1009,28 +1027,10 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "TreVeyon Henderson",
-              "slot": "FLEX",
+              "slot": "RB",
               "pos": "RB",
               "pro": "NE",
               "proj": 10.5,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Jaylen Warren",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "PIT",
-              "proj": 13.3,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Jake Ferguson",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "DAL",
-              "proj": 8.7,
               "actual": 0.0,
               "injury": null
             },
@@ -1053,8 +1053,27 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 76.4,
-          "injuries": []
+          "bench_proj": 68.4,
+          "injuries": [
+            {
+              "name": "Brock Bowers",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "LV",
+              "proj": 14.2,
+              "actual": 0.0,
+              "injury": "OUT"
+            },
+            {
+              "name": "Nico Collins",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "HOU",
+              "proj": 15.8,
+              "actual": 0.0,
+              "injury": "OUT"
+            }
+          ]
         },
         "away": {
           "teamId": 3,
@@ -1165,7 +1184,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-2) at Mitch Wiese (1-1). Projected: spencer glynn 121.2 - Mitch Wiese 117.3. spencer glynn favored by 3.9.",
+        "blurb": "spencer glynn (0-2) at Mitch Wiese (1-1). Projected: spencer glynn 121.2 - Mitch Wiese 95.3. spencer glynn favored by 25.9.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -1247,19 +1266,19 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 42.7,
+            "home_proj": 29.4,
             "away_proj": 25.8,
             "edge": "home"
           },
           {
             "pos": "TE",
-            "home_proj": 8.7,
+            "home_proj": 14.2,
             "away_proj": 11.6,
-            "edge": "away"
+            "edge": "home"
           },
           {
             "pos": "WR",
-            "home_proj": 26.3,
+            "home_proj": 42.1,
             "away_proj": 48.8,
             "edge": "away"
           }
