@@ -648,7 +648,7 @@ window.MATCHUPS_DATA = {
               "pro": "PHI",
               "proj": 10.8,
               "actual": 1.4,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             },
             {
               "name": "Harrison Mevis",
@@ -678,7 +678,7 @@ window.MATCHUPS_DATA = {
               "pro": "PHI",
               "proj": 10.8,
               "actual": 1.4,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             }
           ]
         },
@@ -698,7 +698,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 0.0,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": "OUT"
             },
             {
               "name": "Jonathan Taylor",
@@ -782,7 +782,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 0.0,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": "OUT"
             }
           ]
         },
