@@ -335,7 +335,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 106.9,
+          "projected": 122.5,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -362,7 +362,7 @@ window.MATCHUPS_DATA = {
               "pro": "BAL",
               "proj": 15.6,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Javonte Williams",
@@ -428,7 +428,7 @@ window.MATCHUPS_DATA = {
               "pro": "BAL",
               "proj": 15.6,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Mike Evans",
@@ -550,7 +550,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 112.0 - Nolan Malo 106.9. Brady Schuster favored by 5.1.",
+        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 112.0 - Nolan Malo 122.5. Nolan Malo favored by 10.5.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -650,9 +650,7 @@ window.MATCHUPS_DATA = {
           }
         ],
         "revenge": null,
-        "fun_facts": [
-          "If the projection holds, this would be Nolan Malo's worst week of the season."
-        ],
+        "fun_facts": [],
         "head_to_head": {
           "home_w": 13,
           "home_l": 4
@@ -978,7 +976,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 95.3,
+          "projected": 125.3,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -987,7 +985,7 @@ window.MATCHUPS_DATA = {
               "pro": "LV",
               "proj": 14.2,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Drake London",
@@ -1005,7 +1003,7 @@ window.MATCHUPS_DATA = {
               "pro": "HOU",
               "proj": 15.8,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Josh Allen",
@@ -1071,7 +1069,7 @@ window.MATCHUPS_DATA = {
               "pro": "LV",
               "proj": 14.2,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Nico Collins",
@@ -1080,7 +1078,7 @@ window.MATCHUPS_DATA = {
               "pro": "HOU",
               "proj": 15.8,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "QUESTIONABLE"
             }
           ]
         },
@@ -1193,7 +1191,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-2) at Mitch Wiese (1-1). Projected: spencer glynn 101.3 - Mitch Wiese 95.3. spencer glynn favored by 6.0.",
+        "blurb": "spencer glynn (0-2) at Mitch Wiese (1-1). Projected: spencer glynn 101.3 - Mitch Wiese 125.3. Mitch Wiese favored by 24.0.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -1250,7 +1248,7 @@ window.MATCHUPS_DATA = {
             "pro": "HOU",
             "proj": 15.8,
             "actual": 0.0,
-            "injury": "OUT",
+            "injury": "QUESTIONABLE",
             "owner": "Mitch Wiese"
           }
         ],
@@ -1294,7 +1292,7 @@ window.MATCHUPS_DATA = {
         ],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Mitch Wiese's worst week of the season.",
+          "If the projection holds, this would be Mitch Wiese's best week of the season.",
           "If the projection holds, this would be spencer glynn's worst week of the season."
         ],
         "head_to_head": {
@@ -1641,7 +1639,7 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 104.2,
+          "projected": 124.1,
           "starters": [
             {
               "name": "Puka Nacua",
@@ -1650,7 +1648,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 19.9,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Jonathan Taylor",
@@ -1734,7 +1732,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 19.9,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "QUESTIONABLE"
             }
           ]
         },
@@ -1837,7 +1835,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (2-0) at Owen Koslosku (1-1). Projected: Dawson Leer 123.2 - Owen Koslosku 104.2. Dawson Leer favored by 19.0.",
+        "blurb": "Dawson Leer (2-0) at Owen Koslosku (1-1). Projected: Dawson Leer 123.2 - Owen Koslosku 124.1. Owen Koslosku favored by 0.9.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -1884,7 +1882,7 @@ window.MATCHUPS_DATA = {
             "pro": "LAR",
             "proj": 19.9,
             "actual": 0.0,
-            "injury": "OUT",
+            "injury": "QUESTIONABLE",
             "owner": "Owen Koslosku"
           },
           {
@@ -1938,6 +1936,7 @@ window.MATCHUPS_DATA = {
         ],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's best week of the season.",
           "If the projection holds, this would be Dawson Leer's worst week of the season.",
           "Dawson Leer owns the league's longest active winning streak at 2 games."
         ],

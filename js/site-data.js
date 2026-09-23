@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-22T20:00:58+00:00",
+  "generated_at": "2026-09-23T00:00:52+00:00",
   "current_week": 3,
   "standings": [
     {
@@ -10638,7 +10638,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 232.5,
           "starter": true,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4431459,
@@ -22098,7 +22098,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 177.8,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "DOUBTFUL"
         }
       ],
       "draft": {
@@ -26794,7 +26794,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 201.1,
           "starter": false,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4568490,
@@ -26809,7 +26809,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 207.3,
           "starter": false,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3916433,
@@ -29762,7 +29762,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 289.1,
           "starter": true,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4426502,
@@ -29792,7 +29792,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 262.2,
           "starter": true,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4426388,
@@ -32175,7 +32175,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 298.6,
           "starter": true,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4426354,
