@@ -335,7 +335,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 122.5,
+          "projected": 124.6,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -410,11 +410,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Ravens D/ST",
+              "name": "Bengals D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "BAL",
-              "proj": 4.4,
+              "pro": "CIN",
+              "proj": 6.5,
               "actual": 0.0,
               "injury": null
             }
@@ -502,7 +502,7 @@ window.MATCHUPS_DATA = {
               "pro": "MIN",
               "proj": 13.6,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "49ers D/ST",
@@ -533,14 +533,24 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 70.8,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Aaron Jones Sr.",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "MIN",
+              "proj": 13.6,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 125.4 - Nolan Malo 122.5. Brady Schuster favored by 2.9.",
+        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 125.4 - Nolan Malo 124.6. Brady Schuster favored by 0.8.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -604,9 +614,9 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 4.4,
+            "home_proj": 6.5,
             "away_proj": 7.5,
-            "edge": "away"
+            "edge": "even"
           },
           {
             "pos": "K",
@@ -1288,7 +1298,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "2-0",
           "actual": 0.0,
-          "projected": 125.6,
+          "projected": 128.9,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -1363,11 +1373,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jets D/ST",
+              "name": "Panthers D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "NYJ",
-              "proj": 3.8,
+              "pro": "CAR",
+              "proj": 7.1,
               "actual": 0.0,
               "injury": null
             }
@@ -1446,7 +1456,7 @@ window.MATCHUPS_DATA = {
               "pro": "WSH",
               "proj": 0.0,
               "actual": 0.0,
-              "injury": "DOUBTFUL"
+              "injury": "OUT"
             },
             {
               "name": "Kyle Monangai",
@@ -1494,7 +1504,7 @@ window.MATCHUPS_DATA = {
               "pro": "WSH",
               "proj": 0.0,
               "actual": 0.0,
-              "injury": "DOUBTFUL"
+              "injury": "OUT"
             }
           ]
         },
@@ -1503,7 +1513,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (1-1) at Andy Jensen (2-0). Projected: Noah Budach 104.0 - Andy Jensen 125.6. Andy Jensen favored by 21.6.",
+        "blurb": "Noah Budach (1-1) at Andy Jensen (2-0). Projected: Noah Budach 104.0 - Andy Jensen 128.9. Andy Jensen favored by 24.9.",
         "home_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
@@ -1567,9 +1577,9 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 3.8,
+            "home_proj": 7.1,
             "away_proj": 5.5,
-            "edge": "away"
+            "edge": "home"
           },
           {
             "pos": "K",
@@ -1703,7 +1713,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 61.5,
+          "bench_proj": 60.3,
           "injuries": [
             {
               "name": "Puka Nacua",
