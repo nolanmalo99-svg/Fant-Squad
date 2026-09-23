@@ -976,7 +976,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 125.3,
+          "projected": 125.9,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -1024,15 +1024,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jameson Williams",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "DET",
-              "proj": 10.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "TreVeyon Henderson",
               "slot": "RB",
               "pos": "RB",
@@ -1058,9 +1049,18 @@ window.MATCHUPS_DATA = {
               "proj": 9.9,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Devaughn Vele",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "NO",
+              "proj": 11.5,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 76.4,
+          "bench_proj": 75.8,
           "injuries": [
             {
               "name": "Brock Bowers",
@@ -1181,7 +1181,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-2) at Mitch Wiese (1-1). Projected: spencer glynn 121.7 - Mitch Wiese 125.3. Mitch Wiese favored by 3.6.",
+        "blurb": "spencer glynn (0-2) at Mitch Wiese (1-1). Projected: spencer glynn 121.7 - Mitch Wiese 125.9. Mitch Wiese favored by 4.2.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -1275,7 +1275,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 42.1,
+            "home_proj": 42.7,
             "away_proj": 48.8,
             "edge": "away"
           }

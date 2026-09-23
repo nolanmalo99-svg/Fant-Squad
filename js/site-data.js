@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-23T08:00:51+00:00",
+  "generated_at": "2026-09-23T12:01:00+00:00",
   "current_week": 3,
   "standings": [
     {
@@ -29795,17 +29795,17 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 4426388,
-          "name": "Jameson Williams",
+          "player_id": 4569559,
+          "name": "Devaughn Vele",
           "slot": "FLEX",
           "pos": "WR",
-          "pro": "DET",
-          "proj": 10.9,
+          "pro": "NO",
+          "proj": 11.5,
           "actual": 0.0,
-          "season_ppg": 5.3,
-          "season_total": 5.3,
+          "season_ppg": 11.4,
+          "season_total": 11.4,
           "games_played": 1,
-          "preseason_proj_total": 218.6,
+          "preseason_proj_total": 45.4,
           "starter": true,
           "injury": null
         },
@@ -29870,21 +29870,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4569559,
-          "name": "Devaughn Vele",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "NO",
-          "proj": 11.5,
-          "actual": 0.0,
-          "season_ppg": 11.4,
-          "season_total": 11.4,
-          "games_played": 1,
-          "preseason_proj_total": 45.4,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4870653,
           "name": "KC Concepcion",
           "slot": "BE",
@@ -29896,6 +29881,21 @@ window.SITE_DATA = {
           "season_total": 8.2,
           "games_played": 1,
           "preseason_proj_total": 161.3,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4426388,
+          "name": "Jameson Williams",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "DET",
+          "proj": 10.9,
+          "actual": 0.0,
+          "season_ppg": 5.3,
+          "season_total": 5.3,
+          "games_played": 1,
+          "preseason_proj_total": 218.6,
           "starter": false,
           "injury": null
         },
