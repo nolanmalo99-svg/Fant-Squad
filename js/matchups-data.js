@@ -852,7 +852,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 71.1,
+          "bench_proj": 65.9,
           "injuries": []
         },
         "played": false,
@@ -1060,7 +1060,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 68.6,
+          "bench_proj": 76.4,
           "injuries": [
             {
               "name": "Brock Bowers",
@@ -1089,7 +1089,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
-          "projected": 101.3,
+          "projected": 121.7,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -1101,8 +1101,17 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Jeremiyah Love",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "ARI",
+              "proj": 12.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Garrett Wilson",
-              "slot": "WR",
+              "slot": "FLEX",
               "pos": "WR",
               "pro": "NYJ",
               "proj": 14.8,
@@ -1110,31 +1119,13 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Travis Etienne Jr.",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "NO",
-              "proj": 11.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Parker Washington",
-              "slot": "FLEX",
+              "slot": "WR",
               "pos": "WR",
               "pro": "JAX",
               "proj": 15.0,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Jaxson Dart",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "NYG",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "DOUBTFUL"
             },
             {
               "name": "Chuba Hubbard",
@@ -1164,34 +1155,33 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Will Reichard",
+              "name": "Tyler Shough",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "NO",
+              "proj": 18.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Harrison Butker",
               "slot": "K",
               "pos": "K",
-              "pro": "MIN",
-              "proj": 8.2,
+              "pro": "KC",
+              "proj": 9.1,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 67.3,
-          "injuries": [
-            {
-              "name": "Jaxson Dart",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "NYG",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "DOUBTFUL"
-            }
-          ]
+          "bench_proj": 66.5,
+          "injuries": []
         },
         "played": false,
         "playoff": false,
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-2) at Mitch Wiese (1-1). Projected: spencer glynn 101.3 - Mitch Wiese 125.3. Mitch Wiese favored by 24.0.",
+        "blurb": "spencer glynn (0-2) at Mitch Wiese (1-1). Projected: spencer glynn 121.7 - Mitch Wiese 125.3. Mitch Wiese favored by 3.6.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -1242,14 +1232,14 @@ window.MATCHUPS_DATA = {
             "owner": "Mitch Wiese"
           },
           {
-            "name": "Nico Collins",
-            "slot": "WR",
-            "pos": "WR",
-            "pro": "HOU",
-            "proj": 15.8,
+            "name": "Tyler Shough",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "NO",
+            "proj": 18.7,
             "actual": 0.0,
-            "injury": "QUESTIONABLE",
-            "owner": "Mitch Wiese"
+            "injury": null,
+            "owner": "spencer glynn"
           }
         ],
         "positional_edges": [
@@ -1262,19 +1252,19 @@ window.MATCHUPS_DATA = {
           {
             "pos": "K",
             "home_proj": 9.9,
-            "away_proj": 8.2,
-            "edge": "home"
+            "away_proj": 9.1,
+            "edge": "even"
           },
           {
             "pos": "QB",
             "home_proj": 23.2,
-            "away_proj": 0.0,
+            "away_proj": 18.7,
             "edge": "home"
           },
           {
             "pos": "RB",
             "home_proj": 29.4,
-            "away_proj": 26.3,
+            "away_proj": 27.1,
             "edge": "home"
           },
           {
@@ -1293,7 +1283,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Mitch Wiese's best week of the season.",
-          "If the projection holds, this would be spencer glynn's worst week of the season."
+          "If the projection holds, this would be spencer glynn's best week of the season."
         ],
         "head_to_head": {
           "home_w": 6,
@@ -1723,7 +1713,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 68.1,
+          "bench_proj": 61.5,
           "injuries": [
             {
               "name": "Puka Nacua",
