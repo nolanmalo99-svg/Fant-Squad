@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-24T12:00:52+00:00",
+  "generated_at": "2026-09-24T16:01:06+00:00",
   "current_week": 3,
   "standings": [
     {
@@ -576,17 +576,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 5083315,
-          "name": "Kenyon Sadiq",
+          "player_id": 4572680,
+          "name": "Tucker Kraft",
           "slot": "TE",
           "pos": "TE",
-          "pro": "NYJ",
-          "proj": 8.4,
+          "pro": "GB",
+          "proj": 10.3,
           "actual": 0.0,
-          "season_ppg": 3.7,
-          "season_total": 3.7,
+          "season_ppg": 3.5,
+          "season_total": 3.5,
           "games_played": 1,
-          "preseason_proj_total": 127.2,
+          "preseason_proj_total": 160.0,
           "starter": true,
           "injury": null
         },
@@ -681,17 +681,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4572680,
-          "name": "Tucker Kraft",
+          "player_id": 5083315,
+          "name": "Kenyon Sadiq",
           "slot": "BE",
           "pos": "TE",
-          "pro": "GB",
-          "proj": 10.3,
+          "pro": "NYJ",
+          "proj": 8.4,
           "actual": 0.0,
-          "season_ppg": 3.5,
-          "season_total": 3.5,
+          "season_ppg": 3.7,
+          "season_total": 3.7,
           "games_played": 1,
-          "preseason_proj_total": 160.0,
+          "preseason_proj_total": 127.2,
           "starter": false,
           "injury": null
         },

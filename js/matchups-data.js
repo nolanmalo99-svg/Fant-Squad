@@ -768,7 +768,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "0-2",
           "actual": 0.0,
-          "projected": 126.3,
+          "projected": 128.1,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -825,11 +825,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Kenyon Sadiq",
+              "name": "Tucker Kraft",
               "slot": "TE",
               "pos": "TE",
-              "pro": "NYJ",
-              "proj": 8.4,
+              "pro": "GB",
+              "proj": 10.3,
               "actual": 0.0,
               "injury": null
             },
@@ -852,7 +852,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 68.9,
+          "bench_proj": 67.0,
           "injuries": []
         },
         "played": false,
@@ -860,7 +860,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (0-2) at Zach Mensink (1-1). Projected: alex raichle 126.3 - Zach Mensink 124.7. alex raichle favored by 1.6.",
+        "blurb": "alex raichle (0-2) at Zach Mensink (1-1). Projected: alex raichle 128.1 - Zach Mensink 124.7. alex raichle favored by 3.4.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -949,8 +949,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "TE",
             "home_proj": 9.8,
-            "away_proj": 8.4,
-            "edge": "home"
+            "away_proj": 10.3,
+            "edge": "even"
           },
           {
             "pos": "WR",
