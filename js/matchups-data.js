@@ -1642,7 +1642,7 @@ window.MATCHUPS_DATA = {
           "starters": [
             {
               "name": "Puka Nacua",
-              "slot": "WR",
+              "slot": "FLEX",
               "pos": "WR",
               "pro": "LAR",
               "proj": 19.9,
@@ -1678,7 +1678,7 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Jaylen Waddle",
-              "slot": "FLEX",
+              "slot": "WR",
               "pos": "WR",
               "pro": "DEN",
               "proj": 13.1,
@@ -1726,7 +1726,7 @@ window.MATCHUPS_DATA = {
           "injuries": [
             {
               "name": "Puka Nacua",
-              "slot": "WR",
+              "slot": "FLEX",
               "pos": "WR",
               "pro": "LAR",
               "proj": 19.9,
@@ -1876,7 +1876,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "name": "Puka Nacua",
-            "slot": "WR",
+            "slot": "FLEX",
             "pos": "WR",
             "pro": "LAR",
             "proj": 19.9,

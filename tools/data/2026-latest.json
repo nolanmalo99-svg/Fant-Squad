@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-24T00:00:58+00:00",
+  "generated_at": "2026-09-24T04:00:52+00:00",
   "current_week": 3,
   "standings": [
     {
@@ -32178,21 +32178,6 @@
           "injury": null
         },
         {
-          "player_id": 4426515,
-          "name": "Puka Nacua",
-          "slot": "WR",
-          "pos": "WR",
-          "pro": "LAR",
-          "proj": 19.9,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 1,
-          "preseason_proj_total": 298.6,
-          "starter": true,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4426354,
           "name": "George Pickens",
           "slot": "WR",
@@ -32204,6 +32189,21 @@
           "season_total": 10.0,
           "games_played": 1,
           "preseason_proj_total": 221.4,
+          "starter": true,
+          "injury": null
+        },
+        {
+          "player_id": 4372016,
+          "name": "Jaylen Waddle",
+          "slot": "WR",
+          "pos": "WR",
+          "pro": "DEN",
+          "proj": 13.1,
+          "actual": 0.0,
+          "season_ppg": 21.8,
+          "season_total": 21.8,
+          "games_played": 1,
+          "preseason_proj_total": 226.5,
           "starter": true,
           "injury": null
         },
@@ -32223,19 +32223,19 @@
           "injury": null
         },
         {
-          "player_id": 4372016,
-          "name": "Jaylen Waddle",
+          "player_id": 4426515,
+          "name": "Puka Nacua",
           "slot": "FLEX",
           "pos": "WR",
-          "pro": "DEN",
-          "proj": 13.1,
+          "pro": "LAR",
+          "proj": 19.9,
           "actual": 0.0,
-          "season_ppg": 21.8,
-          "season_total": 21.8,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
           "games_played": 1,
-          "preseason_proj_total": 226.5,
+          "preseason_proj_total": 298.6,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16016,
