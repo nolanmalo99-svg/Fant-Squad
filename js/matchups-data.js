@@ -414,7 +414,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "CIN",
-              "proj": 6.5,
+              "proj": 6.4,
               "actual": 0.0,
               "injury": null
             }
@@ -448,7 +448,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 125.4,
+          "projected": 125.3,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -550,7 +550,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 125.4 - Nolan Malo 124.6. Brady Schuster favored by 0.8.",
+        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 125.3 - Nolan Malo 124.6. Brady Schuster favored by 0.7.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -614,9 +614,9 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 6.5,
+            "home_proj": 6.4,
             "away_proj": 7.5,
-            "edge": "even"
+            "edge": "away"
           },
           {
             "pos": "K",
@@ -664,7 +664,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 121.9,
+          "projected": 124.7,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -698,7 +698,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "CHI",
-              "proj": 12.7,
+              "proj": 12.8,
               "actual": 0.0,
               "injury": null
             },
@@ -743,7 +743,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "PHI",
-              "proj": 5.4,
+              "proj": 8.0,
               "actual": 0.0,
               "injury": null
             }
@@ -768,7 +768,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "0-2",
           "actual": 0.0,
-          "projected": 126.4,
+          "projected": 126.3,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -838,7 +838,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "SEA",
-              "proj": 7.5,
+              "proj": 7.4,
               "actual": 0.0,
               "injury": null
             },
@@ -860,7 +860,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (0-2) at Zach Mensink (1-1). Projected: alex raichle 126.4 - Zach Mensink 121.9. alex raichle favored by 4.5.",
+        "blurb": "alex raichle (0-2) at Zach Mensink (1-1). Projected: alex raichle 126.3 - Zach Mensink 124.7. alex raichle favored by 1.6.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -924,9 +924,9 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 5.4,
-            "away_proj": 7.5,
-            "edge": "away"
+            "home_proj": 8.0,
+            "away_proj": 7.4,
+            "edge": "even"
           },
           {
             "pos": "K",
@@ -942,7 +942,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 32.1,
+            "home_proj": 32.2,
             "away_proj": 56.1,
             "edge": "away"
           },
@@ -976,7 +976,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 125.9,
+          "projected": 125.8,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -1037,7 +1037,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "HOU",
-              "proj": 6.6,
+              "proj": 6.5,
               "actual": 0.0,
               "injury": null
             },
@@ -1060,7 +1060,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 75.8,
+          "bench_proj": 77.4,
           "injuries": [
             {
               "name": "Brock Bowers",
@@ -1089,14 +1089,14 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
-          "projected": 121.6,
+          "projected": 121.4,
           "starters": [
             {
               "name": "Ja'Marr Chase",
               "slot": "WR",
               "pos": "WR",
               "pro": "CIN",
-              "proj": 19.0,
+              "proj": 18.9,
               "actual": 0.0,
               "injury": null
             },
@@ -1150,7 +1150,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "PIT",
-              "proj": 6.2,
+              "proj": 6.1,
               "actual": 0.0,
               "injury": null
             },
@@ -1173,7 +1173,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 66.5,
+          "bench_proj": 66.3,
           "injuries": []
         },
         "played": false,
@@ -1181,7 +1181,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-2) at Mitch Wiese (1-1). Projected: spencer glynn 121.6 - Mitch Wiese 125.9. Mitch Wiese favored by 4.3.",
+        "blurb": "spencer glynn (0-2) at Mitch Wiese (1-1). Projected: spencer glynn 121.4 - Mitch Wiese 125.8. Mitch Wiese favored by 4.4.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -1212,16 +1212,6 @@ window.MATCHUPS_DATA = {
             "owner": "Mitch Wiese"
           },
           {
-            "name": "Ja'Marr Chase",
-            "slot": "WR",
-            "pos": "WR",
-            "pro": "CIN",
-            "proj": 19.0,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "spencer glynn"
-          },
-          {
             "name": "Ashton Jeanty",
             "slot": "RB",
             "pos": "RB",
@@ -1230,6 +1220,16 @@ window.MATCHUPS_DATA = {
             "actual": 0.0,
             "injury": null,
             "owner": "Mitch Wiese"
+          },
+          {
+            "name": "Ja'Marr Chase",
+            "slot": "WR",
+            "pos": "WR",
+            "pro": "CIN",
+            "proj": 18.9,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "spencer glynn"
           },
           {
             "name": "Tyler Shough",
@@ -1245,8 +1245,8 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 6.6,
-            "away_proj": 6.2,
+            "home_proj": 6.5,
+            "away_proj": 6.1,
             "edge": "even"
           },
           {
@@ -1276,7 +1276,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 42.7,
-            "away_proj": 48.7,
+            "away_proj": 48.6,
             "edge": "away"
           }
         ],
@@ -1402,7 +1402,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 104.0,
+          "projected": 103.6,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -1445,7 +1445,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "CHI",
-              "proj": 10.3,
+              "proj": 9.9,
               "actual": 0.0,
               "injury": null
             },
@@ -1463,9 +1463,9 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "CHI",
-              "proj": 8.4,
+              "proj": 8.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Jason Myers",
@@ -1481,7 +1481,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "TB",
-              "proj": 5.5,
+              "proj": 5.4,
               "actual": 0.0,
               "injury": null
             }
@@ -1505,6 +1505,15 @@ window.MATCHUPS_DATA = {
               "proj": 0.0,
               "actual": 0.0,
               "injury": "OUT"
+            },
+            {
+              "name": "Kyle Monangai",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "CHI",
+              "proj": 8.5,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
             }
           ]
         },
@@ -1513,7 +1522,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (1-1) at Andy Jensen (2-0). Projected: Noah Budach 104.0 - Andy Jensen 128.9. Andy Jensen favored by 24.9.",
+        "blurb": "Noah Budach (1-1) at Andy Jensen (2-0). Projected: Noah Budach 103.6 - Andy Jensen 128.9. Andy Jensen favored by 25.3.",
         "home_form": {
           "record_last_n": "2-0",
           "games_considered": 2,
@@ -1578,7 +1587,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 7.1,
-            "away_proj": 5.5,
+            "away_proj": 5.4,
             "edge": "home"
           },
           {
@@ -1596,7 +1605,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 37.3,
-            "away_proj": 46.7,
+            "away_proj": 46.8,
             "edge": "away"
           },
           {
@@ -1608,7 +1617,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 41.8,
-            "away_proj": 25.9,
+            "away_proj": 25.5,
             "edge": "home"
           }
         ],
@@ -1629,7 +1638,7 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 128.0,
+          "projected": 127.9,
           "starters": [
             {
               "name": "Puka Nacua",
@@ -1708,7 +1717,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "MIN",
-              "proj": 6.6,
+              "proj": 6.5,
               "actual": 0.0,
               "injury": null
             }
@@ -1817,7 +1826,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 69.9,
+          "bench_proj": 59.1,
           "injuries": []
         },
         "played": false,
@@ -1825,7 +1834,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (2-0) at Owen Koslosku (1-1). Projected: Dawson Leer 123.2 - Owen Koslosku 128.0. Owen Koslosku favored by 4.8.",
+        "blurb": "Dawson Leer (2-0) at Owen Koslosku (1-1). Projected: Dawson Leer 123.2 - Owen Koslosku 127.9. Owen Koslosku favored by 4.7.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -1889,7 +1898,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 6.6,
+            "home_proj": 6.5,
             "away_proj": 5.0,
             "edge": "home"
           },
