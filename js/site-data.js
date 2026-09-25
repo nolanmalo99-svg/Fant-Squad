@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-24T20:01:11+00:00",
+  "generated_at": "2026-09-25T00:01:05+00:00",
   "current_week": 3,
   "standings": [
     {
@@ -738,7 +738,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 109.7,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4047646,
@@ -10776,6 +10776,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4360939,
+          "name": "Rashod Bateman",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "BAL",
+          "proj": 7.6,
+          "actual": 0.0,
+          "season_ppg": 21.8,
+          "season_total": 21.8,
+          "games_played": 1,
+          "preseason_proj_total": 136.0,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4678008,
           "name": "Jonathon Brooks",
           "slot": "BE",
@@ -10789,21 +10804,6 @@ window.SITE_DATA = {
           "preseason_proj_total": 0.0,
           "starter": false,
           "injury": "INJURY_RESERVE"
-        },
-        {
-          "player_id": 4869645,
-          "name": "Caleb Douglas",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "MIA",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 3.9,
-          "season_total": 3.9,
-          "games_played": 1,
-          "preseason_proj_total": 152.3,
-          "starter": false,
-          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4366031,
@@ -14006,17 +14006,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 5083076,
-          "name": "Harold Fannin Jr.",
+          "player_id": 4036133,
+          "name": "T.J. Hockenson",
           "slot": "TE",
           "pos": "TE",
-          "pro": "CLE",
-          "proj": 9.8,
+          "pro": "MIN",
+          "proj": 9.2,
           "actual": 0.0,
-          "season_ppg": 10.4,
-          "season_total": 10.4,
+          "season_ppg": 5.9,
+          "season_total": 5.9,
           "games_played": 1,
-          "preseason_proj_total": 53.5,
+          "preseason_proj_total": 184.5,
           "starter": true,
           "injury": null
         },
@@ -14086,7 +14086,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "IND",
-          "proj": 11.5,
+          "proj": 12.0,
           "actual": 0.0,
           "season_ppg": 14.2,
           "season_total": 14.2,
@@ -14111,17 +14111,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4036133,
-          "name": "T.J. Hockenson",
+          "player_id": 5083076,
+          "name": "Harold Fannin Jr.",
           "slot": "BE",
           "pos": "TE",
-          "pro": "MIN",
-          "proj": 9.2,
+          "pro": "CLE",
+          "proj": 9.8,
           "actual": 0.0,
-          "season_ppg": 5.9,
-          "season_total": 5.9,
+          "season_ppg": 10.4,
+          "season_total": 10.4,
           "games_played": 1,
-          "preseason_proj_total": 184.5,
+          "preseason_proj_total": 53.5,
           "starter": false,
           "injury": null
         },
@@ -21978,7 +21978,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 301.4,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16029,
@@ -22053,7 +22053,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 171.4,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4597500,
@@ -22068,7 +22068,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 84.4,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3116365,
@@ -26689,7 +26689,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 223.0,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4431299,
@@ -26824,7 +26824,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 207.3,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 3916433,

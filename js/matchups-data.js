@@ -419,7 +419,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 61.7,
+          "bench_proj": 69.3,
           "injuries": [
             {
               "name": "Zay Flowers",
@@ -664,7 +664,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 124.8,
+          "projected": 124.2,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -712,15 +712,6 @@ window.MATCHUPS_DATA = {
               "injury": "QUESTIONABLE"
             },
             {
-              "name": "Harold Fannin Jr.",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "CLE",
-              "proj": 9.8,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Trevor Lawrence",
               "slot": "QB",
               "pos": "QB",
@@ -739,6 +730,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "T.J. Hockenson",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "MIN",
+              "proj": 9.2,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Eagles D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
@@ -748,7 +748,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 54.6,
+          "bench_proj": 55.7,
           "injuries": [
             {
               "name": "DJ Moore",
@@ -860,7 +860,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (0-2) at Zach Mensink (1-1). Projected: alex raichle 128.1 - Zach Mensink 124.8. alex raichle favored by 3.3.",
+        "blurb": "alex raichle (0-2) at Zach Mensink (1-1). Projected: alex raichle 128.1 - Zach Mensink 124.2. alex raichle favored by 3.9.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -948,9 +948,9 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "TE",
-            "home_proj": 9.8,
+            "home_proj": 9.2,
             "away_proj": 10.3,
-            "edge": "even"
+            "edge": "away"
           },
           {
             "pos": "WR",
@@ -1325,7 +1325,7 @@ window.MATCHUPS_DATA = {
               "pro": "NYG",
               "proj": 14.4,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Davante Adams",
@@ -1383,17 +1383,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 68.2,
-          "injuries": [
-            {
-              "name": "Malik Nabers",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "NYG",
-              "proj": 14.4,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "away": {
           "teamId": 10,
@@ -1438,7 +1428,7 @@ window.MATCHUPS_DATA = {
               "pro": "PHI",
               "proj": 15.6,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Rome Odunze",
@@ -1494,6 +1484,15 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "PHI",
               "proj": 17.4,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "DeVonta Smith",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "PHI",
+              "proj": 15.6,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
