@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-25T16:00:58+00:00",
+  "generated_at": "2026-09-25T20:00:49+00:00",
   "current_week": 3,
   "standings": [
     {
@@ -97,7 +97,7 @@ window.SITE_DATA = {
     },
     {
       "team_id": 3,
-      "name": "Ja'Maar-a-Lago",
+      "name": "This sucks so much",
       "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
       "owner": "spencer glynn",
       "record": "0-2",
@@ -154,7 +154,7 @@ window.SITE_DATA = {
     },
     {
       "owner": "spencer glynn",
-      "team": "Ja'Maar-a-Lago",
+      "team": "This sucks so much",
       "waiver_rank": 10
     }
   ],
@@ -3968,7 +3968,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 216.3,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16025,
@@ -3976,7 +3976,7 @@ window.SITE_DATA = {
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "SF",
-          "proj": 7.5,
+          "proj": 7.3,
           "actual": 0.0,
           "season_ppg": 9.0,
           "season_total": 9.0,
@@ -7048,7 +7048,7 @@ window.SITE_DATA = {
     },
     "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}": {
       "owner": "spencer glynn",
-      "team": "Ja'Maar-a-Lago",
+      "team": "This sucks so much",
       "record": "80-70",
       "pf": 16688.6,
       "win_pct": 53,
@@ -7121,7 +7121,7 @@ window.SITE_DATA = {
         },
         {
           "season": 2026,
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "record": "0-2",
           "pf": 219.6
         }
@@ -7251,7 +7251,7 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "ARI",
-          "proj": 12.7,
+          "proj": 12.8,
           "actual": 0.0,
           "season_ppg": 7.5,
           "season_total": 7.5,
@@ -7378,7 +7378,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 188.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4360761,
@@ -10706,7 +10706,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "QB",
           "pro": "MIN",
-          "proj": 17.2,
+          "proj": 17.3,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -10736,7 +10736,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "WSH",
-          "proj": 11.9,
+          "proj": 11.8,
           "actual": 0.0,
           "season_ppg": 7.0,
           "season_total": 7.0,
@@ -13951,7 +13951,7 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "MIA",
-          "proj": 19.5,
+          "proj": 19.4,
           "actual": 0.0,
           "season_ppg": 12.3,
           "season_total": 12.3,
@@ -26734,7 +26734,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 51.6,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16027,
@@ -32235,7 +32235,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 298.6,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": -16016,
@@ -32310,7 +32310,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 222.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4360248,

@@ -135,7 +135,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 118.0,
@@ -297,7 +297,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 101.6,
@@ -335,7 +335,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 123.6,
+          "projected": 123.7,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -448,7 +448,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 125.3,
+          "projected": 125.1,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -502,14 +502,14 @@ window.MATCHUPS_DATA = {
               "pro": "MIN",
               "proj": 13.6,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "49ers D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "SF",
-              "proj": 7.5,
+              "proj": 7.3,
               "actual": 0.0,
               "injury": null
             },
@@ -533,24 +533,14 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 70.8,
-          "injuries": [
-            {
-              "name": "Aaron Jones Sr.",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "MIN",
-              "proj": 13.6,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "played": false,
         "playoff": false,
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 125.3 - Nolan Malo 123.6. Brady Schuster favored by 1.7.",
+        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 125.1 - Nolan Malo 123.7. Brady Schuster favored by 1.4.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -615,8 +605,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 6.4,
-            "away_proj": 7.5,
-            "edge": "away"
+            "away_proj": 7.3,
+            "edge": "even"
           },
           {
             "pos": "K",
@@ -664,7 +654,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 124.2,
+          "projected": 124.1,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -680,7 +670,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "MIA",
-              "proj": 19.5,
+              "proj": 19.4,
               "actual": 0.0,
               "injury": null
             },
@@ -979,7 +969,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -999,7 +989,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "ARI",
-              "proj": 12.7,
+              "proj": 12.8,
               "actual": 0.0,
               "injury": null
             },
@@ -1179,7 +1169,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 103.6,
+          "projected": 103.7,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -1242,7 +1232,7 @@ window.MATCHUPS_DATA = {
               "pro": "CHI",
               "proj": 8.5,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Jason Myers",
@@ -1291,15 +1281,6 @@ window.MATCHUPS_DATA = {
               "proj": 0.0,
               "actual": 0.0,
               "injury": "OUT"
-            },
-            {
-              "name": "Kyle Monangai",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "CHI",
-              "proj": 8.5,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
             }
           ]
         },
@@ -1327,7 +1308,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 0.0,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             },
             {
               "name": "Jonathan Taylor",
@@ -1411,7 +1392,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 0.0,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             }
           ]
         },
@@ -1641,7 +1622,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -2056,7 +2037,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -2421,7 +2402,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -2737,7 +2718,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -3031,7 +3012,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -3413,7 +3394,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -3742,7 +3723,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -3925,7 +3906,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -4132,7 +4113,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -4570,7 +4551,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
@@ -4936,7 +4917,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Ja'Maar-a-Lago",
+          "team": "This sucks so much",
           "owner": "spencer glynn",
           "record": "0-2",
           "actual": 0.0,
