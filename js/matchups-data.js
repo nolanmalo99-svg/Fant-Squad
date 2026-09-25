@@ -870,11 +870,11 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "1-1",
           "actual": 28.4,
-          "projected": 129.7,
+          "projected": 135.9,
           "starters": [
             {
               "name": "Brock Bowers",
-              "slot": "FLEX",
+              "slot": "TE",
               "pos": "TE",
               "pro": "LV",
               "proj": 14.2,
@@ -918,13 +918,13 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jake Ferguson",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "DAL",
-              "proj": 8.7,
+              "name": "Jaylen Warren",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "PIT",
+              "proj": 14.9,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Texans D/ST",
@@ -954,14 +954,23 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 68.7,
+          "bench_proj": 62.5,
           "injuries": [
             {
               "name": "Brock Bowers",
-              "slot": "FLEX",
+              "slot": "TE",
               "pos": "TE",
               "pro": "LV",
               "proj": 14.2,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Jaylen Warren",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "PIT",
+              "proj": 14.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }

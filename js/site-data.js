@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-25T08:00:59+00:00",
+  "generated_at": "2026-09-25T12:01:19+00:00",
   "current_week": 3,
   "standings": [
     {
@@ -29795,24 +29795,9 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4242355,
-          "name": "Jake Ferguson",
-          "slot": "TE",
-          "pos": "TE",
-          "pro": "DAL",
-          "proj": 8.7,
-          "actual": 0.0,
-          "season_ppg": 20.3,
-          "season_total": 20.3,
-          "games_played": 1,
-          "preseason_proj_total": 150.4,
-          "starter": true,
-          "injury": null
-        },
-        {
           "player_id": 4432665,
           "name": "Brock Bowers",
-          "slot": "FLEX",
+          "slot": "TE",
           "pos": "TE",
           "pro": "LV",
           "proj": 14.2,
@@ -29821,6 +29806,21 @@ window.SITE_DATA = {
           "season_total": 0.0,
           "games_played": 1,
           "preseason_proj_total": 262.2,
+          "starter": true,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "player_id": 4569987,
+          "name": "Jaylen Warren",
+          "slot": "FLEX",
+          "pos": "RB",
+          "pro": "PIT",
+          "proj": 14.9,
+          "actual": 0.0,
+          "season_ppg": 9.7,
+          "season_total": 9.7,
+          "games_played": 1,
+          "preseason_proj_total": 250.2,
           "starter": true,
           "injury": "QUESTIONABLE"
         },
@@ -29870,21 +29870,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4569987,
-          "name": "Jaylen Warren",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "PIT",
-          "proj": 14.9,
-          "actual": 0.0,
-          "season_ppg": 9.7,
-          "season_total": 9.7,
-          "games_played": 1,
-          "preseason_proj_total": 250.2,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4870653,
           "name": "KC Concepcion",
           "slot": "BE",
@@ -29911,6 +29896,21 @@ window.SITE_DATA = {
           "season_total": 5.3,
           "games_played": 1,
           "preseason_proj_total": 218.6,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4242355,
+          "name": "Jake Ferguson",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "DAL",
+          "proj": 8.7,
+          "actual": 0.0,
+          "season_ppg": 20.3,
+          "season_total": 20.3,
+          "games_played": 1,
+          "preseason_proj_total": 150.4,
           "starter": false,
           "injury": null
         },
