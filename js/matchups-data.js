@@ -852,7 +852,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 67.0,
+          "bench_proj": 67.8,
           "injuries": []
         },
         "played": true,
