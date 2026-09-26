@@ -1205,7 +1205,7 @@ window.MATCHUPS_DATA = {
               "pro": "PHI",
               "proj": 15.6,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Rome Odunze",
@@ -1255,15 +1255,6 @@ window.MATCHUPS_DATA = {
           ],
           "bench_proj": 80.0,
           "injuries": [
-            {
-              "name": "DeVonta Smith",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "PHI",
-              "proj": 15.6,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
             {
               "name": "Jayden Daniels",
               "slot": "QB",
