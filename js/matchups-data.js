@@ -335,7 +335,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 123.7,
+          "projected": 123.6,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -509,7 +509,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "SF",
-              "proj": 7.3,
+              "proj": 7.2,
               "actual": 0.0,
               "injury": null
             },
@@ -540,7 +540,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 125.1 - Nolan Malo 123.7. Brady Schuster favored by 1.4.",
+        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 125.1 - Nolan Malo 123.6. Brady Schuster favored by 1.5.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -605,7 +605,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 6.4,
-            "away_proj": 7.3,
+            "away_proj": 7.2,
             "edge": "even"
           },
           {
@@ -758,7 +758,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "0-2",
           "actual": 30.2,
-          "projected": 124.8,
+          "projected": 124.7,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -828,7 +828,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "SEA",
-              "proj": 7.4,
+              "proj": 7.3,
               "actual": 0.0,
               "injury": null
             },
@@ -860,7 +860,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "1-1",
           "actual": 28.4,
-          "projected": 135.9,
+          "projected": 135.8,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -921,7 +921,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "HOU",
-              "proj": 6.5,
+              "proj": 6.4,
               "actual": 0.0,
               "injury": null
             },
@@ -1043,7 +1043,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "NO",
-              "proj": 18.7,
+              "proj": 18.8,
               "actual": 0.0,
               "injury": null
             },
@@ -1075,7 +1075,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "2-0",
           "actual": 35.3,
-          "projected": 147.7,
+          "projected": 146.5,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -1109,7 +1109,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "LAR",
-              "proj": 16.9,
+              "proj": 15.6,
               "actual": 0.0,
               "injury": null
             },
@@ -1154,12 +1154,12 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "CAR",
-              "proj": 7.1,
+              "proj": 7.2,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 68.2,
+          "bench_proj": 68.5,
           "injuries": []
         },
         "away": {
@@ -1253,7 +1253,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 80.4,
+          "bench_proj": 80.0,
           "injuries": [
             {
               "name": "DeVonta Smith",
@@ -1374,7 +1374,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 61.9,
+          "bench_proj": 60.3,
           "injuries": [
             {
               "name": "Puka Nacua",
