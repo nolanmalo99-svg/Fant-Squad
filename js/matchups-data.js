@@ -1187,7 +1187,7 @@ window.MATCHUPS_DATA = {
               "pro": "PHI",
               "proj": 17.4,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Trey McBride",
@@ -1255,15 +1255,6 @@ window.MATCHUPS_DATA = {
           ],
           "bench_proj": 80.4,
           "injuries": [
-            {
-              "name": "Saquon Barkley",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "PHI",
-              "proj": 17.4,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
             {
               "name": "DeVonta Smith",
               "slot": "WR",
