@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-27T12:00:55+00:00",
+  "generated_at": "2026-09-27T16:00:52+00:00",
   "current_week": 3,
   "standings": [
     {
@@ -7363,7 +7363,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 108.6,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4239996,
@@ -10626,19 +10626,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4429615,
-          "name": "Zay Flowers",
+          "player_id": 4360939,
+          "name": "Rashod Bateman",
           "slot": "WR",
           "pos": "WR",
           "pro": "BAL",
-          "proj": 15.6,
+          "proj": 7.6,
           "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
+          "season_ppg": 21.8,
+          "season_total": 21.8,
           "games_played": 1,
-          "preseason_proj_total": 232.5,
+          "preseason_proj_total": 136.0,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4431459,
@@ -10716,6 +10716,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4429615,
+          "name": "Zay Flowers",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "BAL",
+          "proj": 15.6,
+          "actual": 0.0,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 1,
+          "preseason_proj_total": 232.5,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
           "player_id": 4361050,
           "name": "Isaiah Likely",
           "slot": "BE",
@@ -10772,21 +10787,6 @@ window.SITE_DATA = {
           "season_total": 9.2,
           "games_played": 1,
           "preseason_proj_total": 32.1,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4360939,
-          "name": "Rashod Bateman",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "BAL",
-          "proj": 7.6,
-          "actual": 0.0,
-          "season_ppg": 21.8,
-          "season_total": 21.8,
-          "games_played": 1,
-          "preseason_proj_total": 136.0,
           "starter": false,
           "injury": null
         },
@@ -14021,19 +14021,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 3915416,
-          "name": "DJ Moore",
+          "player_id": 4688813,
+          "name": "Josh Downs",
           "slot": "FLEX",
           "pos": "WR",
-          "pro": "BUF",
-          "proj": 12.6,
+          "pro": "IND",
+          "proj": 12.0,
           "actual": 0.0,
-          "season_ppg": -0.1,
-          "season_total": -0.1,
+          "season_ppg": 14.2,
+          "season_total": 14.2,
           "games_played": 1,
-          "preseason_proj_total": 237.9,
+          "preseason_proj_total": 179.1,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16021,
@@ -14081,17 +14081,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4688813,
-          "name": "Josh Downs",
+          "player_id": 3915416,
+          "name": "DJ Moore",
           "slot": "BE",
           "pos": "WR",
-          "pro": "IND",
-          "proj": 12.0,
+          "pro": "BUF",
+          "proj": 12.6,
           "actual": 0.0,
-          "season_ppg": 14.2,
-          "season_total": 14.2,
+          "season_ppg": -0.1,
+          "season_total": -0.1,
           "games_played": 1,
-          "preseason_proj_total": 179.1,
+          "preseason_proj_total": 237.9,
           "starter": false,
           "injury": null
         },
@@ -22068,7 +22068,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 84.4,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         },
         {
           "player_id": 3116365,
@@ -26809,7 +26809,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 201.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 3916433,
@@ -29822,7 +29822,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 250.2,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16034,

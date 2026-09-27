@@ -335,7 +335,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 123.6,
+          "projected": 115.6,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -354,15 +354,6 @@ window.MATCHUPS_DATA = {
               "proj": 17.0,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Zay Flowers",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "BAL",
-              "proj": 15.6,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
             },
             {
               "name": "Javonte Williams",
@@ -417,19 +408,19 @@ window.MATCHUPS_DATA = {
               "proj": 6.4,
               "actual": 0.0,
               "injury": null
-            }
-          ],
-          "bench_proj": 69.3,
-          "injuries": [
+            },
             {
-              "name": "Zay Flowers",
+              "name": "Rashod Bateman",
               "slot": "WR",
               "pos": "WR",
               "pro": "BAL",
-              "proj": 15.6,
+              "proj": 7.6,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
+              "injury": null
+            }
+          ],
+          "bench_proj": 77.3,
+          "injuries": [
             {
               "name": "Mike Evans",
               "slot": "FLEX",
@@ -540,7 +531,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 125.1 - Nolan Malo 123.6. Brady Schuster favored by 1.5.",
+        "blurb": "Brady Schuster (1-1) at Nolan Malo (1-1). Projected: Brady Schuster 125.1 - Nolan Malo 115.6. Brady Schuster favored by 9.5.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -634,13 +625,15 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 48.0,
+            "home_proj": 40.0,
             "away_proj": 35.1,
             "edge": "home"
           }
         ],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Nolan Malo's worst week of the season."
+        ],
         "head_to_head": {
           "home_w": 13,
           "home_l": 4
@@ -654,7 +647,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 124.1,
+          "projected": 123.6,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -693,15 +686,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "DJ Moore",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "BUF",
-              "proj": 12.6,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
               "name": "Trevor Lawrence",
               "slot": "QB",
               "pos": "QB",
@@ -716,6 +700,15 @@ window.MATCHUPS_DATA = {
               "pos": "K",
               "pro": "DAL",
               "proj": 9.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Josh Downs",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "IND",
+              "proj": 12.0,
               "actual": 0.0,
               "injury": null
             },
@@ -738,18 +731,8 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 55.7,
-          "injuries": [
-            {
-              "name": "DJ Moore",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "BUF",
-              "proj": 12.6,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "bench_proj": 56.3,
+          "injuries": []
         },
         "away": {
           "teamId": 1,
@@ -914,7 +897,7 @@ window.MATCHUPS_DATA = {
               "pro": "PIT",
               "proj": 14.9,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Texans D/ST",
@@ -952,15 +935,6 @@ window.MATCHUPS_DATA = {
               "pos": "TE",
               "pro": "LV",
               "proj": 14.2,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Jaylen Warren",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "PIT",
-              "proj": 14.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
