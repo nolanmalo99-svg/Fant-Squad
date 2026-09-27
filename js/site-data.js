@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-27T00:01:18+00:00",
+  "generated_at": "2026-09-27T04:01:29+00:00",
   "current_week": 3,
   "standings": [
     {
@@ -32223,19 +32223,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4426515,
-          "name": "Puka Nacua",
+          "player_id": 3117256,
+          "name": "Dalton Schultz",
           "slot": "FLEX",
-          "pos": "WR",
-          "pro": "LAR",
-          "proj": 0.0,
+          "pos": "TE",
+          "pro": "HOU",
+          "proj": 11.0,
           "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
+          "season_ppg": 26.0,
+          "season_total": 26.0,
           "games_played": 1,
-          "preseason_proj_total": 298.6,
+          "preseason_proj_total": 126.1,
           "starter": true,
-          "injury": "DOUBTFUL"
+          "injury": null
         },
         {
           "player_id": -16016,
@@ -32279,21 +32279,6 @@ window.SITE_DATA = {
           "season_total": 4.4,
           "games_played": 1,
           "preseason_proj_total": 213.4,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 3117256,
-          "name": "Dalton Schultz",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "HOU",
-          "proj": 11.0,
-          "actual": 0.0,
-          "season_ppg": 26.0,
-          "season_total": 26.0,
-          "games_played": 1,
-          "preseason_proj_total": 126.1,
           "starter": false,
           "injury": null
         },
@@ -32358,19 +32343,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4702555,
-          "name": "Jonah Coleman",
+          "player_id": 4426515,
+          "name": "Puka Nacua",
           "slot": "BE",
-          "pos": "RB",
-          "pro": "DEN",
+          "pos": "WR",
+          "pro": "LAR",
           "proj": 0.0,
           "actual": 0.0,
-          "season_ppg": 14.8,
-          "season_total": 14.8,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
           "games_played": 1,
-          "preseason_proj_total": 25.3,
+          "preseason_proj_total": 298.6,
           "starter": false,
-          "injury": "INJURY_RESERVE"
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 4426385,

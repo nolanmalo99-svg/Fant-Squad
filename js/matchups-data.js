@@ -1281,17 +1281,8 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "1-1",
           "actual": 0.0,
-          "projected": 108.0,
+          "projected": 119.0,
           "starters": [
-            {
-              "name": "Puka Nacua",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "LAR",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "DOUBTFUL"
-            },
             {
               "name": "Jonathan Taylor",
               "slot": "RB",
@@ -1363,20 +1354,19 @@ window.MATCHUPS_DATA = {
               "proj": 6.5,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Dalton Schultz",
+              "slot": "FLEX",
+              "pos": "TE",
+              "pro": "HOU",
+              "proj": 11.0,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 60.3,
-          "injuries": [
-            {
-              "name": "Puka Nacua",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "LAR",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "DOUBTFUL"
-            }
-          ]
+          "bench_proj": 49.3,
+          "injuries": []
         },
         "away": {
           "teamId": 7,
@@ -1477,7 +1467,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (2-0) at Owen Koslosku (1-1). Projected: Dawson Leer 123.6 - Owen Koslosku 108.0. Dawson Leer favored by 15.6.",
+        "blurb": "Dawson Leer (2-0) at Owen Koslosku (1-1). Projected: Dawson Leer 123.6 - Owen Koslosku 119.0. Dawson Leer favored by 4.6.",
         "home_form": {
           "record_last_n": "1-1",
           "games_considered": 2,
@@ -1565,7 +1555,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "TE",
-            "home_proj": 12.7,
+            "home_proj": 23.7,
             "away_proj": 11.2,
             "edge": "home"
           },
@@ -1578,6 +1568,7 @@ window.MATCHUPS_DATA = {
         ],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's best week of the season.",
           "If the projection holds, this would be Dawson Leer's worst week of the season.",
           "Dawson Leer owns the league's longest active winning streak at 2 games."
         ],
