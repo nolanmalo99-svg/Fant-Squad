@@ -1759,7 +1759,7 @@ window.MATCHUPS_DATA = {
               "pro": "DEN",
               "proj": 11.9,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Dak Prescott",
@@ -1815,6 +1815,15 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "NYJ",
               "proj": 0.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Jaylen Waddle",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "DEN",
+              "proj": 11.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
