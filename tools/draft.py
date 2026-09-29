@@ -2,11 +2,16 @@
 performed (or is projected to perform) relative to every other player drafted in this league.
 No AI, no third-party ADP data -- just this league's own draft order vs. its own results.
 
+Grading uses each player's PER-GAME AVERAGE, not their season total -- that way the grade
+reflects overall performance quality and keeps updating sensibly as the season goes on,
+rather than just rewarding whoever has racked up the most cumulative points so far.
+
 Current season: before Week 1 has been played, every player's actual total is zero, so grades
 would just be ties. In that case we fall back to ESPN's own preseason full-season projection
-per player, and switch over to real results automatically once games start.
+per player (divided by a standard season length to keep it on the same per-game scale), and
+switch over to real per-game results automatically once games start.
 
-Past seasons: always graded on actual full-season production. The main risk is a drafted
+Past seasons: always graded on actual per-game average. The main risk is a drafted
 player who was dropped mid-season in a *past* year -- we try a best-effort stats lookup, but
 if ESPN's players-by-id endpoint doesn't serve historical seasons well, that pick degrades
 gracefully to "stats unavailable" rather than breaking the whole season's grades.
@@ -14,6 +19,7 @@ gracefully to "stats unavailable" rather than breaking the whole season's grades
 from lib import espn, espn_history, espn_players_by_id, season_stats_from_player, preseason_projection, POS, PRO
 
 GRADE_BANDS = [(0.15, "A+"), (0.35, "A"), (0.60, "B"), (0.80, "C"), (0.92, "D"), (1.01, "F")]
+STANDARD_SEASON_GAMES = 17  # only used to scale a full-season preseason projection to a per-game figure
 
 
 def _grade_for_rank_pct(pct):
@@ -51,9 +57,13 @@ def _team_id_to_guid(teams_raw):
 def _grade_picks(picks, draft_type, pool, team_id_to_guid, mode):
     """Shared scoring core, used for both the live current season and historical seasons."""
     def _value(info):
+        """Per-game average -- the actual grading/display metric, not a season total."""
         if mode == "actual":
-            return info.get("season_total", 0.0) or 0.0
-        return info.get("preseason_proj_total") or info.get("season_total", 0.0) or 0.0
+            total = info.get("season_total", 0.0) or 0.0
+            games = info.get("games_played", 0) or 0
+            return round(total / games, 1) if games else 0.0
+        total = info.get("preseason_proj_total") or info.get("season_total", 0.0) or 0.0
+        return round(total / STANDARD_SEASON_GAMES, 1)
 
     is_auction = (draft_type or "").upper() == "AUCTION"
     if is_auction:
@@ -189,12 +199,9 @@ def build_draft_grades(season, standings_with_roster, current_week):
 
 
 def _historical_player_pool(season):
-    """Build a player pool from every WEEK's matchup-embedded roster across a past season,
-    rather than a single end-of-season snapshot. This is the same technique league.py already
-    uses successfully for the live season -- each week's roster carries that week's actual stat
-    line, so a player's full season adds up correctly even if they were traded, dropped, or
-    picked up off waivers partway through (an end-of-season-only snapshot would miss all of
-    that, undercounting anyone who changed hands)."""
+    """Build a player pool from every team's end-of-season roster snapshot for a past season.
+    Known gap: a player traded/dropped mid-season only shows stats from whichever team held
+    them last (per-week historical roster data isn't exposed by ESPN's API for past seasons)."""
     d = espn(["mTeam", "mRoster", "mSettings"], season)
     if not d or not d.get("teams"):
         d = espn_history(["mTeam", "mRoster", "mSettings"], season)
@@ -202,13 +209,6 @@ def _historical_player_pool(season):
         print(f"[draft] season {season}: no roster data from either endpoint")
         return {}, {}
 
-    # NOTE: tried pulling week-by-week matchup-embedded rosters here (the same technique the
-    # live current season uses) so trades/waiver moves wouldn't undercount a player's real
-    # season -- but ESPN does not expose that per-week roster granularity for completed past
-    # seasons at all (confirmed: 0 players found across every historical year, even ones the
-    # primary endpoint reaches directly with no 404). So we're back to the end-of-season
-    # snapshot, which works but has one known gap: a player traded/dropped mid-season only
-    # shows stats from whichever team held them last.
     matchup_period_count = d.get("settings", {}).get("scheduleSettings", {}).get("matchupPeriodCount", 17)
     cutoff_week = matchup_period_count + 10  # season is over; count every week played
 
