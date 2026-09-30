@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-09-30T17:01:51+00:00",
+  "generated_at": "2026-09-30T23:14:08+00:00",
   "current_week": 4,
   "standings": [
     {
@@ -603,7 +603,7 @@
           "games_played": 3,
           "preseason_proj_total": 283.5,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16026,
@@ -656,7 +656,7 @@
           "slot": "BE",
           "pos": "RB",
           "pro": "NYJ",
-          "proj": 12.8,
+          "proj": 12.7,
           "actual": 0.0,
           "season_ppg": 4.7,
           "season_total": 4.7,
@@ -7236,7 +7236,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "CAR",
-          "proj": 16.4,
+          "proj": 16.3,
           "actual": 0.0,
           "season_ppg": 17.7,
           "season_total": 53.1,
@@ -7311,7 +7311,7 @@
           "slot": "FLEX",
           "pos": "WR",
           "pro": "NYJ",
-          "proj": 15.3,
+          "proj": 16.5,
           "actual": 0.0,
           "season_ppg": 19.1,
           "season_total": 57.3,
@@ -7351,21 +7351,6 @@
           "injury": null
         },
         {
-          "player_id": 4695883,
-          "name": "Jalen Coker",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "CAR",
-          "proj": 13.8,
-          "actual": 0.0,
-          "season_ppg": 17.4,
-          "season_total": 52.2,
-          "games_played": 3,
-          "preseason_proj_total": 108.6,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4360761,
           "name": "Michael Wilson",
           "slot": "BE",
@@ -7379,6 +7364,21 @@
           "preseason_proj_total": 115.8,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4695883,
+          "name": "Jalen Coker",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "CAR",
+          "proj": 13.1,
+          "actual": 0.0,
+          "season_ppg": 17.4,
+          "season_total": 52.2,
+          "games_played": 3,
+          "preseason_proj_total": 108.6,
+          "starter": false,
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4882093,
@@ -10638,7 +10638,7 @@
           "games_played": 3,
           "preseason_proj_total": 232.5,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4431459,
@@ -10676,7 +10676,7 @@
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "CIN",
-          "proj": 4.4,
+          "proj": 4.3,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
@@ -10736,7 +10736,7 @@
           "slot": "BE",
           "pos": "TE",
           "pro": "NYG",
-          "proj": 11.8,
+          "proj": 11.7,
           "actual": 0.0,
           "season_ppg": 13.1,
           "season_total": 39.4,
@@ -14026,7 +14026,7 @@
           "slot": "FLEX",
           "pos": "WR",
           "pro": "IND",
-          "proj": 13.7,
+          "proj": 13.6,
           "actual": 0.0,
           "season_ppg": 10.9,
           "season_total": 32.6,
@@ -14093,7 +14093,7 @@
           "games_played": 3,
           "preseason_proj_total": 237.9,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4429205,
@@ -14101,7 +14101,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "MIN",
-          "proj": 11.5,
+          "proj": 11.6,
           "actual": 0.0,
           "season_ppg": 8.0,
           "season_total": 24.1,
@@ -18585,7 +18585,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "MIN",
-          "proj": 18.6,
+          "proj": 18.7,
           "actual": 0.0,
           "season_ppg": 15.0,
           "season_total": 44.9,
@@ -18700,6 +18700,21 @@
           "injury": null
         },
         {
+          "player_id": 5083315,
+          "name": "Kenyon Sadiq",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "NYJ",
+          "proj": 9.9,
+          "actual": 0.0,
+          "season_ppg": 7.5,
+          "season_total": 15.1,
+          "games_played": 2,
+          "preseason_proj_total": 127.2,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
           "player_id": 4373678,
           "name": "Khalil Shakir",
           "slot": "BE",
@@ -18715,27 +18730,12 @@
           "injury": null
         },
         {
-          "player_id": 5083315,
-          "name": "Kenyon Sadiq",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "NYJ",
-          "proj": 9.3,
-          "actual": 0.0,
-          "season_ppg": 7.5,
-          "season_total": 15.1,
-          "games_played": 2,
-          "preseason_proj_total": 127.2,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4429025,
           "name": "Quentin Johnston",
           "slot": "BE",
           "pos": "WR",
           "pro": "LAC",
-          "proj": 8.6,
+          "proj": 8.5,
           "actual": 0.0,
           "season_ppg": 4.4,
           "season_total": 13.1,
@@ -18772,7 +18772,7 @@
           "games_played": 3,
           "preseason_proj_total": 84.0,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         },
         {
           "player_id": 4360078,
@@ -21888,7 +21888,7 @@
           "games_played": 3,
           "preseason_proj_total": 363.4,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4430807,
@@ -21948,7 +21948,7 @@
           "games_played": 3,
           "preseason_proj_total": 243.2,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 15847,
@@ -22056,21 +22056,6 @@
           "injury": null
         },
         {
-          "player_id": 4597500,
-          "name": "Adonai Mitchell",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "NYJ",
-          "proj": 10.5,
-          "actual": 0.0,
-          "season_ppg": 7.1,
-          "season_total": 21.3,
-          "games_played": 3,
-          "preseason_proj_total": 84.4,
-          "starter": false,
-          "injury": "DOUBTFUL"
-        },
-        {
           "player_id": 4241985,
           "name": "J.K. Dobbins",
           "slot": "BE",
@@ -22113,7 +22098,22 @@
           "games_played": 3,
           "preseason_proj_total": 177.8,
           "starter": false,
-          "injury": "OUT"
+          "injury": "INJURY_RESERVE"
+        },
+        {
+          "player_id": 4597500,
+          "name": "Adonai Mitchell",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "NYJ",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 7.1,
+          "season_total": 21.3,
+          "games_played": 3,
+          "preseason_proj_total": 84.4,
+          "starter": false,
+          "injury": "DOUBTFUL"
         }
       ],
       "draft": {
@@ -26689,7 +26689,7 @@
           "games_played": 3,
           "preseason_proj_total": 223.0,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4431299,
@@ -26794,7 +26794,7 @@
           "games_played": 3,
           "preseason_proj_total": 219.6,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4568490,
@@ -26802,7 +26802,7 @@
           "slot": "BE",
           "pos": "RB",
           "pro": "DEN",
-          "proj": 10.2,
+          "proj": 10.1,
           "actual": 0.0,
           "season_ppg": 6.3,
           "season_total": 18.8,
@@ -26817,7 +26817,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "PIT",
-          "proj": 9.8,
+          "proj": 9.7,
           "actual": 0.0,
           "season_ppg": 4.1,
           "season_total": 12.4,
@@ -26854,7 +26854,7 @@
           "games_played": 3,
           "preseason_proj_total": 187.6,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4426348,
@@ -29732,7 +29732,7 @@
           "games_played": 3,
           "preseason_proj_total": 367.7,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4890973,
@@ -29755,7 +29755,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "PIT",
-          "proj": 16.7,
+          "proj": 16.6,
           "actual": 0.0,
           "season_ppg": 13.5,
           "season_total": 40.6,
@@ -29800,7 +29800,7 @@
           "slot": "TE",
           "pos": "TE",
           "pro": "LV",
-          "proj": 16.0,
+          "proj": 15.9,
           "actual": 0.0,
           "season_ppg": 9.2,
           "season_total": 27.6,
@@ -32163,19 +32163,19 @@
           "injury": null
         },
         {
-          "player_id": 4427366,
-          "name": "Breece Hall",
+          "player_id": 4035538,
+          "name": "David Montgomery",
           "slot": "RB",
           "pos": "RB",
-          "pro": "NYJ",
-          "proj": 0.0,
+          "pro": "HOU",
+          "proj": 13.5,
           "actual": 0.0,
-          "season_ppg": 14.2,
-          "season_total": 42.5,
+          "season_ppg": 13.4,
+          "season_total": 40.1,
           "games_played": 3,
-          "preseason_proj_total": 226.0,
+          "preseason_proj_total": 213.4,
           "starter": true,
-          "injury": "DOUBTFUL"
+          "injury": null
         },
         {
           "player_id": 4426354,
@@ -32205,7 +32205,7 @@
           "games_played": 3,
           "preseason_proj_total": 226.5,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 3040151,
@@ -32268,21 +32268,6 @@
           "injury": null
         },
         {
-          "player_id": 4035538,
-          "name": "David Montgomery",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "HOU",
-          "proj": 13.5,
-          "actual": 0.0,
-          "season_ppg": 13.4,
-          "season_total": 40.1,
-          "games_played": 3,
-          "preseason_proj_total": 213.4,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 3916148,
           "name": "Tony Pollard",
           "slot": "BE",
@@ -32313,21 +32298,6 @@
           "injury": null
         },
         {
-          "player_id": 4711533,
-          "name": "Ollie Gordon II",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "MIA",
-          "proj": 9.3,
-          "actual": 0.0,
-          "season_ppg": 14.5,
-          "season_total": 14.5,
-          "games_played": 1,
-          "preseason_proj_total": 84.3,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 3117256,
           "name": "Dalton Schultz",
           "slot": "BE",
@@ -32339,6 +32309,21 @@
           "season_total": 6.0,
           "games_played": 1,
           "preseason_proj_total": 126.1,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4711533,
+          "name": "Ollie Gordon II",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "MIA",
+          "proj": 9.0,
+          "actual": 0.0,
+          "season_ppg": 14.5,
+          "season_total": 14.5,
+          "games_played": 1,
+          "preseason_proj_total": 84.3,
           "starter": false,
           "injury": null
         },
@@ -32356,6 +32341,21 @@
           "preseason_proj_total": 240.0,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4427366,
+          "name": "Breece Hall",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "NYJ",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 14.2,
+          "season_total": 42.5,
+          "games_played": 3,
+          "preseason_proj_total": 226.0,
+          "starter": false,
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 4426385,
