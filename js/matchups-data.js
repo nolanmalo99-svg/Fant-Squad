@@ -581,7 +581,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 54.9,
+          "bench_proj": 77.1,
           "injuries": []
         },
         "away": {
@@ -977,7 +977,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 80.5,
+          "bench_proj": 70.9,
           "injuries": []
         },
         "played": false,
@@ -1185,7 +1185,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 67.3,
+          "bench_proj": 69.1,
           "injuries": [
             {
               "name": "Justin Jefferson",
@@ -1205,7 +1205,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-2",
           "actual": 0.0,
-          "projected": 125.9,
+          "projected": 127.0,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1262,15 +1262,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "49ers D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "SF",
-              "proj": 5.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Daniel Carlson",
               "slot": "K",
               "pos": "K",
@@ -1287,6 +1278,15 @@ window.MATCHUPS_DATA = {
               "proj": 8.9,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Ravens D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "BAL",
+              "proj": 7.0,
+              "actual": 0.0,
+              "injury": null
             }
           ],
           "bench_proj": 66.4,
@@ -1297,7 +1297,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-2) at Dawson Leer (2-1). Projected: Brady Schuster 125.9 - Dawson Leer 122.1. Brady Schuster favored by 3.8.",
+        "blurb": "Brady Schuster (1-2) at Dawson Leer (2-1). Projected: Brady Schuster 127.0 - Dawson Leer 122.1. Brady Schuster favored by 4.9.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1362,7 +1362,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 3.1,
-            "away_proj": 5.9,
+            "away_proj": 7.0,
             "edge": "away"
           },
           {
@@ -1807,7 +1807,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 69.3,
+          "bench_proj": 71.2,
           "injuries": [
             {
               "name": "Breece Hall",
