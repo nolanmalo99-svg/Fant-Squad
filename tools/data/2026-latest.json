@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-01T02:32:25+00:00",
+  "generated_at": "2026-10-01T10:29:41+00:00",
   "current_week": 4,
   "standings": [
     {
@@ -32281,6 +32281,21 @@
           "preseason_proj_total": 222.1,
           "starter": false,
           "injury": "QUESTIONABLE"
+        },
+        {
+          "player_id": 2973405,
+          "name": "Kalif Raymond",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "CHI",
+          "proj": 10.1,
+          "actual": 0.0,
+          "season_ppg": 21.0,
+          "season_total": 21.0,
+          "games_played": 1,
+          "preseason_proj_total": 27.7,
+          "starter": false,
+          "injury": null
         },
         {
           "player_id": 4428718,
