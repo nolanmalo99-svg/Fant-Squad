@@ -1131,7 +1131,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "2-1",
           "actual": 0.0,
-          "projected": 122.2,
+          "projected": 124.5,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -1197,20 +1197,20 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Ka'imi Fairbairn",
-              "slot": "K",
-              "pos": "K",
-              "pro": "HOU",
-              "proj": 9.9,
+              "name": "Bears D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "CHI",
+              "proj": 6.3,
               "actual": 0.0,
               "injury": null
             },
             {
-              "name": "Patriots D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "NE",
-              "proj": 3.1,
+              "name": "Spencer Shrader",
+              "slot": "K",
+              "pos": "K",
+              "pro": "IND",
+              "proj": 9.0,
               "actual": 0.0,
               "injury": null
             }
@@ -1235,7 +1235,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-2",
           "actual": 0.0,
-          "projected": 127.0,
+          "projected": 127.6,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1292,29 +1292,29 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Daniel Carlson",
-              "slot": "K",
-              "pos": "K",
-              "pro": "NO",
-              "proj": 8.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Hunter Henry",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "NE",
-              "proj": 8.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Ravens D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "BAL",
               "proj": 7.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Will Reichard",
+              "slot": "K",
+              "pos": "K",
+              "pro": "MIN",
+              "proj": 9.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Darren Waller",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "CAR",
+              "proj": 9.3,
               "actual": 0.0,
               "injury": null
             }
@@ -1327,7 +1327,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-2) at Dawson Leer (2-1). Projected: Brady Schuster 127.0 - Dawson Leer 122.2. Brady Schuster favored by 4.8.",
+        "blurb": "Brady Schuster (1-2) at Dawson Leer (2-1). Projected: Brady Schuster 127.6 - Dawson Leer 124.5. Brady Schuster favored by 3.1.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1391,14 +1391,14 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 3.1,
+            "home_proj": 6.3,
             "away_proj": 7.0,
-            "edge": "away"
+            "edge": "even"
           },
           {
             "pos": "K",
-            "home_proj": 9.9,
-            "away_proj": 8.9,
+            "home_proj": 9.0,
+            "away_proj": 9.1,
             "edge": "even"
           },
           {
@@ -1416,7 +1416,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "TE",
             "home_proj": 11.2,
-            "away_proj": 8.9,
+            "away_proj": 9.3,
             "edge": "home"
           },
           {
