@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-02T10:04:53+00:00",
+  "generated_at": "2026-10-02T16:51:27+00:00",
   "current_week": 4,
   "standings": [
     {
@@ -696,6 +696,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4870795,
+          "name": "Makai Lemon",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "PHI",
+          "proj": 10.4,
+          "actual": 0.0,
+          "season_ppg": 3.4,
+          "season_total": 10.3,
+          "games_played": 3,
+          "preseason_proj_total": 144.5,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4685512,
           "name": "Jadarian Price",
           "slot": "BE",
@@ -722,21 +737,6 @@ window.SITE_DATA = {
           "season_total": 19.6,
           "games_played": 3,
           "preseason_proj_total": 160.0,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4870795,
-          "name": "Makai Lemon",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "PHI",
-          "proj": 7.5,
-          "actual": 0.0,
-          "season_ppg": 3.4,
-          "season_total": 10.3,
-          "games_played": 3,
-          "preseason_proj_total": 144.5,
           "starter": false,
           "injury": null
         },
@@ -10751,7 +10751,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "PHI",
-          "proj": 9.9,
+          "proj": 11.1,
           "actual": 0.0,
           "season_ppg": 5.2,
           "season_total": 5.2,
@@ -26667,7 +26667,7 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "PHI",
-          "proj": 14.2,
+          "proj": 14.3,
           "actual": 0.0,
           "season_ppg": 7.0,
           "season_total": 21.0,
@@ -26767,21 +26767,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4241478,
-          "name": "DeVonta Smith",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "PHI",
-          "proj": 15.6,
-          "actual": 0.0,
-          "season_ppg": 16.2,
-          "season_total": 48.5,
-          "games_played": 3,
-          "preseason_proj_total": 223.0,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 3916433,
           "name": "Jakobi Meyers",
           "slot": "BE",
@@ -26857,6 +26842,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4241478,
+          "name": "DeVonta Smith",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "PHI",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 16.2,
+          "season_total": 48.5,
+          "games_played": 3,
+          "preseason_proj_total": 223.0,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
           "player_id": 4426348,
           "name": "Jayden Daniels",
           "slot": "BE",
@@ -26869,7 +26869,7 @@ window.SITE_DATA = {
           "games_played": 3,
           "preseason_proj_total": 371.5,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         }
       ],
       "draft": {
@@ -29755,7 +29755,7 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "PIT",
-          "proj": 16.5,
+          "proj": 17.0,
           "actual": 15.6,
           "season_ppg": 13.5,
           "season_total": 40.6,
@@ -32370,7 +32370,7 @@ window.SITE_DATA = {
           "games_played": 3,
           "preseason_proj_total": 226.0,
           "starter": false,
-          "injury": "DOUBTFUL"
+          "injury": "OUT"
         },
         {
           "player_id": 4426385,

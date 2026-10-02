@@ -581,7 +581,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 79.3,
+          "bench_proj": 82.2,
           "injuries": [
             {
               "name": "Bucky Irving",
@@ -719,7 +719,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "PHI",
-              "proj": 14.2,
+              "proj": 14.3,
               "actual": 0.0,
               "injury": null
             },
@@ -787,7 +787,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 62.4,
+          "bench_proj": 46.8,
           "injuries": []
         },
         "away": {
@@ -881,7 +881,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 70.3,
+          "bench_proj": 71.5,
           "injuries": []
         },
         "played": false,
@@ -971,7 +971,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 42.9,
+            "home_proj": 43.0,
             "away_proj": 31.9,
             "edge": "home"
           },
@@ -1590,7 +1590,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "PIT",
-              "proj": 16.5,
+              "proj": 17.0,
               "actual": 15.6,
               "injury": null
             },
