@@ -581,7 +581,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 72.2,
+          "bench_proj": 72.3,
           "injuries": []
         },
         "away": {
@@ -787,7 +787,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "2-1",
           "actual": 0.0,
-          "projected": 124.6,
+          "projected": 111.5,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -839,9 +839,9 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "WR",
               "pro": "WSH",
-              "proj": 13.0,
+              "proj": 0.0,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             },
             {
               "name": "Joe Burrow",
@@ -866,7 +866,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "CIN",
-              "proj": 4.3,
+              "proj": 4.4,
               "actual": 0.0,
               "injury": null
             }
@@ -887,9 +887,9 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "WR",
               "pro": "WSH",
-              "proj": 13.0,
+              "proj": 0.0,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             }
           ]
         },
@@ -898,7 +898,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (2-1) at Noah Budach (1-2). Projected: Nolan Malo 124.6 - Noah Budach 119.7. Nolan Malo favored by 4.9.",
+        "blurb": "Nolan Malo (2-1) at Noah Budach (1-2). Projected: Nolan Malo 111.5 - Noah Budach 119.7. Noah Budach favored by 8.2.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -963,7 +963,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 6.5,
-            "away_proj": 4.3,
+            "away_proj": 4.4,
             "edge": "home"
           },
           {
@@ -993,7 +993,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 22.7,
-            "away_proj": 48.5,
+            "away_proj": 35.5,
             "edge": "away"
           }
         ],
@@ -1014,7 +1014,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "2-1",
           "actual": 21.6,
-          "projected": 127.5,
+          "projected": 127.6,
           "starters": [
             {
               "name": "Kenneth Walker III",
@@ -1098,7 +1098,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 39.8,
+          "bench_proj": 41.0,
           "injuries": []
         },
         "away": {
@@ -1210,7 +1210,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "3-0",
           "actual": 0.0,
-          "projected": 128.6,
+          "projected": 129.4,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -1244,7 +1244,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "LAR",
-              "proj": 14.9,
+              "proj": 15.6,
               "actual": 0.0,
               "injury": null
             },
@@ -1314,7 +1314,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "1-2",
           "actual": 11.7,
-          "projected": 110.9,
+          "projected": 110.8,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -1426,14 +1426,14 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "2-1",
           "actual": 3.0,
-          "projected": 122.3,
+          "projected": 119.6,
           "starters": [
             {
               "name": "Puka Nacua",
               "slot": "FLEX",
               "pos": "WR",
               "pro": "LAR",
-              "proj": 20.7,
+              "proj": 18.1,
               "actual": 0.0,
               "injury": null
             },
