@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-03T18:50:50+00:00",
+  "generated_at": "2026-10-03T22:28:31+00:00",
   "current_week": 4,
   "standings": [
     {
@@ -738,7 +738,7 @@ window.SITE_DATA = {
           "games_played": 3,
           "preseason_proj_total": 172.8,
           "starter": false,
-          "injury": "OUT"
+          "injury": "INJURY_RESERVE"
         },
         {
           "player_id": 4047646,
@@ -10656,19 +10656,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 3121422,
-          "name": "Terry McLaurin",
+          "player_id": 4428850,
+          "name": "Dontayvion Wicks",
           "slot": "FLEX",
           "pos": "WR",
-          "pro": "WSH",
-          "proj": 0.0,
+          "pro": "PHI",
+          "proj": 11.2,
           "actual": 0.0,
-          "season_ppg": 10.0,
-          "season_total": 30.1,
-          "games_played": 3,
-          "preseason_proj_total": 247.7,
+          "season_ppg": 5.2,
+          "season_total": 5.2,
+          "games_played": 1,
+          "preseason_proj_total": 20.5,
           "starter": true,
-          "injury": "DOUBTFUL"
+          "injury": null
         },
         {
           "player_id": -16004,
@@ -10746,21 +10746,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4428850,
-          "name": "Dontayvion Wicks",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "PHI",
-          "proj": 11.2,
-          "actual": 0.0,
-          "season_ppg": 5.2,
-          "season_total": 5.2,
-          "games_played": 1,
-          "preseason_proj_total": 20.5,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4361432,
           "name": "Romeo Doubs",
           "slot": "BE",
@@ -10789,6 +10774,21 @@ window.SITE_DATA = {
           "preseason_proj_total": 136.0,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 3121422,
+          "name": "Terry McLaurin",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "WSH",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 10.0,
+          "season_total": 30.1,
+          "games_played": 3,
+          "preseason_proj_total": 247.7,
+          "starter": false,
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 3116406,
