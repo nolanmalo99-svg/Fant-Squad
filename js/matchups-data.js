@@ -591,7 +591,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-3",
           "actual": 5.0,
-          "projected": 127.1,
+          "projected": 127.3,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -634,7 +634,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "CAR",
-              "proj": 16.4,
+              "proj": 16.6,
               "actual": 0.0,
               "injury": null
             },
@@ -675,7 +675,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 55.8,
+          "bench_proj": 42.7,
           "injuries": []
         },
         "played": true,
@@ -1099,7 +1099,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-2",
           "actual": 0.0,
-          "projected": 127.9,
+          "projected": 128.8,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1178,7 +1178,7 @@ window.MATCHUPS_DATA = {
               "slot": "TE",
               "pos": "TE",
               "pro": "CAR",
-              "proj": 9.3,
+              "proj": 10.1,
               "actual": 0.0,
               "injury": null
             }
@@ -1208,7 +1208,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "ATL",
-              "proj": 21.4,
+              "proj": 21.5,
               "actual": 0.0,
               "injury": null
             },
@@ -1305,7 +1305,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "1-2",
           "actual": 11.7,
-          "projected": 110.8,
+          "projected": 123.2,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -1317,20 +1317,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "De'Von Achane",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "MIA",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "INJURY_RESERVE"
-            },
-            {
               "name": "Tetairoa McMillan",
               "slot": "WR",
               "pos": "WR",
               "pro": "CAR",
-              "proj": 14.9,
+              "proj": 15.8,
               "actual": 0.0,
               "injury": null
             },
@@ -1387,20 +1378,19 @@ window.MATCHUPS_DATA = {
               "proj": 6.4,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Emanuel Wilson",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "SEA",
+              "proj": 11.5,
+              "actual": 0.0,
+              "injury": null
             }
           ],
           "bench_proj": 60.3,
-          "injuries": [
-            {
-              "name": "De'Von Achane",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "MIA",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "INJURY_RESERVE"
-            }
-          ]
+          "injuries": []
         },
         "played": true,
         "playoff": false,

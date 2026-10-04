@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-03T22:28:31+00:00",
+  "generated_at": "2026-10-04T02:54:48+00:00",
   "current_week": 4,
   "standings": [
     {
@@ -3946,7 +3946,7 @@
           "slot": "TE",
           "pos": "TE",
           "pro": "CAR",
-          "proj": 9.3,
+          "proj": 10.1,
           "actual": 0.0,
           "season_ppg": 10.1,
           "season_total": 10.1,
@@ -7236,7 +7236,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "CAR",
-          "proj": 16.4,
+          "proj": 16.6,
           "actual": 0.0,
           "season_ppg": 17.7,
           "season_total": 53.1,
@@ -7366,21 +7366,6 @@
           "injury": null
         },
         {
-          "player_id": 4695883,
-          "name": "Jalen Coker",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "CAR",
-          "proj": 13.1,
-          "actual": 0.0,
-          "season_ppg": 17.4,
-          "season_total": 52.2,
-          "games_played": 3,
-          "preseason_proj_total": 108.6,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4882093,
           "name": "Bhayshul Tuten",
           "slot": "BE",
@@ -7439,6 +7424,21 @@
           "preseason_proj_total": 279.4,
           "starter": false,
           "injury": "OUT"
+        },
+        {
+          "player_id": 4695883,
+          "name": "Jalen Coker",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "CAR",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 17.4,
+          "season_total": 52.2,
+          "games_played": 3,
+          "preseason_proj_total": 108.6,
+          "starter": false,
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4239996,
@@ -13961,19 +13961,19 @@
           "injury": null
         },
         {
-          "player_id": 4429160,
-          "name": "De'Von Achane",
+          "player_id": 4887558,
+          "name": "Emanuel Wilson",
           "slot": "RB",
           "pos": "RB",
-          "pro": "MIA",
-          "proj": 0.0,
+          "pro": "SEA",
+          "proj": 11.5,
           "actual": 0.0,
-          "season_ppg": 8.2,
-          "season_total": 24.6,
-          "games_played": 3,
-          "preseason_proj_total": 307.5,
+          "season_ppg": 1.4,
+          "season_total": 1.4,
+          "games_played": 1,
+          "preseason_proj_total": 32.1,
           "starter": true,
-          "injury": "INJURY_RESERVE"
+          "injury": null
         },
         {
           "player_id": 4430878,
@@ -13996,7 +13996,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "CAR",
-          "proj": 14.9,
+          "proj": 15.8,
           "actual": 0.0,
           "season_ppg": 9.8,
           "season_total": 29.3,
@@ -14141,6 +14141,21 @@
           "injury": null
         },
         {
+          "player_id": 4429160,
+          "name": "De'Von Achane",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "MIA",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 8.2,
+          "season_total": 24.6,
+          "games_played": 3,
+          "preseason_proj_total": 307.5,
+          "starter": false,
+          "injury": "INJURY_RESERVE"
+        },
+        {
           "player_id": 4047365,
           "name": "Josh Jacobs",
           "slot": "BE",
@@ -14154,21 +14169,6 @@
           "preseason_proj_total": 282.9,
           "starter": false,
           "injury": "DAY_TO_DAY"
-        },
-        {
-          "player_id": 4710714,
-          "name": "De'Zhaun Stribling",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "SF",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 3,
-          "preseason_proj_total": 0.0,
-          "starter": false,
-          "injury": "INJURY_RESERVE"
         }
       ],
       "draft": {
@@ -14372,15 +14372,15 @@
           },
           {
             "name": "De'Zhaun Stribling",
-            "pos": "WR",
-            "pro": "SF",
+            "pos": "?",
+            "pro": "?",
             "round": 15,
             "pick_in_round": 8,
             "overall_pick": 148,
             "bid_amount": null,
             "points": 0.0,
             "value_diff": -6,
-            "dropped": false
+            "dropped": true
           },
           {
             "name": "Eagles D/ST",
@@ -17084,15 +17084,15 @@
             },
             {
               "name": "De'Zhaun Stribling",
-              "pos": "WR",
-              "pro": "SF",
+              "pos": "?",
+              "pro": "?",
               "round": 15,
               "pick_in_round": 8,
               "overall_pick": 148,
               "bid_amount": null,
               "points": 0.0,
               "value_diff": -6,
-              "dropped": false
+              "dropped": true
             },
             {
               "name": "Eagles D/ST",
@@ -21896,7 +21896,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "ATL",
-          "proj": 21.4,
+          "proj": 21.5,
           "actual": 0.0,
           "season_ppg": 25.9,
           "season_total": 77.7,
