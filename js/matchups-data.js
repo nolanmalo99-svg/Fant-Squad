@@ -1,6 +1,6 @@
 window.MATCHUPS_DATA = {
   "season": 2026,
-  "current_week": 4,
+  "current_week": 5,
   "weeks": {
     "1": [
       {
@@ -9,7 +9,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 151.0,
           "projected": 0,
           "starters": [],
@@ -21,7 +21,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 89.7,
           "projected": 0,
           "starters": [],
@@ -41,7 +41,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 108.7,
           "projected": 0,
           "starters": [],
@@ -53,7 +53,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 137.7,
           "projected": 0,
           "starters": [],
@@ -73,7 +73,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 143.0,
           "projected": 0,
           "starters": [],
@@ -85,7 +85,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 122.3,
           "projected": 0,
           "starters": [],
@@ -105,7 +105,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 110.7,
           "projected": 0,
           "starters": [],
@@ -117,7 +117,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 136.5,
           "projected": 0,
           "starters": [],
@@ -137,7 +137,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 118.0,
           "projected": 0,
           "starters": [],
@@ -149,7 +149,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 151.5,
           "projected": 0,
           "starters": [],
@@ -171,7 +171,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 118.9,
           "projected": 0,
           "starters": [],
@@ -183,7 +183,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 120.6,
           "projected": 0,
           "starters": [],
@@ -203,7 +203,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 121.8,
           "projected": 0,
           "starters": [],
@@ -215,7 +215,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 124.6,
           "projected": 0,
           "starters": [],
@@ -235,7 +235,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 111.3,
           "projected": 0,
           "starters": [],
@@ -247,7 +247,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 113.2,
           "projected": 0,
           "starters": [],
@@ -267,7 +267,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 111.6,
           "projected": 0,
           "starters": [],
@@ -279,7 +279,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 112.0,
           "projected": 0,
           "starters": [],
@@ -299,7 +299,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 101.6,
           "projected": 0,
           "starters": [],
@@ -311,7 +311,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 142.2,
           "projected": 0,
           "starters": [],
@@ -333,7 +333,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 108.9,
           "projected": 0,
           "starters": [],
@@ -345,7 +345,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 93.0,
           "projected": 0,
           "starters": [],
@@ -365,7 +365,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 95.9,
           "projected": 0,
           "starters": [],
@@ -377,7 +377,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 113.4,
           "projected": 0,
           "starters": [],
@@ -397,7 +397,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 138.0,
           "projected": 0,
           "starters": [],
@@ -409,7 +409,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 137.8,
           "projected": 0,
           "starters": [],
@@ -429,7 +429,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 145.2,
           "projected": 0,
           "starters": [],
@@ -441,7 +441,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 117.1,
           "projected": 0,
           "starters": [],
@@ -461,7 +461,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 122.2,
           "projected": 0,
           "starters": [],
@@ -473,7 +473,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 102.1,
           "projected": 0,
           "starters": [],
@@ -495,224 +495,31 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
-          "actual": 107.8,
-          "projected": 116.2,
-          "starters": [
-            {
-              "name": "Jahmyr Gibbs",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "DET",
-              "proj": 26.1,
-              "actual": 17.7,
-              "injury": null
-            },
-            {
-              "name": "Omarion Hampton",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "LAC",
-              "proj": 10.7,
-              "actual": 13.3,
-              "injury": null
-            },
-            {
-              "name": "Bucky Irving",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "TB",
-              "proj": 15.9,
-              "actual": 6.1,
-              "injury": null
-            },
-            {
-              "name": "Tee Higgins",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "CIN",
-              "proj": 13.7,
-              "actual": 26.7,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Christian Watson",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "GB",
-              "proj": 14.5,
-              "actual": 7.7,
-              "injury": null
-            },
-            {
-              "name": "Seahawks D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "SEA",
-              "proj": 7.9,
-              "actual": 12.0,
-              "injury": null
-            },
-            {
-              "name": "Juwan Johnson",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "NO",
-              "proj": 10.6,
-              "actual": 4.5,
-              "injury": null
-            },
-            {
-              "name": "Jordan Love",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "GB",
-              "proj": 14.7,
-              "actual": 12.8,
-              "injury": null
-            },
-            {
-              "name": "Tyler Loop",
-              "slot": "K",
-              "pos": "K",
-              "pro": "BAL",
-              "proj": 9.3,
-              "actual": 7.0,
-              "injury": null
-            }
-          ],
-          "bench_proj": 72.3,
-          "injuries": [
-            {
-              "name": "Tee Higgins",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "CIN",
-              "proj": 13.7,
-              "actual": 26.7,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "record": "2-2",
+          "actual": 115.2,
+          "projected": 0,
+          "starters": [],
+          "bench_proj": 0.0,
+          "injuries": []
         },
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
-          "actual": 70.3,
-          "projected": 85.0,
-          "starters": [
-            {
-              "name": "Ja'Marr Chase",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "CIN",
-              "proj": 20.4,
-              "actual": 5.7,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Jeremiyah Love",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "ARI",
-              "proj": 15.6,
-              "actual": 6.5,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Garrett Wilson",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "NYJ",
-              "proj": 16.5,
-              "actual": 5.7,
-              "injury": null
-            },
-            {
-              "name": "Colston Loveland",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "CHI",
-              "proj": 8.7,
-              "actual": 11.7,
-              "injury": null
-            },
-            {
-              "name": "Parker Washington",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "JAX",
-              "proj": 15.3,
-              "actual": 2.0,
-              "injury": null
-            },
-            {
-              "name": "Chuba Hubbard",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "CAR",
-              "proj": 16.6,
-              "actual": 25.9,
-              "injury": null
-            },
-            {
-              "name": "Steelers D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "PIT",
-              "proj": 8.2,
-              "actual": 5.0,
-              "injury": null
-            },
-            {
-              "name": "Tyler Shough",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "NO",
-              "proj": 18.4,
-              "actual": 1.8,
-              "injury": null
-            },
-            {
-              "name": "Harrison Butker",
-              "slot": "K",
-              "pos": "K",
-              "pro": "KC",
-              "proj": 8.8,
-              "actual": 6.0,
-              "injury": null
-            }
-          ],
-          "bench_proj": 44.9,
-          "injuries": [
-            {
-              "name": "Ja'Marr Chase",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "CIN",
-              "proj": 20.4,
-              "actual": 5.7,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Jeremiyah Love",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "ARI",
-              "proj": 15.6,
-              "actual": 6.5,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "record": "0-4",
+          "actual": 84.2,
+          "projected": 0,
+          "starters": [],
+          "bench_proj": 0.0,
+          "injuries": []
         },
         "played": true,
         "playoff": false,
-        "margin": 37.5,
+        "margin": 31.0,
         "winner": "alex raichle",
         "phase": "recap",
-        "blurb": "Final: spencer glynn 70.3 - alex raichle 107.8. alex raichle won by 37.5. Top scorers for alex raichle: Tee Higgins (26.7), Jahmyr Gibbs (17.7)."
+        "blurb": "Final: spencer glynn 84.2 - alex raichle 115.2. alex raichle won by 31.0. Top scorers for alex raichle: ."
       },
       {
         "home": {
@@ -720,197 +527,23 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 101.5,
-          "projected": 101.5,
-          "starters": [
-            {
-              "name": "Christian McCaffrey",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "SF",
-              "proj": 20.3,
-              "actual": 16.0,
-              "injury": null
-            },
-            {
-              "name": "Saquon Barkley",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "PHI",
-              "proj": 14.3,
-              "actual": 2.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Trey McBride",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "ARI",
-              "proj": 17.4,
-              "actual": 10.1,
-              "injury": null
-            },
-            {
-              "name": "Carnell Tate",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "TEN",
-              "proj": 11.9,
-              "actual": 21.5,
-              "injury": null
-            },
-            {
-              "name": "Jakobi Meyers",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "JAX",
-              "proj": 10.8,
-              "actual": 6.3,
-              "injury": null
-            },
-            {
-              "name": "RJ Harvey",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "DEN",
-              "proj": 10.1,
-              "actual": 19.3,
-              "injury": null
-            },
-            {
-              "name": "Jason Myers",
-              "slot": "K",
-              "pos": "K",
-              "pro": "SEA",
-              "proj": 9.8,
-              "actual": 6.0,
-              "injury": null
-            },
-            {
-              "name": "Brock Purdy",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "SF",
-              "proj": 18.7,
-              "actual": 19.3,
-              "injury": null
-            },
-            {
-              "name": "Chiefs D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "KC",
-              "proj": 6.5,
-              "actual": 1.0,
-              "injury": null
-            }
-          ],
-          "bench_proj": 46.1,
-          "injuries": [
-            {
-              "name": "Saquon Barkley",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "PHI",
-              "proj": 14.3,
-              "actual": 2.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "projected": 0,
+          "starters": [],
+          "bench_proj": 0.0,
+          "injuries": []
         },
         "away": {
           "teamId": 4,
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 147.2,
-          "projected": 147.2,
-          "starters": [
-            {
-              "name": "Amon-Ra St. Brown",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "DET",
-              "proj": 20.1,
-              "actual": 15.5,
-              "injury": null
-            },
-            {
-              "name": "James Cook III",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "BUF",
-              "proj": 17.4,
-              "actual": 16.3,
-              "injury": null
-            },
-            {
-              "name": "Zay Flowers",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "BAL",
-              "proj": 15.5,
-              "actual": 25.8,
-              "injury": null
-            },
-            {
-              "name": "Javonte Williams",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "DAL",
-              "proj": 14.6,
-              "actual": 31.3,
-              "injury": null
-            },
-            {
-              "name": "Tyler Warren",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "IND",
-              "proj": 13.1,
-              "actual": 9.1,
-              "injury": null
-            },
-            {
-              "name": "Joe Burrow",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "CIN",
-              "proj": 17.9,
-              "actual": 23.4,
-              "injury": null
-            },
-            {
-              "name": "Cam Little",
-              "slot": "K",
-              "pos": "K",
-              "pro": "JAX",
-              "proj": 8.7,
-              "actual": 14.0,
-              "injury": null
-            },
-            {
-              "name": "Dontayvion Wicks",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "PHI",
-              "proj": 11.2,
-              "actual": 4.8,
-              "injury": null
-            },
-            {
-              "name": "Rams D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "LAR",
-              "proj": 6.2,
-              "actual": 7.0,
-              "injury": null
-            }
-          ],
-          "bench_proj": 60.5,
+          "projected": 0,
+          "starters": [],
+          "bench_proj": 0.0,
           "injuries": []
         },
         "played": true,
@@ -918,7 +551,7 @@ window.MATCHUPS_DATA = {
         "margin": 45.7,
         "winner": "Nolan Malo",
         "phase": "recap",
-        "blurb": "Final: Nolan Malo 147.2 - Noah Budach 101.5. Nolan Malo won by 45.7. Top scorers for Nolan Malo: Javonte Williams (31.3), Zay Flowers (25.8)."
+        "blurb": "Final: Nolan Malo 147.2 - Noah Budach 101.5. Nolan Malo won by 45.7. Top scorers for Nolan Malo: ."
       },
       {
         "home": {
@@ -926,205 +559,31 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 164.8,
-          "projected": 164.8,
-          "starters": [
-            {
-              "name": "Kenneth Walker III",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "KC",
-              "proj": 20.5,
-              "actual": 30.9,
-              "injury": null
-            },
-            {
-              "name": "Rashee Rice",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "KC",
-              "proj": 14.9,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Kyren Williams",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "LAR",
-              "proj": 13.1,
-              "actual": 36.7,
-              "injury": null
-            },
-            {
-              "name": "Quinshon Judkins",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "CLE",
-              "proj": 12.5,
-              "actual": 21.6,
-              "injury": null
-            },
-            {
-              "name": "Luther Burden III",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "CHI",
-              "proj": 12.4,
-              "actual": 11.4,
-              "injury": null
-            },
-            {
-              "name": "Sam LaPorta",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "DET",
-              "proj": 11.2,
-              "actual": 22.4,
-              "injury": null
-            },
-            {
-              "name": "Patrick Mahomes",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "KC",
-              "proj": 18.5,
-              "actual": 16.8,
-              "injury": null
-            },
-            {
-              "name": "Bears D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "CHI",
-              "proj": 6.4,
-              "actual": 9.0,
-              "injury": null
-            },
-            {
-              "name": "Spencer Shrader",
-              "slot": "K",
-              "pos": "K",
-              "pro": "IND",
-              "proj": 9.0,
-              "actual": 16.0,
-              "injury": null
-            }
-          ],
-          "bench_proj": 41.0,
-          "injuries": [
-            {
-              "name": "Rashee Rice",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "KC",
-              "proj": 14.9,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "projected": 0,
+          "starters": [],
+          "bench_proj": 0.0,
+          "injuries": []
         },
         "away": {
           "teamId": 2,
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
-          "actual": 130.8,
-          "projected": 145.3,
-          "starters": [
-            {
-              "name": "CeeDee Lamb",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "DAL",
-              "proj": 16.9,
-              "actual": 41.3,
-              "injury": null
-            },
-            {
-              "name": "Chase Brown",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "CIN",
-              "proj": 16.2,
-              "actual": 19.1,
-              "injury": null
-            },
-            {
-              "name": "Chris Olave",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "NO",
-              "proj": 18.2,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Cam Skattebo",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "NYG",
-              "proj": 16.1,
-              "actual": 7.6,
-              "injury": null
-            },
-            {
-              "name": "Jalen Hurts",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "PHI",
-              "proj": 17.4,
-              "actual": 13.4,
-              "injury": null
-            },
-            {
-              "name": "Aaron Jones Sr.",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "MIN",
-              "proj": 18.0,
-              "actual": 16.8,
-              "injury": null
-            },
-            {
-              "name": "Ravens D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "BAL",
-              "proj": 6.6,
-              "actual": 7.0,
-              "injury": null
-            },
-            {
-              "name": "Will Reichard",
-              "slot": "K",
-              "pos": "K",
-              "pro": "MIN",
-              "proj": 9.1,
-              "actual": 19.0,
-              "injury": null
-            },
-            {
-              "name": "Darren Waller",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "CAR",
-              "proj": 10.1,
-              "actual": 6.6,
-              "injury": null
-            }
-          ],
-          "bench_proj": 66.4,
+          "record": "1-3",
+          "actual": 150.4,
+          "projected": 0,
+          "starters": [],
+          "bench_proj": 0.0,
           "injuries": []
         },
         "played": true,
         "playoff": false,
-        "margin": 34.0,
+        "margin": 14.4,
         "winner": "Dawson Leer",
         "phase": "recap",
-        "blurb": "Final: Brady Schuster 130.8 - Dawson Leer 164.8. Dawson Leer won by 34.0. Top scorers for Dawson Leer: Kyren Williams (36.7), Kenneth Walker III (30.9)."
+        "blurb": "Final: Brady Schuster 150.4 - Dawson Leer 164.8. Dawson Leer won by 14.4. Top scorers for Dawson Leer: ."
       },
       {
         "home": {
@@ -1132,205 +591,31 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
-          "actual": 94.5,
-          "projected": 111.6,
-          "starters": [
-            {
-              "name": "Bijan Robinson",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "ATL",
-              "proj": 21.5,
-              "actual": 12.5,
-              "injury": null
-            },
-            {
-              "name": "Derrick Henry",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "BAL",
-              "proj": 20.3,
-              "actual": 15.9,
-              "injury": null
-            },
-            {
-              "name": "Malik Nabers",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "NYG",
-              "proj": 13.6,
-              "actual": 23.2,
-              "injury": null
-            },
-            {
-              "name": "Davante Adams",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "LAR",
-              "proj": 15.6,
-              "actual": 7.2,
-              "injury": null
-            },
-            {
-              "name": "Lamar Jackson",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "BAL",
-              "proj": 20.9,
-              "actual": 18.8,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Courtland Sutton",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "DEN",
-              "proj": 10.5,
-              "actual": 1.4,
-              "injury": null
-            },
-            {
-              "name": "Travis Kelce",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "KC",
-              "proj": 11.8,
-              "actual": 3.5,
-              "injury": null
-            },
-            {
-              "name": "Cameron Dicker",
-              "slot": "K",
-              "pos": "K",
-              "pro": "LAC",
-              "proj": 8.0,
-              "actual": 12.0,
-              "injury": null
-            },
-            {
-              "name": "Jets D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "NYJ",
-              "proj": 5.7,
-              "actual": 0.0,
-              "injury": null
-            }
-          ],
-          "bench_proj": 67.8,
-          "injuries": [
-            {
-              "name": "Lamar Jackson",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "BAL",
-              "proj": 20.9,
-              "actual": 18.8,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "record": "3-1",
+          "actual": 109.7,
+          "projected": 0,
+          "starters": [],
+          "bench_proj": 0.0,
+          "injuries": []
         },
         "away": {
           "teamId": 5,
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 132.3,
-          "projected": 132.3,
-          "starters": [
-            {
-              "name": "Jaxon Smith-Njigba",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "SEA",
-              "proj": 21.9,
-              "actual": 12.6,
-              "injury": null
-            },
-            {
-              "name": "Tetairoa McMillan",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "CAR",
-              "proj": 15.8,
-              "actual": 45.2,
-              "injury": null
-            },
-            {
-              "name": "D'Andre Swift",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "CHI",
-              "proj": 14.7,
-              "actual": 7.4,
-              "injury": null
-            },
-            {
-              "name": "Harold Fannin Jr.",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "CLE",
-              "proj": 11.1,
-              "actual": 11.7,
-              "injury": null
-            },
-            {
-              "name": "Trevor Lawrence",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "JAX",
-              "proj": 18.2,
-              "actual": 12.8,
-              "injury": null
-            },
-            {
-              "name": "Brandon Aubrey",
-              "slot": "K",
-              "pos": "K",
-              "pro": "DAL",
-              "proj": 9.5,
-              "actual": 10.0,
-              "injury": null
-            },
-            {
-              "name": "Josh Downs",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "IND",
-              "proj": 13.6,
-              "actual": 4.6,
-              "injury": null
-            },
-            {
-              "name": "Bills D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "BUF",
-              "proj": 6.2,
-              "actual": 1.0,
-              "injury": null
-            },
-            {
-              "name": "Emanuel Wilson",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "SEA",
-              "proj": 11.5,
-              "actual": 27.0,
-              "injury": null
-            }
-          ],
-          "bench_proj": 60.2,
+          "projected": 0,
+          "starters": [],
+          "bench_proj": 0.0,
           "injuries": []
         },
         "played": true,
         "playoff": false,
-        "margin": 37.8,
+        "margin": 22.6,
         "winner": "Zach Mensink",
         "phase": "recap",
-        "blurb": "Final: Zach Mensink 132.3 - Andy Jensen 94.5. Zach Mensink won by 37.8. Top scorers for Zach Mensink: Tetairoa McMillan (45.2), Emanuel Wilson (27.0)."
+        "blurb": "Final: Zach Mensink 132.3 - Andy Jensen 109.7. Zach Mensink won by 22.6. Top scorers for Zach Mensink: ."
       },
       {
         "home": {
@@ -1338,93 +623,11 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 126.6,
-          "projected": 126.6,
-          "starters": [
-            {
-              "name": "Puka Nacua",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "LAR",
-              "proj": 18.1,
-              "actual": 27.7,
-              "injury": null
-            },
-            {
-              "name": "Jonathan Taylor",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "IND",
-              "proj": 20.3,
-              "actual": 22.7,
-              "injury": null
-            },
-            {
-              "name": "George Pickens",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "DAL",
-              "proj": 13.7,
-              "actual": 9.5,
-              "injury": null
-            },
-            {
-              "name": "Jaylen Waddle",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "DEN",
-              "proj": 11.9,
-              "actual": 14.5,
-              "injury": null
-            },
-            {
-              "name": "David Montgomery",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "HOU",
-              "proj": 13.5,
-              "actual": 4.3,
-              "injury": null
-            },
-            {
-              "name": "Dak Prescott",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "DAL",
-              "proj": 16.9,
-              "actual": 17.9,
-              "injury": null
-            },
-            {
-              "name": "George Kittle",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "SF",
-              "proj": 13.7,
-              "actual": 17.0,
-              "injury": null
-            },
-            {
-              "name": "Chris Boswell",
-              "slot": "K",
-              "pos": "K",
-              "pro": "PIT",
-              "proj": 8.1,
-              "actual": 3.0,
-              "injury": null
-            },
-            {
-              "name": "Vikings D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "MIN",
-              "proj": 8.5,
-              "actual": 10.0,
-              "injury": null
-            }
-          ],
-          "bench_proj": 55.5,
+          "projected": 0,
+          "starters": [],
+          "bench_proj": 0.0,
           "injuries": []
         },
         "away": {
@@ -1432,101 +635,19 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
-          "actual": 115.4,
-          "projected": 137.2,
-          "starters": [
-            {
-              "name": "Brock Bowers",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "LV",
-              "proj": 15.9,
-              "actual": 20.6,
-              "injury": null
-            },
-            {
-              "name": "Drake London",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "ATL",
-              "proj": 16.7,
-              "actual": 2.2,
-              "injury": null
-            },
-            {
-              "name": "Nico Collins",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "HOU",
-              "proj": 15.3,
-              "actual": 30.8,
-              "injury": null
-            },
-            {
-              "name": "Josh Allen",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "BUF",
-              "proj": 21.9,
-              "actual": 18.4,
-              "injury": null
-            },
-            {
-              "name": "Ashton Jeanty",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "LV",
-              "proj": 18.9,
-              "actual": 18.6,
-              "injury": null
-            },
-            {
-              "name": "Jaylen Warren",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "PIT",
-              "proj": 16.9,
-              "actual": 15.6,
-              "injury": null
-            },
-            {
-              "name": "Texans D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "HOU",
-              "proj": 4.9,
-              "actual": 3.0,
-              "injury": null
-            },
-            {
-              "name": "Devaughn Vele",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "NO",
-              "proj": 10.6,
-              "actual": 1.2,
-              "injury": null
-            },
-            {
-              "name": "Evan McPherson",
-              "slot": "K",
-              "pos": "K",
-              "pro": "CIN",
-              "proj": 8.4,
-              "actual": 5.0,
-              "injury": null
-            }
-          ],
-          "bench_proj": 68.9,
+          "record": "3-1",
+          "actual": 144.0,
+          "projected": 0,
+          "starters": [],
+          "bench_proj": 0.0,
           "injuries": []
         },
         "played": true,
         "playoff": false,
-        "margin": 11.2,
-        "winner": "Owen Koslosku",
+        "margin": 17.4,
+        "winner": "Mitch Wiese",
         "phase": "recap",
-        "blurb": "Final: Mitch Wiese 115.4 - Owen Koslosku 126.6. Owen Koslosku won by 11.2. Top scorers for Owen Koslosku: Puka Nacua (27.7), Jonathan Taylor (22.7)."
+        "blurb": "Final: Mitch Wiese 144.0 - Owen Koslosku 126.6. Mitch Wiese won by 17.4. Top scorers for Mitch Wiese: ."
       }
     ],
     "5": [
@@ -1536,31 +657,215 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
-          "projected": 0,
-          "starters": [],
-          "bench_proj": 0.0,
-          "injuries": []
+          "projected": 99.4,
+          "starters": [
+            {
+              "name": "Christian McCaffrey",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "SF",
+              "proj": 18.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Saquon Barkley",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "PHI",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Trey McBride",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "ARI",
+              "proj": 18.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Carnell Tate",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "TEN",
+              "proj": 13.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jakobi Meyers",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "JAX",
+              "proj": 10.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "RJ Harvey",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "DEN",
+              "proj": 11.3,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jason Myers",
+              "slot": "K",
+              "pos": "K",
+              "pro": "SEA",
+              "proj": 8.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Brock Purdy",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "SF",
+              "proj": 17.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Chiefs D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "KC",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 66.1,
+          "injuries": [
+            {
+              "name": "Saquon Barkley",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "PHI",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 7,
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
-          "projected": 0,
-          "starters": [],
-          "bench_proj": 0.0,
-          "injuries": []
+          "projected": 72.0,
+          "starters": [
+            {
+              "name": "Kenneth Walker III",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "KC",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Rashee Rice",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "KC",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Kyren Williams",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "LAR",
+              "proj": 17.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Quinshon Judkins",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "CLE",
+              "proj": 14.6,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Luther Burden III",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "CHI",
+              "proj": 12.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Sam LaPorta",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "DET",
+              "proj": 13.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Patrick Mahomes",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "KC",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Bears D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "CHI",
+              "proj": 5.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Spencer Shrader",
+              "slot": "K",
+              "pos": "K",
+              "pro": "IND",
+              "proj": 8.9,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 70.1,
+          "injuries": [
+            {
+              "name": "Rashee Rice",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "KC",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (2-1) at Noah Budach (1-2). Projected: Dawson Leer 0 - Noah Budach 0. Noah Budach favored by 0.",
+        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 72.0 - Noah Budach 99.4. Noah Budach favored by 27.4.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -1579,8 +884,86 @@ window.MATCHUPS_DATA = {
           "streak_type": "W",
           "trend": "steady"
         },
-        "players_to_watch": [],
-        "positional_edges": [],
+        "players_to_watch": [
+          {
+            "name": "Christian McCaffrey",
+            "slot": "RB",
+            "pos": "RB",
+            "pro": "SF",
+            "proj": 18.7,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Noah Budach"
+          },
+          {
+            "name": "Trey McBride",
+            "slot": "TE",
+            "pos": "TE",
+            "pro": "ARI",
+            "proj": 18.7,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Noah Budach"
+          },
+          {
+            "name": "Kyren Williams",
+            "slot": "RB",
+            "pos": "RB",
+            "pro": "LAR",
+            "proj": 17.8,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Dawson Leer"
+          },
+          {
+            "name": "Brock Purdy",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "SF",
+            "proj": 17.7,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Noah Budach"
+          }
+        ],
+        "positional_edges": [
+          {
+            "pos": "D/ST",
+            "home_proj": 0.0,
+            "away_proj": 5.5,
+            "edge": "away"
+          },
+          {
+            "pos": "K",
+            "home_proj": 8.8,
+            "away_proj": 8.9,
+            "edge": "even"
+          },
+          {
+            "pos": "QB",
+            "home_proj": 17.7,
+            "away_proj": 0.0,
+            "edge": "home"
+          },
+          {
+            "pos": "RB",
+            "home_proj": 30.0,
+            "away_proj": 32.4,
+            "edge": "away"
+          },
+          {
+            "pos": "TE",
+            "home_proj": 18.7,
+            "away_proj": 13.1,
+            "edge": "home"
+          },
+          {
+            "pos": "WR",
+            "home_proj": 24.2,
+            "away_proj": 12.1,
+            "edge": "home"
+          }
+        ],
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Noah Budach's worst week of the season.",
@@ -1597,36 +980,220 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
-          "projected": 0,
-          "starters": [],
-          "bench_proj": 0.0,
-          "injuries": []
+          "projected": 119.2,
+          "starters": [
+            {
+              "name": "Jahmyr Gibbs",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "DET",
+              "proj": 27.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Omarion Hampton",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "LAC",
+              "proj": 11.6,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Bucky Irving",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "TB",
+              "proj": 15.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Tee Higgins",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "CIN",
+              "proj": 14.2,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Christian Watson",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "GB",
+              "proj": 13.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Seahawks D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "SEA",
+              "proj": 3.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Juwan Johnson",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "NO",
+              "proj": 9.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jordan Love",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "GB",
+              "proj": 14.9,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Tyler Loop",
+              "slot": "K",
+              "pos": "K",
+              "pro": "BAL",
+              "proj": 8.7,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 71.2,
+          "injuries": [
+            {
+              "name": "Tee Higgins",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "CIN",
+              "proj": 14.2,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 9,
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 0.0,
-          "projected": 0,
-          "starters": [],
-          "bench_proj": 0.0,
-          "injuries": []
+          "projected": 114.2,
+          "starters": [
+            {
+              "name": "Bijan Robinson",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "ATL",
+              "proj": 20.9,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Derrick Henry",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "BAL",
+              "proj": 18.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Malik Nabers",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "NYG",
+              "proj": 13.6,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Davante Adams",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "LAR",
+              "proj": 15.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Lamar Jackson",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "BAL",
+              "proj": 19.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Courtland Sutton",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "DEN",
+              "proj": 10.2,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Travis Kelce",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "KC",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Cameron Dicker",
+              "slot": "K",
+              "pos": "K",
+              "pro": "LAC",
+              "proj": 8.9,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jets D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "NYJ",
+              "proj": 7.7,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 68.4,
+          "injuries": [
+            {
+              "name": "Lamar Jackson",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "BAL",
+              "proj": 19.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (3-0) at alex raichle (1-2). Projected: Andy Jensen 0 - alex raichle 0. alex raichle favored by 0.",
+        "blurb": "Andy Jensen (3-1) at alex raichle (2-2). Projected: Andy Jensen 114.2 - alex raichle 119.2. alex raichle favored by 5.0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 110.9,
-          "recent_avg": 110.9,
+          "season_avg": 112.7,
+          "recent_avg": 113.4,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -1634,18 +1201,95 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 128.8,
-          "recent_avg": 121.4,
+          "season_avg": 132.6,
+          "recent_avg": 126.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
         },
-        "players_to_watch": [],
-        "positional_edges": [],
+        "players_to_watch": [
+          {
+            "name": "Jahmyr Gibbs",
+            "slot": "RB",
+            "pos": "RB",
+            "pro": "DET",
+            "proj": 27.0,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "alex raichle"
+          },
+          {
+            "name": "Bijan Robinson",
+            "slot": "RB",
+            "pos": "RB",
+            "pro": "ATL",
+            "proj": 20.9,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Andy Jensen"
+          },
+          {
+            "name": "Lamar Jackson",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "BAL",
+            "proj": 19.0,
+            "actual": 0.0,
+            "injury": "QUESTIONABLE",
+            "owner": "Andy Jensen"
+          },
+          {
+            "name": "Derrick Henry",
+            "slot": "RB",
+            "pos": "RB",
+            "pro": "BAL",
+            "proj": 18.4,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Andy Jensen"
+          }
+        ],
+        "positional_edges": [
+          {
+            "pos": "D/ST",
+            "home_proj": 3.8,
+            "away_proj": 7.7,
+            "edge": "away"
+          },
+          {
+            "pos": "K",
+            "home_proj": 8.7,
+            "away_proj": 8.9,
+            "edge": "even"
+          },
+          {
+            "pos": "QB",
+            "home_proj": 14.9,
+            "away_proj": 19.0,
+            "edge": "away"
+          },
+          {
+            "pos": "RB",
+            "home_proj": 54.0,
+            "away_proj": 39.3,
+            "edge": "home"
+          },
+          {
+            "pos": "TE",
+            "home_proj": 9.8,
+            "away_proj": 0.0,
+            "edge": "home"
+          },
+          {
+            "pos": "WR",
+            "home_proj": 28.0,
+            "away_proj": 39.3,
+            "edge": "away"
+          }
+        ],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be alex raichle's worst week of the season.",
-          "If the projection holds, this would be Andy Jensen's worst week of the season."
+          "If the projection holds, this would be alex raichle's best week of the season."
         ],
         "head_to_head": {
           "home_w": 6,
@@ -1658,23 +1302,206 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 0.0,
-          "projected": 0,
-          "starters": [],
-          "bench_proj": 0.0,
-          "injuries": []
+          "projected": 97.7,
+          "starters": [
+            {
+              "name": "Ja'Marr Chase",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "CIN",
+              "proj": 21.8,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Jeremiyah Love",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "ARI",
+              "proj": 15.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Garrett Wilson",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "NYJ",
+              "proj": 14.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Colston Loveland",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "CHI",
+              "proj": 9.6,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Parker Washington",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "JAX",
+              "proj": 14.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Chuba Hubbard",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "CAR",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Steelers D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "PIT",
+              "proj": 6.9,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Tyler Shough",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "NO",
+              "proj": 15.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Harrison Butker",
+              "slot": "K",
+              "pos": "K",
+              "pro": "KC",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 47.9,
+          "injuries": [
+            {
+              "name": "Ja'Marr Chase",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "CIN",
+              "proj": 21.8,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Jeremiyah Love",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "ARI",
+              "proj": 15.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 6,
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 0.0,
-          "projected": 0,
-          "starters": [],
-          "bench_proj": 0.0,
+          "projected": 124.0,
+          "starters": [
+            {
+              "name": "Puka Nacua",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "LAR",
+              "proj": 21.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jonathan Taylor",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "IND",
+              "proj": 19.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "George Pickens",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "DAL",
+              "proj": 13.2,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jaylen Waddle",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "DEN",
+              "proj": 11.3,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "David Montgomery",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "HOU",
+              "proj": 11.9,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Dak Prescott",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "DAL",
+              "proj": 17.6,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "George Kittle",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "SF",
+              "proj": 13.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Chris Boswell",
+              "slot": "K",
+              "pos": "K",
+              "pro": "PIT",
+              "proj": 8.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Vikings D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "MIN",
+              "proj": 7.2,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 72.2,
           "injuries": []
         },
         "played": false,
@@ -1682,33 +1509,107 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (2-1) at spencer glynn (0-3). Projected: Owen Koslosku 0 - spencer glynn 0. spencer glynn favored by 0.",
+        "blurb": "Owen Koslosku (2-2) at spencer glynn (0-4). Projected: Owen Koslosku 124.0 - spencer glynn 97.7. Owen Koslosku favored by 26.3.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 106.9,
-          "recent_avg": 103.2,
+          "season_avg": 110.4,
+          "recent_avg": 107.9,
           "streak": 4,
           "streak_type": "L",
-          "trend": "down"
+          "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "3-0",
+          "record_last_n": "2-1",
           "games_considered": 3,
           "season_avg": 112.9,
           "recent_avg": 120.7,
-          "streak": 3,
-          "streak_type": "W",
+          "streak": 1,
+          "streak_type": "L",
           "trend": "up"
         },
-        "players_to_watch": [],
-        "positional_edges": [],
-        "revenge": null,
-        "fun_facts": [
-          "If the projection holds, this would be spencer glynn's worst week of the season.",
-          "If the projection holds, this would be Owen Koslosku's worst week of the season.",
-          "Owen Koslosku owns the league's longest active winning streak at 3 games."
+        "players_to_watch": [
+          {
+            "name": "Ja'Marr Chase",
+            "slot": "WR",
+            "pos": "WR",
+            "pro": "CIN",
+            "proj": 21.8,
+            "actual": 0.0,
+            "injury": "QUESTIONABLE",
+            "owner": "spencer glynn"
+          },
+          {
+            "name": "Puka Nacua",
+            "slot": "FLEX",
+            "pos": "WR",
+            "pro": "LAR",
+            "proj": 21.7,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Owen Koslosku"
+          },
+          {
+            "name": "Jonathan Taylor",
+            "slot": "RB",
+            "pos": "RB",
+            "pro": "IND",
+            "proj": 19.0,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Owen Koslosku"
+          },
+          {
+            "name": "Dak Prescott",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "DAL",
+            "proj": 17.6,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Owen Koslosku"
+          }
         ],
+        "positional_edges": [
+          {
+            "pos": "D/ST",
+            "home_proj": 6.9,
+            "away_proj": 7.2,
+            "edge": "even"
+          },
+          {
+            "pos": "K",
+            "home_proj": 0.0,
+            "away_proj": 8.5,
+            "edge": "away"
+          },
+          {
+            "pos": "QB",
+            "home_proj": 15.7,
+            "away_proj": 17.6,
+            "edge": "away"
+          },
+          {
+            "pos": "RB",
+            "home_proj": 15.0,
+            "away_proj": 30.9,
+            "edge": "away"
+          },
+          {
+            "pos": "TE",
+            "home_proj": 9.6,
+            "away_proj": 13.7,
+            "edge": "away"
+          },
+          {
+            "pos": "WR",
+            "home_proj": 50.4,
+            "away_proj": 46.2,
+            "edge": "home"
+          }
+        ],
+        "revenge": null,
+        "fun_facts": [],
         "head_to_head": {
           "home_w": 4,
           "home_l": 8
@@ -1720,11 +1621,93 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
-          "projected": 0,
-          "starters": [],
-          "bench_proj": 0.0,
+          "projected": 125.4,
+          "starters": [
+            {
+              "name": "Amon-Ra St. Brown",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "DET",
+              "proj": 20.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "James Cook III",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "BUF",
+              "proj": 15.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Zay Flowers",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "BAL",
+              "proj": 16.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Javonte Williams",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "DAL",
+              "proj": 17.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Tyler Warren",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "IND",
+              "proj": 11.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Joe Burrow",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "CIN",
+              "proj": 20.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Cam Little",
+              "slot": "K",
+              "pos": "K",
+              "pro": "JAX",
+              "proj": 9.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Dontayvion Wicks",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "PHI",
+              "proj": 10.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Rams D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "LAR",
+              "proj": 4.4,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 73.5,
           "injuries": []
         },
         "away": {
@@ -1732,11 +1715,93 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
-          "projected": 0,
-          "starters": [],
-          "bench_proj": 0.0,
+          "projected": 105.1,
+          "starters": [
+            {
+              "name": "Jaxon Smith-Njigba",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "SEA",
+              "proj": 20.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Tetairoa McMillan",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "CAR",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "D'Andre Swift",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "CHI",
+              "proj": 14.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Harold Fannin Jr.",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "CLE",
+              "proj": 11.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Trevor Lawrence",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "JAX",
+              "proj": 19.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Brandon Aubrey",
+              "slot": "K",
+              "pos": "K",
+              "pro": "DAL",
+              "proj": 10.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Josh Downs",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "IND",
+              "proj": 12.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Bills D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "BUF",
+              "proj": 3.2,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Emanuel Wilson",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "SEA",
+              "proj": 13.6,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 57.0,
           "injuries": []
         },
         "played": false,
@@ -1744,7 +1809,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Zach Mensink (1-2) at Nolan Malo (2-1). Projected: Zach Mensink 0 - Nolan Malo 0. Nolan Malo favored by 0.",
+        "blurb": "Zach Mensink (2-2) at Nolan Malo (3-1). Projected: Zach Mensink 105.1 - Nolan Malo 125.4. Nolan Malo favored by 20.3.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1763,13 +1828,88 @@ window.MATCHUPS_DATA = {
           "streak_type": "W",
           "trend": "down"
         },
-        "players_to_watch": [],
-        "positional_edges": [],
-        "revenge": null,
-        "fun_facts": [
-          "If the projection holds, this would be Nolan Malo's worst week of the season.",
-          "If the projection holds, this would be Zach Mensink's worst week of the season."
+        "players_to_watch": [
+          {
+            "name": "Jaxon Smith-Njigba",
+            "slot": "WR",
+            "pos": "WR",
+            "pro": "SEA",
+            "proj": 20.5,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Zach Mensink"
+          },
+          {
+            "name": "Amon-Ra St. Brown",
+            "slot": "WR",
+            "pos": "WR",
+            "pro": "DET",
+            "proj": 20.0,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Nolan Malo"
+          },
+          {
+            "name": "Joe Burrow",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "CIN",
+            "proj": 20.0,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Nolan Malo"
+          },
+          {
+            "name": "Trevor Lawrence",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "JAX",
+            "proj": 19.0,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Zach Mensink"
+          }
         ],
+        "positional_edges": [
+          {
+            "pos": "D/ST",
+            "home_proj": 4.4,
+            "away_proj": 3.2,
+            "edge": "home"
+          },
+          {
+            "pos": "K",
+            "home_proj": 9.7,
+            "away_proj": 10.8,
+            "edge": "away"
+          },
+          {
+            "pos": "QB",
+            "home_proj": 20.0,
+            "away_proj": 19.0,
+            "edge": "even"
+          },
+          {
+            "pos": "RB",
+            "home_proj": 33.2,
+            "away_proj": 27.7,
+            "edge": "home"
+          },
+          {
+            "pos": "TE",
+            "home_proj": 11.8,
+            "away_proj": 11.8,
+            "edge": "even"
+          },
+          {
+            "pos": "WR",
+            "home_proj": 46.1,
+            "away_proj": 32.5,
+            "edge": "home"
+          }
+        ],
+        "revenge": null,
+        "fun_facts": [],
         "head_to_head": {
           "home_w": 16,
           "home_l": 10
@@ -1781,11 +1921,93 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
-          "projected": 0,
-          "starters": [],
-          "bench_proj": 0.0,
+          "projected": 112.7,
+          "starters": [
+            {
+              "name": "CeeDee Lamb",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "DAL",
+              "proj": 19.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Chase Brown",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "CIN",
+              "proj": 17.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Chris Olave",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "NO",
+              "proj": 16.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Cam Skattebo",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "NYG",
+              "proj": 13.2,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jalen Hurts",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "PHI",
+              "proj": 15.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Aaron Jones Sr.",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "MIN",
+              "proj": 17.2,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Ravens D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "BAL",
+              "proj": 3.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Will Reichard",
+              "slot": "K",
+              "pos": "K",
+              "pro": "MIN",
+              "proj": 9.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Darren Waller",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "CAR",
+              "proj": 0.0,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 70.0,
           "injuries": []
         },
         "away": {
@@ -1793,11 +2015,93 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
-          "projected": 0,
-          "starters": [],
-          "bench_proj": 0.0,
+          "projected": 127.1,
+          "starters": [
+            {
+              "name": "Brock Bowers",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "LV",
+              "proj": 16.3,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Drake London",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "ATL",
+              "proj": 16.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Nico Collins",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "HOU",
+              "proj": 16.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Josh Allen",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "BUF",
+              "proj": 19.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Ashton Jeanty",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "LV",
+              "proj": 17.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jaylen Warren",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "PIT",
+              "proj": 14.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Texans D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "HOU",
+              "proj": 6.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Devaughn Vele",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "NO",
+              "proj": 10.2,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Evan McPherson",
+              "slot": "K",
+              "pos": "K",
+              "pro": "CIN",
+              "proj": 8.7,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 74.9,
           "injuries": []
         },
         "played": false,
@@ -1805,31 +2109,108 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (2-1) at Brady Schuster (1-2). Projected: Mitch Wiese 0 - Brady Schuster 0. Brady Schuster favored by 0.",
+        "blurb": "Mitch Wiese (3-1) at Brady Schuster (1-3). Projected: Mitch Wiese 127.1 - Brady Schuster 112.7. Mitch Wiese favored by 14.4.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 121.7,
-          "recent_avg": 111.7,
+          "season_avg": 126.5,
+          "recent_avg": 118.2,
           "streak": 3,
           "streak_type": "L",
           "trend": "down"
         },
         "away_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.1,
-          "recent_avg": 124.7,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 131.2,
+          "recent_avg": 134.2,
+          "streak": 3,
+          "streak_type": "W",
           "trend": "steady"
         },
-        "players_to_watch": [],
-        "positional_edges": [],
+        "players_to_watch": [
+          {
+            "name": "Josh Allen",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "BUF",
+            "proj": 19.7,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Mitch Wiese"
+          },
+          {
+            "name": "CeeDee Lamb",
+            "slot": "WR",
+            "pos": "WR",
+            "pro": "DAL",
+            "proj": 19.1,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Brady Schuster"
+          },
+          {
+            "name": "Ashton Jeanty",
+            "slot": "RB",
+            "pos": "RB",
+            "pro": "LV",
+            "proj": 17.8,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Mitch Wiese"
+          },
+          {
+            "name": "Chase Brown",
+            "slot": "RB",
+            "pos": "RB",
+            "pro": "CIN",
+            "proj": 17.5,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Brady Schuster"
+          }
+        ],
+        "positional_edges": [
+          {
+            "pos": "D/ST",
+            "home_proj": 3.7,
+            "away_proj": 6.8,
+            "edge": "away"
+          },
+          {
+            "pos": "K",
+            "home_proj": 9.4,
+            "away_proj": 8.7,
+            "edge": "even"
+          },
+          {
+            "pos": "QB",
+            "home_proj": 15.8,
+            "away_proj": 19.7,
+            "edge": "away"
+          },
+          {
+            "pos": "RB",
+            "home_proj": 47.9,
+            "away_proj": 32.3,
+            "edge": "home"
+          },
+          {
+            "pos": "TE",
+            "home_proj": 0.0,
+            "away_proj": 16.3,
+            "edge": "away"
+          },
+          {
+            "pos": "WR",
+            "home_proj": 35.8,
+            "away_proj": 43.3,
+            "edge": "away"
+          }
+        ],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Brady Schuster's worst week of the season.",
-          "If the projection holds, this would be Mitch Wiese's worst week of the season."
+          "Mitch Wiese owns the league's longest active winning streak at 3 games."
         ],
         "head_to_head": {
           "home_w": 9,
@@ -1844,7 +2225,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -1856,7 +2237,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -1868,14 +2249,14 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Zach Mensink (1-2) at Owen Koslosku (2-1). Projected: Zach Mensink 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
+        "blurb": "Zach Mensink (2-2) at Owen Koslosku (2-2). Projected: Zach Mensink 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "3-0",
+          "record_last_n": "2-1",
           "games_considered": 3,
           "season_avg": 112.9,
           "recent_avg": 120.7,
-          "streak": 3,
-          "streak_type": "W",
+          "streak": 1,
+          "streak_type": "L",
           "trend": "up"
         },
         "away_form": {
@@ -1892,8 +2273,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Owen Koslosku's worst week of the season.",
-          "If the projection holds, this would be Zach Mensink's worst week of the season.",
-          "Owen Koslosku owns the league's longest active winning streak at 3 games."
+          "If the projection holds, this would be Zach Mensink's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 5,
@@ -1906,7 +2286,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -1918,7 +2298,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -1930,14 +2310,14 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (2-1) at Mitch Wiese (2-1). Projected: Nolan Malo 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
+        "blurb": "Nolan Malo (3-1) at Mitch Wiese (3-1). Projected: Nolan Malo 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.1,
-          "recent_avg": 124.7,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 131.2,
+          "recent_avg": 134.2,
+          "streak": 3,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -1954,7 +2334,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Mitch Wiese's worst week of the season.",
-          "If the projection holds, this would be Nolan Malo's worst week of the season."
+          "If the projection holds, this would be Nolan Malo's worst week of the season.",
+          "Mitch Wiese owns the league's longest active winning streak at 3 games."
         ],
         "head_to_head": {
           "home_w": 3,
@@ -1967,7 +2348,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -1979,7 +2360,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -1991,12 +2372,12 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (1-2) at Brady Schuster (1-2). Projected: alex raichle 0 - Brady Schuster 0. Brady Schuster favored by 0.",
+        "blurb": "alex raichle (2-2) at Brady Schuster (1-3). Projected: alex raichle 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 121.7,
-          "recent_avg": 111.7,
+          "season_avg": 126.5,
+          "recent_avg": 118.2,
           "streak": 3,
           "streak_type": "L",
           "trend": "down"
@@ -2004,8 +2385,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 110.9,
-          "recent_avg": 110.9,
+          "season_avg": 112.7,
+          "recent_avg": 113.4,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -2028,7 +2409,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2040,7 +2421,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2052,15 +2433,15 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (1-2) at spencer glynn (0-3). Projected: Noah Budach 0 - spencer glynn 0. spencer glynn favored by 0.",
+        "blurb": "Noah Budach (1-3) at spencer glynn (0-4). Projected: Noah Budach 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 106.9,
-          "recent_avg": 103.2,
+          "season_avg": 110.4,
+          "recent_avg": 107.9,
           "streak": 4,
           "streak_type": "L",
-          "trend": "down"
+          "trend": "steady"
         },
         "away_form": {
           "record_last_n": "1-2",
@@ -2089,7 +2470,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2101,7 +2482,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2113,7 +2494,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (3-0) at Dawson Leer (2-1). Projected: Andy Jensen 0 - Dawson Leer 0. Dawson Leer favored by 0.",
+        "blurb": "Andy Jensen (3-1) at Dawson Leer (3-1). Projected: Andy Jensen 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2126,8 +2507,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 128.8,
-          "recent_avg": 121.4,
+          "season_avg": 132.6,
+          "recent_avg": 126.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
@@ -2152,7 +2533,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2164,7 +2545,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2176,7 +2557,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (2-1) at Nolan Malo (2-1). Projected: Owen Koslosku 0 - Nolan Malo 0. Nolan Malo favored by 0.",
+        "blurb": "Owen Koslosku (2-2) at Nolan Malo (3-1). Projected: Owen Koslosku 0 - Nolan Malo 0. Nolan Malo favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2187,12 +2568,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "3-0",
+          "record_last_n": "2-1",
           "games_considered": 3,
           "season_avg": 112.9,
           "recent_avg": 120.7,
-          "streak": 3,
-          "streak_type": "W",
+          "streak": 1,
+          "streak_type": "L",
           "trend": "up"
         },
         "players_to_watch": [],
@@ -2200,8 +2581,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Nolan Malo's worst week of the season.",
-          "If the projection holds, this would be Owen Koslosku's worst week of the season.",
-          "Owen Koslosku owns the league's longest active winning streak at 3 games."
+          "If the projection holds, this would be Owen Koslosku's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 5,
@@ -2214,7 +2594,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2226,7 +2606,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2238,23 +2618,23 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (2-1) at alex raichle (1-2). Projected: Mitch Wiese 0 - alex raichle 0. alex raichle favored by 0.",
+        "blurb": "Mitch Wiese (3-1) at alex raichle (2-2). Projected: Mitch Wiese 0 - alex raichle 0. alex raichle favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 110.9,
-          "recent_avg": 110.9,
+          "season_avg": 112.7,
+          "recent_avg": 113.4,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.1,
-          "recent_avg": 124.7,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 131.2,
+          "recent_avg": 134.2,
+          "streak": 3,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -2262,7 +2642,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be alex raichle's worst week of the season.",
-          "If the projection holds, this would be Mitch Wiese's worst week of the season."
+          "If the projection holds, this would be Mitch Wiese's worst week of the season.",
+          "Mitch Wiese owns the league's longest active winning streak at 3 games."
         ],
         "head_to_head": {
           "home_w": 5,
@@ -2275,7 +2656,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2287,7 +2668,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2299,7 +2680,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-2) at Noah Budach (1-2). Projected: Brady Schuster 0 - Noah Budach 0. Noah Budach favored by 0.",
+        "blurb": "Brady Schuster (1-3) at Noah Budach (1-3). Projected: Brady Schuster 0 - Noah Budach 0. Noah Budach favored by 0.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2312,8 +2693,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 121.7,
-          "recent_avg": 111.7,
+          "season_avg": 126.5,
+          "recent_avg": 118.2,
           "streak": 3,
           "streak_type": "L",
           "trend": "down"
@@ -2336,7 +2717,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2348,7 +2729,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2360,12 +2741,12 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-3) at Andy Jensen (3-0). Projected: spencer glynn 0 - Andy Jensen 0. Andy Jensen favored by 0.",
+        "blurb": "spencer glynn (0-4) at Andy Jensen (3-1). Projected: spencer glynn 0 - Andy Jensen 0. Andy Jensen favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 128.8,
-          "recent_avg": 121.4,
+          "season_avg": 132.6,
+          "recent_avg": 126.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
@@ -2373,11 +2754,11 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 106.9,
-          "recent_avg": 103.2,
+          "season_avg": 110.4,
+          "recent_avg": 107.9,
           "streak": 4,
           "streak_type": "L",
-          "trend": "down"
+          "trend": "steady"
         },
         "players_to_watch": [],
         "positional_edges": [],
@@ -2397,7 +2778,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2409,7 +2790,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2421,7 +2802,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (2-1) at Zach Mensink (1-2). Projected: Dawson Leer 0 - Zach Mensink 0. Zach Mensink favored by 0.",
+        "blurb": "Dawson Leer (3-1) at Zach Mensink (2-2). Projected: Dawson Leer 0 - Zach Mensink 0. Zach Mensink favored by 0.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2460,7 +2841,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2472,7 +2853,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2484,21 +2865,21 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (1-2) at Owen Koslosku (2-1). Projected: alex raichle 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
+        "blurb": "alex raichle (2-2) at Owen Koslosku (2-2). Projected: alex raichle 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "3-0",
+          "record_last_n": "2-1",
           "games_considered": 3,
           "season_avg": 112.9,
           "recent_avg": 120.7,
-          "streak": 3,
-          "streak_type": "W",
+          "streak": 1,
+          "streak_type": "L",
           "trend": "up"
         },
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 110.9,
-          "recent_avg": 110.9,
+          "season_avg": 112.7,
+          "recent_avg": 113.4,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -2508,8 +2889,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Owen Koslosku's worst week of the season.",
-          "If the projection holds, this would be alex raichle's worst week of the season.",
-          "Owen Koslosku owns the league's longest active winning streak at 3 games."
+          "If the projection holds, this would be alex raichle's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 2,
@@ -2522,7 +2902,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2534,7 +2914,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2546,14 +2926,14 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (1-2) at Mitch Wiese (2-1). Projected: Noah Budach 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
+        "blurb": "Noah Budach (1-3) at Mitch Wiese (3-1). Projected: Noah Budach 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.1,
-          "recent_avg": 124.7,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 131.2,
+          "recent_avg": 134.2,
+          "streak": 3,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -2570,7 +2950,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Mitch Wiese's worst week of the season.",
-          "If the projection holds, this would be Noah Budach's worst week of the season."
+          "If the projection holds, this would be Noah Budach's worst week of the season.",
+          "Mitch Wiese owns the league's longest active winning streak at 3 games."
         ],
         "head_to_head": {
           "home_w": 3,
@@ -2583,7 +2964,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2595,7 +2976,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2607,12 +2988,12 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (3-0) at Brady Schuster (1-2). Projected: Andy Jensen 0 - Brady Schuster 0. Brady Schuster favored by 0.",
+        "blurb": "Andy Jensen (3-1) at Brady Schuster (1-3). Projected: Andy Jensen 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 121.7,
-          "recent_avg": 111.7,
+          "season_avg": 126.5,
+          "recent_avg": 118.2,
           "streak": 3,
           "streak_type": "L",
           "trend": "down"
@@ -2620,8 +3001,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 128.8,
-          "recent_avg": 121.4,
+          "season_avg": 132.6,
+          "recent_avg": 126.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
@@ -2644,7 +3025,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2656,7 +3037,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2668,15 +3049,15 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Zach Mensink (1-2) at spencer glynn (0-3). Projected: Zach Mensink 0 - spencer glynn 0. spencer glynn favored by 0.",
+        "blurb": "Zach Mensink (2-2) at spencer glynn (0-4). Projected: Zach Mensink 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 106.9,
-          "recent_avg": 103.2,
+          "season_avg": 110.4,
+          "recent_avg": 107.9,
           "streak": 4,
           "streak_type": "L",
-          "trend": "down"
+          "trend": "steady"
         },
         "away_form": {
           "record_last_n": "1-2",
@@ -2705,7 +3086,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2717,7 +3098,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2729,7 +3110,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (2-1) at Dawson Leer (2-1). Projected: Nolan Malo 0 - Dawson Leer 0. Dawson Leer favored by 0.",
+        "blurb": "Nolan Malo (3-1) at Dawson Leer (3-1). Projected: Nolan Malo 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2768,7 +3149,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2780,7 +3161,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2792,7 +3173,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (2-1) at Noah Budach (1-2). Projected: Owen Koslosku 0 - Noah Budach 0. Noah Budach favored by 0.",
+        "blurb": "Owen Koslosku (2-2) at Noah Budach (1-3). Projected: Owen Koslosku 0 - Noah Budach 0. Noah Budach favored by 0.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2803,12 +3184,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "3-0",
+          "record_last_n": "2-1",
           "games_considered": 3,
           "season_avg": 112.9,
           "recent_avg": 120.7,
-          "streak": 3,
-          "streak_type": "W",
+          "streak": 1,
+          "streak_type": "L",
           "trend": "up"
         },
         "players_to_watch": [],
@@ -2816,8 +3197,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Noah Budach's worst week of the season.",
-          "If the projection holds, this would be Owen Koslosku's worst week of the season.",
-          "Owen Koslosku owns the league's longest active winning streak at 3 games."
+          "If the projection holds, this would be Owen Koslosku's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 6,
@@ -2830,7 +3210,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2842,7 +3222,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2854,12 +3234,12 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (1-2) at Andy Jensen (3-0). Projected: alex raichle 0 - Andy Jensen 0. Andy Jensen favored by 0.",
+        "blurb": "alex raichle (2-2) at Andy Jensen (3-1). Projected: alex raichle 0 - Andy Jensen 0. Andy Jensen favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 128.8,
-          "recent_avg": 121.4,
+          "season_avg": 132.6,
+          "recent_avg": 126.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
@@ -2867,8 +3247,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 110.9,
-          "recent_avg": 110.9,
+          "season_avg": 112.7,
+          "recent_avg": 113.4,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -2891,7 +3271,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2903,7 +3283,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2915,14 +3295,14 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (2-1) at Mitch Wiese (2-1). Projected: Dawson Leer 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
+        "blurb": "Dawson Leer (3-1) at Mitch Wiese (3-1). Projected: Dawson Leer 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.1,
-          "recent_avg": 124.7,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 131.2,
+          "recent_avg": 134.2,
+          "streak": 3,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -2958,7 +3338,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2970,7 +3350,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -2982,7 +3362,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (2-1) at Zach Mensink (1-2). Projected: Nolan Malo 0 - Zach Mensink 0. Zach Mensink favored by 0.",
+        "blurb": "Nolan Malo (3-1) at Zach Mensink (2-2). Projected: Nolan Malo 0 - Zach Mensink 0. Zach Mensink favored by 0.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -3019,7 +3399,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3031,7 +3411,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3043,12 +3423,12 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-3) at Brady Schuster (1-2). Projected: spencer glynn 0 - Brady Schuster 0. Brady Schuster favored by 0.",
+        "blurb": "spencer glynn (0-4) at Brady Schuster (1-3). Projected: spencer glynn 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 121.7,
-          "recent_avg": 111.7,
+          "season_avg": 126.5,
+          "recent_avg": 118.2,
           "streak": 3,
           "streak_type": "L",
           "trend": "down"
@@ -3056,11 +3436,11 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 106.9,
-          "recent_avg": 103.2,
+          "season_avg": 110.4,
+          "recent_avg": 107.9,
           "streak": 4,
           "streak_type": "L",
-          "trend": "down"
+          "trend": "steady"
         },
         "players_to_watch": [],
         "positional_edges": [],
@@ -3088,7 +3468,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3100,7 +3480,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3112,23 +3492,23 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (2-1) at Andy Jensen (3-0). Projected: Mitch Wiese 0 - Andy Jensen 0. Andy Jensen favored by 0.",
+        "blurb": "Mitch Wiese (3-1) at Andy Jensen (3-1). Projected: Mitch Wiese 0 - Andy Jensen 0. Andy Jensen favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 128.8,
-          "recent_avg": 121.4,
+          "season_avg": 132.6,
+          "recent_avg": 126.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
         },
         "away_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.1,
-          "recent_avg": 124.7,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 131.2,
+          "recent_avg": 134.2,
+          "streak": 3,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -3136,7 +3516,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Andy Jensen's worst week of the season.",
-          "If the projection holds, this would be Mitch Wiese's worst week of the season."
+          "If the projection holds, this would be Mitch Wiese's worst week of the season.",
+          "Mitch Wiese owns the league's longest active winning streak at 3 games."
         ],
         "head_to_head": {
           "home_w": 2,
@@ -3149,7 +3530,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3161,7 +3542,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3173,7 +3554,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (1-2) at Zach Mensink (1-2). Projected: Noah Budach 0 - Zach Mensink 0. Zach Mensink favored by 0.",
+        "blurb": "Noah Budach (1-3) at Zach Mensink (2-2). Projected: Noah Budach 0 - Zach Mensink 0. Zach Mensink favored by 0.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -3216,7 +3597,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3228,7 +3609,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3240,21 +3621,21 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-2) at Owen Koslosku (2-1). Projected: Brady Schuster 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
+        "blurb": "Brady Schuster (1-3) at Owen Koslosku (2-2). Projected: Brady Schuster 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "3-0",
+          "record_last_n": "2-1",
           "games_considered": 3,
           "season_avg": 112.9,
           "recent_avg": 120.7,
-          "streak": 3,
-          "streak_type": "W",
+          "streak": 1,
+          "streak_type": "L",
           "trend": "up"
         },
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 121.7,
-          "recent_avg": 111.7,
+          "season_avg": 126.5,
+          "recent_avg": 118.2,
           "streak": 3,
           "streak_type": "L",
           "trend": "down"
@@ -3283,7 +3664,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3295,7 +3676,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3307,7 +3688,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (1-2) at Nolan Malo (2-1). Projected: alex raichle 0 - Nolan Malo 0. Nolan Malo favored by 0.",
+        "blurb": "alex raichle (2-2) at Nolan Malo (3-1). Projected: alex raichle 0 - Nolan Malo 0. Nolan Malo favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -3320,8 +3701,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 110.9,
-          "recent_avg": 110.9,
+          "season_avg": 112.7,
+          "recent_avg": 113.4,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -3350,7 +3731,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3362,7 +3743,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3374,7 +3755,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-3) at Dawson Leer (2-1). Projected: spencer glynn 0 - Dawson Leer 0. Dawson Leer favored by 0.",
+        "blurb": "spencer glynn (0-4) at Dawson Leer (3-1). Projected: spencer glynn 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -3387,11 +3768,11 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 106.9,
-          "recent_avg": 103.2,
+          "season_avg": 110.4,
+          "recent_avg": 107.9,
           "streak": 4,
           "streak_type": "L",
-          "trend": "down"
+          "trend": "steady"
         },
         "players_to_watch": [],
         "positional_edges": [],
@@ -3419,7 +3800,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3431,7 +3812,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3443,7 +3824,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-2) at Zach Mensink (1-2). Projected: Brady Schuster 0 - Zach Mensink 0. Zach Mensink favored by 0.",
+        "blurb": "Brady Schuster (1-3) at Zach Mensink (2-2). Projected: Brady Schuster 0 - Zach Mensink 0. Zach Mensink favored by 0.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -3456,8 +3837,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 121.7,
-          "recent_avg": 111.7,
+          "season_avg": 126.5,
+          "recent_avg": 118.2,
           "streak": 3,
           "streak_type": "L",
           "trend": "down"
@@ -3480,7 +3861,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3492,7 +3873,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3504,12 +3885,12 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (2-1) at Andy Jensen (3-0). Projected: Nolan Malo 0 - Andy Jensen 0. Andy Jensen favored by 0.",
+        "blurb": "Nolan Malo (3-1) at Andy Jensen (3-1). Projected: Nolan Malo 0 - Andy Jensen 0. Andy Jensen favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 128.8,
-          "recent_avg": 121.4,
+          "season_avg": 132.6,
+          "recent_avg": 126.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
@@ -3547,7 +3928,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3559,7 +3940,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3571,23 +3952,23 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (2-1) at spencer glynn (0-3). Projected: Mitch Wiese 0 - spencer glynn 0. spencer glynn favored by 0.",
+        "blurb": "Mitch Wiese (3-1) at spencer glynn (0-4). Projected: Mitch Wiese 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 106.9,
-          "recent_avg": 103.2,
+          "season_avg": 110.4,
+          "recent_avg": 107.9,
           "streak": 4,
           "streak_type": "L",
-          "trend": "down"
+          "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.1,
-          "recent_avg": 124.7,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 131.2,
+          "recent_avg": 134.2,
+          "streak": 3,
+          "streak_type": "W",
           "trend": "steady"
         },
         "players_to_watch": [],
@@ -3614,7 +3995,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3626,7 +4007,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3638,7 +4019,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (1-2) at Noah Budach (1-2). Projected: alex raichle 0 - Noah Budach 0. Noah Budach favored by 0.",
+        "blurb": "alex raichle (2-2) at Noah Budach (1-3). Projected: alex raichle 0 - Noah Budach 0. Noah Budach favored by 0.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -3651,8 +4032,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 110.9,
-          "recent_avg": 110.9,
+          "season_avg": 112.7,
+          "recent_avg": 113.4,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -3681,7 +4062,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3693,7 +4074,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3705,7 +4086,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (2-1) at Dawson Leer (2-1). Projected: Owen Koslosku 0 - Dawson Leer 0. Dawson Leer favored by 0.",
+        "blurb": "Owen Koslosku (2-2) at Dawson Leer (3-1). Projected: Owen Koslosku 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -3716,12 +4097,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "3-0",
+          "record_last_n": "2-1",
           "games_considered": 3,
           "season_avg": 112.9,
           "recent_avg": 120.7,
-          "streak": 3,
-          "streak_type": "W",
+          "streak": 1,
+          "streak_type": "L",
           "trend": "up"
         },
         "players_to_watch": [],
@@ -3750,7 +4131,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3762,7 +4143,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3774,7 +4155,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-3) at Nolan Malo (2-1). Projected: spencer glynn 0 - Nolan Malo 0. Nolan Malo favored by 0.",
+        "blurb": "spencer glynn (0-4) at Nolan Malo (3-1). Projected: spencer glynn 0 - Nolan Malo 0. Nolan Malo favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -3787,11 +4168,11 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 106.9,
-          "recent_avg": 103.2,
+          "season_avg": 110.4,
+          "recent_avg": 107.9,
           "streak": 4,
           "streak_type": "L",
-          "trend": "down"
+          "trend": "steady"
         },
         "players_to_watch": [],
         "positional_edges": [],
@@ -3811,7 +4192,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3823,7 +4204,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3835,12 +4216,12 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Zach Mensink (1-2) at alex raichle (1-2). Projected: Zach Mensink 0 - alex raichle 0. alex raichle favored by 0.",
+        "blurb": "Zach Mensink (2-2) at alex raichle (2-2). Projected: Zach Mensink 0 - alex raichle 0. alex raichle favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 110.9,
-          "recent_avg": 110.9,
+          "season_avg": 112.7,
+          "recent_avg": 113.4,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -3878,7 +4259,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3890,7 +4271,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3902,12 +4283,12 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (2-1) at Brady Schuster (1-2). Projected: Dawson Leer 0 - Brady Schuster 0. Brady Schuster favored by 0.",
+        "blurb": "Dawson Leer (3-1) at Brady Schuster (1-3). Projected: Dawson Leer 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 121.7,
-          "recent_avg": 111.7,
+          "season_avg": 126.5,
+          "recent_avg": 118.2,
           "streak": 3,
           "streak_type": "L",
           "trend": "down"
@@ -3926,7 +4307,7 @@ window.MATCHUPS_DATA = {
         "revenge": {
           "week": 4,
           "home_won": false,
-          "home_pts": 130.8,
+          "home_pts": 150.4,
           "away_pts": 164.8
         },
         "fun_facts": [
@@ -3936,7 +4317,7 @@ window.MATCHUPS_DATA = {
         ],
         "head_to_head": {
           "home_w": 12,
-          "home_l": 13
+          "home_l": 14
         }
       },
       {
@@ -3945,7 +4326,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3957,7 +4338,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -3969,7 +4350,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (3-0) at Noah Budach (1-2). Projected: Andy Jensen 0 - Noah Budach 0. Noah Budach favored by 0.",
+        "blurb": "Andy Jensen (3-1) at Noah Budach (1-3). Projected: Andy Jensen 0 - Noah Budach 0. Noah Budach favored by 0.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -3982,8 +4363,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 128.8,
-          "recent_avg": 121.4,
+          "season_avg": 132.6,
+          "recent_avg": 126.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
@@ -4012,7 +4393,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4024,7 +4405,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4036,31 +4417,31 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (2-1) at Mitch Wiese (2-1). Projected: Owen Koslosku 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
+        "blurb": "Owen Koslosku (2-2) at Mitch Wiese (3-1). Projected: Owen Koslosku 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.1,
-          "recent_avg": 124.7,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 131.2,
+          "recent_avg": 134.2,
+          "streak": 3,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "3-0",
+          "record_last_n": "2-1",
           "games_considered": 3,
           "season_avg": 112.9,
           "recent_avg": 120.7,
-          "streak": 3,
-          "streak_type": "W",
+          "streak": 1,
+          "streak_type": "L",
           "trend": "up"
         },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": {
           "week": 4,
-          "home_won": false,
-          "home_pts": 115.4,
+          "home_won": true,
+          "home_pts": 144.0,
           "away_pts": 126.6
         },
         "fun_facts": [
@@ -4069,7 +4450,7 @@ window.MATCHUPS_DATA = {
           "If the projection holds, this would be Owen Koslosku's worst week of the season."
         ],
         "head_to_head": {
-          "home_w": 5,
+          "home_w": 6,
           "home_l": 8
         }
       }
@@ -4081,7 +4462,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4093,7 +4474,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4105,12 +4486,12 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (2-1) at alex raichle (1-2). Projected: Dawson Leer 0 - alex raichle 0. alex raichle favored by 0.",
+        "blurb": "Dawson Leer (3-1) at alex raichle (2-2). Projected: Dawson Leer 0 - alex raichle 0. alex raichle favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 110.9,
-          "recent_avg": 110.9,
+          "season_avg": 112.7,
+          "recent_avg": 113.4,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -4142,7 +4523,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4154,7 +4535,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4166,7 +4547,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (1-2) at Nolan Malo (2-1). Projected: Noah Budach 0 - Nolan Malo 0. Nolan Malo favored by 0.",
+        "blurb": "Noah Budach (1-3) at Nolan Malo (3-1). Projected: Noah Budach 0 - Nolan Malo 0. Nolan Malo favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -4199,7 +4580,7 @@ window.MATCHUPS_DATA = {
           "If the projection holds, this would be Noah Budach's worst week of the season."
         ],
         "head_to_head": {
-          "home_w": 9,
+          "home_w": 10,
           "home_l": 12
         }
       },
@@ -4209,7 +4590,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4221,7 +4602,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4233,32 +4614,31 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-3) at Owen Koslosku (2-1). Projected: spencer glynn 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
+        "blurb": "spencer glynn (0-4) at Owen Koslosku (2-2). Projected: spencer glynn 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "3-0",
+          "record_last_n": "2-1",
           "games_considered": 3,
           "season_avg": 112.9,
           "recent_avg": 120.7,
-          "streak": 3,
-          "streak_type": "W",
+          "streak": 1,
+          "streak_type": "L",
           "trend": "up"
         },
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 106.9,
-          "recent_avg": 103.2,
+          "season_avg": 110.4,
+          "recent_avg": 107.9,
           "streak": 4,
           "streak_type": "L",
-          "trend": "down"
+          "trend": "steady"
         },
         "players_to_watch": [],
         "positional_edges": [],
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Owen Koslosku's worst week of the season.",
-          "If the projection holds, this would be spencer glynn's worst week of the season.",
-          "Owen Koslosku owns the league's longest active winning streak at 3 games."
+          "If the projection holds, this would be spencer glynn's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 8,
@@ -4271,7 +4651,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4283,7 +4663,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4295,7 +4675,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (3-0) at Zach Mensink (1-2). Projected: Andy Jensen 0 - Zach Mensink 0. Zach Mensink favored by 0.",
+        "blurb": "Andy Jensen (3-1) at Zach Mensink (2-2). Projected: Andy Jensen 0 - Zach Mensink 0. Zach Mensink favored by 0.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -4308,8 +4688,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 128.8,
-          "recent_avg": 121.4,
+          "season_avg": 132.6,
+          "recent_avg": 126.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
@@ -4320,7 +4700,7 @@ window.MATCHUPS_DATA = {
           "week": 4,
           "home_won": true,
           "home_pts": 132.3,
-          "away_pts": 94.5
+          "away_pts": 109.7
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
@@ -4328,7 +4708,7 @@ window.MATCHUPS_DATA = {
           "If the projection holds, this would be Andy Jensen's worst week of the season."
         ],
         "head_to_head": {
-          "home_w": 6,
+          "home_w": 7,
           "home_l": 6
         }
       },
@@ -4338,7 +4718,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4350,7 +4730,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4362,21 +4742,21 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (1-2) at Mitch Wiese (2-1). Projected: Brady Schuster 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
+        "blurb": "Brady Schuster (1-3) at Mitch Wiese (3-1). Projected: Brady Schuster 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.1,
-          "recent_avg": 124.7,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 131.2,
+          "recent_avg": 134.2,
+          "streak": 3,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 121.7,
-          "recent_avg": 111.7,
+          "season_avg": 126.5,
+          "recent_avg": 118.2,
           "streak": 3,
           "streak_type": "L",
           "trend": "down"
@@ -4386,7 +4766,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Mitch Wiese's worst week of the season.",
-          "If the projection holds, this would be Brady Schuster's worst week of the season."
+          "If the projection holds, this would be Brady Schuster's worst week of the season.",
+          "Mitch Wiese owns the league's longest active winning streak at 3 games."
         ],
         "head_to_head": {
           "home_w": 8,
@@ -4401,7 +4782,7 @@ window.MATCHUPS_DATA = {
           "guid": "{DA878304-DA9C-4C32-9E61-B326DA584F1B}",
           "team": "Puka Hawk-Tuah",
           "owner": "Owen Koslosku",
-          "record": "2-1",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4413,7 +4794,7 @@ window.MATCHUPS_DATA = {
           "guid": "{3BCB04AD-50E3-4675-8B04-AD50E3667590}",
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
-          "record": "3-0",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4425,21 +4806,21 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (3-0) at Owen Koslosku (2-1). Projected: Andy Jensen 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
+        "blurb": "Andy Jensen (3-1) at Owen Koslosku (2-2). Projected: Andy Jensen 0 - Owen Koslosku 0. Owen Koslosku favored by 0.",
         "home_form": {
-          "record_last_n": "3-0",
+          "record_last_n": "2-1",
           "games_considered": 3,
           "season_avg": 112.9,
           "recent_avg": 120.7,
-          "streak": 3,
-          "streak_type": "W",
+          "streak": 1,
+          "streak_type": "L",
           "trend": "up"
         },
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 128.8,
-          "recent_avg": 121.4,
+          "season_avg": 132.6,
+          "recent_avg": 126.5,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
@@ -4468,7 +4849,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B97EE695-6529-497F-BEE6-956529B97FC0}",
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4480,7 +4861,7 @@ window.MATCHUPS_DATA = {
           "guid": "{B7136078-A4E9-45FF-9360-78A4E935FF3A}",
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4492,14 +4873,14 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Zach Mensink (1-2) at Mitch Wiese (2-1). Projected: Zach Mensink 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
+        "blurb": "Zach Mensink (2-2) at Mitch Wiese (3-1). Projected: Zach Mensink 0 - Mitch Wiese 0. Mitch Wiese favored by 0.",
         "home_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.1,
-          "recent_avg": 124.7,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 131.2,
+          "recent_avg": 134.2,
+          "streak": 3,
+          "streak_type": "W",
           "trend": "steady"
         },
         "away_form": {
@@ -4535,7 +4916,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F2250A50-583F-4F7C-A50A-50583F6F7CE7}",
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4547,7 +4928,7 @@ window.MATCHUPS_DATA = {
           "guid": "{1E802642-486D-481B-AFCD-15A8361DC042}",
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4559,12 +4940,12 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (2-1) at Brady Schuster (1-2). Projected: Nolan Malo 0 - Brady Schuster 0. Brady Schuster favored by 0.",
+        "blurb": "Nolan Malo (3-1) at Brady Schuster (1-3). Projected: Nolan Malo 0 - Brady Schuster 0. Brady Schuster favored by 0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 121.7,
-          "recent_avg": 111.7,
+          "season_avg": 126.5,
+          "recent_avg": 118.2,
           "streak": 3,
           "streak_type": "L",
           "trend": "down"
@@ -4602,7 +4983,7 @@ window.MATCHUPS_DATA = {
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
           "team": "Tank for Arch",
           "owner": "spencer glynn",
-          "record": "0-3",
+          "record": "0-4",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4614,7 +4995,7 @@ window.MATCHUPS_DATA = {
           "guid": "{F73EA129-47AF-46B5-BEA1-2947AF96B517}",
           "team": "Double D Kupps",
           "owner": "alex raichle",
-          "record": "1-2",
+          "record": "2-2",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4626,21 +5007,21 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (1-2) at spencer glynn (0-3). Projected: alex raichle 0 - spencer glynn 0. spencer glynn favored by 0.",
+        "blurb": "alex raichle (2-2) at spencer glynn (0-4). Projected: alex raichle 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 106.9,
-          "recent_avg": 103.2,
+          "season_avg": 110.4,
+          "recent_avg": 107.9,
           "streak": 4,
           "streak_type": "L",
-          "trend": "down"
+          "trend": "steady"
         },
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 110.9,
-          "recent_avg": 110.9,
+          "season_avg": 112.7,
+          "recent_avg": 113.4,
           "streak": 2,
           "streak_type": "W",
           "trend": "steady"
@@ -4650,8 +5031,8 @@ window.MATCHUPS_DATA = {
         "revenge": {
           "week": 4,
           "home_won": false,
-          "home_pts": 70.3,
-          "away_pts": 107.8
+          "home_pts": 84.2,
+          "away_pts": 115.2
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
@@ -4660,7 +5041,7 @@ window.MATCHUPS_DATA = {
         ],
         "head_to_head": {
           "home_w": 9,
-          "home_l": 13
+          "home_l": 14
         }
       },
       {
@@ -4669,7 +5050,7 @@ window.MATCHUPS_DATA = {
           "guid": "{FEA2318E-C1E8-4A18-BE06-FE1337FDB8AF}",
           "team": "This Just In",
           "owner": "Dawson Leer",
-          "record": "2-1",
+          "record": "3-1",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4681,7 +5062,7 @@ window.MATCHUPS_DATA = {
           "guid": "{86CB2A71-68FC-4381-9549-7EBBC4CF6686}",
           "team": "Give CMC the ball",
           "owner": "Noah Budach",
-          "record": "1-2",
+          "record": "1-3",
           "actual": 0.0,
           "projected": 0,
           "starters": [],
@@ -4693,7 +5074,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (1-2) at Dawson Leer (2-1). Projected: Noah Budach 0 - Dawson Leer 0. Dawson Leer favored by 0.",
+        "blurb": "Noah Budach (1-3) at Dawson Leer (3-1). Projected: Noah Budach 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
