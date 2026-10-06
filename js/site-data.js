@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-06T17:26:37+00:00",
+  "generated_at": "2026-10-06T23:22:17+00:00",
   "current_week": 5,
   "standings": [
     {
@@ -3866,6 +3866,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 3042519,
+          "name": "Aaron Jones Sr.",
+          "slot": "RB",
+          "pos": "RB",
+          "pro": "MIN",
+          "proj": 17.8,
+          "actual": 0.0,
+          "season_ppg": 12.9,
+          "season_total": 51.5,
+          "games_played": 4,
+          "preseason_proj_total": 216.3,
+          "starter": true,
+          "injury": null
+        },
+        {
           "player_id": 4362238,
           "name": "Chase Brown",
           "slot": "RB",
@@ -3877,21 +3892,6 @@ window.SITE_DATA = {
           "season_total": 58.0,
           "games_played": 4,
           "preseason_proj_total": 281.2,
-          "starter": true,
-          "injury": null
-        },
-        {
-          "player_id": 4569173,
-          "name": "Rhamondre Stevenson",
-          "slot": "RB",
-          "pos": "RB",
-          "pro": "NE",
-          "proj": 13.2,
-          "actual": 0.0,
-          "season_ppg": 10.8,
-          "season_total": 43.3,
-          "games_played": 4,
-          "preseason_proj_total": 173.1,
           "starter": true,
           "injury": null
         },
@@ -3941,17 +3941,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 3042519,
-          "name": "Aaron Jones Sr.",
+          "player_id": 4569173,
+          "name": "Rhamondre Stevenson",
           "slot": "FLEX",
           "pos": "RB",
-          "pro": "MIN",
-          "proj": 17.8,
+          "pro": "NE",
+          "proj": 13.2,
           "actual": 0.0,
-          "season_ppg": 12.9,
-          "season_total": 51.5,
+          "season_ppg": 10.8,
+          "season_total": 43.3,
           "games_played": 4,
-          "preseason_proj_total": 216.3,
+          "preseason_proj_total": 173.1,
           "starter": true,
           "injury": null
         },
@@ -4073,7 +4073,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 156.9,
           "starter": false,
-          "injury": "OUT"
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 4683062,
@@ -7423,7 +7423,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 108.6,
           "starter": false,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4239996,
@@ -10713,7 +10713,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 247.7,
           "starter": false,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4361050,
@@ -18577,7 +18577,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 315.9,
           "starter": true,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4685278,
@@ -18697,7 +18697,7 @@ window.SITE_DATA = {
           "games_played": 3,
           "preseason_proj_total": 128.1,
           "starter": false,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4038815,
@@ -18712,7 +18712,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 84.0,
           "starter": false,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4429025,
@@ -26764,7 +26764,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 371.5,
           "starter": false,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4431299,
@@ -26854,7 +26854,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 223.0,
           "starter": false,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         }
       ],
       "draft": {
@@ -32160,7 +32160,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 226.0,
           "starter": true,
-          "injury": "OUT"
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 4426515,

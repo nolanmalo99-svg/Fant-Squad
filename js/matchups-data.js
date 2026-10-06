@@ -763,7 +763,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "3-1",
           "actual": 0.0,
-          "projected": 82.8,
+          "projected": 101.3,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -772,7 +772,7 @@ window.MATCHUPS_DATA = {
               "pro": "MIN",
               "proj": 18.5,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Kyren Williams",
@@ -856,7 +856,7 @@ window.MATCHUPS_DATA = {
               "pro": "MIN",
               "proj": 18.5,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "QUESTIONABLE"
             }
           ]
         },
@@ -865,7 +865,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 82.8 - Noah Budach 110.0. Noah Budach favored by 27.2.",
+        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 101.3 - Noah Budach 110.0. Noah Budach favored by 8.7.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -912,7 +912,7 @@ window.MATCHUPS_DATA = {
             "pro": "MIN",
             "proj": 18.5,
             "actual": 0.0,
-            "injury": "OUT",
+            "injury": "QUESTIONABLE",
             "owner": "Dawson Leer"
           },
           {
@@ -1417,7 +1417,7 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "2-2",
           "actual": 0.0,
-          "projected": 111.5,
+          "projected": 127.9,
           "starters": [
             {
               "name": "Puka Nacua",
@@ -1453,7 +1453,7 @@ window.MATCHUPS_DATA = {
               "pro": "NYJ",
               "proj": 16.4,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "DOUBTFUL"
             },
             {
               "name": "Jaylen Waddle",
@@ -1510,7 +1510,7 @@ window.MATCHUPS_DATA = {
               "pro": "NYJ",
               "proj": 16.4,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "DOUBTFUL"
             }
           ]
         },
@@ -1519,7 +1519,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (2-2) at spencer glynn (0-4). Projected: Owen Koslosku 111.5 - spencer glynn 98.4. Owen Koslosku favored by 13.1.",
+        "blurb": "Owen Koslosku (2-2) at spencer glynn (0-4). Projected: Owen Koslosku 127.9 - spencer glynn 98.4. Owen Koslosku favored by 29.5.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -1619,7 +1619,9 @@ window.MATCHUPS_DATA = {
           }
         ],
         "revenge": null,
-        "fun_facts": [],
+        "fun_facts": [
+          "If the projection holds, this would be Owen Koslosku's best week of the season."
+        ],
         "head_to_head": {
           "home_w": 4,
           "home_l": 8
@@ -1973,7 +1975,7 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Rhamondre Stevenson",
-              "slot": "RB",
+              "slot": "FLEX",
               "pos": "RB",
               "pro": "NE",
               "proj": 13.2,
@@ -1982,7 +1984,7 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Aaron Jones Sr.",
-              "slot": "FLEX",
+              "slot": "RB",
               "pos": "RB",
               "pro": "MIN",
               "proj": 17.8,
@@ -2161,7 +2163,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "name": "Aaron Jones Sr.",
-            "slot": "FLEX",
+            "slot": "RB",
             "pos": "RB",
             "pro": "MIN",
             "proj": 17.8,
