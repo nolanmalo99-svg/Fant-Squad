@@ -659,7 +659,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "1-3",
           "actual": 0.0,
-          "projected": 110.0,
+          "projected": 117.4,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -734,11 +734,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Chiefs D/ST",
+              "name": "Cowboys D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "KC",
-              "proj": 0.0,
+              "pro": "DAL",
+              "proj": 7.4,
               "actual": 0.0,
               "injury": null
             }
@@ -847,7 +847,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 41.2,
+          "bench_proj": 48.2,
           "injuries": [
             {
               "name": "Justin Jefferson",
@@ -865,7 +865,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 101.3 - Noah Budach 110.0. Noah Budach favored by 8.7.",
+        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 101.3 - Noah Budach 117.4. Noah Budach favored by 16.1.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -929,9 +929,9 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 0.0,
+            "home_proj": 7.4,
             "away_proj": 5.5,
-            "edge": "away"
+            "edge": "home"
           },
           {
             "pos": "K",
@@ -966,6 +966,7 @@ window.MATCHUPS_DATA = {
         ],
         "revenge": null,
         "fun_facts": [
+          "If the projection holds, this would be Noah Budach's best week of the season.",
           "If the projection holds, this would be Dawson Leer's worst week of the season."
         ],
         "head_to_head": {
@@ -1065,7 +1066,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 53.2,
+          "bench_proj": 61.3,
           "injuries": [
             {
               "name": "Tee Higgins",
@@ -1304,7 +1305,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-4",
           "actual": 0.0,
-          "projected": 98.4,
+          "projected": 124.1,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -1343,20 +1344,20 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Parker Washington",
-              "slot": "WR",
-              "pos": "WR",
+              "name": "Bhayshul Tuten",
+              "slot": "RB",
+              "pos": "RB",
               "pro": "JAX",
-              "proj": 14.1,
+              "proj": 13.9,
               "actual": 0.0,
               "injury": null
             },
             {
-              "name": "Chuba Hubbard",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "CAR",
-              "proj": 0.0,
+              "name": "Michael Wilson",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "ARI",
+              "proj": 16.8,
               "actual": 0.0,
               "injury": null
             },
@@ -1379,16 +1380,16 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Harrison Butker",
+              "name": "Jake Bates",
               "slot": "K",
               "pos": "K",
-              "pro": "KC",
-              "proj": 0.0,
+              "pro": "DET",
+              "proj": 9.1,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 47.9,
+          "bench_proj": 41.7,
           "injuries": [
             {
               "name": "Ja'Marr Chase",
@@ -1519,7 +1520,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (2-2) at spencer glynn (0-4). Projected: Owen Koslosku 127.9 - spencer glynn 98.4. Owen Koslosku favored by 29.5.",
+        "blurb": "Owen Koslosku (2-2) at spencer glynn (0-4). Projected: Owen Koslosku 127.9 - spencer glynn 124.1. Owen Koslosku favored by 3.8.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -1589,9 +1590,9 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "K",
-            "home_proj": 0.0,
+            "home_proj": 9.1,
             "away_proj": 8.5,
-            "edge": "away"
+            "edge": "even"
           },
           {
             "pos": "QB",
@@ -1601,7 +1602,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 15.0,
+            "home_proj": 28.9,
             "away_proj": 35.3,
             "edge": "away"
           },
@@ -1613,7 +1614,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 50.4,
+            "home_proj": 53.1,
             "away_proj": 46.2,
             "edge": "home"
           }
@@ -1935,7 +1936,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-3",
           "actual": 0.0,
-          "projected": 112.4,
+          "projected": 122.1,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -2010,11 +2011,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Darren Waller",
+              "name": "Brenton Strange",
               "slot": "TE",
               "pos": "TE",
-              "pro": "CAR",
-              "proj": 0.0,
+              "pro": "JAX",
+              "proj": 9.7,
               "actual": 0.0,
               "injury": null
             }
@@ -2121,7 +2122,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (3-1) at Brady Schuster (1-3). Projected: Mitch Wiese 126.8 - Brady Schuster 112.4. Mitch Wiese favored by 14.4.",
+        "blurb": "Mitch Wiese (3-1) at Brady Schuster (1-3). Projected: Mitch Wiese 126.8 - Brady Schuster 122.1. Mitch Wiese favored by 4.7.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -2209,7 +2210,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "TE",
-            "home_proj": 0.0,
+            "home_proj": 9.7,
             "away_proj": 16.3,
             "edge": "away"
           },
