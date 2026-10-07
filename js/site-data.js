@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-07T17:59:19+00:00",
+  "generated_at": "2026-10-07T23:53:36+00:00",
   "current_week": 5,
   "standings": [
     {
@@ -701,7 +701,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "PHI",
-          "proj": 10.4,
+          "proj": 10.1,
           "actual": 0.0,
           "season_ppg": 4.0,
           "season_total": 16.0,
@@ -4013,7 +4013,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 139.3,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4701936,
@@ -4061,6 +4061,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 3121023,
+          "name": "Dallas Goedert",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "PHI",
+          "proj": 10.9,
+          "actual": 0.0,
+          "season_ppg": 6.3,
+          "season_total": 25.1,
+          "games_played": 4,
+          "preseason_proj_total": 156.9,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
           "player_id": 4567750,
           "name": "Emeka Egbuka",
           "slot": "BE",
@@ -4074,21 +4089,6 @@ window.SITE_DATA = {
           "preseason_proj_total": 176.0,
           "starter": false,
           "injury": null
-        },
-        {
-          "player_id": 3121023,
-          "name": "Dallas Goedert",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "PHI",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 6.3,
-          "season_total": 25.1,
-          "games_played": 4,
-          "preseason_proj_total": 156.9,
-          "starter": false,
-          "injury": "DOUBTFUL"
         },
         {
           "player_id": 4683062,
@@ -7228,7 +7228,7 @@ window.SITE_DATA = {
           "games_played": 2,
           "preseason_proj_total": 99.7,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4870808,
@@ -7371,7 +7371,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "RB",
           "pro": "PHI",
-          "proj": 10.4,
+          "proj": 10.2,
           "actual": 0.0,
           "season_ppg": 2.3,
           "season_total": 2.3,
@@ -10653,7 +10653,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 232.5,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4431459,
@@ -10683,7 +10683,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 235.1,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16014,
@@ -10758,7 +10758,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 99.4,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4361432,
@@ -10781,7 +10781,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "PHI",
-          "proj": 10.4,
+          "proj": 10.1,
           "actual": 0.0,
           "season_ppg": 5.0,
           "season_total": 10.0,
@@ -10803,7 +10803,7 @@ window.SITE_DATA = {
           "games_played": 2,
           "preseason_proj_total": 136.0,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3116406,
@@ -13973,7 +13973,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 226.8,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4887558,
@@ -14006,19 +14006,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4685472,
-          "name": "Tetairoa McMillan",
+          "player_id": 4429205,
+          "name": "Jordan Addison",
           "slot": "WR",
           "pos": "WR",
-          "pro": "CAR",
-          "proj": 0.0,
+          "pro": "MIN",
+          "proj": 11.3,
           "actual": 0.0,
-          "season_ppg": 18.6,
-          "season_total": 74.5,
+          "season_ppg": 8.3,
+          "season_total": 33.2,
           "games_played": 4,
-          "preseason_proj_total": 235.3,
+          "preseason_proj_total": 167.3,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 5083076,
@@ -14111,21 +14111,6 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 4429205,
-          "name": "Jordan Addison",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "MIN",
-          "proj": 11.3,
-          "actual": 0.0,
-          "season_ppg": 8.3,
-          "season_total": 33.2,
-          "games_played": 4,
-          "preseason_proj_total": 167.3,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4036133,
           "name": "T.J. Hockenson",
           "slot": "BE",
@@ -14184,6 +14169,21 @@ window.SITE_DATA = {
           "preseason_proj_total": 282.9,
           "starter": false,
           "injury": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4685472,
+          "name": "Tetairoa McMillan",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "CAR",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 18.6,
+          "season_total": 74.5,
+          "games_played": 4,
+          "preseason_proj_total": 235.3,
+          "starter": false,
+          "injury": null
         }
       ],
       "draft": {
@@ -21993,7 +21993,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 301.4,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16020,
@@ -22053,7 +22053,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 266.7,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4569603,
@@ -26794,7 +26794,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 371.5,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4431299,
@@ -26824,7 +26824,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 163.8,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4035687,
@@ -26839,7 +26839,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 201.1,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3116165,
@@ -29822,7 +29822,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 262.2,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4258173,
@@ -32295,7 +32295,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 222.1,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4035538,

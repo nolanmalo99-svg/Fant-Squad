@@ -1074,7 +1074,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 68.5,
+          "bench_proj": 68.2,
           "injuries": [
             {
               "name": "Tee Higgins",
@@ -1121,7 +1121,7 @@ window.MATCHUPS_DATA = {
               "pro": "NYG",
               "proj": 13.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Davante Adams",
@@ -1180,6 +1180,15 @@ window.MATCHUPS_DATA = {
           ],
           "bench_proj": 68.9,
           "injuries": [
+            {
+              "name": "Malik Nabers",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "NYG",
+              "proj": 13.5,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
             {
               "name": "Lamar Jackson",
               "slot": "QB",
@@ -1385,7 +1394,7 @@ window.MATCHUPS_DATA = {
               "pro": "NO",
               "proj": 16.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Jake Bates",
@@ -1397,7 +1406,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 41.7,
+          "bench_proj": 41.5,
           "injuries": [
             {
               "name": "Ja'Marr Chase",
@@ -1414,6 +1423,15 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "ARI",
               "proj": 15.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Tyler Shough",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "NO",
+              "proj": 16.5,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -1669,7 +1687,7 @@ window.MATCHUPS_DATA = {
               "pro": "BAL",
               "proj": 14.0,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Javonte Williams",
@@ -1705,7 +1723,7 @@ window.MATCHUPS_DATA = {
               "pro": "SF",
               "proj": 12.8,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Cam Little",
@@ -1726,8 +1744,27 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 72.2,
-          "injuries": []
+          "bench_proj": 71.9,
+          "injuries": [
+            {
+              "name": "Zay Flowers",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "BAL",
+              "proj": 14.0,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Mike Evans",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "SF",
+              "proj": 12.8,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 5,
@@ -1736,7 +1773,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "2-2",
           "actual": 0.0,
-          "projected": 105.2,
+          "projected": 116.6,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -1748,22 +1785,13 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Tetairoa McMillan",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "CAR",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "D'Andre Swift",
               "slot": "RB",
               "pos": "RB",
               "pro": "CHI",
               "proj": 14.1,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Harold Fannin Jr.",
@@ -1782,6 +1810,15 @@ window.MATCHUPS_DATA = {
               "proj": 19.0,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Jordan Addison",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "MIN",
+              "proj": 11.3,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Brandon Aubrey",
@@ -1820,15 +1857,34 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 59.5,
-          "injuries": []
+          "bench_proj": 48.2,
+          "injuries": [
+            {
+              "name": "D'Andre Swift",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "CHI",
+              "proj": 14.1,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Jordan Addison",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "MIN",
+              "proj": 11.3,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Zach Mensink (2-2) at Nolan Malo (3-1). Projected: Zach Mensink 105.2 - Nolan Malo 126.0. Nolan Malo favored by 20.8.",
+        "blurb": "Zach Mensink (2-2) at Nolan Malo (3-1). Projected: Zach Mensink 116.6 - Nolan Malo 126.0. Nolan Malo favored by 9.4.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1923,7 +1979,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 46.8,
-            "away_proj": 32.5,
+            "away_proj": 43.8,
             "edge": "home"
           }
         ],
@@ -2026,7 +2082,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 58.8,
+          "bench_proj": 69.7,
           "injuries": [
             {
               "name": "Rhamondre Stevenson",
@@ -2055,7 +2111,7 @@ window.MATCHUPS_DATA = {
               "pro": "LV",
               "proj": 16.3,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Drake London",
@@ -2131,7 +2187,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 73.9,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Brock Bowers",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "LV",
+              "proj": 16.3,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
