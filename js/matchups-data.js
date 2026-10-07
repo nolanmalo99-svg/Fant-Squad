@@ -2029,7 +2029,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "3-1",
           "actual": 0.0,
-          "projected": 126.2,
+          "projected": 126.8,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -2086,15 +2086,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Texans D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "HOU",
-              "proj": 6.7,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Devaughn Vele",
               "slot": "WR",
               "pos": "WR",
@@ -2111,9 +2102,18 @@ window.MATCHUPS_DATA = {
               "proj": 8.7,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Jaguars D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "JAX",
+              "proj": 7.2,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 74.4,
+          "bench_proj": 73.9,
           "injuries": []
         },
         "played": false,
@@ -2121,7 +2121,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (3-1) at Brady Schuster (1-3). Projected: Mitch Wiese 126.2 - Brady Schuster 112.4. Mitch Wiese favored by 13.8.",
+        "blurb": "Mitch Wiese (3-1) at Brady Schuster (1-3). Projected: Mitch Wiese 126.8 - Brady Schuster 112.4. Mitch Wiese favored by 14.4.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -2186,7 +2186,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 2.7,
-            "away_proj": 6.7,
+            "away_proj": 7.2,
             "edge": "away"
           },
           {

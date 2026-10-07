@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-06T23:22:17+00:00",
+  "generated_at": "2026-10-07T02:46:30+00:00",
   "current_week": 5,
   "standings": [
     {
@@ -29810,17 +29810,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": -16034,
-          "name": "Texans D/ST",
+          "player_id": -16030,
+          "name": "Jaguars D/ST",
           "slot": "D/ST",
           "pos": "D/ST",
-          "pro": "HOU",
-          "proj": 6.7,
+          "pro": "JAX",
+          "proj": 7.2,
           "actual": 0.0,
-          "season_ppg": 4.0,
-          "season_total": 16.0,
-          "games_played": 4,
-          "preseason_proj_total": 128.8,
+          "season_ppg": 9.0,
+          "season_total": 18.0,
+          "games_played": 2,
+          "preseason_proj_total": 87.3,
           "starter": true,
           "injury": null
         },
@@ -29915,21 +29915,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": -16030,
-          "name": "Jaguars D/ST",
-          "slot": "BE",
-          "pos": "D/ST",
-          "pro": "JAX",
-          "proj": 7.2,
-          "actual": 0.0,
-          "season_ppg": 9.0,
-          "season_total": 18.0,
-          "games_played": 2,
-          "preseason_proj_total": 87.3,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4242355,
           "name": "Jake Ferguson",
           "slot": "BE",
@@ -29941,6 +29926,21 @@ window.SITE_DATA = {
           "season_total": 36.3,
           "games_played": 4,
           "preseason_proj_total": 150.4,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": -16034,
+          "name": "Texans D/ST",
+          "slot": "BE",
+          "pos": "D/ST",
+          "pro": "HOU",
+          "proj": 6.7,
+          "actual": 0.0,
+          "season_ppg": 4.0,
+          "season_total": 16.0,
+          "games_played": 4,
+          "preseason_proj_total": 128.8,
           "starter": false,
           "injury": null
         },
