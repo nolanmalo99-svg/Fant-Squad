@@ -686,7 +686,7 @@ window.MATCHUPS_DATA = {
               "pro": "TEN",
               "proj": 13.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Kyle Monangai",
@@ -743,8 +743,17 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 55.4,
+          "bench_proj": 47.0,
           "injuries": [
+            {
+              "name": "Carnell Tate",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "TEN",
+              "proj": 13.5,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
             {
               "name": "Kyle Monangai",
               "slot": "RB",
@@ -842,7 +851,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "LV",
-              "proj": 14.0,
+              "proj": 14.1,
               "actual": 0.0,
               "injury": null
             }
@@ -951,7 +960,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "QB",
             "home_proj": 17.7,
-            "away_proj": 14.0,
+            "away_proj": 14.1,
             "edge": "home"
           },
           {
@@ -990,7 +999,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "2-2",
           "actual": 0.0,
-          "projected": 122.1,
+          "projected": 109.1,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -1024,7 +1033,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "CIN",
-              "proj": 14.2,
+              "proj": 0.0,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -1047,15 +1056,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Seahawks D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "SEA",
-              "proj": 3.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Juwan Johnson",
               "slot": "TE",
               "pos": "TE",
@@ -1072,16 +1072,25 @@ window.MATCHUPS_DATA = {
               "proj": 7.9,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Colts D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "IND",
+              "proj": 5.1,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 68.2,
+          "bench_proj": 62.0,
           "injuries": [
             {
               "name": "Tee Higgins",
               "slot": "WR",
               "pos": "WR",
               "pro": "CIN",
-              "proj": 14.2,
+              "proj": 0.0,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -1186,7 +1195,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (3-1) at alex raichle (2-2). Projected: Andy Jensen 117.7 - alex raichle 122.1. alex raichle favored by 4.4.",
+        "blurb": "Andy Jensen (3-1) at alex raichle (2-2). Projected: Andy Jensen 117.7 - alex raichle 109.1. Andy Jensen favored by 8.6.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1250,7 +1259,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 3.9,
+            "home_proj": 5.1,
             "away_proj": 7.5,
             "edge": "away"
           },
@@ -1280,14 +1289,14 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 28.0,
+            "home_proj": 13.8,
             "away_proj": 36.8,
             "edge": "away"
           }
         ],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be alex raichle's best week of the season."
+          "If the projection holds, this would be alex raichle's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 6,
@@ -1374,7 +1383,7 @@ window.MATCHUPS_DATA = {
               "pro": "NO",
               "proj": 16.5,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Jake Bates",
@@ -1403,15 +1412,6 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "ARI",
               "proj": 15.0,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Tyler Shough",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "NO",
-              "proj": 16.5,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -1995,7 +1995,7 @@ window.MATCHUPS_DATA = {
               "pro": "NO",
               "proj": 16.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Jalen Hurts",
@@ -2052,8 +2052,17 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 68.5,
+          "bench_proj": 68.9,
           "injuries": [
+            {
+              "name": "Chris Olave",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "NO",
+              "proj": 16.5,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
             {
               "name": "Rhamondre Stevenson",
               "slot": "FLEX",
@@ -2081,7 +2090,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "3-1",
           "actual": 0.0,
-          "projected": 126.8,
+          "projected": 126.7,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -2090,7 +2099,7 @@ window.MATCHUPS_DATA = {
               "pro": "LV",
               "proj": 16.3,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Drake London",
@@ -2126,14 +2135,14 @@ window.MATCHUPS_DATA = {
               "pro": "LV",
               "proj": 17.8,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Jaylen Warren",
               "slot": "RB",
               "pos": "RB",
               "pro": "PIT",
-              "proj": 14.5,
+              "proj": 14.4,
               "actual": 0.0,
               "injury": null
             },
@@ -2168,11 +2177,11 @@ window.MATCHUPS_DATA = {
           "bench_proj": 73.9,
           "injuries": [
             {
-              "name": "Brock Bowers",
-              "slot": "TE",
-              "pos": "TE",
+              "name": "Ashton Jeanty",
+              "slot": "RB",
+              "pos": "RB",
               "pro": "LV",
-              "proj": 16.3,
+              "proj": 17.8,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -2183,7 +2192,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (3-1) at Brady Schuster (1-3). Projected: Mitch Wiese 126.8 - Brady Schuster 127.9. Brady Schuster favored by 1.1.",
+        "blurb": "Mitch Wiese (3-1) at Brady Schuster (1-3). Projected: Mitch Wiese 126.7 - Brady Schuster 127.9. Brady Schuster favored by 1.2.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -2240,7 +2249,7 @@ window.MATCHUPS_DATA = {
             "pro": "LV",
             "proj": 17.8,
             "actual": 0.0,
-            "injury": null,
+            "injury": "QUESTIONABLE",
             "owner": "Mitch Wiese"
           }
         ],
@@ -2266,7 +2275,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 48.6,
-            "away_proj": 32.3,
+            "away_proj": 32.2,
             "edge": "home"
           },
           {
