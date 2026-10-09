@@ -1408,7 +1408,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "3-1",
           "actual": 14.2,
-          "projected": 122.7,
+          "projected": 123.2,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -1483,11 +1483,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Rams D/ST",
+              "name": "Raiders D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "LAR",
-              "proj": 4.4,
+              "pro": "LV",
+              "proj": 4.9,
               "actual": 0.0,
               "injury": null
             }
