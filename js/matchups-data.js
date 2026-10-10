@@ -659,7 +659,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "1-3",
           "actual": 0.0,
-          "projected": 97.4,
+          "projected": 97.5,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -675,7 +675,7 @@ window.MATCHUPS_DATA = {
               "slot": "TE",
               "pos": "TE",
               "pro": "ARI",
-              "proj": 18.7,
+              "proj": 18.8,
               "actual": 0.0,
               "injury": null
             },
@@ -856,7 +856,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 36.4,
+          "bench_proj": 35.3,
           "injuries": [
             {
               "name": "Justin Jefferson",
@@ -883,7 +883,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 104.7 - Noah Budach 97.4. Dawson Leer favored by 7.3.",
+        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 104.7 - Noah Budach 97.5. Dawson Leer favored by 7.2.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -904,20 +904,20 @@ window.MATCHUPS_DATA = {
         },
         "players_to_watch": [
           {
-            "name": "Christian McCaffrey",
-            "slot": "RB",
-            "pos": "RB",
-            "pro": "SF",
-            "proj": 18.7,
+            "name": "Trey McBride",
+            "slot": "TE",
+            "pos": "TE",
+            "pro": "ARI",
+            "proj": 18.8,
             "actual": 0.0,
             "injury": null,
             "owner": "Noah Budach"
           },
           {
-            "name": "Trey McBride",
-            "slot": "TE",
-            "pos": "TE",
-            "pro": "ARI",
+            "name": "Christian McCaffrey",
+            "slot": "RB",
+            "pos": "RB",
+            "pro": "SF",
             "proj": 18.7,
             "actual": 0.0,
             "injury": null,
@@ -971,7 +971,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "TE",
-            "home_proj": 18.7,
+            "home_proj": 18.8,
             "away_proj": 13.1,
             "edge": "home"
           },
@@ -1205,7 +1205,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-4",
           "actual": 0.0,
-          "projected": 123.6,
+          "projected": 123.7,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -1289,7 +1289,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 42.7,
+          "bench_proj": 41.6,
           "injuries": [
             {
               "name": "Ja'Marr Chase",
@@ -1393,7 +1393,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 56.7,
+          "bench_proj": 50.0,
           "injuries": []
         },
         "played": true,
@@ -1599,7 +1599,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 35.0,
+          "bench_proj": 47.6,
           "injuries": [
             {
               "name": "Jordan Addison",
@@ -1774,7 +1774,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "BUF",
-              "proj": 19.6,
+              "proj": 19.7,
               "actual": 0.0,
               "injury": null
             },

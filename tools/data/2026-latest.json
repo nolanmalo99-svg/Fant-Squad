@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-10T16:24:25+00:00",
+  "generated_at": "2026-10-10T22:58:58+00:00",
   "current_week": 5,
   "standings": [
     {
@@ -7386,7 +7386,7 @@
           "slot": "BE",
           "pos": "TE",
           "pro": "BUF",
-          "proj": 9.9,
+          "proj": 8.8,
           "actual": 0.0,
           "season_ppg": 11.5,
           "season_total": 46.0,
@@ -14096,6 +14096,21 @@
           "injury": null
         },
         {
+          "player_id": 3915416,
+          "name": "DJ Moore",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "BUF",
+          "proj": 12.6,
+          "actual": 0.0,
+          "season_ppg": 9.1,
+          "season_total": 36.3,
+          "games_played": 4,
+          "preseason_proj_total": 237.9,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
           "player_id": 4036133,
           "name": "T.J. Hockenson",
           "slot": "BE",
@@ -14169,21 +14184,6 @@
           "preseason_proj_total": 235.3,
           "starter": false,
           "injury": null
-        },
-        {
-          "player_id": 3915416,
-          "name": "DJ Moore",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "BUF",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 9.1,
-          "season_total": 36.3,
-          "games_played": 4,
-          "preseason_proj_total": 237.9,
-          "starter": false,
-          "injury": "QUESTIONABLE"
         }
       ],
       "draft": {
@@ -18690,7 +18690,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "BUF",
-          "proj": 11.1,
+          "proj": 10.0,
           "actual": 0.0,
           "season_ppg": 7.7,
           "season_total": 30.6,
@@ -26742,7 +26742,7 @@
           "slot": "TE",
           "pos": "TE",
           "pro": "ARI",
-          "proj": 18.7,
+          "proj": 18.8,
           "actual": 0.0,
           "season_ppg": 17.3,
           "season_total": 69.2,
@@ -26899,7 +26899,7 @@
           "games_played": 4,
           "preseason_proj_total": 201.1,
           "starter": false,
-          "injury": "OUT"
+          "injury": "INJURY_RESERVE"
         }
       ],
       "draft": {
@@ -29755,7 +29755,7 @@
           "slot": "QB",
           "pos": "QB",
           "pro": "BUF",
-          "proj": 19.6,
+          "proj": 19.7,
           "actual": 0.0,
           "season_ppg": 27.9,
           "season_total": 111.7,
@@ -32373,21 +32373,6 @@
           "injury": null
         },
         {
-          "player_id": 4432708,
-          "name": "Marvin Harrison Jr.",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "ARI",
-          "proj": 6.7,
-          "actual": 0.0,
-          "season_ppg": 4.9,
-          "season_total": 19.5,
-          "games_played": 4,
-          "preseason_proj_total": 240.0,
-          "starter": false,
-          "injury": "OUT"
-        },
-        {
           "player_id": 4427366,
           "name": "Breece Hall",
           "slot": "BE",
@@ -32399,6 +32384,21 @@
           "season_total": 42.5,
           "games_played": 4,
           "preseason_proj_total": 226.0,
+          "starter": false,
+          "injury": "OUT"
+        },
+        {
+          "player_id": 4432708,
+          "name": "Marvin Harrison Jr.",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "ARI",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 4.9,
+          "season_total": 19.5,
+          "games_played": 4,
+          "preseason_proj_total": 240.0,
           "starter": false,
           "injury": "OUT"
         },
