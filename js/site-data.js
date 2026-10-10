@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-09T20:22:07+00:00",
+  "generated_at": "2026-10-10T02:50:07+00:00",
   "current_week": 5,
   "standings": [
     {
@@ -561,19 +561,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4832800,
-          "name": "Denzel Boston",
+          "player_id": 4239993,
+          "name": "Tee Higgins",
           "slot": "WR",
           "pos": "WR",
-          "pro": "CLE",
-          "proj": 11.9,
+          "pro": "CIN",
+          "proj": 12.8,
           "actual": 0.0,
-          "season_ppg": 13.8,
-          "season_total": 41.5,
-          "games_played": 3,
-          "preseason_proj_total": 159.9,
+          "season_ppg": 17.8,
+          "season_total": 71.1,
+          "games_played": 4,
+          "preseason_proj_total": 265.4,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3929645,
@@ -666,19 +666,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4239993,
-          "name": "Tee Higgins",
+          "player_id": 4832800,
+          "name": "Denzel Boston",
           "slot": "BE",
           "pos": "WR",
-          "pro": "CIN",
-          "proj": 12.8,
+          "pro": "CLE",
+          "proj": 11.9,
           "actual": 0.0,
-          "season_ppg": 17.8,
-          "season_total": 71.1,
-          "games_played": 4,
-          "preseason_proj_total": 265.4,
+          "season_ppg": 13.8,
+          "season_total": 41.5,
+          "games_played": 3,
+          "preseason_proj_total": 159.9,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4572680,
@@ -686,7 +686,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "TE",
           "pro": "GB",
-          "proj": 10.4,
+          "proj": 10.5,
           "actual": 0.0,
           "season_ppg": 9.0,
           "season_total": 36.1,
@@ -3881,21 +3881,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 3042519,
-          "name": "Aaron Jones Sr.",
-          "slot": "RB",
-          "pos": "RB",
-          "pro": "MIN",
-          "proj": 17.8,
-          "actual": 0.0,
-          "season_ppg": 12.9,
-          "season_total": 51.5,
-          "games_played": 4,
-          "preseason_proj_total": 216.3,
-          "starter": true,
-          "injury": null
-        },
-        {
           "player_id": 4362238,
           "name": "Chase Brown",
           "slot": "RB",
@@ -3907,6 +3892,21 @@ window.SITE_DATA = {
           "season_total": 58.0,
           "games_played": 4,
           "preseason_proj_total": 281.2,
+          "starter": true,
+          "injury": null
+        },
+        {
+          "player_id": 3042519,
+          "name": "Aaron Jones Sr.",
+          "slot": "RB",
+          "pos": "RB",
+          "pro": "MIN",
+          "proj": 17.3,
+          "actual": 0.0,
+          "season_ppg": 12.9,
+          "season_total": 51.5,
+          "games_played": 4,
+          "preseason_proj_total": 216.3,
           "starter": true,
           "injury": null
         },
@@ -4021,7 +4021,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "GB",
-          "proj": 12.7,
+          "proj": 12.8,
           "actual": 0.0,
           "season_ppg": 14.5,
           "season_total": 58.0,
@@ -7236,14 +7236,14 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "ARI",
-          "proj": 15.0,
+          "proj": 14.4,
           "actual": 0.0,
           "season_ppg": 12.2,
           "season_total": 48.9,
           "games_played": 4,
           "preseason_proj_total": 219.8,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4882093,
@@ -7311,7 +7311,7 @@ window.SITE_DATA = {
           "slot": "FLEX",
           "pos": "WR",
           "pro": "NYJ",
-          "proj": 14.7,
+          "proj": 14.8,
           "actual": 0.0,
           "season_ppg": 15.8,
           "season_total": 63.0,
@@ -7371,7 +7371,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "RB",
           "pro": "PHI",
-          "proj": 10.2,
+          "proj": 10.3,
           "actual": 0.0,
           "season_ppg": 2.3,
           "season_total": 2.3,
@@ -7386,7 +7386,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "TE",
           "pro": "BUF",
-          "proj": 8.8,
+          "proj": 9.9,
           "actual": 0.0,
           "season_ppg": 11.5,
           "season_total": 46.0,
@@ -10683,7 +10683,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 235.1,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16013,
@@ -13951,7 +13951,7 @@ window.SITE_DATA = {
           "slot": "QB",
           "pos": "QB",
           "pro": "JAX",
-          "proj": 19.0,
+          "proj": 18.9,
           "actual": 0.0,
           "season_ppg": 16.1,
           "season_total": 64.2,
@@ -13966,7 +13966,7 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "CHI",
-          "proj": 16.5,
+          "proj": 17.1,
           "actual": 0.0,
           "season_ppg": 15.9,
           "season_total": 63.5,
@@ -14096,21 +14096,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 3915416,
-          "name": "DJ Moore",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "BUF",
-          "proj": 12.6,
-          "actual": 0.0,
-          "season_ppg": 9.1,
-          "season_total": 36.3,
-          "games_played": 4,
-          "preseason_proj_total": 237.9,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4036133,
           "name": "T.J. Hockenson",
           "slot": "BE",
@@ -14131,7 +14116,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "RB",
           "pro": "GB",
-          "proj": 7.4,
+          "proj": 6.8,
           "actual": 0.0,
           "season_ppg": 2.0,
           "season_total": 8.0,
@@ -14184,6 +14169,21 @@ window.SITE_DATA = {
           "preseason_proj_total": 235.3,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 3915416,
+          "name": "DJ Moore",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "BUF",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 9.1,
+          "season_total": 36.3,
+          "games_played": 4,
+          "preseason_proj_total": 237.9,
+          "starter": false,
+          "injury": "QUESTIONABLE"
         }
       ],
       "draft": {
@@ -18690,7 +18690,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "BUF",
-          "proj": 9.5,
+          "proj": 11.1,
           "actual": 0.0,
           "season_ppg": 7.7,
           "season_total": 30.6,
@@ -18742,7 +18742,7 @@ window.SITE_DATA = {
           "games_played": 3,
           "preseason_proj_total": 128.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4567048,
@@ -26839,7 +26839,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 163.8,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 3116165,
@@ -29755,7 +29755,7 @@ window.SITE_DATA = {
           "slot": "QB",
           "pos": "QB",
           "pro": "BUF",
-          "proj": 19.7,
+          "proj": 19.6,
           "actual": 0.0,
           "season_ppg": 27.9,
           "season_total": 111.7,
@@ -29815,7 +29815,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "NO",
-          "proj": 10.2,
+          "proj": 10.8,
           "actual": 0.0,
           "season_ppg": 12.2,
           "season_total": 24.3,
@@ -32228,7 +32228,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "DEN",
-          "proj": 11.3,
+          "proj": 11.4,
           "actual": 0.0,
           "season_ppg": 11.0,
           "season_total": 43.9,
