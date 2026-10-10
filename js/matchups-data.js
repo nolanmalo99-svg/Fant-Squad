@@ -999,7 +999,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "2-2",
           "actual": 31.5,
-          "projected": 138.3,
+          "projected": 138.2,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -1103,7 +1103,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "3-1",
           "actual": 0.0,
-          "projected": 121.0,
+          "projected": 121.1,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -1128,7 +1128,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "WR",
               "pro": "NYG",
-              "proj": 13.5,
+              "proj": 13.6,
               "actual": 0.0,
               "injury": null
             },
@@ -1205,7 +1205,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-4",
           "actual": 0.0,
-          "projected": 123.7,
+          "projected": 123.6,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -1627,7 +1627,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-3",
           "actual": 2.9,
-          "projected": 111.2,
+          "projected": 111.1,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1706,7 +1706,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "WSH",
-              "proj": 7.3,
+              "proj": 7.2,
               "actual": 0.0,
               "injury": null
             }
