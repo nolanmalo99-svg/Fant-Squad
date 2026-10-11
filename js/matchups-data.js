@@ -659,7 +659,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "1-3",
           "actual": 0.0,
-          "projected": 97.5,
+          "projected": 97.4,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -675,7 +675,7 @@ window.MATCHUPS_DATA = {
               "slot": "TE",
               "pos": "TE",
               "pro": "ARI",
-              "proj": 18.8,
+              "proj": 18.7,
               "actual": 0.0,
               "injury": null
             },
@@ -856,7 +856,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 35.3,
+          "bench_proj": 35.2,
           "injuries": [
             {
               "name": "Justin Jefferson",
@@ -883,7 +883,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 104.7 - Noah Budach 97.5. Dawson Leer favored by 7.2.",
+        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 104.7 - Noah Budach 97.4. Dawson Leer favored by 7.3.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -904,20 +904,20 @@ window.MATCHUPS_DATA = {
         },
         "players_to_watch": [
           {
-            "name": "Trey McBride",
-            "slot": "TE",
-            "pos": "TE",
-            "pro": "ARI",
-            "proj": 18.8,
+            "name": "Christian McCaffrey",
+            "slot": "RB",
+            "pos": "RB",
+            "pro": "SF",
+            "proj": 18.7,
             "actual": 0.0,
             "injury": null,
             "owner": "Noah Budach"
           },
           {
-            "name": "Christian McCaffrey",
-            "slot": "RB",
-            "pos": "RB",
-            "pro": "SF",
+            "name": "Trey McBride",
+            "slot": "TE",
+            "pos": "TE",
+            "pro": "ARI",
             "proj": 18.7,
             "actual": 0.0,
             "injury": null,
@@ -971,7 +971,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "TE",
-            "home_proj": 18.8,
+            "home_proj": 18.7,
             "away_proj": 13.1,
             "edge": "home"
           },
@@ -999,7 +999,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "2-2",
           "actual": 31.5,
-          "projected": 138.2,
+          "projected": 138.3,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -1205,7 +1205,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-4",
           "actual": 0.0,
-          "projected": 123.7,
+          "projected": 123.6,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -1230,7 +1230,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "WR",
               "pro": "NYJ",
-              "proj": 14.8,
+              "proj": 14.6,
               "actual": 0.0,
               "injury": null
             },
@@ -1495,7 +1495,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 71.5,
+          "bench_proj": 71.4,
           "injuries": [
             {
               "name": "Zay Flowers",
