@@ -772,7 +772,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "3-1",
           "actual": 0.0,
-          "projected": 104.7,
+          "projected": 114.7,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -820,13 +820,13 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Stefon Diggs",
+              "name": "Khalil Shakir",
               "slot": "FLEX",
               "pos": "WR",
-              "pro": "WSH",
-              "proj": 0.0,
+              "pro": "BUF",
+              "proj": 10.0,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": null
             },
             {
               "name": "Bears D/ST",
@@ -856,7 +856,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 35.2,
+          "bench_proj": 25.2,
           "injuries": [
             {
               "name": "Justin Jefferson",
@@ -866,15 +866,6 @@ window.MATCHUPS_DATA = {
               "proj": 18.5,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Stefon Diggs",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "WSH",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "OUT"
             }
           ]
         },
@@ -883,7 +874,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 104.7 - Noah Budach 97.4. Dawson Leer favored by 7.3.",
+        "blurb": "Dawson Leer (3-1) at Noah Budach (1-3). Projected: Dawson Leer 114.7 - Noah Budach 97.4. Dawson Leer favored by 17.3.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -978,7 +969,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 24.2,
-            "away_proj": 30.8,
+            "away_proj": 40.8,
             "edge": "away"
           }
         ],
@@ -1205,17 +1196,8 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-4",
           "actual": 0.0,
-          "projected": 123.6,
+          "projected": 117.9,
           "starters": [
-            {
-              "name": "Ja'Marr Chase",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "CIN",
-              "proj": 21.8,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
             {
               "name": "Jeremiyah Love",
               "slot": "RB",
@@ -1253,6 +1235,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Parker Washington",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "JAX",
+              "proj": 14.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Michael Wilson",
               "slot": "WR",
               "pos": "WR",
@@ -1271,15 +1262,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Tyler Shough",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "NO",
-              "proj": 16.5,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Jake Bates",
               "slot": "K",
               "pos": "K",
@@ -1287,20 +1269,19 @@ window.MATCHUPS_DATA = {
               "proj": 9.1,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Jacoby Brissett",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "ARI",
+              "proj": 18.4,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 41.6,
-          "injuries": [
-            {
-              "name": "Ja'Marr Chase",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "CIN",
-              "proj": 21.8,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "bench_proj": 57.4,
+          "injuries": []
         },
         "away": {
           "teamId": 6,
