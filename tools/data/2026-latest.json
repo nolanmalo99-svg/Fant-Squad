@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-12T11:22:05+00:00",
+  "generated_at": "2026-10-12T20:26:56+00:00",
   "current_week": 5,
   "standings": [
     {
@@ -4058,7 +4058,7 @@
           "games_played": 4,
           "preseason_proj_total": 203.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         },
         {
           "player_id": 4567750,
@@ -7393,7 +7393,7 @@
           "games_played": 1,
           "preseason_proj_total": 57.9,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 4385690,
@@ -22068,7 +22068,7 @@
           "games_played": 1,
           "preseason_proj_total": 69.4,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         },
         {
           "player_id": -16007,
@@ -22098,7 +22098,7 @@
           "games_played": 4,
           "preseason_proj_total": 243.2,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3916387,
@@ -32325,7 +32325,7 @@
           "games_played": 4,
           "preseason_proj_total": 213.4,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 4428718,
@@ -32400,7 +32400,7 @@
           "games_played": 4,
           "preseason_proj_total": 240.0,
           "starter": false,
-          "injury": "OUT"
+          "injury": null
         },
         {
           "player_id": 4426385,
