@@ -905,7 +905,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 42.5,
+          "bench_proj": 46.0,
           "injuries": [
             {
               "name": "Breece Hall",
@@ -1225,7 +1225,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 19.8,
+          "bench_proj": 24.2,
           "injuries": []
         },
         "away": {
@@ -1235,7 +1235,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "4-1",
           "actual": 0.0,
-          "projected": 109.6,
+          "projected": 111.8,
           "starters": [
             {
               "name": "James Cook III",
@@ -1310,16 +1310,16 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Raiders D/ST",
+              "name": "Texans D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "LV",
-              "proj": 3.1,
+              "pro": "HOU",
+              "proj": 5.3,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 39.1,
+          "bench_proj": 63.2,
           "injuries": []
         },
         "played": false,
@@ -1327,7 +1327,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (4-1) at Mitch Wiese (4-1). Projected: Nolan Malo 109.6 - Mitch Wiese 127.8. Mitch Wiese favored by 18.2.",
+        "blurb": "Nolan Malo (4-1) at Mitch Wiese (4-1). Projected: Nolan Malo 111.8 - Mitch Wiese 127.8. Mitch Wiese favored by 16.0.",
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
@@ -1392,8 +1392,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 6.2,
-            "away_proj": 3.1,
-            "edge": "home"
+            "away_proj": 5.3,
+            "edge": "even"
           },
           {
             "pos": "K",
@@ -1443,7 +1443,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-4",
           "actual": 0.0,
-          "projected": 96.7,
+          "projected": 100.2,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1518,16 +1518,16 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Commanders D/ST",
+              "name": "Rams D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "WSH",
-              "proj": 3.5,
+              "pro": "LAR",
+              "proj": 7.0,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 58.3,
+          "bench_proj": 59.5,
           "injuries": [
             {
               "name": "CeeDee Lamb",
@@ -1631,7 +1631,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 42.9,
+          "bench_proj": 46.6,
           "injuries": []
         },
         "played": false,
@@ -1639,7 +1639,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (3-2) at Brady Schuster (1-4). Projected: alex raichle 99.5 - Brady Schuster 96.7. alex raichle favored by 2.8.",
+        "blurb": "alex raichle (3-2) at Brady Schuster (1-4). Projected: alex raichle 99.5 - Brady Schuster 100.2. Brady Schuster favored by 0.7.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -1703,9 +1703,9 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 3.5,
+            "home_proj": 7.0,
             "away_proj": 6.1,
-            "edge": "away"
+            "edge": "even"
           },
           {
             "pos": "K",
@@ -1755,7 +1755,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-5",
           "actual": 0.0,
-          "projected": 103.5,
+          "projected": 114.0,
           "starters": [
             {
               "name": "Garrett Wilson",
@@ -1830,16 +1830,16 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jake Bates",
+              "name": "Ka'imi Fairbairn",
               "slot": "K",
               "pos": "K",
-              "pro": "DET",
-              "proj": 0.0,
+              "pro": "HOU",
+              "proj": 10.5,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 49.8,
+          "bench_proj": 81.4,
           "injuries": []
         },
         "away": {
@@ -1933,7 +1933,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 72.4,
+          "bench_proj": 83.3,
           "injuries": [
             {
               "name": "Kyle Monangai",
@@ -1951,7 +1951,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (1-4) at spencer glynn (0-5). Projected: Noah Budach 113.0 - spencer glynn 103.5. Noah Budach favored by 9.5.",
+        "blurb": "Noah Budach (1-4) at spencer glynn (0-5). Projected: Noah Budach 113.0 - spencer glynn 114.0. spencer glynn favored by 1.0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -2021,9 +2021,9 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "K",
-            "home_proj": 0.0,
+            "home_proj": 10.5,
             "away_proj": 8.6,
-            "edge": "away"
+            "edge": "home"
           },
           {
             "pos": "QB",
