@@ -1755,23 +1755,14 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-5",
           "actual": 0.0,
-          "projected": 84.1,
+          "projected": 103.5,
           "starters": [
             {
-              "name": "Ja'Marr Chase",
+              "name": "Garrett Wilson",
               "slot": "WR",
               "pos": "WR",
-              "pro": "CIN",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Jeremiyah Love",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "ARI",
-              "proj": 11.3,
+              "pro": "NYJ",
+              "proj": 14.6,
               "actual": 0.0,
               "injury": null
             },
@@ -1812,11 +1803,29 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Chuba Hubbard",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "CAR",
+              "proj": 14.6,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Steelers D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "PIT",
               "proj": 7.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Tyler Shough",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "NO",
+              "proj": 16.7,
               "actual": 0.0,
               "injury": null
             },
@@ -1828,18 +1837,9 @@ window.MATCHUPS_DATA = {
               "proj": 0.0,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Jacoby Brissett",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "ARI",
-              "proj": 15.2,
-              "actual": 0.0,
-              "injury": null
             }
           ],
-          "bench_proj": 84.4,
+          "bench_proj": 49.8,
           "injuries": []
         },
         "away": {
@@ -1951,7 +1951,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (1-4) at spencer glynn (0-5). Projected: Noah Budach 113.0 - spencer glynn 84.1. Noah Budach favored by 28.9.",
+        "blurb": "Noah Budach (1-4) at spencer glynn (0-5). Projected: Noah Budach 113.0 - spencer glynn 103.5. Noah Budach favored by 9.5.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -2002,11 +2002,11 @@ window.MATCHUPS_DATA = {
             "owner": "Noah Budach"
           },
           {
-            "name": "Jacoby Brissett",
+            "name": "Tyler Shough",
             "slot": "QB",
             "pos": "QB",
-            "pro": "ARI",
-            "proj": 15.2,
+            "pro": "NO",
+            "proj": 16.7,
             "actual": 0.0,
             "injury": null,
             "owner": "spencer glynn"
@@ -2027,13 +2027,13 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "QB",
-            "home_proj": 15.2,
+            "home_proj": 16.7,
             "away_proj": 21.1,
             "edge": "away"
           },
           {
             "pos": "RB",
-            "home_proj": 24.4,
+            "home_proj": 27.7,
             "away_proj": 41.9,
             "edge": "away"
           },
@@ -2045,15 +2045,13 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 28.9,
+            "home_proj": 43.5,
             "away_proj": 21.0,
             "edge": "home"
           }
         ],
         "revenge": null,
-        "fun_facts": [
-          "If the projection holds, this would be spencer glynn's worst week of the season."
-        ],
+        "fun_facts": [],
         "head_to_head": {
           "home_w": 6,
           "home_l": 6

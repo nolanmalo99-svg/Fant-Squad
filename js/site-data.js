@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-13T23:28:16+00:00",
+  "generated_at": "2026-10-14T02:14:39+00:00",
   "current_week": 6,
   "standings": [
     {
@@ -7216,17 +7216,32 @@ window.SITE_DATA = {
       "winning_seasons": 6,
       "roster": [
         {
-          "player_id": 2578570,
-          "name": "Jacoby Brissett",
+          "player_id": 4360689,
+          "name": "Tyler Shough",
           "slot": "QB",
           "pos": "QB",
-          "pro": "ARI",
-          "proj": 15.2,
+          "pro": "NO",
+          "proj": 16.7,
           "actual": 0.0,
-          "season_ppg": 25.2,
-          "season_total": 25.2,
-          "games_played": 1,
-          "preseason_proj_total": 2.0,
+          "season_ppg": 13.0,
+          "season_total": 38.9,
+          "games_played": 3,
+          "preseason_proj_total": 99.7,
+          "starter": true,
+          "injury": null
+        },
+        {
+          "player_id": 4241416,
+          "name": "Chuba Hubbard",
+          "slot": "RB",
+          "pos": "RB",
+          "pro": "CAR",
+          "proj": 14.6,
+          "actual": 0.0,
+          "season_ppg": 19.8,
+          "season_total": 79.0,
+          "games_played": 4,
+          "preseason_proj_total": 258.5,
           "starter": true,
           "injury": null
         },
@@ -7246,21 +7261,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4870808,
-          "name": "Jeremiyah Love",
-          "slot": "RB",
-          "pos": "RB",
-          "pro": "ARI",
-          "proj": 11.3,
-          "actual": 0.0,
-          "season_ppg": 10.2,
-          "season_total": 51.1,
-          "games_played": 5,
-          "preseason_proj_total": 219.8,
-          "starter": true,
-          "injury": null
-        },
-        {
           "player_id": 4432620,
           "name": "Parker Washington",
           "slot": "WR",
@@ -7276,17 +7276,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4362628,
-          "name": "Ja'Marr Chase",
+          "player_id": 4569618,
+          "name": "Garrett Wilson",
           "slot": "WR",
           "pos": "WR",
-          "pro": "CIN",
-          "proj": 0.0,
+          "pro": "NYJ",
+          "proj": 14.6,
           "actual": 0.0,
-          "season_ppg": 16.0,
-          "season_total": 79.9,
+          "season_ppg": 17.3,
+          "season_total": 86.4,
           "games_played": 5,
-          "preseason_proj_total": 340.0,
+          "preseason_proj_total": 241.4,
           "starter": true,
           "injury": null
         },
@@ -7351,21 +7351,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4360689,
-          "name": "Tyler Shough",
-          "slot": "BE",
-          "pos": "QB",
-          "pro": "NO",
-          "proj": 16.7,
-          "actual": 0.0,
-          "season_ppg": 13.0,
-          "season_total": 38.9,
-          "games_played": 3,
-          "preseason_proj_total": 99.7,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4431611,
           "name": "Caleb Williams",
           "slot": "BE",
@@ -7379,36 +7364,6 @@ window.SITE_DATA = {
           "preseason_proj_total": 279.4,
           "starter": false,
           "injury": "QUESTIONABLE"
-        },
-        {
-          "player_id": 4569618,
-          "name": "Garrett Wilson",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "NYJ",
-          "proj": 14.6,
-          "actual": 0.0,
-          "season_ppg": 17.3,
-          "season_total": 86.4,
-          "games_played": 5,
-          "preseason_proj_total": 241.4,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4241416,
-          "name": "Chuba Hubbard",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "CAR",
-          "proj": 14.6,
-          "actual": 0.0,
-          "season_ppg": 19.8,
-          "season_total": 79.0,
-          "games_played": 4,
-          "preseason_proj_total": 258.5,
-          "starter": false,
-          "injury": null
         },
         {
           "player_id": 4695883,
@@ -7426,6 +7381,21 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
+          "player_id": 4870808,
+          "name": "Jeremiyah Love",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "ARI",
+          "proj": 11.3,
+          "actual": 0.0,
+          "season_ppg": 10.2,
+          "season_total": 51.1,
+          "games_played": 5,
+          "preseason_proj_total": 219.8,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4385690,
           "name": "Dalton Kincaid",
           "slot": "BE",
@@ -7441,19 +7411,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4431545,
-          "name": "Will Shipley",
+          "player_id": 4362628,
+          "name": "Ja'Marr Chase",
           "slot": "BE",
-          "pos": "RB",
-          "pro": "PHI",
+          "pos": "WR",
+          "pro": "CIN",
           "proj": 0.0,
           "actual": 0.0,
-          "season_ppg": 8.3,
-          "season_total": 8.3,
-          "games_played": 1,
-          "preseason_proj_total": 57.9,
+          "season_ppg": 16.0,
+          "season_total": 79.9,
+          "games_played": 5,
+          "preseason_proj_total": 340.0,
           "starter": false,
-          "injury": "DOUBTFUL"
+          "injury": null
         },
         {
           "player_id": 4239996,
