@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-14T19:59:05+00:00",
+  "generated_at": "2026-10-14T22:57:40+00:00",
   "current_week": 6,
   "standings": [
     {
@@ -573,7 +573,7 @@
           "games_played": 4,
           "preseason_proj_total": 159.9,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3929645,
@@ -641,7 +641,7 @@
           "slot": "BE",
           "pos": "RB",
           "pro": "NYJ",
-          "proj": 14.5,
+          "proj": 14.4,
           "actual": 0.0,
           "season_ppg": 13.7,
           "season_total": 27.3,
@@ -3923,7 +3923,7 @@
           "games_played": 5,
           "preseason_proj_total": 317.5,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4361370,
@@ -3938,7 +3938,7 @@
           "games_played": 5,
           "preseason_proj_total": 209.8,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3121023,
@@ -7393,7 +7393,7 @@
           "games_played": 4,
           "preseason_proj_total": 108.6,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4870808,
@@ -7408,7 +7408,7 @@
           "games_played": 5,
           "preseason_proj_total": 219.8,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4429059,
@@ -10646,7 +10646,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "BAL",
-          "proj": 16.3,
+          "proj": 16.4,
           "actual": 0.0,
           "season_ppg": 16.4,
           "season_total": 81.8,
@@ -10758,7 +10758,7 @@
           "games_played": 3,
           "preseason_proj_total": 20.5,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3045523,
@@ -14003,7 +14003,7 @@
           "games_played": 5,
           "preseason_proj_total": 240.9,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4685472,
@@ -14048,7 +14048,7 @@
           "games_played": 5,
           "preseason_proj_total": 179.1,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16004,
@@ -22001,7 +22001,7 @@
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "NYJ",
-          "proj": 5.3,
+          "proj": 5.4,
           "actual": 0.0,
           "season_ppg": 9.2,
           "season_total": 37.0,
@@ -22098,7 +22098,7 @@
           "games_played": 5,
           "preseason_proj_total": 266.7,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16007,
@@ -29972,7 +29972,7 @@
           "games_played": 5,
           "preseason_proj_total": 223.8,
           "starter": false,
-          "injury": "DOUBTFUL"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3046779,
@@ -32220,7 +32220,7 @@
           "games_played": 5,
           "preseason_proj_total": 222.1,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4426515,
