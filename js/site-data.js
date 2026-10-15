@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-14T22:57:40+00:00",
+  "generated_at": "2026-10-15T01:55:50+00:00",
   "current_week": 6,
   "standings": [
     {
@@ -21936,6 +21936,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4595348,
+          "name": "Malik Nabers",
+          "slot": "WR",
+          "pos": "WR",
+          "pro": "NYG",
+          "proj": 17.4,
+          "actual": 0.0,
+          "season_ppg": 14.8,
+          "season_total": 73.9,
+          "games_played": 5,
+          "preseason_proj_total": 301.4,
+          "starter": true,
+          "injury": null
+        },
+        {
           "player_id": 16800,
           "name": "Davante Adams",
           "slot": "WR",
@@ -21951,47 +21966,32 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4569603,
-          "name": "Malik Washington",
-          "slot": "WR",
-          "pos": "WR",
-          "pro": "MIA",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 12.1,
-          "season_total": 24.1,
-          "games_played": 2,
-          "preseason_proj_total": 56.0,
-          "starter": true,
-          "injury": null
-        },
-        {
-          "player_id": 3116365,
-          "name": "Mark Andrews",
+          "player_id": 15847,
+          "name": "Travis Kelce",
           "slot": "TE",
           "pos": "TE",
-          "pro": "BAL",
-          "proj": 9.7,
+          "pro": "KC",
+          "proj": 10.8,
           "actual": 0.0,
-          "season_ppg": 8.7,
-          "season_total": 43.7,
-          "games_played": 5,
-          "preseason_proj_total": 173.4,
+          "season_ppg": 13.2,
+          "season_total": 52.6,
+          "games_played": 4,
+          "preseason_proj_total": 181.1,
           "starter": true,
           "injury": null
         },
         {
-          "player_id": 4595348,
-          "name": "Malik Nabers",
+          "player_id": 4241985,
+          "name": "J.K. Dobbins",
           "slot": "FLEX",
-          "pos": "WR",
-          "pro": "NYG",
-          "proj": 17.4,
+          "pos": "RB",
+          "pro": "DEN",
+          "proj": 10.1,
           "actual": 0.0,
-          "season_ppg": 14.8,
-          "season_total": 73.9,
+          "season_ppg": 7.2,
+          "season_total": 36.1,
           "games_played": 5,
-          "preseason_proj_total": 301.4,
+          "preseason_proj_total": 171.4,
           "starter": true,
           "injury": null
         },
@@ -22041,21 +22041,6 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 15847,
-          "name": "Travis Kelce",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "KC",
-          "proj": 10.8,
-          "actual": 0.0,
-          "season_ppg": 13.2,
-          "season_total": 52.6,
-          "games_played": 4,
-          "preseason_proj_total": 181.1,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4612826,
           "name": "Ladd McConkey",
           "slot": "BE",
@@ -22069,21 +22054,6 @@ window.SITE_DATA = {
           "preseason_proj_total": 243.2,
           "starter": false,
           "injury": "QUESTIONABLE"
-        },
-        {
-          "player_id": 4241985,
-          "name": "J.K. Dobbins",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "DEN",
-          "proj": 10.1,
-          "actual": 0.0,
-          "season_ppg": 7.2,
-          "season_total": 36.1,
-          "games_played": 5,
-          "preseason_proj_total": 171.4,
-          "starter": false,
-          "injury": null
         },
         {
           "player_id": 3054850,
@@ -22101,6 +22071,21 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
+          "player_id": 3116365,
+          "name": "Mark Andrews",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "BAL",
+          "proj": 9.7,
+          "actual": 0.0,
+          "season_ppg": 8.7,
+          "season_total": 43.7,
+          "games_played": 5,
+          "preseason_proj_total": 173.4,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": -16007,
           "name": "Broncos D/ST",
           "slot": "BE",
@@ -22112,6 +22097,21 @@ window.SITE_DATA = {
           "season_total": 14.0,
           "games_played": 1,
           "preseason_proj_total": 130.1,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4569603,
+          "name": "Malik Washington",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "MIA",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 12.1,
+          "season_total": 24.1,
+          "games_played": 2,
+          "preseason_proj_total": 56.0,
           "starter": false,
           "injury": null
         },
@@ -29852,7 +29852,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 262.2,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4258173,

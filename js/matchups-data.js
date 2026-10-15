@@ -1140,7 +1140,7 @@ window.MATCHUPS_DATA = {
               "pro": "LV",
               "proj": 19.6,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Drake London",
@@ -1216,7 +1216,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 24.4,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Brock Bowers",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "LV",
+              "proj": 19.6,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 4,
@@ -1354,7 +1364,7 @@ window.MATCHUPS_DATA = {
             "pro": "LV",
             "proj": 19.6,
             "actual": 0.0,
-            "injury": null,
+            "injury": "QUESTIONABLE",
             "owner": "Mitch Wiese"
           },
           {
@@ -2178,7 +2188,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "3-2",
           "actual": 0.0,
-          "projected": 112.9,
+          "projected": 124.1,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -2200,7 +2210,7 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Malik Nabers",
-              "slot": "FLEX",
+              "slot": "WR",
               "pos": "WR",
               "pro": "NYG",
               "proj": 17.4,
@@ -2213,6 +2223,24 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "LAR",
               "proj": 16.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Travis Kelce",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "KC",
+              "proj": 10.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "J.K. Dobbins",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "DEN",
+              "proj": 10.1,
               "actual": 0.0,
               "injury": null
             },
@@ -2235,15 +2263,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Mark Andrews",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "BAL",
-              "proj": 9.7,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Jets D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
@@ -2251,18 +2270,9 @@ window.MATCHUPS_DATA = {
               "proj": 5.4,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Malik Washington",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "MIA",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
             }
           ],
-          "bench_proj": 65.7,
+          "bench_proj": 54.5,
           "injuries": []
         },
         "played": false,
@@ -2270,7 +2280,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (3-2) at Dawson Leer (4-1). Projected: Andy Jensen 112.9 - Dawson Leer 129.5. Dawson Leer favored by 16.6.",
+        "blurb": "Andy Jensen (3-2) at Dawson Leer (4-1). Projected: Andy Jensen 124.1 - Dawson Leer 129.5. Dawson Leer favored by 5.4.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2353,13 +2363,13 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 57.1,
-            "away_proj": 43.7,
+            "away_proj": 53.8,
             "edge": "home"
           },
           {
             "pos": "TE",
             "home_proj": 10.2,
-            "away_proj": 9.7,
+            "away_proj": 10.8,
             "edge": "even"
           },
           {
