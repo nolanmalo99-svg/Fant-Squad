@@ -1338,7 +1338,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "1-4",
           "actual": 0.0,
-          "projected": 112.3,
+          "projected": 123.2,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1411,9 +1411,18 @@ window.MATCHUPS_DATA = {
               "proj": 17.6,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Dominic Zvada",
+              "slot": "K",
+              "pos": "K",
+              "pro": "NYG",
+              "proj": 10.9,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 33.6,
+          "bench_proj": 22.6,
           "injuries": [
             {
               "name": "Chris Olave",
