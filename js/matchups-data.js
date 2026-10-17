@@ -1111,7 +1111,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "4-1",
           "actual": 0.0,
-          "projected": 128.1,
+          "projected": 126.8,
           "starters": [
             {
               "name": "James Cook III",
@@ -1154,7 +1154,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "SF",
-              "proj": 16.2,
+              "proj": 14.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -1190,7 +1190,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "BAL",
-              "proj": 7.4,
+              "proj": 7.5,
               "actual": 0.0,
               "injury": null
             }
@@ -1211,7 +1211,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "SF",
-              "proj": 16.2,
+              "proj": 14.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -1222,7 +1222,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (4-1) at Mitch Wiese (4-1). Projected: Nolan Malo 128.1 - Mitch Wiese 136.8. Mitch Wiese favored by 8.7.",
+        "blurb": "Nolan Malo (4-1) at Mitch Wiese (4-1). Projected: Nolan Malo 126.8 - Mitch Wiese 136.8. Mitch Wiese favored by 10.0.",
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
@@ -1287,7 +1287,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 6.1,
-            "away_proj": 7.4,
+            "away_proj": 7.5,
             "edge": "away"
           },
           {
@@ -1317,7 +1317,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 43.3,
-            "away_proj": 30.2,
+            "away_proj": 28.9,
             "edge": "home"
           }
         ],
@@ -1887,7 +1887,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "LAR",
-              "proj": 16.0,
+              "proj": 16.1,
               "actual": 0.0,
               "injury": null
             },
