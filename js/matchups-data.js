@@ -821,7 +821,7 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "3-2",
           "actual": 0.0,
-          "projected": 124.8,
+          "projected": 127.3,
           "starters": [
             {
               "name": "Puka Nacua",
@@ -887,15 +887,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Germie Bernard",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "PIT",
-              "proj": 9.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Texans D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
@@ -903,9 +894,18 @@ window.MATCHUPS_DATA = {
               "proj": 5.2,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Tyler Allgeier",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "ARI",
+              "proj": 12.3,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 25.4,
+          "bench_proj": 23.0,
           "injuries": []
         },
         "away": {

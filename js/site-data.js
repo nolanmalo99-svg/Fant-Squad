@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-16T22:14:37+00:00",
+  "generated_at": "2026-10-17T01:40:26+00:00",
   "current_week": 6,
   "standings": [
     {
@@ -18727,7 +18727,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 128.1,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4038815,
@@ -32268,17 +32268,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4685261,
-          "name": "Germie Bernard",
+          "player_id": 4373626,
+          "name": "Tyler Allgeier",
           "slot": "FLEX",
-          "pos": "WR",
-          "pro": "PIT",
-          "proj": 9.9,
+          "pos": "RB",
+          "pro": "ARI",
+          "proj": 12.3,
           "actual": 0.0,
-          "season_ppg": 14.4,
-          "season_total": 14.4,
+          "season_ppg": 3.6,
+          "season_total": 3.6,
           "games_played": 1,
-          "preseason_proj_total": 13.3,
+          "preseason_proj_total": 104.8,
           "starter": true,
           "injury": null
         },
@@ -32313,17 +32313,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4373626,
-          "name": "Tyler Allgeier",
+          "player_id": 4685261,
+          "name": "Germie Bernard",
           "slot": "BE",
-          "pos": "RB",
-          "pro": "ARI",
-          "proj": 12.3,
+          "pos": "WR",
+          "pro": "PIT",
+          "proj": 9.9,
           "actual": 0.0,
-          "season_ppg": 3.6,
-          "season_total": 3.6,
+          "season_ppg": 14.4,
+          "season_total": 14.4,
           "games_played": 1,
-          "preseason_proj_total": 104.8,
+          "preseason_proj_total": 13.3,
           "starter": false,
           "injury": null
         },
