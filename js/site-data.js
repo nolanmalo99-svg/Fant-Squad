@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-17T14:28:46+00:00",
+  "generated_at": "2026-10-17T17:59:12+00:00",
   "current_week": 6,
   "standings": [
     {
@@ -4013,7 +4013,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 240.5,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4567750,
@@ -10646,7 +10646,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "BAL",
-          "proj": 14.0,
+          "proj": 14.1,
           "actual": 0.0,
           "season_ppg": 16.4,
           "season_total": 81.8,
@@ -10721,7 +10721,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "WSH",
-          "proj": 12.4,
+          "proj": 12.3,
           "actual": 0.0,
           "season_ppg": 8.5,
           "season_total": 42.3,
@@ -18637,7 +18637,7 @@ window.SITE_DATA = {
           "games_played": 1,
           "preseason_proj_total": 133.9,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4685702,
@@ -18700,6 +18700,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4697815,
+          "name": "Rachaad White",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "WSH",
+          "proj": 10.5,
+          "actual": 0.0,
+          "season_ppg": 4.7,
+          "season_total": 18.8,
+          "games_played": 4,
+          "preseason_proj_total": 128.1,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
           "player_id": 4373678,
           "name": "Khalil Shakir",
           "slot": "BE",
@@ -18713,21 +18728,6 @@ window.SITE_DATA = {
           "preseason_proj_total": 196.4,
           "starter": false,
           "injury": null
-        },
-        {
-          "player_id": 4697815,
-          "name": "Rachaad White",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "WSH",
-          "proj": 7.5,
-          "actual": 0.0,
-          "season_ppg": 4.7,
-          "season_total": 18.8,
-          "games_played": 4,
-          "preseason_proj_total": 128.1,
-          "starter": false,
-          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4038815,
@@ -22061,7 +22061,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "TE",
           "pro": "BAL",
-          "proj": 8.7,
+          "proj": 8.8,
           "actual": 0.0,
           "season_ppg": 8.7,
           "season_total": 43.7,
@@ -26802,7 +26802,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "QB",
           "pro": "WSH",
-          "proj": 19.6,
+          "proj": 19.7,
           "actual": 0.0,
           "season_ppg": 12.8,
           "season_total": 63.9,
@@ -26840,21 +26840,6 @@ window.SITE_DATA = {
           "preseason_proj_total": 217.1,
           "starter": false,
           "injury": null
-        },
-        {
-          "player_id": 4575131,
-          "name": "Jacory Croskey-Merritt",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "WSH",
-          "proj": 6.9,
-          "actual": 0.0,
-          "season_ppg": 9.0,
-          "season_total": 44.9,
-          "games_played": 5,
-          "preseason_proj_total": 163.8,
-          "starter": false,
-          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3116165,
@@ -26898,6 +26883,21 @@ window.SITE_DATA = {
           "season_total": 59.3,
           "games_played": 5,
           "preseason_proj_total": 51.6,
+          "starter": false,
+          "injury": "OUT"
+        },
+        {
+          "player_id": 4575131,
+          "name": "Jacory Croskey-Merritt",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "WSH",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 9.0,
+          "season_total": 44.9,
+          "games_played": 5,
+          "preseason_proj_total": 163.8,
           "starter": false,
           "injury": "OUT"
         },

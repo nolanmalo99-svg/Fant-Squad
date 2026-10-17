@@ -1111,7 +1111,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "4-1",
           "actual": 0.0,
-          "projected": 126.8,
+          "projected": 126.9,
           "starters": [
             {
               "name": "James Cook III",
@@ -1127,7 +1127,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "BAL",
-              "proj": 14.0,
+              "proj": 14.1,
               "actual": 0.0,
               "injury": null
             },
@@ -1195,7 +1195,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 36.1,
+          "bench_proj": 36.0,
           "injuries": [
             {
               "name": "Tyler Warren",
@@ -1222,7 +1222,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (4-1) at Mitch Wiese (4-1). Projected: Nolan Malo 126.8 - Mitch Wiese 136.8. Mitch Wiese favored by 10.0.",
+        "blurb": "Nolan Malo (4-1) at Mitch Wiese (4-1). Projected: Nolan Malo 126.9 - Mitch Wiese 136.8. Mitch Wiese favored by 9.9.",
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
@@ -1317,7 +1317,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 43.3,
-            "away_proj": 28.9,
+            "away_proj": 29.0,
             "edge": "home"
           }
         ],
@@ -1722,7 +1722,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 57.0,
+          "bench_proj": 50.2,
           "injuries": []
         },
         "played": true,
@@ -1740,7 +1740,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "4-1",
           "actual": 0.0,
-          "projected": 128.1,
+          "projected": 128.0,
           "starters": [
             {
               "name": "Kenneth Walker III",
@@ -1812,7 +1812,7 @@ window.MATCHUPS_DATA = {
               "pro": "PIT",
               "proj": 11.1,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Patriots D/ST",
@@ -1824,7 +1824,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 41.1,
+          "bench_proj": 44.1,
           "injuries": [
             {
               "name": "Quinshon Judkins",
@@ -1841,6 +1841,15 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "WSH",
               "proj": 10.6,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Pat Freiermuth",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "PIT",
+              "proj": 11.1,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -1937,7 +1946,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 34.7,
+          "bench_proj": 34.8,
           "injuries": []
         },
         "played": true,
