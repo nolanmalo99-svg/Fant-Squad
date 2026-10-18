@@ -999,7 +999,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 30.5,
+          "bench_proj": 30.6,
           "injuries": []
         },
         "played": true,
@@ -1111,7 +1111,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "4-1",
           "actual": 0.0,
-          "projected": 126.9,
+          "projected": 126.8,
           "starters": [
             {
               "name": "James Cook III",
@@ -1127,7 +1127,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "BAL",
-              "proj": 14.1,
+              "proj": 14.0,
               "actual": 0.0,
               "injury": null
             },
@@ -1222,7 +1222,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (4-1) at Mitch Wiese (4-1). Projected: Nolan Malo 126.9 - Mitch Wiese 136.8. Mitch Wiese favored by 9.9.",
+        "blurb": "Nolan Malo (4-1) at Mitch Wiese (4-1). Projected: Nolan Malo 126.8 - Mitch Wiese 136.8. Mitch Wiese favored by 10.0.",
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
@@ -1317,7 +1317,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 43.3,
-            "away_proj": 29.0,
+            "away_proj": 28.9,
             "edge": "home"
           }
         ],
@@ -1544,7 +1544,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-5",
           "actual": 0.0,
-          "projected": 118.3,
+          "projected": 115.9,
           "starters": [
             {
               "name": "Garrett Wilson",
@@ -1561,15 +1561,6 @@ window.MATCHUPS_DATA = {
               "pos": "TE",
               "pro": "CHI",
               "proj": 8.6,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Bhayshul Tuten",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "JAX",
-              "proj": 13.1,
               "actual": 0.0,
               "injury": null
             },
@@ -1610,6 +1601,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Woody Marks",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "HOU",
+              "proj": 10.6,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Jordan Love",
               "slot": "QB",
               "pos": "QB",
@@ -1628,7 +1628,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 65.7,
+          "bench_proj": 68.2,
           "injuries": []
         },
         "away": {
@@ -1638,7 +1638,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "1-4",
           "actual": 21.6,
-          "projected": 119.1,
+          "projected": 123.4,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -1659,20 +1659,20 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "DeVonta Smith",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "PHI",
+              "proj": 13.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Carnell Tate",
               "slot": "WR",
               "pos": "WR",
               "pro": "TEN",
               "proj": 10.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Jakobi Meyers",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "JAX",
-              "proj": 9.2,
               "actual": 0.0,
               "injury": null
             },
@@ -1722,7 +1722,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 50.2,
+          "bench_proj": 45.9,
           "injuries": []
         },
         "played": true,
@@ -1740,7 +1740,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "4-1",
           "actual": 0.0,
-          "projected": 128.0,
+          "projected": 128.1,
           "starters": [
             {
               "name": "Kenneth Walker III",
@@ -1946,7 +1946,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 34.8,
+          "bench_proj": 34.7,
           "injuries": []
         },
         "played": true,
