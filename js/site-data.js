@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-19T17:48:06+00:00",
+  "generated_at": "2026-10-19T23:09:52+00:00",
   "current_week": 6,
   "standings": [
     {
@@ -7423,7 +7423,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 146.8,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4362628,
@@ -10638,7 +10638,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 235.1,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4429615,
@@ -10728,7 +10728,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 126.5,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "INJURY_RESERVE"
         },
         {
           "player_id": 4428850,
@@ -18622,7 +18622,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 160.8,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4361411,
@@ -21963,7 +21963,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 257.1,
           "starter": true,
-          "injury": null
+          "injury": "OUT"
         },
         {
           "player_id": 15847,
@@ -26899,7 +26899,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 163.8,
           "starter": false,
-          "injury": "OUT"
+          "injury": "INJURY_RESERVE"
         },
         {
           "player_id": 4035687,

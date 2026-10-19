@@ -1156,7 +1156,7 @@ window.MATCHUPS_DATA = {
               "pro": "SF",
               "proj": 14.9,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Isaiah Likely",
@@ -1196,17 +1196,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 23.7,
-          "injuries": [
-            {
-              "name": "Mike Evans",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "SF",
-              "proj": 14.9,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "played": true,
         "playoff": false,
@@ -1669,7 +1659,7 @@ window.MATCHUPS_DATA = {
               "pro": "WSH",
               "proj": 10.6,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Spencer Shrader",
@@ -1700,17 +1690,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 34.9,
-          "injuries": [
-            {
-              "name": "Stefon Diggs",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "WSH",
-              "proj": 10.6,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "away": {
           "teamId": 9,
@@ -1755,7 +1735,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 16.0,
               "actual": 6.9,
-              "injury": null
+              "injury": "OUT"
             },
             {
               "name": "Travis Kelce",
@@ -1804,7 +1784,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 34.9,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Davante Adams",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "LAR",
+              "proj": 16.0,
+              "actual": 6.9,
+              "injury": "OUT"
+            }
+          ]
         },
         "played": true,
         "playoff": false,
