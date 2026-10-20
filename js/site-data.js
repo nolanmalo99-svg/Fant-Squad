@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-19T23:09:52+00:00",
+  "generated_at": "2026-10-20T02:12:12+00:00",
   "current_week": 6,
   "standings": [
     {
@@ -603,7 +603,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 275.6,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16026,
@@ -10632,13 +10632,13 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "SF",
           "proj": 14.9,
-          "actual": 0.0,
+          "actual": 12.4,
           "season_ppg": 15.3,
           "season_total": 76.6,
           "games_played": 5,
           "preseason_proj_total": 235.1,
           "starter": true,
-          "injury": null
+          "injury": "OUT"
         },
         {
           "player_id": 4429615,
@@ -10677,13 +10677,13 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "WSH",
           "proj": 12.3,
-          "actual": 0.0,
+          "actual": 3.7,
           "season_ppg": 8.5,
           "season_total": 42.3,
           "games_played": 5,
           "preseason_proj_total": 247.7,
           "starter": true,
-          "injury": null
+          "injury": "OUT"
         },
         {
           "player_id": -16033,
@@ -14057,7 +14057,7 @@ window.SITE_DATA = {
           "pos": "D/ST",
           "pro": "SF",
           "proj": 4.9,
-          "actual": 0.0,
+          "actual": 10.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 1,
@@ -18616,7 +18616,7 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "WSH",
           "proj": 10.6,
-          "actual": 0.0,
+          "actual": 3.7,
           "season_ppg": 10.6,
           "season_total": 53.0,
           "games_played": 5,
@@ -18706,7 +18706,7 @@ window.SITE_DATA = {
           "pos": "RB",
           "pro": "WSH",
           "proj": 10.5,
-          "actual": 0.0,
+          "actual": 2.3,
           "season_ppg": 4.7,
           "season_total": 18.8,
           "games_played": 4,
@@ -26668,7 +26668,7 @@ window.SITE_DATA = {
           "pos": "QB",
           "pro": "SF",
           "proj": 21.1,
-          "actual": 0.0,
+          "actual": 16.2,
           "season_ppg": 23.0,
           "season_total": 115.2,
           "games_played": 5,
@@ -26683,7 +26683,7 @@ window.SITE_DATA = {
           "pos": "RB",
           "pro": "SF",
           "proj": 21.2,
-          "actual": 0.0,
+          "actual": 27.1,
           "season_ppg": 18.3,
           "season_total": 91.3,
           "games_played": 5,
@@ -26803,7 +26803,7 @@ window.SITE_DATA = {
           "pos": "QB",
           "pro": "WSH",
           "proj": 19.7,
-          "actual": 0.0,
+          "actual": 5.0,
           "season_ppg": 12.8,
           "season_total": 63.9,
           "games_played": 5,
@@ -32259,7 +32259,7 @@ window.SITE_DATA = {
           "pos": "TE",
           "pro": "SF",
           "proj": 14.9,
-          "actual": 0.0,
+          "actual": 17.9,
           "season_ppg": 14.4,
           "season_total": 71.8,
           "games_played": 5,
