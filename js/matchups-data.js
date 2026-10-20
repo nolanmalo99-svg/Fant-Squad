@@ -1410,7 +1410,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "4-2",
           "actual": 0.0,
-          "projected": 106.8,
+          "projected": 123.6,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -1432,19 +1432,10 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Nico Collins",
-              "slot": "FLEX",
+              "slot": "WR",
               "pos": "WR",
               "pro": "HOU",
               "proj": 16.7,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Josh Allen",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "BUF",
-              "proj": 0.0,
               "actual": 0.0,
               "injury": null
             },
@@ -1458,6 +1449,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Jameson Williams",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "DET",
+              "proj": 10.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Jaylen Warren",
               "slot": "RB",
               "pos": "RB",
@@ -1467,11 +1467,20 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Devaughn Vele",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "NO",
-              "proj": 10.3,
+              "name": "Jared Goff",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "DET",
+              "proj": 18.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Evan McPherson",
+              "slot": "K",
+              "pos": "K",
+              "pro": "CIN",
+              "proj": 7.4,
               "actual": 0.0,
               "injury": null
             },
@@ -1483,18 +1492,9 @@ window.MATCHUPS_DATA = {
               "proj": 0.0,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Ryan Fitzgerald",
-              "slot": "K",
-              "pos": "K",
-              "pro": "CAR",
-              "proj": 9.5,
-              "actual": 0.0,
-              "injury": null
             }
           ],
-          "bench_proj": 67.0,
+          "bench_proj": 50.2,
           "injuries": []
         },
         "played": false,
@@ -1502,7 +1502,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (4-2) at alex raichle (3-3). Projected: Mitch Wiese 106.8 - alex raichle 130.4. alex raichle favored by 23.6.",
+        "blurb": "Mitch Wiese (4-2) at alex raichle (3-3). Projected: Mitch Wiese 123.6 - alex raichle 130.4. alex raichle favored by 6.8.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1553,11 +1553,11 @@ window.MATCHUPS_DATA = {
             "owner": "Mitch Wiese"
           },
           {
-            "name": "Jaylen Warren",
-            "slot": "RB",
-            "pos": "RB",
-            "pro": "PIT",
-            "proj": 17.7,
+            "name": "Jared Goff",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "DET",
+            "proj": 18.4,
             "actual": 0.0,
             "injury": null,
             "owner": "Mitch Wiese"
@@ -1573,13 +1573,13 @@ window.MATCHUPS_DATA = {
           {
             "pos": "K",
             "home_proj": 9.5,
-            "away_proj": 9.5,
-            "edge": "even"
+            "away_proj": 7.4,
+            "edge": "home"
           },
           {
             "pos": "QB",
             "home_proj": 20.2,
-            "away_proj": 0.0,
+            "away_proj": 18.4,
             "edge": "home"
           },
           {
@@ -1597,7 +1597,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 47.1,
-            "away_proj": 44.1,
+            "away_proj": 44.6,
             "edge": "home"
           }
         ],
@@ -1971,7 +1971,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 0.0,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "INJURY_RESERVE"
             },
             {
               "name": "Travis Kelce",
@@ -2028,7 +2028,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 0.0,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": "INJURY_RESERVE"
             }
           ]
         },
