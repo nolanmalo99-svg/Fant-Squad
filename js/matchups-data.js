@@ -983,7 +983,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "5-1",
           "actual": 0.0,
-          "projected": 102.8,
+          "projected": 111.9,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -1049,15 +1049,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Cam Little",
-              "slot": "K",
-              "pos": "K",
-              "pro": "JAX",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Ravens D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
@@ -1065,9 +1056,18 @@ window.MATCHUPS_DATA = {
               "proj": 5.1,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Jake Bates",
+              "slot": "K",
+              "pos": "K",
+              "pro": "DET",
+              "proj": 9.1,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 34.3,
+          "bench_proj": 43.7,
           "injuries": [
             {
               "name": "Tyler Warren",
@@ -1189,7 +1189,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (4-2) at Nolan Malo (5-1). Projected: Owen Koslosku 134.5 - Nolan Malo 102.8. Owen Koslosku favored by 31.7.",
+        "blurb": "Owen Koslosku (4-2) at Nolan Malo (5-1). Projected: Owen Koslosku 134.5 - Nolan Malo 111.9. Owen Koslosku favored by 22.6.",
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
@@ -1259,7 +1259,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "K",
-            "home_proj": 0.0,
+            "home_proj": 9.1,
             "away_proj": 11.4,
             "edge": "away"
           },
@@ -1290,7 +1290,6 @@ window.MATCHUPS_DATA = {
         ],
         "revenge": null,
         "fun_facts": [
-          "If the projection holds, this would be Nolan Malo's worst week of the season.",
           "Nolan Malo owns the league's longest active winning streak at 4 games."
         ],
         "head_to_head": {
@@ -1410,7 +1409,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "4-2",
           "actual": 0.0,
-          "projected": 123.6,
+          "projected": 129.9,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -1485,16 +1484,16 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jaguars D/ST",
+              "name": "Browns D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "JAX",
-              "proj": 0.0,
+              "pro": "CLE",
+              "proj": 6.3,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 50.2,
+          "bench_proj": 54.1,
           "injuries": []
         },
         "played": false,
@@ -1502,7 +1501,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (4-2) at alex raichle (3-3). Projected: Mitch Wiese 123.6 - alex raichle 130.4. alex raichle favored by 6.8.",
+        "blurb": "Mitch Wiese (4-2) at alex raichle (3-3). Projected: Mitch Wiese 129.9 - alex raichle 130.4. alex raichle favored by 0.5.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1567,8 +1566,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 4.8,
-            "away_proj": 0.0,
-            "edge": "home"
+            "away_proj": 6.3,
+            "edge": "away"
           },
           {
             "pos": "K",
@@ -1729,7 +1728,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "2-4",
           "actual": 0.0,
-          "projected": 103.8,
+          "projected": 125.5,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1786,24 +1785,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Rams D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "LAR",
-              "proj": 4.6,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Jameis Winston",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "NYG",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Dominic Zvada",
               "slot": "K",
               "pos": "K",
@@ -1811,9 +1792,27 @@ window.MATCHUPS_DATA = {
               "proj": 10.8,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "C.J. Stroud",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "HOU",
+              "proj": 19.2,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Titans D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "TEN",
+              "proj": 7.2,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 65.2,
+          "bench_proj": 69.3,
           "injuries": []
         },
         "played": false,
@@ -1821,7 +1820,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (2-4) at Noah Budach (2-4). Projected: Brady Schuster 103.8 - Noah Budach 127.7. Noah Budach favored by 23.9.",
+        "blurb": "Brady Schuster (2-4) at Noah Budach (2-4). Projected: Brady Schuster 125.5 - Noah Budach 127.7. Noah Budach favored by 2.2.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -1862,21 +1861,21 @@ window.MATCHUPS_DATA = {
             "owner": "Noah Budach"
           },
           {
-            "name": "CeeDee Lamb",
-            "slot": "WR",
-            "pos": "WR",
-            "pro": "DAL",
-            "proj": 18.5,
+            "name": "C.J. Stroud",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "HOU",
+            "proj": 19.2,
             "actual": 0.0,
             "injury": null,
             "owner": "Brady Schuster"
           },
           {
-            "name": "Matthew Golden",
-            "slot": "FLEX",
+            "name": "CeeDee Lamb",
+            "slot": "WR",
             "pos": "WR",
-            "pro": "GB",
-            "proj": 16.9,
+            "pro": "DAL",
+            "proj": 18.5,
             "actual": 0.0,
             "injury": null,
             "owner": "Brady Schuster"
@@ -1886,8 +1885,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 6.8,
-            "away_proj": 4.6,
-            "edge": "home"
+            "away_proj": 7.2,
+            "edge": "even"
           },
           {
             "pos": "K",
@@ -1898,7 +1897,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "QB",
             "home_proj": 20.4,
-            "away_proj": 0.0,
+            "away_proj": 19.2,
             "edge": "home"
           },
           {
@@ -2123,7 +2122,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 54.2,
+          "bench_proj": 49.3,
           "injuries": [
             {
               "name": "Jeremiyah Love",
@@ -2452,7 +2451,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 47.4,
+          "bench_proj": 44.8,
           "injuries": [
             {
               "name": "Quinshon Judkins",
