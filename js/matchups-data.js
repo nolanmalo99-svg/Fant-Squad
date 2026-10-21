@@ -2255,7 +2255,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "2-4",
           "actual": 0.0,
-          "projected": 106.0,
+          "projected": 113.1,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -2265,6 +2265,15 @@ window.MATCHUPS_DATA = {
               "proj": 20.1,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Josh Jacobs",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "GB",
+              "proj": 12.6,
+              "actual": 0.0,
+              "injury": "DAY_TO_DAY"
             },
             {
               "name": "Tetairoa McMillan",
@@ -2281,15 +2290,6 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "CHI",
               "proj": 14.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Harold Fannin Jr.",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "CLE",
-              "proj": 8.3,
               "actual": 0.0,
               "injury": null
             },
@@ -2321,13 +2321,13 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Emanuel Wilson",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "SEA",
-              "proj": 7.8,
+              "name": "T.J. Hockenson",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "MIN",
+              "proj": 10.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "49ers D/ST",
@@ -2339,8 +2339,27 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 34.0,
-          "injuries": []
+          "bench_proj": 27.0,
+          "injuries": [
+            {
+              "name": "Josh Jacobs",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "GB",
+              "proj": 12.6,
+              "actual": 0.0,
+              "injury": "DAY_TO_DAY"
+            },
+            {
+              "name": "T.J. Hockenson",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "MIN",
+              "proj": 10.5,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 7,
@@ -2451,7 +2470,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (5-1) at Zach Mensink (2-4). Projected: Dawson Leer 125.4 - Zach Mensink 106.0. Dawson Leer favored by 19.4.",
+        "blurb": "Dawson Leer (5-1) at Zach Mensink (2-4). Projected: Dawson Leer 125.4 - Zach Mensink 113.1. Dawson Leer favored by 12.3.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2533,13 +2552,13 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 22.7,
+            "home_proj": 27.5,
             "away_proj": 52.4,
             "edge": "away"
           },
           {
             "pos": "TE",
-            "home_proj": 8.3,
+            "home_proj": 10.5,
             "away_proj": 12.7,
             "edge": "away"
           },

@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-20T22:44:26+00:00",
+  "generated_at": "2026-10-21T02:06:02+00:00",
   "current_week": 7,
   "standings": [
     {
@@ -13961,19 +13961,19 @@
           "injury": null
         },
         {
-          "player_id": 4887558,
-          "name": "Emanuel Wilson",
+          "player_id": 4047365,
+          "name": "Josh Jacobs",
           "slot": "RB",
           "pos": "RB",
-          "pro": "SEA",
-          "proj": 7.8,
+          "pro": "GB",
+          "proj": 12.6,
           "actual": 0.0,
-          "season_ppg": 11.7,
-          "season_total": 46.8,
-          "games_played": 4,
-          "preseason_proj_total": 32.1,
+          "season_ppg": 0.0,
+          "season_total": 0.0,
+          "games_played": 6,
+          "preseason_proj_total": 282.9,
           "starter": true,
-          "injury": null
+          "injury": "DAY_TO_DAY"
         },
         {
           "player_id": 4430878,
@@ -14006,19 +14006,19 @@
           "injury": null
         },
         {
-          "player_id": 5083076,
-          "name": "Harold Fannin Jr.",
+          "player_id": 4036133,
+          "name": "T.J. Hockenson",
           "slot": "TE",
           "pos": "TE",
-          "pro": "CLE",
-          "proj": 8.3,
+          "pro": "MIN",
+          "proj": 10.5,
           "actual": 0.0,
-          "season_ppg": 8.9,
-          "season_total": 53.6,
-          "games_played": 6,
-          "preseason_proj_total": 53.5,
+          "season_ppg": 9.8,
+          "season_total": 49.2,
+          "games_played": 5,
+          "preseason_proj_total": 184.5,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4688813,
@@ -14066,21 +14066,6 @@
           "injury": null
         },
         {
-          "player_id": 4047365,
-          "name": "Josh Jacobs",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "GB",
-          "proj": 12.6,
-          "actual": 0.0,
-          "season_ppg": 0.0,
-          "season_total": 0.0,
-          "games_played": 6,
-          "preseason_proj_total": 282.9,
-          "starter": false,
-          "injury": "DAY_TO_DAY"
-        },
-        {
           "player_id": 4429205,
           "name": "Jordan Addison",
           "slot": "BE",
@@ -14096,19 +14081,34 @@
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 4036133,
-          "name": "T.J. Hockenson",
+          "player_id": 5083076,
+          "name": "Harold Fannin Jr.",
           "slot": "BE",
           "pos": "TE",
-          "pro": "MIN",
-          "proj": 10.5,
+          "pro": "CLE",
+          "proj": 8.3,
           "actual": 0.0,
-          "season_ppg": 9.8,
-          "season_total": 49.2,
-          "games_played": 5,
-          "preseason_proj_total": 184.5,
+          "season_ppg": 8.9,
+          "season_total": 53.6,
+          "games_played": 6,
+          "preseason_proj_total": 53.5,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
+        },
+        {
+          "player_id": 4887558,
+          "name": "Emanuel Wilson",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "SEA",
+          "proj": 7.8,
+          "actual": 0.0,
+          "season_ppg": 11.7,
+          "season_total": 46.8,
+          "games_played": 4,
+          "preseason_proj_total": 32.1,
+          "starter": false,
+          "injury": null
         },
         {
           "player_id": 4429160,
