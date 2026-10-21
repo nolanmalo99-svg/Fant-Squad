@@ -983,7 +983,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "5-1",
           "actual": 0.0,
-          "projected": 120.0,
+          "projected": 120.7,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -999,7 +999,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "BAL",
-              "proj": 17.4,
+              "proj": 15.6,
               "actual": 0.0,
               "injury": null
             },
@@ -1017,7 +1017,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "CIN",
-              "proj": 19.4,
+              "proj": 19.0,
               "actual": 0.0,
               "injury": null
             },
@@ -1035,7 +1035,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "BAL",
-              "proj": 5.1,
+              "proj": 4.9,
               "actual": 0.0,
               "injury": null
             },
@@ -1044,7 +1044,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "WR",
               "pro": "KC",
-              "proj": 9.4,
+              "proj": 12.4,
               "actual": 0.0,
               "injury": null
             },
@@ -1067,7 +1067,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 44.9,
+          "bench_proj": 36.0,
           "injuries": []
         },
         "away": {
@@ -1077,7 +1077,7 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "4-2",
           "actual": 0.0,
-          "projected": 134.5,
+          "projected": 134.7,
           "starters": [
             {
               "name": "Puka Nacua",
@@ -1093,7 +1093,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "IND",
-              "proj": 14.9,
+              "proj": 15.2,
               "actual": 0.0,
               "injury": null
             },
@@ -1111,18 +1111,9 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "NYJ",
-              "proj": 15.5,
+              "proj": 14.2,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Dak Prescott",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "DAL",
-              "proj": 16.6,
-              "actual": 0.0,
-              "injury": null
             },
             {
               "name": "George Kittle",
@@ -1159,16 +1150,25 @@ window.MATCHUPS_DATA = {
               "proj": 13.4,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Kyler Murray",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "MIN",
+              "proj": 17.7,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 82.0,
+          "bench_proj": 67.6,
           "injuries": [
             {
               "name": "Breece Hall",
               "slot": "RB",
               "pos": "RB",
               "pro": "NYJ",
-              "proj": 15.5,
+              "proj": 14.2,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -1179,7 +1179,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (4-2) at Nolan Malo (5-1). Projected: Owen Koslosku 134.5 - Nolan Malo 120.0. Owen Koslosku favored by 14.5.",
+        "blurb": "Owen Koslosku (4-2) at Nolan Malo (5-1). Projected: Owen Koslosku 134.7 - Nolan Malo 120.7. Owen Koslosku favored by 14.0.",
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
@@ -1224,26 +1224,26 @@ window.MATCHUPS_DATA = {
             "slot": "QB",
             "pos": "QB",
             "pro": "CIN",
-            "proj": 19.4,
+            "proj": 19.0,
             "actual": 0.0,
             "injury": null,
             "owner": "Nolan Malo"
           },
           {
-            "name": "Zay Flowers",
-            "slot": "WR",
-            "pos": "WR",
-            "pro": "BAL",
-            "proj": 17.4,
+            "name": "Kyler Murray",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "MIN",
+            "proj": 17.7,
             "actual": 0.0,
             "injury": null,
-            "owner": "Nolan Malo"
+            "owner": "Owen Koslosku"
           }
         ],
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 5.1,
+            "home_proj": 4.9,
             "away_proj": 8.1,
             "edge": "away"
           },
@@ -1255,14 +1255,14 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "QB",
-            "home_proj": 19.4,
-            "away_proj": 16.6,
+            "home_proj": 19.0,
+            "away_proj": 17.7,
             "edge": "home"
           },
           {
             "pos": "RB",
             "home_proj": 25.9,
-            "away_proj": 30.4,
+            "away_proj": 29.4,
             "edge": "away"
           },
           {
@@ -1273,7 +1273,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 46.3,
+            "home_proj": 47.5,
             "away_proj": 51.4,
             "edge": "away"
           }
@@ -1311,9 +1311,9 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "WR",
               "pro": "NE",
-              "proj": 16.0,
+              "proj": 15.9,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Bucky Irving",
@@ -1322,14 +1322,14 @@ window.MATCHUPS_DATA = {
               "pro": "TB",
               "proj": 14.1,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Tee Higgins",
               "slot": "WR",
               "pos": "WR",
               "pro": "CIN",
-              "proj": 14.4,
+              "proj": 14.2,
               "actual": 0.0,
               "injury": null
             },
@@ -1349,16 +1349,7 @@ window.MATCHUPS_DATA = {
               "pro": "GB",
               "proj": 16.7,
               "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Seahawks D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "SEA",
-              "proj": 4.8,
-              "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Juwan Johnson",
@@ -1374,19 +1365,37 @@ window.MATCHUPS_DATA = {
               "slot": "K",
               "pos": "K",
               "pro": "BAL",
-              "proj": 9.5,
+              "proj": 8.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Panthers D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "CAR",
+              "proj": 6.2,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 42.5,
+          "bench_proj": 48.5,
           "injuries": [
             {
-              "name": "A.J. Brown",
-              "slot": "FLEX",
+              "name": "Bucky Irving",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "TB",
+              "proj": 14.1,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Christian Watson",
+              "slot": "WR",
               "pos": "WR",
-              "pro": "NE",
-              "proj": 16.0,
+              "pro": "GB",
+              "proj": 16.7,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -1399,7 +1408,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "4-2",
           "actual": 0.0,
-          "projected": 129.9,
+          "projected": 129.8,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -1491,7 +1500,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (4-2) at alex raichle (3-3). Projected: Mitch Wiese 129.9 - alex raichle 130.4. alex raichle favored by 0.5.",
+        "blurb": "Mitch Wiese (4-2) at alex raichle (3-3). Projected: Mitch Wiese 129.8 - alex raichle 130.4. alex raichle favored by 0.6.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1555,13 +1564,13 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 4.8,
+            "home_proj": 6.2,
             "away_proj": 6.3,
-            "edge": "away"
+            "edge": "even"
           },
           {
             "pos": "K",
-            "home_proj": 9.5,
+            "home_proj": 8.5,
             "away_proj": 7.4,
             "edge": "home"
           },
@@ -1585,7 +1594,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 47.1,
+            "home_proj": 46.8,
             "away_proj": 44.6,
             "edge": "home"
           }
@@ -1605,7 +1614,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "2-4",
           "actual": 0.0,
-          "projected": 127.7,
+          "projected": 116.8,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -1657,9 +1666,9 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "CHI",
-              "proj": 10.8,
+              "proj": 0.0,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": "OUT"
             },
             {
               "name": "Jason Myers",
@@ -1684,7 +1693,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "KC",
-              "proj": 6.8,
+              "proj": 6.7,
               "actual": 0.0,
               "injury": null
             }
@@ -1705,9 +1714,9 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "CHI",
-              "proj": 10.8,
+              "proj": 0.0,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": "OUT"
             }
           ]
         },
@@ -1718,7 +1727,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "2-4",
           "actual": 0.0,
-          "projected": 125.5,
+          "projected": 125.9,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1734,7 +1743,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "CIN",
-              "proj": 14.6,
+              "proj": 14.8,
               "actual": 0.0,
               "injury": null
             },
@@ -1763,7 +1772,7 @@ window.MATCHUPS_DATA = {
               "pro": "GB",
               "proj": 16.9,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Dallas Goedert",
@@ -1788,7 +1797,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "HOU",
-              "proj": 19.2,
+              "proj": 19.3,
               "actual": 0.0,
               "injury": null
             },
@@ -1797,20 +1806,30 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "TEN",
-              "proj": 7.2,
+              "proj": 7.3,
               "actual": 0.0,
               "injury": null
             }
           ],
           "bench_proj": 69.3,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Matthew Golden",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "GB",
+              "proj": 16.9,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (2-4) at Noah Budach (2-4). Projected: Brady Schuster 125.5 - Noah Budach 127.7. Noah Budach favored by 2.2.",
+        "blurb": "Brady Schuster (2-4) at Noah Budach (2-4). Projected: Brady Schuster 125.9 - Noah Budach 116.8. Brady Schuster favored by 9.1.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -1855,7 +1874,7 @@ window.MATCHUPS_DATA = {
             "slot": "QB",
             "pos": "QB",
             "pro": "HOU",
-            "proj": 19.2,
+            "proj": 19.3,
             "actual": 0.0,
             "injury": null,
             "owner": "Brady Schuster"
@@ -1874,8 +1893,8 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 6.8,
-            "away_proj": 7.2,
+            "home_proj": 6.7,
+            "away_proj": 7.3,
             "edge": "even"
           },
           {
@@ -1887,13 +1906,13 @@ window.MATCHUPS_DATA = {
           {
             "pos": "QB",
             "home_proj": 20.4,
-            "away_proj": 19.2,
+            "away_proj": 19.3,
             "edge": "home"
           },
           {
             "pos": "RB",
-            "home_proj": 47.4,
-            "away_proj": 26.1,
+            "home_proj": 36.6,
+            "away_proj": 26.3,
             "edge": "home"
           },
           {
@@ -1924,7 +1943,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "3-3",
           "actual": 0.0,
-          "projected": 127.2,
+          "projected": 125.5,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -1940,7 +1959,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "BAL",
-              "proj": 20.1,
+              "proj": 18.1,
               "actual": 0.0,
               "injury": null
             },
@@ -1958,7 +1977,7 @@ window.MATCHUPS_DATA = {
               "slot": "TE",
               "pos": "TE",
               "pro": "KC",
-              "proj": 9.9,
+              "proj": 10.1,
               "actual": 0.0,
               "injury": null
             },
@@ -1976,7 +1995,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "NYJ",
-              "proj": 7.3,
+              "proj": 7.4,
               "actual": 0.0,
               "injury": null
             },
@@ -2008,7 +2027,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 43.0,
+          "bench_proj": 22.6,
           "injuries": []
         },
         "away": {
@@ -2018,14 +2037,14 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-6",
           "actual": 0.0,
-          "projected": 127.7,
+          "projected": 127.4,
           "starters": [
             {
               "name": "Ja'Marr Chase",
               "slot": "WR",
               "pos": "WR",
               "pro": "CIN",
-              "proj": 22.1,
+              "proj": 21.7,
               "actual": 0.0,
               "injury": null
             },
@@ -2090,7 +2109,7 @@ window.MATCHUPS_DATA = {
               "pro": "GB",
               "proj": 19.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Ka'imi Fairbairn",
@@ -2102,7 +2121,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 49.3,
+          "bench_proj": 53.6,
           "injuries": [
             {
               "name": "Jeremiyah Love",
@@ -2110,6 +2129,15 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "ARI",
               "proj": 11.9,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Jordan Love",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "GB",
+              "proj": 19.5,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -2120,7 +2148,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-6) at Andy Jensen (3-3). Projected: spencer glynn 127.7 - Andy Jensen 127.2. spencer glynn favored by 0.5.",
+        "blurb": "spencer glynn (0-6) at Andy Jensen (3-3). Projected: spencer glynn 127.4 - Andy Jensen 125.5. spencer glynn favored by 1.9.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -2145,20 +2173,10 @@ window.MATCHUPS_DATA = {
             "slot": "WR",
             "pos": "WR",
             "pro": "CIN",
-            "proj": 22.1,
+            "proj": 21.7,
             "actual": 0.0,
             "injury": null,
             "owner": "spencer glynn"
-          },
-          {
-            "name": "Derrick Henry",
-            "slot": "RB",
-            "pos": "RB",
-            "pro": "BAL",
-            "proj": 20.1,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Andy Jensen"
           },
           {
             "name": "Jordan Love",
@@ -2167,7 +2185,7 @@ window.MATCHUPS_DATA = {
             "pro": "GB",
             "proj": 19.5,
             "actual": 0.0,
-            "injury": null,
+            "injury": "QUESTIONABLE",
             "owner": "spencer glynn"
           },
           {
@@ -2179,12 +2197,22 @@ window.MATCHUPS_DATA = {
             "actual": 0.0,
             "injury": null,
             "owner": "Andy Jensen"
+          },
+          {
+            "name": "Aaron Rodgers",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "PIT",
+            "proj": 19.1,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Andy Jensen"
           }
         ],
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 7.3,
+            "home_proj": 7.4,
             "away_proj": 6.4,
             "edge": "even"
           },
@@ -2202,20 +2230,20 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 52.8,
+            "home_proj": 50.8,
             "away_proj": 26.4,
             "edge": "home"
           },
           {
             "pos": "TE",
-            "home_proj": 9.9,
+            "home_proj": 10.1,
             "away_proj": 11.5,
             "edge": "away"
           },
           {
             "pos": "WR",
             "home_proj": 27.9,
-            "away_proj": 52.6,
+            "away_proj": 52.2,
             "edge": "away"
           }
         ],
@@ -2234,7 +2262,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "2-4",
           "actual": 0.0,
-          "projected": 113.1,
+          "projected": 114.3,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -2268,7 +2296,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "CHI",
-              "proj": 14.9,
+              "proj": 16.3,
               "actual": 0.0,
               "injury": null
             },
@@ -2313,12 +2341,12 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "SF",
-              "proj": 4.4,
+              "proj": 4.2,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 27.0,
+          "bench_proj": 26.9,
           "injuries": [
             {
               "name": "Josh Jacobs",
@@ -2347,7 +2375,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "5-1",
           "actual": 0.0,
-          "projected": 125.4,
+          "projected": 124.9,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -2356,14 +2384,14 @@ window.MATCHUPS_DATA = {
               "pro": "MIN",
               "proj": 18.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Kenneth Walker III",
               "slot": "RB",
               "pos": "RB",
               "pro": "KC",
-              "proj": 19.0,
+              "proj": 19.1,
               "actual": 0.0,
               "injury": null
             },
@@ -2381,7 +2409,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "CLE",
-              "proj": 13.8,
+              "proj": 13.2,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -2431,14 +2459,23 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 44.8,
+          "bench_proj": 31.3,
           "injuries": [
+            {
+              "name": "Justin Jefferson",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "MIN",
+              "proj": 18.5,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
             {
               "name": "Quinshon Judkins",
               "slot": "FLEX",
               "pos": "RB",
               "pro": "CLE",
-              "proj": 13.8,
+              "proj": 13.2,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -2449,7 +2486,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (5-1) at Zach Mensink (2-4). Projected: Dawson Leer 125.4 - Zach Mensink 113.1. Dawson Leer favored by 12.3.",
+        "blurb": "Dawson Leer (5-1) at Zach Mensink (2-4). Projected: Dawson Leer 124.9 - Zach Mensink 114.3. Dawson Leer favored by 10.6.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2494,7 +2531,7 @@ window.MATCHUPS_DATA = {
             "slot": "RB",
             "pos": "RB",
             "pro": "KC",
-            "proj": 19.0,
+            "proj": 19.1,
             "actual": 0.0,
             "injury": null,
             "owner": "Dawson Leer"
@@ -2506,14 +2543,14 @@ window.MATCHUPS_DATA = {
             "pro": "MIN",
             "proj": 18.5,
             "actual": 0.0,
-            "injury": null,
+            "injury": "QUESTIONABLE",
             "owner": "Dawson Leer"
           }
         ],
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 4.4,
+            "home_proj": 4.2,
             "away_proj": 4.0,
             "edge": "even"
           },
@@ -2531,8 +2568,8 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 27.5,
-            "away_proj": 52.4,
+            "home_proj": 28.9,
+            "away_proj": 51.9,
             "edge": "away"
           },
           {
