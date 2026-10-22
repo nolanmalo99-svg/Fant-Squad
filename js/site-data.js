@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-22T16:06:59+00:00",
+  "generated_at": "2026-10-22T22:48:34+00:00",
   "current_week": 7,
   "standings": [
     {
@@ -566,7 +566,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "CIN",
-          "proj": 14.2,
+          "proj": 14.4,
           "actual": 0.0,
           "season_ppg": 15.1,
           "season_total": 75.3,
@@ -626,7 +626,7 @@ window.SITE_DATA = {
           "slot": "K",
           "pos": "K",
           "pro": "BAL",
-          "proj": 8.5,
+          "proj": 9.1,
           "actual": 0.0,
           "season_ppg": 8.0,
           "season_total": 24.0,
@@ -3886,7 +3886,7 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "CIN",
-          "proj": 14.8,
+          "proj": 14.6,
           "actual": 0.0,
           "season_ppg": 13.0,
           "season_total": 65.0,
@@ -3953,7 +3953,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 156.9,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4701936,
@@ -7228,7 +7228,7 @@ window.SITE_DATA = {
           "games_played": 2,
           "preseason_proj_total": 264.5,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4241416,
@@ -7266,7 +7266,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "CIN",
-          "proj": 21.7,
+          "proj": 22.1,
           "actual": 0.0,
           "season_ppg": 16.0,
           "season_total": 79.9,
@@ -7371,7 +7371,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "ARI",
-          "proj": 12.4,
+          "proj": 12.3,
           "actual": 0.0,
           "season_ppg": 11.8,
           "season_total": 71.0,
@@ -7379,21 +7379,6 @@ window.SITE_DATA = {
           "preseason_proj_total": 115.8,
           "starter": false,
           "injury": null
-        },
-        {
-          "player_id": 4870808,
-          "name": "Jeremiyah Love",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "ARI",
-          "proj": 11.9,
-          "actual": 0.0,
-          "season_ppg": 8.5,
-          "season_total": 51.1,
-          "games_played": 6,
-          "preseason_proj_total": 219.8,
-          "starter": false,
-          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4429096,
@@ -7409,6 +7394,21 @@ window.SITE_DATA = {
           "preseason_proj_total": 74.4,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4870808,
+          "name": "Jeremiyah Love",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "ARI",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 8.5,
+          "season_total": 51.1,
+          "games_played": 6,
+          "preseason_proj_total": 219.8,
+          "starter": false,
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4882093,
@@ -10586,7 +10586,7 @@ window.SITE_DATA = {
           "slot": "QB",
           "pos": "QB",
           "pro": "CIN",
-          "proj": 19.0,
+          "proj": 19.4,
           "actual": 0.0,
           "season_ppg": 20.1,
           "season_total": 100.4,
@@ -10646,7 +10646,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "BAL",
-          "proj": 15.6,
+          "proj": 16.3,
           "actual": 0.0,
           "season_ppg": 15.8,
           "season_total": 94.5,
@@ -10691,7 +10691,7 @@ window.SITE_DATA = {
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "BAL",
-          "proj": 4.9,
+          "proj": 5.1,
           "actual": 0.0,
           "season_ppg": 7.5,
           "season_total": 30.0,
@@ -10751,7 +10751,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "ARI",
-          "proj": 7.8,
+          "proj": 7.7,
           "actual": 0.0,
           "season_ppg": 9.7,
           "season_total": 9.7,
@@ -14036,17 +14036,17 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 4688813,
-          "name": "Josh Downs",
+          "player_id": 4429205,
+          "name": "Jordan Addison",
           "slot": "FLEX",
           "pos": "WR",
-          "pro": "IND",
-          "proj": 8.4,
+          "pro": "MIN",
+          "proj": 10.9,
           "actual": 0.0,
-          "season_ppg": 8.9,
-          "season_total": 53.6,
-          "games_played": 6,
-          "preseason_proj_total": 179.1,
+          "season_ppg": 6.6,
+          "season_total": 33.2,
+          "games_played": 5,
+          "preseason_proj_total": 167.3,
           "starter": true,
           "injury": null
         },
@@ -14056,7 +14056,7 @@ window.SITE_DATA = {
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "SF",
-          "proj": 4.2,
+          "proj": 4.4,
           "actual": 0.0,
           "season_ppg": 2.5,
           "season_total": 5.0,
@@ -14081,17 +14081,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4429205,
-          "name": "Jordan Addison",
+          "player_id": 4688813,
+          "name": "Josh Downs",
           "slot": "BE",
           "pos": "WR",
-          "pro": "MIN",
-          "proj": 10.9,
+          "pro": "IND",
+          "proj": 8.4,
           "actual": 0.0,
-          "season_ppg": 6.6,
-          "season_total": 33.2,
-          "games_played": 5,
-          "preseason_proj_total": 167.3,
+          "season_ppg": 8.9,
+          "season_total": 53.6,
+          "games_played": 6,
+          "preseason_proj_total": 179.1,
           "starter": false,
           "injury": null
         },
@@ -18607,7 +18607,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 315.9,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4685278,
@@ -18660,7 +18660,7 @@ window.SITE_DATA = {
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "NE",
-          "proj": 4.0,
+          "proj": 4.1,
           "actual": 0.0,
           "season_ppg": 8.3,
           "season_total": 25.0,
@@ -21906,6 +21906,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 3043078,
+          "name": "Derrick Henry",
+          "slot": "RB",
+          "pos": "RB",
+          "pro": "BAL",
+          "proj": 20.1,
+          "actual": 0.0,
+          "season_ppg": 19.5,
+          "season_total": 116.8,
+          "games_played": 6,
+          "preseason_proj_total": 281.7,
+          "starter": true,
+          "injury": null
+        },
+        {
           "player_id": 4430807,
           "name": "Bijan Robinson",
           "slot": "RB",
@@ -21917,21 +21932,6 @@ window.SITE_DATA = {
           "season_total": 128.5,
           "games_played": 6,
           "preseason_proj_total": 339.4,
-          "starter": true,
-          "injury": null
-        },
-        {
-          "player_id": 3043078,
-          "name": "Derrick Henry",
-          "slot": "RB",
-          "pos": "RB",
-          "pro": "BAL",
-          "proj": 18.1,
-          "actual": 0.0,
-          "season_ppg": 19.5,
-          "season_total": 116.8,
-          "games_played": 6,
-          "preseason_proj_total": 281.7,
           "starter": true,
           "injury": null
         },
@@ -22001,7 +22001,7 @@ window.SITE_DATA = {
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "NYJ",
-          "proj": 7.4,
+          "proj": 7.3,
           "actual": 0.0,
           "season_ppg": 8.0,
           "season_total": 40.0,
@@ -22026,6 +22026,36 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 3916387,
+          "name": "Lamar Jackson",
+          "slot": "BE",
+          "pos": "QB",
+          "pro": "BAL",
+          "proj": 19.6,
+          "actual": 0.0,
+          "season_ppg": 13.1,
+          "season_total": 78.4,
+          "games_played": 6,
+          "preseason_proj_total": 363.4,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "player_id": 3116365,
+          "name": "Mark Andrews",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "BAL",
+          "proj": 8.8,
+          "actual": 0.0,
+          "season_ppg": 7.5,
+          "season_total": 45.1,
+          "games_played": 6,
+          "preseason_proj_total": 173.4,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 3054850,
           "name": "Alvin Kamara",
           "slot": "BE",
@@ -22041,27 +22071,12 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 3116365,
-          "name": "Mark Andrews",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "BAL",
-          "proj": 8.1,
-          "actual": 0.0,
-          "season_ppg": 7.5,
-          "season_total": 45.1,
-          "games_played": 6,
-          "preseason_proj_total": 173.4,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": -16007,
           "name": "Broncos D/ST",
           "slot": "BE",
           "pos": "D/ST",
           "pro": "DEN",
-          "proj": 6.3,
+          "proj": 6.4,
           "actual": 0.0,
           "season_ppg": 12.5,
           "season_total": 25.0,
@@ -22097,21 +22112,6 @@ window.SITE_DATA = {
           "season_total": 39.0,
           "games_played": 6,
           "preseason_proj_total": 243.2,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
-          "player_id": 3916387,
-          "name": "Lamar Jackson",
-          "slot": "BE",
-          "pos": "QB",
-          "pro": "BAL",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 13.1,
-          "season_total": 78.4,
-          "games_played": 6,
-          "preseason_proj_total": 363.4,
           "starter": false,
           "injury": "QUESTIONABLE"
         },
@@ -26719,7 +26719,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 223.0,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4871023,
@@ -26772,7 +26772,7 @@ window.SITE_DATA = {
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "KC",
-          "proj": 6.7,
+          "proj": 6.8,
           "actual": 0.0,
           "season_ppg": 5.8,
           "season_total": 23.0,
@@ -32235,7 +32235,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 298.6,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4426354,
@@ -32250,7 +32250,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 221.4,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3040151,
@@ -32343,6 +32343,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4373626,
+          "name": "Tyler Allgeier",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "ARI",
+          "proj": 12.0,
+          "actual": 0.0,
+          "season_ppg": 5.8,
+          "season_total": 5.8,
+          "games_played": 1,
+          "preseason_proj_total": 104.8,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4711533,
           "name": "Ollie Gordon II",
           "slot": "BE",
@@ -32363,7 +32378,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "DEN",
-          "proj": 11.1,
+          "proj": 11.2,
           "actual": 0.0,
           "season_ppg": 9.2,
           "season_total": 55.1,
@@ -32388,21 +32403,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4373626,
-          "name": "Tyler Allgeier",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "ARI",
-          "proj": 7.3,
-          "actual": 0.0,
-          "season_ppg": 5.8,
-          "season_total": 5.8,
-          "games_played": 1,
-          "preseason_proj_total": 104.8,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4035538,
           "name": "David Montgomery",
           "slot": "BE",
@@ -32415,7 +32415,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 213.4,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 4426385,
@@ -32430,7 +32430,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 137.0,
           "starter": false,
-          "injury": "OUT"
+          "injury": "QUESTIONABLE"
         }
       ],
       "draft": {
