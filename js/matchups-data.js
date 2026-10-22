@@ -1624,7 +1624,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "2-4",
           "actual": 0.0,
-          "projected": 116.8,
+          "projected": 128.3,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -1672,13 +1672,13 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Kyle Monangai",
+              "name": "RJ Harvey",
               "slot": "FLEX",
               "pos": "RB",
-              "pro": "CHI",
-              "proj": 0.0,
+              "pro": "DEN",
+              "proj": 11.4,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": null
             },
             {
               "name": "Jason Myers",
@@ -1708,7 +1708,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 33.5,
+          "bench_proj": 22.1,
           "injuries": [
             {
               "name": "Saquon Barkley",
@@ -1718,15 +1718,6 @@ window.MATCHUPS_DATA = {
               "proj": 14.7,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Kyle Monangai",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "CHI",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "OUT"
             }
           ]
         },
@@ -1737,7 +1728,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "2-4",
           "actual": 0.0,
-          "projected": 125.9,
+          "projected": 127.4,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1767,15 +1758,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Rhamondre Stevenson",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "NE",
-              "proj": 11.5,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Matthew Golden",
               "slot": "FLEX",
               "pos": "WR",
@@ -1783,6 +1765,15 @@ window.MATCHUPS_DATA = {
               "proj": 16.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Aaron Jones Sr.",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "MIN",
+              "proj": 12.3,
+              "actual": 0.0,
+              "injury": null
             },
             {
               "name": "Dallas Goedert",
@@ -1794,11 +1785,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Dominic Zvada",
+              "name": "Will Reichard",
               "slot": "K",
               "pos": "K",
-              "pro": "NYG",
-              "proj": 10.8,
+              "pro": "MIN",
+              "proj": 11.5,
               "actual": 0.0,
               "injury": null
             },
@@ -1821,7 +1812,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 69.3,
+          "bench_proj": 65.9,
           "injuries": [
             {
               "name": "Matthew Golden",
@@ -1839,7 +1830,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (2-4) at Noah Budach (2-4). Projected: Brady Schuster 125.9 - Noah Budach 116.8. Brady Schuster favored by 9.1.",
+        "blurb": "Brady Schuster (2-4) at Noah Budach (2-4). Projected: Brady Schuster 127.4 - Noah Budach 128.3. Noah Budach favored by 0.9.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -1910,7 +1901,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "K",
             "home_proj": 9.5,
-            "away_proj": 10.8,
+            "away_proj": 11.5,
             "edge": "away"
           },
           {
@@ -1921,8 +1912,8 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 36.6,
-            "away_proj": 26.3,
+            "home_proj": 48.0,
+            "away_proj": 27.1,
             "edge": "home"
           },
           {
