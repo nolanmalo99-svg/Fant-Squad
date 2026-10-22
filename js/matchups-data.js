@@ -1417,7 +1417,7 @@ window.MATCHUPS_DATA = {
               "pro": "LV",
               "proj": 18.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Drake London",
@@ -1493,7 +1493,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 54.1,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Brock Bowers",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "LV",
+              "proj": 18.5,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
@@ -1547,7 +1557,7 @@ window.MATCHUPS_DATA = {
             "pro": "LV",
             "proj": 18.5,
             "actual": 0.0,
-            "injury": null,
+            "injury": "QUESTIONABLE",
             "owner": "Mitch Wiese"
           },
           {
@@ -1979,7 +1989,7 @@ window.MATCHUPS_DATA = {
               "pro": "KC",
               "proj": 10.1,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "J.K. Dobbins",
@@ -2028,7 +2038,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 22.6,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Travis Kelce",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "KC",
+              "proj": 10.1,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 3,
@@ -2037,7 +2057,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "0-6",
           "actual": 0.0,
-          "projected": 127.4,
+          "projected": 129.1,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -2047,15 +2067,6 @@ window.MATCHUPS_DATA = {
               "proj": 21.7,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Jeremiyah Love",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "ARI",
-              "proj": 11.9,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
             },
             {
               "name": "Garrett Wilson",
@@ -2103,6 +2114,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Woody Marks",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "HOU",
+              "proj": 13.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Jordan Love",
               "slot": "QB",
               "pos": "QB",
@@ -2121,17 +2141,8 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 53.6,
+          "bench_proj": 51.8,
           "injuries": [
-            {
-              "name": "Jeremiyah Love",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "ARI",
-              "proj": 11.9,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
             {
               "name": "Jordan Love",
               "slot": "QB",
@@ -2148,7 +2159,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (0-6) at Andy Jensen (3-3). Projected: spencer glynn 127.4 - Andy Jensen 125.5. spencer glynn favored by 1.9.",
+        "blurb": "spencer glynn (0-6) at Andy Jensen (3-3). Projected: spencer glynn 129.1 - Andy Jensen 125.5. spencer glynn favored by 3.6.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -2231,7 +2242,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 50.8,
-            "away_proj": 26.4,
+            "away_proj": 28.2,
             "edge": "home"
           },
           {

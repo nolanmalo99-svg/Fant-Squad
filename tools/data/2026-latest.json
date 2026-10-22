@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-21T22:49:16+00:00",
+  "generated_at": "2026-10-22T02:00:23+00:00",
   "current_week": 7,
   "standings": [
     {
@@ -7246,19 +7246,19 @@
           "injury": null
         },
         {
-          "player_id": 4870808,
-          "name": "Jeremiyah Love",
+          "player_id": 4429059,
+          "name": "Woody Marks",
           "slot": "RB",
           "pos": "RB",
-          "pro": "ARI",
-          "proj": 11.9,
+          "pro": "HOU",
+          "proj": 13.7,
           "actual": 0.0,
-          "season_ppg": 8.5,
-          "season_total": 51.1,
-          "games_played": 6,
-          "preseason_proj_total": 219.8,
+          "season_ppg": 7.9,
+          "season_total": 23.6,
+          "games_played": 3,
+          "preseason_proj_total": 73.3,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4362628,
@@ -7366,21 +7366,6 @@
           "injury": null
         },
         {
-          "player_id": 4429059,
-          "name": "Woody Marks",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "HOU",
-          "proj": 13.7,
-          "actual": 0.0,
-          "season_ppg": 7.9,
-          "season_total": 23.6,
-          "games_played": 3,
-          "preseason_proj_total": 73.3,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4360761,
           "name": "Michael Wilson",
           "slot": "BE",
@@ -7394,6 +7379,21 @@
           "preseason_proj_total": 115.8,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4870808,
+          "name": "Jeremiyah Love",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "ARI",
+          "proj": 11.9,
+          "actual": 0.0,
+          "season_ppg": 8.5,
+          "season_total": 51.1,
+          "games_played": 6,
+          "preseason_proj_total": 219.8,
+          "starter": false,
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4429096,
@@ -21978,7 +21978,7 @@
           "games_played": 5,
           "preseason_proj_total": 181.1,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4241985,
@@ -29852,7 +29852,7 @@
           "games_played": 6,
           "preseason_proj_total": 262.2,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4426388,
@@ -32370,7 +32370,7 @@
           "games_played": 6,
           "preseason_proj_total": 226.5,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4432708,
