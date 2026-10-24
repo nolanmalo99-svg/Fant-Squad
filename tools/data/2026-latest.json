@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-23T22:41:00+00:00",
+  "generated_at": "2026-10-24T02:03:08+00:00",
   "current_week": 7,
   "standings": [
     {
@@ -32223,6 +32223,21 @@
           "injury": "QUESTIONABLE"
         },
         {
+          "player_id": 4685261,
+          "name": "Germie Bernard",
+          "slot": "WR",
+          "pos": "WR",
+          "pro": "PIT",
+          "proj": 13.4,
+          "actual": 0.0,
+          "season_ppg": 25.7,
+          "season_total": 25.7,
+          "games_played": 1,
+          "preseason_proj_total": 13.3,
+          "starter": true,
+          "injury": null
+        },
+        {
           "player_id": 4426354,
           "name": "George Pickens",
           "slot": "WR",
@@ -32236,21 +32251,6 @@
           "preseason_proj_total": 221.4,
           "starter": true,
           "injury": null
-        },
-        {
-          "player_id": 4426515,
-          "name": "Puka Nacua",
-          "slot": "WR",
-          "pos": "WR",
-          "pro": "LAR",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 15.3,
-          "season_total": 91.8,
-          "games_played": 6,
-          "preseason_proj_total": 298.6,
-          "starter": true,
-          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3040151,
@@ -32268,17 +32268,17 @@
           "injury": null
         },
         {
-          "player_id": 4685261,
-          "name": "Germie Bernard",
+          "player_id": 4711533,
+          "name": "Ollie Gordon II",
           "slot": "FLEX",
-          "pos": "WR",
-          "pro": "PIT",
-          "proj": 13.4,
+          "pos": "RB",
+          "pro": "MIA",
+          "proj": 11.8,
           "actual": 0.0,
-          "season_ppg": 25.7,
-          "season_total": 25.7,
-          "games_played": 1,
-          "preseason_proj_total": 13.3,
+          "season_ppg": 16.4,
+          "season_total": 32.8,
+          "games_played": 2,
+          "preseason_proj_total": 84.3,
           "starter": true,
           "injury": null
         },
@@ -32343,21 +32343,6 @@
           "injury": null
         },
         {
-          "player_id": 4711533,
-          "name": "Ollie Gordon II",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "MIA",
-          "proj": 11.8,
-          "actual": 0.0,
-          "season_ppg": 16.4,
-          "season_total": 32.8,
-          "games_played": 2,
-          "preseason_proj_total": 84.3,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4372016,
           "name": "Jaylen Waddle",
           "slot": "BE",
@@ -32401,6 +32386,21 @@
           "preseason_proj_total": 240.0,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4426515,
+          "name": "Puka Nacua",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "LAR",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 15.3,
+          "season_total": 91.8,
+          "games_played": 6,
+          "preseason_proj_total": 298.6,
+          "starter": false,
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4035538,

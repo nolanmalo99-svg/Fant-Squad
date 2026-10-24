@@ -1077,17 +1077,8 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "4-2",
           "actual": 0.0,
-          "projected": 109.8,
+          "projected": 121.6,
           "starters": [
-            {
-              "name": "Puka Nacua",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "LAR",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
             {
               "name": "Jonathan Taylor",
               "slot": "RB",
@@ -1143,8 +1134,17 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Germie Bernard",
+              "name": "Ollie Gordon II",
               "slot": "FLEX",
+              "pos": "RB",
+              "pro": "MIA",
+              "proj": 11.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Germie Bernard",
+              "slot": "WR",
               "pos": "WR",
               "pro": "PIT",
               "proj": 13.4,
@@ -1161,17 +1161,8 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 71.5,
+          "bench_proj": 59.7,
           "injuries": [
-            {
-              "name": "Puka Nacua",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "LAR",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
             {
               "name": "Breece Hall",
               "slot": "RB",
@@ -1188,7 +1179,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (4-2) at Nolan Malo (5-1). Projected: Owen Koslosku 109.8 - Nolan Malo 122.1. Nolan Malo favored by 12.3.",
+        "blurb": "Owen Koslosku (4-2) at Nolan Malo (5-1). Projected: Owen Koslosku 121.6 - Nolan Malo 122.1. Nolan Malo favored by 0.5.",
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
@@ -1271,7 +1262,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 26.0,
-            "away_proj": 29.4,
+            "away_proj": 41.2,
             "edge": "away"
           },
           {
