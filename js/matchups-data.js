@@ -1491,7 +1491,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "2-4",
           "actual": 0.0,
-          "projected": 112.5,
+          "projected": 112.6,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -1706,7 +1706,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (2-4) at Noah Budach (2-4). Projected: Brady Schuster 127.5 - Noah Budach 112.5. Brady Schuster favored by 15.0.",
+        "blurb": "Brady Schuster (2-4) at Noah Budach (2-4). Projected: Brady Schuster 127.5 - Noah Budach 112.6. Brady Schuster favored by 14.9.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
