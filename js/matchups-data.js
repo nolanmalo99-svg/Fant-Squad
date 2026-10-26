@@ -992,7 +992,7 @@ window.MATCHUPS_DATA = {
               "pro": "DET",
               "proj": 19.5,
               "actual": 24.2,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Zay Flowers",
@@ -1068,7 +1068,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 27.5,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Amon-Ra St. Brown",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "DET",
+              "proj": 19.5,
+              "actual": 24.2,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 6,
@@ -1384,7 +1394,7 @@ window.MATCHUPS_DATA = {
               "pro": "SF",
               "proj": 21.9,
               "actual": 22.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Saquon Barkley",
@@ -1393,7 +1403,7 @@ window.MATCHUPS_DATA = {
               "pro": "PHI",
               "proj": 15.2,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Trey McBride",
@@ -1462,12 +1472,12 @@ window.MATCHUPS_DATA = {
           "bench_proj": 24.5,
           "injuries": [
             {
-              "name": "Saquon Barkley",
+              "name": "Christian McCaffrey",
               "slot": "RB",
               "pos": "RB",
-              "pro": "PHI",
-              "proj": 15.2,
-              "actual": 0.0,
+              "pro": "SF",
+              "proj": 21.9,
+              "actual": 22.0,
               "injury": "QUESTIONABLE"
             },
             {
@@ -1524,7 +1534,7 @@ window.MATCHUPS_DATA = {
               "pro": "GB",
               "proj": 16.9,
               "actual": 9.9,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Aaron Jones Sr.",
@@ -1574,6 +1584,15 @@ window.MATCHUPS_DATA = {
           ],
           "bench_proj": 53.5,
           "injuries": [
+            {
+              "name": "Matthew Golden",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "GB",
+              "proj": 16.9,
+              "actual": 9.9,
+              "injury": "QUESTIONABLE"
+            },
             {
               "name": "Aaron Jones Sr.",
               "slot": "RB",
@@ -1739,7 +1758,7 @@ window.MATCHUPS_DATA = {
               "pro": "CAR",
               "proj": 15.4,
               "actual": 1.9,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Steelers D/ST",
@@ -1779,7 +1798,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 39.8,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Jalen Coker",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "CAR",
+              "proj": 15.4,
+              "actual": 1.9,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": true,
         "playoff": false,
