@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-27T16:53:43+00:00",
+  "generated_at": "2026-10-27T23:16:06+00:00",
   "current_week": 8,
   "standings": [
     {
@@ -7378,7 +7378,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 108.6,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4360761,
@@ -29945,6 +29945,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4360569,
+          "name": "Jordan Mason",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "MIN",
+          "proj": 9.5,
+          "actual": 0.0,
+          "season_ppg": 3.1,
+          "season_total": 18.7,
+          "games_played": 6,
+          "preseason_proj_total": 133.6,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4569587,
           "name": "Wan'Dale Robinson",
           "slot": "BE",
@@ -29956,21 +29971,6 @@ window.SITE_DATA = {
           "season_total": 61.6,
           "games_played": 7,
           "preseason_proj_total": 152.8,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4568263,
-          "name": "Ryan Fitzgerald",
-          "slot": "BE",
-          "pos": "K",
-          "pro": "CAR",
-          "proj": 7.4,
-          "actual": 0.0,
-          "season_ppg": 5.5,
-          "season_total": 11.0,
-          "games_played": 2,
-          "preseason_proj_total": 126.7,
           "starter": false,
           "injury": null
         },
@@ -30001,21 +30001,6 @@ window.SITE_DATA = {
           "season_total": 54.5,
           "games_played": 5,
           "preseason_proj_total": 45.4,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4360569,
-          "name": "Jordan Mason",
-          "slot": "IR",
-          "pos": "RB",
-          "pro": "MIN",
-          "proj": 9.5,
-          "actual": 0.0,
-          "season_ppg": 3.1,
-          "season_total": 18.7,
-          "games_played": 6,
-          "preseason_proj_total": 133.6,
           "starter": false,
           "injury": null
         }
