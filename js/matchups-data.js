@@ -1249,7 +1249,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "3-4",
           "actual": 0.0,
-          "projected": 135.3,
+          "projected": 136.5,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -1315,6 +1315,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Seahawks D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "SEA",
+              "proj": 5.8,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Tyler Loop",
               "slot": "K",
               "pos": "K",
@@ -1322,18 +1331,9 @@ window.MATCHUPS_DATA = {
               "proj": 8.9,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Panthers D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "CAR",
-              "proj": 4.7,
-              "actual": 0.0,
-              "injury": null
             }
           ],
-          "bench_proj": 56.5,
+          "bench_proj": 55.4,
           "injuries": []
         },
         "played": false,
@@ -1341,7 +1341,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (3-4) at Owen Koslosku (5-2). Projected: alex raichle 135.3 - Owen Koslosku 115.8. alex raichle favored by 19.5.",
+        "blurb": "alex raichle (3-4) at Owen Koslosku (5-2). Projected: alex raichle 136.5 - Owen Koslosku 115.8. alex raichle favored by 20.7.",
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
@@ -1406,8 +1406,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 4.5,
-            "away_proj": 4.7,
-            "edge": "even"
+            "away_proj": 5.8,
+            "edge": "away"
           },
           {
             "pos": "K",
@@ -1457,7 +1457,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "5-2",
           "actual": 0.0,
-          "projected": 116.0,
+          "projected": 126.2,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -1474,15 +1474,6 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "ATL",
               "proj": 18.1,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Nico Collins",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "HOU",
-              "proj": 0.0,
               "actual": 0.0,
               "injury": null
             },
@@ -1523,6 +1514,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "KC Concepcion",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "CLE",
+              "proj": 10.2,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Evan McPherson",
               "slot": "K",
               "pos": "K",
@@ -1541,7 +1541,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 61.2,
+          "bench_proj": 51.0,
           "injuries": []
         },
         "away": {
@@ -1671,7 +1671,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (3-4) at Mitch Wiese (5-2). Projected: Noah Budach 75.2 - Mitch Wiese 116.0. Mitch Wiese favored by 40.8.",
+        "blurb": "Noah Budach (3-4) at Mitch Wiese (5-2). Projected: Noah Budach 75.2 - Mitch Wiese 126.2. Mitch Wiese favored by 51.0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1765,7 +1765,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 29.2,
+            "home_proj": 39.4,
             "away_proj": 26.8,
             "edge": "home"
           }
