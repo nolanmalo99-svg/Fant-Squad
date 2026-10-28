@@ -1145,7 +1145,7 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "5-2",
           "actual": 0.0,
-          "projected": 115.8,
+          "projected": 126.3,
           "starters": [
             {
               "name": "Puka Nacua",
@@ -1193,15 +1193,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "George Kittle",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "SF",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Chris Boswell",
               "slot": "K",
               "pos": "K",
@@ -1227,9 +1218,18 @@ window.MATCHUPS_DATA = {
               "proj": 4.5,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Hunter Henry",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "NE",
+              "proj": 10.6,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 60.9,
+          "bench_proj": 52.9,
           "injuries": [
             {
               "name": "Breece Hall",
@@ -1341,7 +1341,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (3-4) at Owen Koslosku (5-2). Projected: alex raichle 136.5 - Owen Koslosku 115.8. alex raichle favored by 20.7.",
+        "blurb": "alex raichle (3-4) at Owen Koslosku (5-2). Projected: alex raichle 136.5 - Owen Koslosku 126.3. alex raichle favored by 10.2.",
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
@@ -1429,9 +1429,9 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "TE",
-            "home_proj": 0.0,
+            "home_proj": 10.6,
             "away_proj": 10.8,
-            "edge": "away"
+            "edge": "even"
           },
           {
             "pos": "WR",
@@ -2108,7 +2108,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "1-6",
           "actual": 0.0,
-          "projected": 117.0,
+          "projected": 126.5,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -2183,16 +2183,16 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Ka'imi Fairbairn",
+              "name": "Chase McLaughlin",
               "slot": "K",
               "pos": "K",
-              "pro": "HOU",
-              "proj": 0.0,
+              "pro": "TB",
+              "proj": 9.5,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 76.0,
+          "bench_proj": 83.6,
           "injuries": []
         },
         "away": {
@@ -2294,7 +2294,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Zach Mensink (3-4) at spencer glynn (1-6). Projected: Zach Mensink 113.4 - spencer glynn 117.0. spencer glynn favored by 3.6.",
+        "blurb": "Zach Mensink (3-4) at spencer glynn (1-6). Projected: Zach Mensink 113.4 - spencer glynn 126.5. spencer glynn favored by 13.1.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2364,9 +2364,9 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "K",
-            "home_proj": 0.0,
+            "home_proj": 9.5,
             "away_proj": 10.0,
-            "edge": "away"
+            "edge": "even"
           },
           {
             "pos": "QB",
@@ -2502,7 +2502,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "5-2",
           "actual": 0.0,
-          "projected": 130.1,
+          "projected": 132.8,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -2559,15 +2559,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Ravens D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "BAL",
-              "proj": 3.2,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Xavier Worthy",
               "slot": "FLEX",
               "pos": "WR",
@@ -2584,9 +2575,18 @@ window.MATCHUPS_DATA = {
               "proj": 8.5,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Bengals D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "CIN",
+              "proj": 6.0,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 33.3,
+          "bench_proj": 42.5,
           "injuries": [
             {
               "name": "Amon-Ra St. Brown",
@@ -2613,7 +2613,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (5-2) at Dawson Leer (5-2). Projected: Nolan Malo 130.1 - Dawson Leer 123.6. Nolan Malo favored by 6.5.",
+        "blurb": "Nolan Malo (5-2) at Dawson Leer (5-2). Projected: Nolan Malo 132.8 - Dawson Leer 123.6. Nolan Malo favored by 9.2.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2678,8 +2678,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 5.8,
-            "away_proj": 3.2,
-            "edge": "home"
+            "away_proj": 6.0,
+            "edge": "even"
           },
           {
             "pos": "K",
