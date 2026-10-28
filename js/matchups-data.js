@@ -1172,7 +1172,7 @@ window.MATCHUPS_DATA = {
               "pro": "DAL",
               "proj": 13.9,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Breece Hall",
@@ -1232,6 +1232,15 @@ window.MATCHUPS_DATA = {
           "bench_proj": 52.9,
           "injuries": [
             {
+              "name": "George Pickens",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "DAL",
+              "proj": 13.9,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
               "name": "Breece Hall",
               "slot": "RB",
               "pos": "RB",
@@ -1258,7 +1267,7 @@ window.MATCHUPS_DATA = {
               "pro": "DET",
               "proj": 24.6,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "A.J. Brown",
@@ -1267,7 +1276,7 @@ window.MATCHUPS_DATA = {
               "pro": "NE",
               "proj": 15.9,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Bucky Irving",
@@ -1334,7 +1343,26 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 55.4,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Jahmyr Gibbs",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "DET",
+              "proj": 24.6,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "A.J. Brown",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "NE",
+              "proj": 15.9,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
@@ -1368,7 +1396,7 @@ window.MATCHUPS_DATA = {
             "pro": "DET",
             "proj": 24.6,
             "actual": 0.0,
-            "injury": null,
+            "injury": "QUESTIONABLE",
             "owner": "alex raichle"
           },
           {
@@ -1466,7 +1494,7 @@ window.MATCHUPS_DATA = {
               "pro": "LV",
               "proj": 16.1,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Drake London",
@@ -1536,13 +1564,23 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "CLE",
-              "proj": 6.2,
+              "proj": 6.3,
               "actual": 0.0,
               "injury": null
             }
           ],
           "bench_proj": 51.0,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Brock Bowers",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "LV",
+              "proj": 16.1,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 10,
@@ -1551,14 +1589,14 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "3-4",
           "actual": 0.0,
-          "projected": 113.9,
+          "projected": 116.2,
           "starters": [
             {
               "name": "Saquon Barkley",
               "slot": "RB",
               "pos": "RB",
               "pro": "PHI",
-              "proj": 11.7,
+              "proj": 14.1,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -1576,7 +1614,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "PHI",
-              "proj": 15.0,
+              "proj": 14.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -1642,7 +1680,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "PHI",
-              "proj": 11.7,
+              "proj": 14.1,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -1651,7 +1689,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "PHI",
-              "proj": 15.0,
+              "proj": 14.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -1680,7 +1718,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (3-4) at Mitch Wiese (5-2). Projected: Noah Budach 113.9 - Mitch Wiese 126.2. Mitch Wiese favored by 12.3.",
+        "blurb": "Noah Budach (3-4) at Mitch Wiese (5-2). Projected: Noah Budach 116.2 - Mitch Wiese 126.2. Mitch Wiese favored by 10.0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1744,7 +1782,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 6.2,
+            "home_proj": 6.3,
             "away_proj": 7.4,
             "edge": "away"
           },
@@ -1763,8 +1801,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 32.7,
-            "away_proj": 29.7,
-            "edge": "home"
+            "away_proj": 32.1,
+            "edge": "even"
           },
           {
             "pos": "TE",
@@ -1775,7 +1813,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 39.4,
-            "away_proj": 26.8,
+            "away_proj": 26.7,
             "edge": "home"
           }
         ],
@@ -1846,7 +1884,7 @@ window.MATCHUPS_DATA = {
               "slot": "TE",
               "pos": "TE",
               "pro": "PHI",
-              "proj": 10.1,
+              "proj": 10.0,
               "actual": 0.0,
               "injury": null
             },
@@ -1970,7 +2008,7 @@ window.MATCHUPS_DATA = {
               "pro": "MIA",
               "proj": 10.3,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Aaron Rodgers",
@@ -1992,7 +2030,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 54.2,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Malik Washington",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "MIA",
+              "proj": 10.3,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
@@ -2087,7 +2135,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "TE",
-            "home_proj": 10.1,
+            "home_proj": 10.0,
             "away_proj": 9.6,
             "edge": "even"
           },
@@ -2122,7 +2170,7 @@ window.MATCHUPS_DATA = {
               "pro": "CIN",
               "proj": 21.5,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Garrett Wilson",
@@ -2198,7 +2246,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 83.5,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Ja'Marr Chase",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "CIN",
+              "proj": 21.5,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 5,
@@ -2291,7 +2349,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 56.4,
+          "bench_proj": 56.2,
           "injuries": []
         },
         "played": false,
@@ -2336,7 +2394,7 @@ window.MATCHUPS_DATA = {
             "pro": "CIN",
             "proj": 21.5,
             "actual": 0.0,
-            "injury": null,
+            "injury": "QUESTIONABLE",
             "owner": "spencer glynn"
           },
           {

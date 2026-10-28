@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-28T17:26:59+00:00",
+  "generated_at": "2026-10-28T23:40:04+00:00",
   "current_week": 8,
   "standings": [
     {
@@ -528,7 +528,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 317.3,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4596448,
@@ -558,7 +558,7 @@ window.SITE_DATA = {
           "games_played": 7,
           "preseason_proj_total": 275.6,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4239993,
@@ -3946,7 +3946,7 @@ window.SITE_DATA = {
           "slot": "TE",
           "pos": "TE",
           "pro": "PHI",
-          "proj": 10.1,
+          "proj": 10.0,
           "actual": 0.0,
           "season_ppg": 8.1,
           "season_total": 56.8,
@@ -7273,7 +7273,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 340.0,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4432620,
@@ -7438,7 +7438,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 146.8,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4702555,
@@ -14131,7 +14131,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "RB",
           "pro": "SEA",
-          "proj": 8.8,
+          "proj": 8.6,
           "actual": 0.0,
           "season_ppg": 13.1,
           "season_total": 65.3,
@@ -18727,7 +18727,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 160.8,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4697815,
@@ -21948,7 +21948,7 @@ window.SITE_DATA = {
           "games_played": 3,
           "preseason_proj_total": 56.0,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4595348,
@@ -26682,7 +26682,7 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "PHI",
-          "proj": 11.7,
+          "proj": 14.1,
           "actual": 0.0,
           "season_ppg": 5.4,
           "season_total": 38.1,
@@ -26712,7 +26712,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "PHI",
-          "proj": 15.0,
+          "proj": 14.9,
           "actual": 0.0,
           "season_ppg": 9.9,
           "season_total": 69.0,
@@ -26809,7 +26809,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 219.6,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4431299,
@@ -29852,7 +29852,7 @@ window.SITE_DATA = {
           "games_played": 7,
           "preseason_proj_total": 262.2,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4426388,
@@ -29875,7 +29875,7 @@ window.SITE_DATA = {
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "CLE",
-          "proj": 6.2,
+          "proj": 6.3,
           "actual": 0.0,
           "season_ppg": 5.0,
           "season_total": 5.0,
@@ -32235,7 +32235,7 @@ window.SITE_DATA = {
           "games_played": 7,
           "preseason_proj_total": 221.4,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3046439,
@@ -32408,7 +32408,7 @@ window.SITE_DATA = {
           "slot": "IR",
           "pos": "RB",
           "pro": "SEA",
-          "proj": 11.4,
+          "proj": 10.7,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
