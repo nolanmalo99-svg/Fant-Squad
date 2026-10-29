@@ -1589,7 +1589,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "3-4",
           "actual": 0.0,
-          "projected": 116.2,
+          "projected": 110.5,
           "starters": [
             {
               "name": "Saquon Barkley",
@@ -1610,13 +1610,13 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "DeVonta Smith",
+              "name": "Rome Odunze",
               "slot": "WR",
               "pos": "WR",
-              "pro": "PHI",
-              "proj": 14.9,
+              "pro": "CHI",
+              "proj": 9.3,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Carnell Tate",
@@ -1673,7 +1673,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 34.0,
+          "bench_proj": 39.6,
           "injuries": [
             {
               "name": "Saquon Barkley",
@@ -1681,15 +1681,6 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "PHI",
               "proj": 14.1,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "DeVonta Smith",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "PHI",
-              "proj": 14.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             },
@@ -1718,7 +1709,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Noah Budach (3-4) at Mitch Wiese (5-2). Projected: Noah Budach 116.2 - Mitch Wiese 126.2. Mitch Wiese favored by 10.0.",
+        "blurb": "Noah Budach (3-4) at Mitch Wiese (5-2). Projected: Noah Budach 110.5 - Mitch Wiese 126.2. Mitch Wiese favored by 15.7.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -1813,7 +1804,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 39.4,
-            "away_proj": 26.7,
+            "away_proj": 21.1,
             "edge": "home"
           }
         ],
@@ -1945,7 +1936,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "3-4",
           "actual": 0.0,
-          "projected": 93.2,
+          "projected": 109.5,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -1966,11 +1957,29 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Malik Nabers",
+              "name": "Ladd McConkey",
               "slot": "WR",
               "pos": "WR",
-              "pro": "NYG",
-              "proj": 0.0,
+              "pro": "LAC",
+              "proj": 10.4,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Lamar Jackson",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "BAL",
+              "proj": 22.1,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Travis Kelce",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "KC",
+              "proj": 9.3,
               "actual": 0.0,
               "injury": null
             },
@@ -1984,38 +1993,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Mark Andrews",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "BAL",
-              "proj": 9.6,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Jets D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "NYJ",
               "proj": 5.2,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Malik Washington",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "MIA",
-              "proj": 10.3,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Aaron Rodgers",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "PIT",
-              "proj": 14.8,
               "actual": 0.0,
               "injury": null
             },
@@ -2027,16 +2009,34 @@ window.MATCHUPS_DATA = {
               "proj": 9.0,
               "actual": 0.0,
               "injury": null
-            }
-          ],
-          "bench_proj": 54.2,
-          "injuries": [
+            },
             {
-              "name": "Malik Washington",
+              "name": "Keenan Allen",
               "slot": "WR",
               "pos": "WR",
-              "pro": "MIA",
-              "proj": 10.3,
+              "pro": "IND",
+              "proj": 9.2,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 47.1,
+          "injuries": [
+            {
+              "name": "Ladd McConkey",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "LAC",
+              "proj": 10.4,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Lamar Jackson",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "BAL",
+              "proj": 22.1,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -2047,7 +2047,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (3-4) at Brady Schuster (2-5). Projected: Andy Jensen 93.2 - Brady Schuster 124.9. Brady Schuster favored by 31.7.",
+        "blurb": "Andy Jensen (3-4) at Brady Schuster (2-5). Projected: Andy Jensen 109.5 - Brady Schuster 124.9. Brady Schuster favored by 15.4.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2067,6 +2067,16 @@ window.MATCHUPS_DATA = {
           "trend": "down"
         },
         "players_to_watch": [
+          {
+            "name": "Lamar Jackson",
+            "slot": "QB",
+            "pos": "QB",
+            "pro": "BAL",
+            "proj": 22.1,
+            "actual": 0.0,
+            "injury": "QUESTIONABLE",
+            "owner": "Andy Jensen"
+          },
           {
             "name": "CeeDee Lamb",
             "slot": "WR",
@@ -2096,16 +2106,6 @@ window.MATCHUPS_DATA = {
             "actual": 0.0,
             "injury": null,
             "owner": "Andy Jensen"
-          },
-          {
-            "name": "Geno Smith",
-            "slot": "QB",
-            "pos": "QB",
-            "pro": "NYJ",
-            "proj": 18.2,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Brady Schuster"
           }
         ],
         "positional_edges": [
@@ -2124,8 +2124,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "QB",
             "home_proj": 18.2,
-            "away_proj": 14.8,
-            "edge": "home"
+            "away_proj": 22.1,
+            "edge": "away"
           },
           {
             "pos": "RB",
@@ -2136,13 +2136,13 @@ window.MATCHUPS_DATA = {
           {
             "pos": "TE",
             "home_proj": 10.0,
-            "away_proj": 9.6,
+            "away_proj": 9.3,
             "edge": "even"
           },
           {
             "pos": "WR",
             "home_proj": 48.0,
-            "away_proj": 10.3,
+            "away_proj": 19.6,
             "edge": "home"
           }
         ],
