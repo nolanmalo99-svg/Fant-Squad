@@ -1257,8 +1257,8 @@ window.MATCHUPS_DATA = {
           "team": "Double D Kupps",
           "owner": "alex raichle",
           "record": "3-4",
-          "actual": 32.9,
-          "projected": 146.6,
+          "actual": 34.6,
+          "projected": 146.0,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -1311,8 +1311,8 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "GB",
               "proj": 14.5,
-              "actual": 15.6,
-              "injury": null
+              "actual": 17.3,
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Tucker Kraft",
@@ -1352,15 +1352,24 @@ window.MATCHUPS_DATA = {
               "proj": 15.9,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Christian Watson",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "GB",
+              "proj": 14.5,
+              "actual": 17.3,
+              "injury": "QUESTIONABLE"
             }
           ]
         },
         "played": true,
         "playoff": false,
-        "margin": 32.9,
+        "margin": 34.6,
         "winner": "alex raichle",
         "phase": "recap",
-        "blurb": "Final: alex raichle 32.9 - Owen Koslosku 0.0. alex raichle won by 32.9. Top scorers for alex raichle: Tucker Kraft (17.3), Christian Watson (15.6)."
+        "blurb": "Final: alex raichle 34.6 - Owen Koslosku 0.0. alex raichle won by 34.6. Top scorers for alex raichle: Christian Watson (17.3), Tucker Kraft (17.3)."
       },
       {
         "home": {
@@ -1707,7 +1716,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "2-5",
           "actual": 20.9,
-          "projected": 132.4,
+          "projected": 131.0,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1940,8 +1949,8 @@ window.MATCHUPS_DATA = {
           "team": "Tank for Arch",
           "owner": "spencer glynn",
           "record": "1-6",
-          "actual": 36.3,
-          "projected": 136.4,
+          "actual": 34.5,
+          "projected": 131.8,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -1994,7 +2003,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "CAR",
               "proj": 15.3,
-              "actual": 24.8,
+              "actual": 24.9,
               "injury": null
             },
             {
@@ -2003,7 +2012,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "CAR",
               "proj": 14.5,
-              "actual": 11.5,
+              "actual": 9.6,
               "injury": null
             },
             {
@@ -2034,8 +2043,8 @@ window.MATCHUPS_DATA = {
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
           "record": "3-4",
-          "actual": 31.1,
-          "projected": 127.6,
+          "actual": 35.0,
+          "projected": 128.6,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -2052,7 +2061,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "GB",
               "proj": 15.1,
-              "actual": 21.1,
+              "actual": 23.2,
               "injury": null
             },
             {
@@ -2061,7 +2070,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "CAR",
               "proj": 15.6,
-              "actual": 10.0,
+              "actual": 11.8,
               "injury": null
             },
             {
@@ -2124,10 +2133,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 5.2,
-        "winner": "spencer glynn",
+        "margin": 0.5,
+        "winner": "Zach Mensink",
         "phase": "recap",
-        "blurb": "Final: Zach Mensink 31.1 - spencer glynn 36.3. spencer glynn won by 5.2. Top scorers for spencer glynn: Chuba Hubbard (24.8), Jalen Coker (11.5)."
+        "blurb": "Final: Zach Mensink 35.0 - spencer glynn 34.5. Zach Mensink won by 0.5. Top scorers for Zach Mensink: Josh Jacobs (23.2), Tetairoa McMillan (11.8)."
       },
       {
         "home": {
@@ -2544,8 +2553,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 105.2,
-          "recent_avg": 74.0,
+          "season_avg": 105.4,
+          "recent_avg": 74.6,
           "streak": 1,
           "streak_type": "W",
           "trend": "down"
@@ -2666,12 +2675,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Nolan Malo (5-2) at Zach Mensink (3-4). Projected: Nolan Malo 0 - Zach Mensink 0. Zach Mensink favored by 0.",
         "home_form": {
-          "record_last_n": "1-2",
+          "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 105.5,
-          "recent_avg": 87.1,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 106.0,
+          "recent_avg": 88.4,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "down"
         },
         "away_form": {
@@ -2742,12 +2751,12 @@ window.MATCHUPS_DATA = {
           "trend": "down"
         },
         "away_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 100.5,
-          "recent_avg": 83.8,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 100.3,
+          "recent_avg": 83.2,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "down"
         },
         "players_to_watch": [],
@@ -2862,12 +2871,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Noah Budach (3-4) at Zach Mensink (3-4). Projected: Noah Budach 0 - Zach Mensink 0. Zach Mensink favored by 0.",
         "home_form": {
-          "record_last_n": "1-2",
+          "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 105.5,
-          "recent_avg": 87.1,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 106.0,
+          "recent_avg": 88.4,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "down"
         },
         "away_form": {
@@ -3006,8 +3015,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 105.2,
-          "recent_avg": 74.0,
+          "season_avg": 105.4,
+          "recent_avg": 74.6,
           "streak": 1,
           "streak_type": "W",
           "trend": "down"
@@ -3071,12 +3080,12 @@ window.MATCHUPS_DATA = {
           "trend": "down"
         },
         "away_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 100.5,
-          "recent_avg": 83.8,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 100.3,
+          "recent_avg": 83.2,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "down"
         },
         "players_to_watch": [],
@@ -3131,12 +3140,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Brady Schuster (2-5) at Zach Mensink (3-4). Projected: Brady Schuster 0 - Zach Mensink 0. Zach Mensink favored by 0.",
         "home_form": {
-          "record_last_n": "1-2",
+          "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 105.5,
-          "recent_avg": 87.1,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 106.0,
+          "recent_avg": 88.4,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "down"
         },
         "away_form": {
@@ -3153,7 +3162,8 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Zach Mensink's worst week of the season.",
-          "If the projection holds, this would be Brady Schuster's worst week of the season."
+          "If the projection holds, this would be Brady Schuster's worst week of the season.",
+          "Zach Mensink owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 8,
@@ -3258,12 +3268,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Mitch Wiese (5-2) at spencer glynn (1-6). Projected: Mitch Wiese 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 100.5,
-          "recent_avg": 83.8,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 100.3,
+          "recent_avg": 83.2,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "down"
         },
         "away_form": {
@@ -3336,8 +3346,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 105.2,
-          "recent_avg": 74.0,
+          "season_avg": 105.4,
+          "recent_avg": 74.6,
           "streak": 1,
           "streak_type": "W",
           "trend": "down"
@@ -3469,12 +3479,12 @@ window.MATCHUPS_DATA = {
           "trend": "steady"
         },
         "away_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 100.5,
-          "recent_avg": 83.8,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 100.3,
+          "recent_avg": 83.2,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "down"
         },
         "players_to_watch": [],
@@ -3482,8 +3492,7 @@ window.MATCHUPS_DATA = {
         "revenge": null,
         "fun_facts": [
           "If the projection holds, this would be Nolan Malo's worst week of the season.",
-          "If the projection holds, this would be spencer glynn's worst week of the season.",
-          "spencer glynn owns the league's longest active winning streak at 2 games."
+          "If the projection holds, this would be spencer glynn's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 4,
@@ -3524,19 +3533,19 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 105.2,
-          "recent_avg": 74.0,
+          "season_avg": 105.4,
+          "recent_avg": 74.6,
           "streak": 1,
           "streak_type": "W",
           "trend": "down"
         },
         "away_form": {
-          "record_last_n": "1-2",
+          "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 105.5,
-          "recent_avg": 87.1,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 106.0,
+          "recent_avg": 88.4,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "down"
         },
         "players_to_watch": [],
@@ -3792,8 +3801,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 105.2,
-          "recent_avg": 74.0,
+          "season_avg": 105.4,
+          "recent_avg": 74.6,
           "streak": 1,
           "streak_type": "W",
           "trend": "down"
@@ -3927,12 +3936,12 @@ window.MATCHUPS_DATA = {
           "trend": "down"
         },
         "away_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 100.5,
-          "recent_avg": 83.8,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 100.3,
+          "recent_avg": 83.2,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "down"
         },
         "players_to_watch": [],
@@ -3945,8 +3954,7 @@ window.MATCHUPS_DATA = {
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
-          "If the projection holds, this would be spencer glynn's worst week of the season.",
-          "spencer glynn owns the league's longest active winning streak at 2 games."
+          "If the projection holds, this would be spencer glynn's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 9,
@@ -3985,12 +3993,12 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Andy Jensen (3-4) at Zach Mensink (3-4). Projected: Andy Jensen 0 - Zach Mensink 0. Zach Mensink favored by 0.",
         "home_form": {
-          "record_last_n": "1-2",
+          "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 105.5,
-          "recent_avg": 87.1,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 106.0,
+          "recent_avg": 88.4,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "down"
         },
         "away_form": {
@@ -4012,7 +4020,8 @@ window.MATCHUPS_DATA = {
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
-          "If the projection holds, this would be Zach Mensink's worst week of the season."
+          "If the projection holds, this would be Zach Mensink's worst week of the season.",
+          "Zach Mensink owns the league's longest active winning streak at 2 games."
         ],
         "head_to_head": {
           "home_w": 7,
@@ -4194,12 +4203,12 @@ window.MATCHUPS_DATA = {
           "trend": "down"
         },
         "away_form": {
-          "record_last_n": "1-2",
+          "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 105.5,
-          "recent_avg": 87.1,
-          "streak": 1,
-          "streak_type": "L",
+          "season_avg": 106.0,
+          "recent_avg": 88.4,
+          "streak": 2,
+          "streak_type": "W",
           "trend": "down"
         },
         "players_to_watch": [],
@@ -4319,19 +4328,19 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "alex raichle (3-4) at spencer glynn (1-6). Projected: alex raichle 0 - spencer glynn 0. spencer glynn favored by 0.",
         "home_form": {
-          "record_last_n": "2-1",
+          "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 100.5,
-          "recent_avg": 83.8,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 100.3,
+          "recent_avg": 83.2,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "down"
         },
         "away_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 105.2,
-          "recent_avg": 74.0,
+          "season_avg": 105.4,
+          "recent_avg": 74.6,
           "streak": 1,
           "streak_type": "W",
           "trend": "down"
