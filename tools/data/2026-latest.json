@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-31T16:21:08+00:00",
+  "generated_at": "2026-10-31T22:52:24+00:00",
   "current_week": 8,
   "standings": [
     {
@@ -506,7 +506,7 @@
           "slot": "QB",
           "pos": "QB",
           "pro": "NE",
-          "proj": 22.4,
+          "proj": 22.3,
           "actual": 0.0,
           "season_ppg": 19.5,
           "season_total": 136.7,
@@ -561,19 +561,19 @@
           "injury": null
         },
         {
-          "player_id": 4047646,
-          "name": "A.J. Brown",
+          "player_id": 4427095,
+          "name": "DeMario Douglas",
           "slot": "WR",
           "pos": "WR",
           "pro": "NE",
-          "proj": 0.0,
+          "proj": 11.1,
           "actual": 0.0,
-          "season_ppg": 2.7,
-          "season_total": 19.1,
-          "games_played": 7,
-          "preseason_proj_total": 275.6,
+          "season_ppg": 12.4,
+          "season_total": 24.9,
+          "games_played": 2,
+          "preseason_proj_total": 141.7,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4572680,
@@ -651,21 +651,6 @@
           "injury": null
         },
         {
-          "player_id": 4427095,
-          "name": "DeMario Douglas",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "NE",
-          "proj": 11.2,
-          "actual": 0.0,
-          "season_ppg": 12.4,
-          "season_total": 24.9,
-          "games_played": 2,
-          "preseason_proj_total": 141.7,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4685247,
           "name": "Braelon Allen",
           "slot": "BE",
@@ -726,6 +711,21 @@
           "injury": null
         },
         {
+          "player_id": 4047646,
+          "name": "A.J. Brown",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "NE",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 2.7,
+          "season_total": 19.1,
+          "games_played": 7,
+          "preseason_proj_total": 275.6,
+          "starter": false,
+          "injury": "OUT"
+        },
+        {
           "player_id": 3929645,
           "name": "Juwan Johnson",
           "slot": "BE",
@@ -746,7 +746,7 @@
           "slot": "IR",
           "pos": "RB",
           "pro": "SEA",
-          "proj": 0.0,
+          "proj": 7.8,
           "actual": 0.0,
           "season_ppg": 2.0,
           "season_total": 14.0,
@@ -3901,7 +3901,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "NE",
-          "proj": 13.8,
+          "proj": 15.9,
           "actual": 0.0,
           "season_ppg": 12.4,
           "season_total": 86.9,
@@ -7296,14 +7296,14 @@
           "slot": "TE",
           "pos": "TE",
           "pro": "CHI",
-          "proj": 11.8,
+          "proj": 11.7,
           "actual": 0.0,
           "season_ppg": 8.9,
           "season_total": 62.4,
           "games_played": 7,
           "preseason_proj_total": 155.2,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4695883,
@@ -7431,7 +7431,7 @@
           "slot": "BE",
           "pos": "RB",
           "pro": "DEN",
-          "proj": 9.8,
+          "proj": 9.4,
           "actual": 0.0,
           "season_ppg": 8.9,
           "season_total": 8.9,
@@ -13996,7 +13996,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "SEA",
-          "proj": 21.8,
+          "proj": 21.5,
           "actual": 0.0,
           "season_ppg": 28.0,
           "season_total": 196.0,
@@ -14146,7 +14146,7 @@
           "slot": "BE",
           "pos": "RB",
           "pro": "SEA",
-          "proj": 8.4,
+          "proj": 6.9,
           "actual": 0.0,
           "season_ppg": 13.1,
           "season_total": 65.3,
@@ -18585,7 +18585,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "LAR",
-          "proj": 17.9,
+          "proj": 18.0,
           "actual": 0.0,
           "season_ppg": 19.6,
           "season_total": 137.1,
@@ -21986,7 +21986,7 @@
           "slot": "FLEX",
           "pos": "RB",
           "pro": "DEN",
-          "proj": 9.7,
+          "proj": 9.0,
           "actual": 0.0,
           "season_ppg": 8.3,
           "season_total": 58.0,
@@ -26704,7 +26704,7 @@
           "games_played": 7,
           "preseason_proj_total": 51.6,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         },
         {
           "player_id": 4431299,
@@ -26764,7 +26764,7 @@
           "games_played": 7,
           "preseason_proj_total": 207.3,
           "starter": true,
-          "injury": "OUT"
+          "injury": "INJURY_RESERVE"
         },
         {
           "player_id": -16030,
@@ -26787,7 +26787,7 @@
           "slot": "K",
           "pos": "K",
           "pro": "SEA",
-          "proj": 9.6,
+          "proj": 9.5,
           "actual": 0.0,
           "season_ppg": 9.6,
           "season_total": 67.0,
@@ -29960,21 +29960,6 @@
           "injury": null
         },
         {
-          "player_id": 4432710,
-          "name": "TreVeyon Henderson",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "NE",
-          "proj": 7.5,
-          "actual": 0.0,
-          "season_ppg": 4.8,
-          "season_total": 33.8,
-          "games_played": 7,
-          "preseason_proj_total": 223.8,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4258173,
           "name": "Nico Collins",
           "slot": "BE",
@@ -29988,6 +29973,21 @@
           "preseason_proj_total": 289.1,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4432710,
+          "name": "TreVeyon Henderson",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "NE",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 4.8,
+          "season_total": 33.8,
+          "games_played": 7,
+          "preseason_proj_total": 223.8,
+          "starter": false,
+          "injury": "OUT"
         },
         {
           "player_id": 4569559,
@@ -32213,7 +32213,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "LAR",
-          "proj": 22.4,
+          "proj": 22.8,
           "actual": 0.0,
           "season_ppg": 16.2,
           "season_total": 113.6,
@@ -32243,7 +32243,7 @@
           "slot": "TE",
           "pos": "TE",
           "pro": "NE",
-          "proj": 10.5,
+          "proj": 10.4,
           "actual": 0.0,
           "season_ppg": 1.5,
           "season_total": 1.5,
@@ -32333,7 +32333,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "DEN",
-          "proj": 10.8,
+          "proj": 10.9,
           "actual": 0.0,
           "season_ppg": 9.1,
           "season_total": 63.9,
@@ -32408,14 +32408,14 @@
           "slot": "IR",
           "pos": "RB",
           "pro": "SEA",
-          "proj": 10.5,
+          "proj": 10.4,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 7,
           "preseason_proj_total": 137.0,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         }
       ],
       "draft": {
