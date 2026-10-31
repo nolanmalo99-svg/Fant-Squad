@@ -1342,7 +1342,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 56.9,
+          "bench_proj": 57.0,
           "injuries": [
             {
               "name": "A.J. Brown",
@@ -1887,7 +1887,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 47.1,
+          "bench_proj": 47.0,
           "injuries": []
         },
         "played": true,

@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-10-30T23:18:48+00:00",
+  "generated_at": "2026-10-31T02:49:49+00:00",
   "current_week": 8,
   "standings": [
     {
@@ -701,7 +701,7 @@
           "slot": "BE",
           "pos": "RB",
           "pro": "LAC",
-          "proj": 8.1,
+          "proj": 8.2,
           "actual": 0.0,
           "season_ppg": 9.6,
           "season_total": 57.5,
@@ -22091,7 +22091,7 @@
           "slot": "BE",
           "pos": "D/ST",
           "pro": "DEN",
-          "proj": 5.1,
+          "proj": 5.0,
           "actual": 0.0,
           "season_ppg": 9.3,
           "season_total": 28.0,
