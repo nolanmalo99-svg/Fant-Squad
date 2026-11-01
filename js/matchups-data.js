@@ -2186,7 +2186,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "5-2",
           "actual": 0.0,
-          "projected": 137.6,
+          "projected": 137.7,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -2278,7 +2278,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (5-2) at Dawson Leer (5-2). Projected: Nolan Malo 137.6 - Dawson Leer 123.7. Nolan Malo favored by 13.9.",
+        "blurb": "Nolan Malo (5-2) at Dawson Leer (5-2). Projected: Nolan Malo 137.7 - Dawson Leer 123.7. Nolan Malo favored by 14.0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
