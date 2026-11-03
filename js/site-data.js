@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-02T20:53:58+00:00",
+  "generated_at": "2026-11-03T04:06:58+00:00",
   "current_week": 8,
   "standings": [
     {
@@ -612,7 +612,7 @@ window.SITE_DATA = {
           "pos": "D/ST",
           "pro": "SEA",
           "proj": 5.8,
-          "actual": 0.0,
+          "actual": 3.0,
           "season_ppg": 9.4,
           "season_total": 66.0,
           "games_played": 7,
@@ -633,7 +633,7 @@ window.SITE_DATA = {
           "games_played": 4,
           "preseason_proj_total": 140.3,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4685247,
@@ -747,13 +747,13 @@ window.SITE_DATA = {
           "pos": "RB",
           "pro": "SEA",
           "proj": 7.7,
-          "actual": 0.0,
+          "actual": 5.7,
           "season_ppg": 2.0,
           "season_total": 14.0,
           "games_played": 7,
           "preseason_proj_total": 172.8,
           "starter": false,
-          "injury": "INJURY_RESERVE"
+          "injury": null
         }
       ],
       "draft": {
@@ -7222,7 +7222,7 @@ window.SITE_DATA = {
           "pos": "QB",
           "pro": "CHI",
           "proj": 15.2,
-          "actual": 0.0,
+          "actual": 13.8,
           "season_ppg": 11.8,
           "season_total": 82.4,
           "games_played": 7,
@@ -7297,7 +7297,7 @@ window.SITE_DATA = {
           "pos": "TE",
           "pro": "CHI",
           "proj": 11.7,
-          "actual": 0.0,
+          "actual": 11.5,
           "season_ppg": 8.9,
           "season_total": 62.4,
           "games_played": 7,
@@ -7393,7 +7393,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 4.7,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4569618,
@@ -13982,7 +13982,7 @@ window.SITE_DATA = {
           "pos": "RB",
           "pro": "CHI",
           "proj": 14.7,
-          "actual": 0.0,
+          "actual": 20.1,
           "season_ppg": 17.5,
           "season_total": 122.8,
           "games_played": 7,
@@ -13997,7 +13997,7 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "SEA",
           "proj": 22.1,
-          "actual": 0.0,
+          "actual": 19.2,
           "season_ppg": 28.0,
           "season_total": 196.0,
           "games_played": 7,
@@ -14093,7 +14093,7 @@ window.SITE_DATA = {
           "games_played": 7,
           "preseason_proj_total": 274.0,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3915416,
@@ -18646,7 +18646,7 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "CHI",
           "proj": 13.4,
-          "actual": 0.0,
+          "actual": 18.6,
           "season_ppg": 13.9,
           "season_total": 97.0,
           "games_played": 7,
@@ -26719,7 +26719,7 @@ window.SITE_DATA = {
           "games_played": 6,
           "preseason_proj_total": 219.6,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4431299,
@@ -26728,7 +26728,7 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "CHI",
           "proj": 9.3,
-          "actual": 0.0,
+          "actual": 12.7,
           "season_ppg": 8.6,
           "season_total": 60.1,
           "games_played": 7,
@@ -26788,7 +26788,7 @@ window.SITE_DATA = {
           "pos": "K",
           "pro": "SEA",
           "proj": 9.5,
-          "actual": 0.0,
+          "actual": 2.0,
           "season_ppg": 9.6,
           "season_total": 67.0,
           "games_played": 7,
@@ -32409,7 +32409,7 @@ window.SITE_DATA = {
           "pos": "RB",
           "pro": "SEA",
           "proj": 10.4,
-          "actual": 0.0,
+          "actual": 5.9,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 7,
