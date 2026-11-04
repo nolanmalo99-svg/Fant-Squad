@@ -1710,7 +1710,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 56.0,
+          "bench_proj": 58.2,
           "injuries": [
             {
               "name": "Lamar Jackson",
@@ -1730,7 +1730,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "4-4",
           "actual": 0.0,
-          "projected": 130.8,
+          "projected": 123.3,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -1800,7 +1800,7 @@ window.MATCHUPS_DATA = {
               "slot": "K",
               "pos": "K",
               "pro": "BAL",
-              "proj": 7.5,
+              "proj": 0.0,
               "actual": 0.0,
               "injury": "INJURY_RESERVE"
             },
@@ -1814,7 +1814,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 67.7,
+          "bench_proj": 67.8,
           "injuries": [
             {
               "name": "Christian Watson",
@@ -1830,7 +1830,7 @@ window.MATCHUPS_DATA = {
               "slot": "K",
               "pos": "K",
               "pro": "BAL",
-              "proj": 7.5,
+              "proj": 0.0,
               "actual": 0.0,
               "injury": "INJURY_RESERVE"
             }
@@ -1841,7 +1841,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (4-4) at Andy Jensen (3-5). Projected: alex raichle 130.8 - Andy Jensen 87.3. alex raichle favored by 43.5.",
+        "blurb": "alex raichle (4-4) at Andy Jensen (3-5). Projected: alex raichle 123.3 - Andy Jensen 87.3. alex raichle favored by 36.0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -1912,7 +1912,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "K",
             "home_proj": 9.2,
-            "away_proj": 7.5,
+            "away_proj": 0.0,
             "edge": "home"
           },
           {
@@ -1962,7 +1962,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "6-2",
           "actual": 0.0,
-          "projected": 110.9,
+          "projected": 120.3,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -2019,15 +2019,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jaylen Warren",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "PIT",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Evan McPherson",
               "slot": "K",
               "pos": "K",
@@ -2037,16 +2028,25 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Browns D/ST",
+              "name": "Tyler Allgeier",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "ARI",
+              "proj": 9.3,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Bears D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "CLE",
-              "proj": 6.2,
+              "pro": "CHI",
+              "proj": 6.4,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 63.9,
+          "bench_proj": 58.0,
           "injuries": []
         },
         "away": {
@@ -2148,7 +2148,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (6-2) at Mitch Wiese (6-2). Projected: Dawson Leer 132.2 - Mitch Wiese 110.9. Dawson Leer favored by 21.3.",
+        "blurb": "Dawson Leer (6-2) at Mitch Wiese (6-2). Projected: Dawson Leer 132.2 - Mitch Wiese 120.3. Dawson Leer favored by 11.9.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2212,9 +2212,9 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 6.2,
+            "home_proj": 6.4,
             "away_proj": 5.2,
-            "edge": "even"
+            "edge": "home"
           },
           {
             "pos": "K",
@@ -2230,7 +2230,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 14.6,
+            "home_proj": 23.9,
             "away_proj": 40.0,
             "edge": "away"
           },
@@ -2269,7 +2269,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "4-4",
           "actual": 0.0,
-          "projected": 125.3,
+          "projected": 125.2,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -2348,7 +2348,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "WSH",
-              "proj": 4.6,
+              "proj": 4.5,
               "actual": 0.0,
               "injury": null
             }
@@ -2465,7 +2465,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Nolan Malo (5-3) at Zach Mensink (4-4). Projected: Nolan Malo 133.3 - Zach Mensink 125.3. Nolan Malo favored by 8.0.",
+        "blurb": "Nolan Malo (5-3) at Zach Mensink (4-4). Projected: Nolan Malo 133.3 - Zach Mensink 125.2. Nolan Malo favored by 8.1.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2529,7 +2529,7 @@ window.MATCHUPS_DATA = {
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 4.6,
+            "home_proj": 4.5,
             "away_proj": 4.3,
             "edge": "even"
           },
@@ -2671,7 +2671,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 85.7,
+          "bench_proj": 85.8,
           "injuries": []
         },
         "away": {
@@ -2765,7 +2765,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 73.0,
+          "bench_proj": 80.8,
           "injuries": [
             {
               "name": "Bhayshul Tuten",
