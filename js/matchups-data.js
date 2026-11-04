@@ -1802,7 +1802,7 @@ window.MATCHUPS_DATA = {
               "pro": "BAL",
               "proj": 7.5,
               "actual": 0.0,
-              "injury": "DOUBTFUL"
+              "injury": "INJURY_RESERVE"
             },
             {
               "name": "DeMario Douglas",
@@ -1832,7 +1832,7 @@ window.MATCHUPS_DATA = {
               "pro": "BAL",
               "proj": 7.5,
               "actual": 0.0,
-              "injury": "DOUBTFUL"
+              "injury": "INJURY_RESERVE"
             }
           ]
         },
@@ -2681,7 +2681,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "1-7",
           "actual": 0.0,
-          "projected": 103.6,
+          "projected": 120.8,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -2693,15 +2693,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jeremiyah Love",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "ARI",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "INJURY_RESERVE"
-            },
-            {
               "name": "Colston Loveland",
               "slot": "TE",
               "pos": "TE",
@@ -2711,13 +2702,22 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Michael Wilson",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "ARI",
-              "proj": 13.1,
+              "name": "Bhayshul Tuten",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "JAX",
+              "proj": 15.3,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Parker Washington",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "JAX",
+              "proj": 12.6,
+              "actual": 0.0,
+              "injury": null
             },
             {
               "name": "Caleb Williams",
@@ -2738,20 +2738,20 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jalen Coker",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "CAR",
-              "proj": 12.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Steelers D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "PIT",
               "proj": 0.0,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Jonah Coleman",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "DEN",
+              "proj": 14.4,
               "actual": 0.0,
               "injury": null
             },
@@ -2765,23 +2765,14 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 90.2,
+          "bench_proj": 73.0,
           "injuries": [
             {
-              "name": "Jeremiyah Love",
+              "name": "Bhayshul Tuten",
               "slot": "RB",
               "pos": "RB",
-              "pro": "ARI",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "INJURY_RESERVE"
-            },
-            {
-              "name": "Michael Wilson",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "ARI",
-              "proj": 13.1,
+              "pro": "JAX",
+              "proj": 15.3,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -2792,7 +2783,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (1-7) at Brady Schuster (3-5). Projected: spencer glynn 103.6 - Brady Schuster 104.8. Brady Schuster favored by 1.2.",
+        "blurb": "spencer glynn (1-7) at Brady Schuster (3-5). Projected: spencer glynn 120.8 - Brady Schuster 104.8. spencer glynn favored by 16.0.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2875,8 +2866,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 28.4,
-            "away_proj": 17.9,
-            "edge": "home"
+            "away_proj": 47.6,
+            "edge": "away"
           },
           {
             "pos": "TE",
@@ -2887,8 +2878,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 37.5,
-            "away_proj": 48.0,
-            "edge": "away"
+            "away_proj": 35.5,
+            "edge": "home"
           }
         ],
         "revenge": {

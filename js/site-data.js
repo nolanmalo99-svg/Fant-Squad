@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-03T21:18:51+00:00",
+  "generated_at": "2026-11-04T03:25:22+00:00",
   "current_week": 9,
   "standings": [
     {
@@ -633,7 +633,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 140.3,
           "starter": true,
-          "injury": "DOUBTFUL"
+          "injury": "INJURY_RESERVE"
         },
         {
           "player_id": 4047646,
@@ -7246,19 +7246,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4870808,
-          "name": "Jeremiyah Love",
+          "player_id": 4882093,
+          "name": "Bhayshul Tuten",
           "slot": "RB",
           "pos": "RB",
-          "pro": "ARI",
-          "proj": 0.0,
+          "pro": "JAX",
+          "proj": 15.3,
           "actual": 0.0,
-          "season_ppg": 6.7,
-          "season_total": 53.4,
-          "games_played": 8,
-          "preseason_proj_total": 219.8,
+          "season_ppg": 16.9,
+          "season_total": 118.3,
+          "games_played": 7,
+          "preseason_proj_total": 4.7,
           "starter": true,
-          "injury": "INJURY_RESERVE"
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4362628,
@@ -7276,19 +7276,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4360761,
-          "name": "Michael Wilson",
+          "player_id": 4432620,
+          "name": "Parker Washington",
           "slot": "WR",
           "pos": "WR",
-          "pro": "ARI",
-          "proj": 13.1,
+          "pro": "JAX",
+          "proj": 12.6,
           "actual": 0.0,
           "season_ppg": 13.6,
-          "season_total": 108.4,
-          "games_played": 8,
-          "preseason_proj_total": 115.8,
+          "season_total": 95.5,
+          "games_played": 7,
+          "preseason_proj_total": 44.4,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4723086,
@@ -7306,17 +7306,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4695883,
-          "name": "Jalen Coker",
+          "player_id": 4702555,
+          "name": "Jonah Coleman",
           "slot": "FLEX",
-          "pos": "WR",
-          "pro": "CAR",
-          "proj": 12.0,
+          "pos": "RB",
+          "pro": "DEN",
+          "proj": 14.4,
           "actual": 0.0,
-          "season_ppg": 11.3,
-          "season_total": 79.4,
-          "games_played": 7,
-          "preseason_proj_total": 108.6,
+          "season_ppg": 20.4,
+          "season_total": 20.4,
+          "games_played": 1,
+          "preseason_proj_total": 0.0,
           "starter": true,
           "injury": null
         },
@@ -7366,34 +7366,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4882093,
-          "name": "Bhayshul Tuten",
+          "player_id": 4360761,
+          "name": "Michael Wilson",
           "slot": "BE",
-          "pos": "RB",
-          "pro": "JAX",
-          "proj": 15.3,
+          "pos": "WR",
+          "pro": "ARI",
+          "proj": 13.1,
           "actual": 0.0,
-          "season_ppg": 16.9,
-          "season_total": 118.3,
-          "games_played": 7,
-          "preseason_proj_total": 4.7,
+          "season_ppg": 13.6,
+          "season_total": 108.4,
+          "games_played": 8,
+          "preseason_proj_total": 115.8,
           "starter": false,
           "injury": "QUESTIONABLE"
-        },
-        {
-          "player_id": 4702555,
-          "name": "Jonah Coleman",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "DEN",
-          "proj": 14.4,
-          "actual": 0.0,
-          "season_ppg": 20.4,
-          "season_total": 20.4,
-          "games_played": 1,
-          "preseason_proj_total": 0.0,
-          "starter": false,
-          "injury": null
         },
         {
           "player_id": 4569618,
@@ -7411,17 +7396,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4432620,
-          "name": "Parker Washington",
+          "player_id": 4695883,
+          "name": "Jalen Coker",
           "slot": "BE",
           "pos": "WR",
-          "pro": "JAX",
-          "proj": 12.6,
+          "pro": "CAR",
+          "proj": 12.0,
           "actual": 0.0,
-          "season_ppg": 13.6,
-          "season_total": 95.5,
+          "season_ppg": 11.3,
+          "season_total": 79.4,
           "games_played": 7,
-          "preseason_proj_total": 44.4,
+          "preseason_proj_total": 108.6,
           "starter": false,
           "injury": null
         },
@@ -7454,6 +7439,21 @@ window.SITE_DATA = {
           "preseason_proj_total": 146.8,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4870808,
+          "name": "Jeremiyah Love",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "ARI",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 6.7,
+          "season_total": 53.4,
+          "games_played": 8,
+          "preseason_proj_total": 219.8,
+          "starter": false,
+          "injury": "INJURY_RESERVE"
         },
         {
           "player_id": 4239996,
