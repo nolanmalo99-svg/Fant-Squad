@@ -1645,7 +1645,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "3-5",
           "actual": 0.0,
-          "projected": 87.3,
+          "projected": 113.9,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -1666,6 +1666,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Malik Nabers",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "NYG",
+              "proj": 17.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Ladd McConkey",
               "slot": "WR",
               "pos": "WR",
@@ -1675,15 +1684,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Lamar Jackson",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "BAL",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "OUT"
-            },
-            {
               "name": "Travis Kelce",
               "slot": "TE",
               "pos": "TE",
@@ -1691,24 +1691,6 @@ window.MATCHUPS_DATA = {
               "proj": 10.6,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Jets D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "NYJ",
-              "proj": 3.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Malik Washington",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "MIA",
-              "proj": 9.8,
-              "actual": 0.0,
-              "injury": null
             },
             {
               "name": "Harrison Butker",
@@ -1721,25 +1703,34 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Keenan Allen",
-              "slot": "WR",
+              "slot": "FLEX",
               "pos": "WR",
               "pro": "IND",
               "proj": 10.2,
               "actual": 0.0,
               "injury": null
-            }
-          ],
-          "bench_proj": 58.2,
-          "injuries": [
+            },
             {
-              "name": "Lamar Jackson",
+              "name": "Malik Willis",
               "slot": "QB",
               "pos": "QB",
-              "pro": "BAL",
-              "proj": 0.0,
+              "pro": "MIA",
+              "proj": 17.0,
               "actual": 0.0,
-              "injury": "OUT"
+              "injury": null
             },
+            {
+              "name": "Chiefs D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "KC",
+              "proj": 6.2,
+              "actual": 0.0,
+              "injury": null
+            }
+          ],
+          "bench_proj": 48.3,
+          "injuries": [
             {
               "name": "Travis Kelce",
               "slot": "TE",
@@ -1860,7 +1851,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (4-4) at Andy Jensen (3-5). Projected: alex raichle 134.9 - Andy Jensen 87.3. alex raichle favored by 47.6.",
+        "blurb": "alex raichle (4-4) at Andy Jensen (3-5). Projected: alex raichle 134.9 - Andy Jensen 113.9. alex raichle favored by 21.0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -1911,20 +1902,20 @@ window.MATCHUPS_DATA = {
             "owner": "Andy Jensen"
           },
           {
-            "name": "Tee Higgins",
+            "name": "Malik Nabers",
             "slot": "WR",
             "pos": "WR",
-            "pro": "CIN",
-            "proj": 16.9,
+            "pro": "NYG",
+            "proj": 17.1,
             "actual": 0.0,
             "injury": null,
-            "owner": "alex raichle"
+            "owner": "Andy Jensen"
           }
         ],
         "positional_edges": [
           {
             "pos": "D/ST",
-            "home_proj": 3.9,
+            "home_proj": 6.2,
             "away_proj": 7.8,
             "edge": "away"
           },
@@ -1936,7 +1927,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "QB",
-            "home_proj": 0.0,
+            "home_proj": 17.0,
             "away_proj": 20.8,
             "edge": "away"
           },
@@ -1954,7 +1945,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 30.8,
+            "home_proj": 38.1,
             "away_proj": 43.7,
             "edge": "away"
           }
