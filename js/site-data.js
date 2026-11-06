@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-05T19:05:56+00:00",
+  "generated_at": "2026-11-06T00:34:43+00:00",
   "current_week": 9,
   "standings": [
     {
@@ -596,7 +596,7 @@ window.SITE_DATA = {
           "slot": "FLEX",
           "pos": "WR",
           "pro": "NE",
-          "proj": 11.1,
+          "proj": 11.0,
           "actual": 0.0,
           "season_ppg": 13.8,
           "season_total": 41.5,
@@ -3901,7 +3901,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "DAL",
-          "proj": 20.3,
+          "proj": 20.5,
           "actual": 0.0,
           "season_ppg": 21.0,
           "season_total": 168.3,
@@ -3986,6 +3986,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4569173,
+          "name": "Rhamondre Stevenson",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "NE",
+          "proj": 14.9,
+          "actual": 0.0,
+          "season_ppg": 12.4,
+          "season_total": 98.9,
+          "games_played": 8,
+          "preseason_proj_total": 173.1,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 15864,
           "name": "Geno Smith",
           "slot": "BE",
@@ -3997,21 +4012,6 @@ window.SITE_DATA = {
           "season_total": 18.0,
           "games_played": 1,
           "preseason_proj_total": 260.9,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4569173,
-          "name": "Rhamondre Stevenson",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "NE",
-          "proj": 11.8,
-          "actual": 0.0,
-          "season_ppg": 12.4,
-          "season_total": 98.9,
-          "games_played": 8,
-          "preseason_proj_total": 173.1,
           "starter": false,
           "injury": null
         },
@@ -4028,7 +4028,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 176.0,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4428718,
@@ -7243,7 +7243,7 @@ window.SITE_DATA = {
           "games_played": 7,
           "preseason_proj_total": 4.7,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4362628,
@@ -7423,7 +7423,7 @@ window.SITE_DATA = {
           "games_played": 7,
           "preseason_proj_total": 146.8,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16023,
@@ -10601,7 +10601,7 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "DAL",
-          "proj": 17.3,
+          "proj": 17.4,
           "actual": 0.0,
           "season_ppg": 17.1,
           "season_total": 137.2,
@@ -10656,19 +10656,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 16737,
-          "name": "Mike Evans",
+          "player_id": 4869645,
+          "name": "Caleb Douglas",
           "slot": "FLEX",
           "pos": "WR",
-          "pro": "SF",
-          "proj": 0.0,
+          "pro": "MIA",
+          "proj": 9.5,
           "actual": 0.0,
-          "season_ppg": 12.7,
-          "season_total": 89.0,
-          "games_played": 7,
-          "preseason_proj_total": 235.1,
+          "season_ppg": 6.1,
+          "season_total": 12.2,
+          "games_played": 2,
+          "preseason_proj_total": 152.3,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16004,
@@ -10746,21 +10746,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4869645,
-          "name": "Caleb Douglas",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "MIA",
-          "proj": 9.5,
-          "actual": 0.0,
-          "season_ppg": 6.1,
-          "season_total": 12.2,
-          "games_played": 2,
-          "preseason_proj_total": 152.3,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4683062,
           "name": "Xavier Worthy",
           "slot": "BE",
@@ -10789,6 +10774,21 @@ window.SITE_DATA = {
           "preseason_proj_total": 0.0,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 16737,
+          "name": "Mike Evans",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "SF",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 12.7,
+          "season_total": 89.0,
+          "games_played": 7,
+          "preseason_proj_total": 235.1,
+          "starter": false,
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4428850,
@@ -14108,7 +14108,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 53.5,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4688813,
@@ -18697,7 +18697,7 @@ window.SITE_DATA = {
           "games_played": 7,
           "preseason_proj_total": 163.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 2976212,
@@ -21951,19 +21951,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 15847,
-          "name": "Travis Kelce",
+          "player_id": 4430539,
+          "name": "Brenton Strange",
           "slot": "TE",
           "pos": "TE",
-          "pro": "KC",
-          "proj": 10.6,
+          "pro": "JAX",
+          "proj": 9.3,
           "actual": 0.0,
-          "season_ppg": 11.7,
-          "season_total": 82.0,
-          "games_played": 7,
-          "preseason_proj_total": 181.1,
+          "season_ppg": 13.8,
+          "season_total": 13.8,
+          "games_played": 1,
+          "preseason_proj_total": 139.5,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 15818,
@@ -22026,6 +22026,21 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
+          "player_id": 15847,
+          "name": "Travis Kelce",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "KC",
+          "proj": 10.6,
+          "actual": 0.0,
+          "season_ppg": 11.7,
+          "season_total": 82.0,
+          "games_played": 7,
+          "preseason_proj_total": 181.1,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4569603,
           "name": "Malik Washington",
           "slot": "BE",
@@ -22086,21 +22101,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": -16020,
-          "name": "Jets D/ST",
-          "slot": "BE",
-          "pos": "D/ST",
-          "pro": "NYJ",
-          "proj": 3.9,
-          "actual": 0.0,
-          "season_ppg": 5.4,
-          "season_total": 38.0,
-          "games_played": 7,
-          "preseason_proj_total": 99.8,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 3916387,
           "name": "Lamar Jackson",
           "slot": "BE",
@@ -22113,7 +22113,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 363.4,
           "starter": false,
-          "injury": "OUT"
+          "injury": "INJURY_RESERVE"
         },
         {
           "player_id": 16800,
@@ -26667,7 +26667,7 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "SF",
-          "proj": 23.6,
+          "proj": 22.0,
           "actual": 0.0,
           "season_ppg": 20.6,
           "season_total": 144.0,
@@ -26787,12 +26787,27 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "QB",
           "pro": "SF",
-          "proj": 21.8,
+          "proj": 21.9,
           "actual": 0.0,
           "season_ppg": 20.6,
           "season_total": 144.1,
           "games_played": 7,
           "preseason_proj_total": 306.1,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4431431,
+          "name": "Corey Kiner",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "NE",
+          "proj": 5.6,
+          "actual": 0.0,
+          "season_ppg": 3.8,
+          "season_total": 3.8,
+          "games_played": 1,
+          "preseason_proj_total": 0.0,
           "starter": false,
           "injury": null
         },
@@ -26809,22 +26824,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 53.6,
           "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4431431,
-          "name": "Corey Kiner",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "NE",
-          "proj": 3.4,
-          "actual": 0.0,
-          "season_ppg": 3.8,
-          "season_total": 3.8,
-          "games_played": 1,
-          "preseason_proj_total": 0.0,
-          "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4241478,
@@ -32213,7 +32213,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "DAL",
-          "proj": 13.1,
+          "proj": 13.2,
           "actual": 0.0,
           "season_ppg": 13.0,
           "season_total": 104.3,
@@ -32250,7 +32250,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 226.0,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16016,
