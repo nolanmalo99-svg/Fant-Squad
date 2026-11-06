@@ -1391,7 +1391,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 31.4,
+          "bench_proj": 31.3,
           "injuries": [
             {
               "name": "Christian McCaffrey",
@@ -1504,7 +1504,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 39.5,
+          "bench_proj": 41.0,
           "injuries": [
             {
               "name": "George Pickens",
@@ -1532,14 +1532,14 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "3-5",
           "actual": 9.9,
-          "projected": 99.1,
+          "projected": 100.2,
           "starters": [
             {
               "name": "Bijan Robinson",
               "slot": "RB",
               "pos": "RB",
               "pro": "ATL",
-              "proj": 18.7,
+              "proj": 19.8,
               "actual": 0.0,
               "injury": null
             },
@@ -1616,7 +1616,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 55.0,
+          "bench_proj": 55.1,
           "injuries": [
             {
               "name": "Malik Nabers",
@@ -1706,7 +1706,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "WR",
               "pro": "NE",
-              "proj": 11.0,
+              "proj": 11.1,
               "actual": 0.0,
               "injury": null
             },
@@ -1748,7 +1748,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "6-2",
           "actual": 0.0,
-          "projected": 122.4,
+          "projected": 122.5,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -1926,7 +1926,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 71.1,
+          "bench_proj": 73.5,
           "injuries": []
         },
         "played": false,
@@ -1934,7 +1934,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Dawson Leer (6-2) at Mitch Wiese (6-2). Projected: Dawson Leer 132.4 - Mitch Wiese 122.4. Dawson Leer favored by 10.0.",
+        "blurb": "Dawson Leer (6-2) at Mitch Wiese (6-2). Projected: Dawson Leer 132.4 - Mitch Wiese 122.5. Dawson Leer favored by 9.9.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2055,7 +2055,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "4-4",
           "actual": 13.5,
-          "projected": 122.4,
+          "projected": 122.3,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -2134,7 +2134,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "DET",
-              "proj": 6.0,
+              "proj": 5.9,
               "actual": 0.0,
               "injury": null
             }
@@ -2149,7 +2149,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "5-3",
           "actual": 5.3,
-          "projected": 119.9,
+          "projected": 124.9,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -2206,15 +2206,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Caleb Douglas",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "MIA",
-              "proj": 9.5,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Bengals D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
@@ -2231,9 +2222,18 @@ window.MATCHUPS_DATA = {
               "proj": 10.5,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Woody Marks",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "HOU",
+              "proj": 14.5,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 52.1,
+          "bench_proj": 46.0,
           "injuries": [
             {
               "name": "Amon-Ra St. Brown",
@@ -2449,7 +2449,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 73.0,
+          "bench_proj": 60.3,
           "injuries": []
         },
         "played": true,
