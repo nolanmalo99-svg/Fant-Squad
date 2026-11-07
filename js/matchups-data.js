@@ -1597,7 +1597,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 55.1,
+          "bench_proj": 56.2,
           "injuries": []
         },
         "away": {
@@ -1691,7 +1691,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 60.7,
+          "bench_proj": 60.6,
           "injuries": []
         },
         "played": true,
@@ -1793,7 +1793,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 58.5,
+          "bench_proj": 57.2,
           "injuries": []
         },
         "away": {
@@ -1887,7 +1887,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 73.4,
+          "bench_proj": 73.3,
           "injuries": []
         },
         "played": false,
@@ -2016,7 +2016,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "4-4",
           "actual": 13.5,
-          "projected": 122.6,
+          "projected": 122.7,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -2222,7 +2222,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "3-5",
           "actual": 0.0,
-          "projected": 127.2,
+          "projected": 127.1,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -2247,7 +2247,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "WR",
               "pro": "NO",
-              "proj": 14.2,
+              "proj": 14.0,
               "actual": 0.0,
               "injury": null
             },

@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-07T17:00:33+00:00",
+  "generated_at": "2026-11-07T23:08:07+00:00",
   "current_week": 9,
   "standings": [
     {
@@ -716,7 +716,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "TE",
           "pro": "NO",
-          "proj": 7.3,
+          "proj": 7.2,
           "actual": 0.0,
           "season_ppg": 8.5,
           "season_total": 42.5,
@@ -3946,7 +3946,7 @@ window.SITE_DATA = {
           "slot": "FLEX",
           "pos": "WR",
           "pro": "NO",
-          "proj": 14.2,
+          "proj": 14.0,
           "actual": 0.0,
           "season_ppg": 17.8,
           "season_total": 124.6,
@@ -10811,14 +10811,14 @@ window.SITE_DATA = {
           "slot": "IR",
           "pos": "WR",
           "pro": "NO",
-          "proj": 0.0,
+          "proj": 5.9,
           "actual": 0.0,
           "season_ppg": 0.0,
           "season_total": 0.0,
           "games_played": 2,
           "preseason_proj_total": 104.8,
           "starter": false,
-          "injury": "INJURY_RESERVE"
+          "injury": "QUESTIONABLE"
         }
       ],
       "draft": {
@@ -14093,7 +14093,7 @@ window.SITE_DATA = {
           "games_played": 7,
           "preseason_proj_total": 237.9,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 5083076,
@@ -18750,7 +18750,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "BUF",
-          "proj": 9.2,
+          "proj": 9.1,
           "actual": 0.0,
           "season_ppg": 9.5,
           "season_total": 66.4,
@@ -22016,7 +22016,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "RB",
           "pro": "NO",
-          "proj": 11.2,
+          "proj": 12.3,
           "actual": 0.0,
           "season_ppg": 9.4,
           "season_total": 65.8,
@@ -29935,7 +29935,7 @@ window.SITE_DATA = {
           "slot": "BE",
           "pos": "WR",
           "pro": "NO",
-          "proj": 10.0,
+          "proj": 8.7,
           "actual": 0.0,
           "season_ppg": 10.9,
           "season_total": 54.5,
