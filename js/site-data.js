@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-08T10:48:31+00:00",
+  "generated_at": "2026-11-08T17:15:42+00:00",
   "current_week": 9,
   "standings": [
     {
@@ -552,7 +552,7 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "CIN",
           "proj": 16.9,
-          "actual": 0.0,
+          "actual": 20.2,
           "season_ppg": 19.9,
           "season_total": 139.6,
           "games_played": 7,
@@ -3872,7 +3872,7 @@ window.SITE_DATA = {
           "pos": "RB",
           "pro": "CIN",
           "proj": 16.6,
-          "actual": 0.0,
+          "actual": 10.3,
           "season_ppg": 13.0,
           "season_total": 90.9,
           "games_played": 7,
@@ -3901,7 +3901,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "DAL",
-          "proj": 20.6,
+          "proj": 21.2,
           "actual": 0.0,
           "season_ppg": 21.0,
           "season_total": 168.3,
@@ -4058,7 +4058,7 @@ window.SITE_DATA = {
           "games_played": 7,
           "preseason_proj_total": 139.3,
           "starter": false,
-          "injury": "DOUBTFUL"
+          "injury": "OUT"
         },
         {
           "player_id": 4047650,
@@ -7252,7 +7252,7 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "CIN",
           "proj": 22.9,
-          "actual": 0.0,
+          "actual": 29.4,
           "season_ppg": 18.3,
           "season_total": 128.2,
           "games_played": 7,
@@ -10572,7 +10572,7 @@ window.SITE_DATA = {
           "pos": "QB",
           "pro": "CIN",
           "proj": 21.1,
-          "actual": 0.0,
+          "actual": 29.2,
           "season_ppg": 24.1,
           "season_total": 168.6,
           "games_played": 7,
@@ -10623,7 +10623,7 @@ window.SITE_DATA = {
           "games_played": 7,
           "preseason_proj_total": 290.6,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4429615,
@@ -10677,7 +10677,7 @@ window.SITE_DATA = {
           "pos": "D/ST",
           "pro": "CIN",
           "proj": 4.3,
-          "actual": 0.0,
+          "actual": 1.0,
           "season_ppg": 3.7,
           "season_total": 11.0,
           "games_played": 3,
@@ -10818,7 +10818,7 @@ window.SITE_DATA = {
           "games_played": 2,
           "preseason_proj_total": 104.8,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         }
       ],
       "draft": {
@@ -14006,17 +14006,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4036133,
-          "name": "T.J. Hockenson",
+          "player_id": 5083076,
+          "name": "Harold Fannin Jr.",
           "slot": "TE",
           "pos": "TE",
-          "pro": "MIN",
-          "proj": 10.7,
+          "pro": "CLE",
+          "proj": 11.5,
           "actual": 0.0,
-          "season_ppg": 11.2,
-          "season_total": 78.5,
-          "games_played": 7,
-          "preseason_proj_total": 184.5,
+          "season_ppg": 11.3,
+          "season_total": 90.1,
+          "games_played": 8,
+          "preseason_proj_total": 53.5,
           "starter": true,
           "injury": null
         },
@@ -14096,17 +14096,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 5083076,
-          "name": "Harold Fannin Jr.",
+          "player_id": 4036133,
+          "name": "T.J. Hockenson",
           "slot": "BE",
           "pos": "TE",
-          "pro": "CLE",
-          "proj": 11.5,
+          "pro": "MIN",
+          "proj": 10.7,
           "actual": 0.0,
-          "season_ppg": 11.3,
-          "season_total": 90.1,
-          "games_played": 8,
-          "preseason_proj_total": 53.5,
+          "season_ppg": 11.2,
+          "season_total": 78.5,
+          "games_played": 7,
+          "preseason_proj_total": 184.5,
           "starter": false,
           "injury": null
         },
@@ -21897,7 +21897,7 @@ window.SITE_DATA = {
           "pos": "RB",
           "pro": "ATL",
           "proj": 19.7,
-          "actual": 0.0,
+          "actual": 26.7,
           "season_ppg": 19.2,
           "season_total": 153.3,
           "games_played": 8,
@@ -29801,7 +29801,7 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "ATL",
           "proj": 16.4,
-          "actual": 0.0,
+          "actual": 11.8,
           "season_ppg": 13.7,
           "season_total": 109.8,
           "games_played": 8,
@@ -29921,7 +29921,7 @@ window.SITE_DATA = {
           "pos": "TE",
           "pro": "ATL",
           "proj": 10.1,
-          "actual": 0.0,
+          "actual": 3.4,
           "season_ppg": 4.0,
           "season_total": 19.8,
           "games_played": 5,
@@ -32213,14 +32213,14 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "DAL",
-          "proj": 13.3,
+          "proj": 0.0,
           "actual": 0.0,
           "season_ppg": 13.0,
           "season_total": 104.3,
           "games_played": 8,
           "preseason_proj_total": 221.4,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         },
         {
           "player_id": 3040151,
