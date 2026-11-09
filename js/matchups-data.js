@@ -1410,7 +1410,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 24.2,
               "actual": 35.0,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             },
             {
               "name": "Jonathan Taylor",
@@ -1494,7 +1494,7 @@ window.MATCHUPS_DATA = {
               "pro": "LAR",
               "proj": 24.2,
               "actual": 35.0,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             }
           ]
         },
@@ -1576,7 +1576,7 @@ window.MATCHUPS_DATA = {
               "pro": "MIA",
               "proj": 17.0,
               "actual": 3.5,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Chiefs D/ST",
@@ -1606,6 +1606,15 @@ window.MATCHUPS_DATA = {
               "pro": "LAC",
               "proj": 10.8,
               "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Malik Willis",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "MIA",
+              "proj": 17.0,
+              "actual": 3.5,
               "injury": "QUESTIONABLE"
             }
           ]
@@ -1952,7 +1961,7 @@ window.MATCHUPS_DATA = {
               "pro": "GB",
               "proj": 16.6,
               "actual": 0.5,
-              "injury": "QUESTIONABLE"
+              "injury": "OUT"
             },
             {
               "name": "Tetairoa McMillan",
@@ -2027,7 +2036,7 @@ window.MATCHUPS_DATA = {
               "pro": "GB",
               "proj": 16.6,
               "actual": 0.5,
-              "injury": "QUESTIONABLE"
+              "injury": "OUT"
             }
           ]
         },
