@@ -1532,7 +1532,7 @@ window.MATCHUPS_DATA = {
               "pro": "MIA",
               "proj": 0.0,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": "INJURY_RESERVE"
             },
             {
               "name": "Chiefs D/ST",
@@ -1571,7 +1571,7 @@ window.MATCHUPS_DATA = {
               "pro": "MIA",
               "proj": 0.0,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": "INJURY_RESERVE"
             }
           ]
         },
@@ -2105,17 +2105,8 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "5-4",
           "actual": 0.0,
-          "projected": 103.0,
+          "projected": 113.0,
           "starters": [
-            {
-              "name": "Puka Nacua",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "LAR",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "DOUBTFUL"
-            },
             {
               "name": "Jonathan Taylor",
               "slot": "RB",
@@ -2126,8 +2117,17 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "George Pickens",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "DAL",
+              "proj": 12.3,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
               "name": "Breece Hall",
-              "slot": "FLEX",
+              "slot": "RB",
               "pos": "RB",
               "pro": "NYJ",
               "proj": 12.1,
@@ -2153,20 +2153,20 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Tony Pollard",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "TEN",
+              "proj": 13.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Vikings D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "MIN",
               "proj": 5.2,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Ollie Gordon II",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "MIA",
-              "proj": 15.7,
               "actual": 0.0,
               "injury": null
             },
@@ -2189,16 +2189,16 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 57.1,
+          "bench_proj": 47.1,
           "injuries": [
             {
-              "name": "Puka Nacua",
+              "name": "George Pickens",
               "slot": "WR",
               "pos": "WR",
-              "pro": "LAR",
-              "proj": 0.0,
+              "pro": "DAL",
+              "proj": 12.3,
               "actual": 0.0,
-              "injury": "DOUBTFUL"
+              "injury": "QUESTIONABLE"
             }
           ]
         },
@@ -2302,7 +2302,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (4-5) at Owen Koslosku (5-4). Projected: Brady Schuster 100.4 - Owen Koslosku 103.0. Owen Koslosku favored by 2.6.",
+        "blurb": "Brady Schuster (4-5) at Owen Koslosku (5-4). Projected: Brady Schuster 100.4 - Owen Koslosku 113.0. Owen Koslosku favored by 12.6.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2384,7 +2384,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 45.6,
+            "home_proj": 43.3,
             "away_proj": 13.5,
             "edge": "home"
           },
@@ -2396,7 +2396,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 10.3,
+            "home_proj": 22.6,
             "away_proj": 53.9,
             "edge": "away"
           }

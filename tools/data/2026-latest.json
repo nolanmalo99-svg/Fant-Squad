@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-10T21:29:03+00:00",
+  "generated_at": "2026-11-11T03:14:05+00:00",
   "current_week": 10,
   "standings": [
     {
@@ -4013,7 +4013,7 @@
           "games_played": 8,
           "preseason_proj_total": 139.3,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         },
         {
           "player_id": 4047650,
@@ -7438,7 +7438,7 @@
           "games_played": 9,
           "preseason_proj_total": 115.8,
           "starter": false,
-          "injury": "OUT"
+          "injury": "INJURY_RESERVE"
         },
         {
           "player_id": 4239996,
@@ -21873,7 +21873,7 @@
           "games_played": 1,
           "preseason_proj_total": 2.1,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": "INJURY_RESERVE"
         },
         {
           "player_id": 4430807,
@@ -32163,19 +32163,34 @@
           "injury": null
         },
         {
-          "player_id": 4711533,
-          "name": "Ollie Gordon II",
+          "player_id": 4427366,
+          "name": "Breece Hall",
           "slot": "RB",
           "pos": "RB",
-          "pro": "MIA",
-          "proj": 15.7,
+          "pro": "NYJ",
+          "proj": 12.1,
           "actual": 0.0,
-          "season_ppg": 12.9,
-          "season_total": 64.4,
-          "games_played": 5,
-          "preseason_proj_total": 84.3,
+          "season_ppg": 6.0,
+          "season_total": 54.2,
+          "games_played": 9,
+          "preseason_proj_total": 226.0,
           "starter": true,
           "injury": null
+        },
+        {
+          "player_id": 4426354,
+          "name": "George Pickens",
+          "slot": "WR",
+          "pos": "WR",
+          "pro": "DAL",
+          "proj": 12.3,
+          "actual": 0.0,
+          "season_ppg": 11.6,
+          "season_total": 104.3,
+          "games_played": 9,
+          "preseason_proj_total": 221.4,
+          "starter": true,
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4597500,
@@ -32193,21 +32208,6 @@
           "injury": null
         },
         {
-          "player_id": 4426515,
-          "name": "Puka Nacua",
-          "slot": "WR",
-          "pos": "WR",
-          "pro": "LAR",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 19.3,
-          "season_total": 173.6,
-          "games_played": 9,
-          "preseason_proj_total": 298.6,
-          "starter": true,
-          "injury": "DOUBTFUL"
-        },
-        {
           "player_id": 3040151,
           "name": "George Kittle",
           "slot": "TE",
@@ -32223,17 +32223,17 @@
           "injury": null
         },
         {
-          "player_id": 4427366,
-          "name": "Breece Hall",
+          "player_id": 3916148,
+          "name": "Tony Pollard",
           "slot": "FLEX",
           "pos": "RB",
-          "pro": "NYJ",
-          "proj": 12.1,
+          "pro": "TEN",
+          "proj": 13.4,
           "actual": 0.0,
-          "season_ppg": 6.0,
-          "season_total": 54.2,
-          "games_played": 9,
-          "preseason_proj_total": 226.0,
+          "season_ppg": 14.6,
+          "season_total": 116.5,
+          "games_played": 8,
+          "preseason_proj_total": 222.1,
           "starter": true,
           "injury": null
         },
@@ -32268,6 +32268,21 @@
           "injury": null
         },
         {
+          "player_id": 4711533,
+          "name": "Ollie Gordon II",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "MIA",
+          "proj": 15.7,
+          "actual": 0.0,
+          "season_ppg": 12.9,
+          "season_total": 64.4,
+          "games_played": 5,
+          "preseason_proj_total": 84.3,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4426385,
           "name": "Zach Charbonnet",
           "slot": "BE",
@@ -32281,36 +32296,6 @@
           "preseason_proj_total": 137.0,
           "starter": false,
           "injury": null
-        },
-        {
-          "player_id": 3916148,
-          "name": "Tony Pollard",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "TEN",
-          "proj": 13.4,
-          "actual": 0.0,
-          "season_ppg": 14.6,
-          "season_total": 116.5,
-          "games_played": 8,
-          "preseason_proj_total": 222.1,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4426354,
-          "name": "George Pickens",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "DAL",
-          "proj": 12.3,
-          "actual": 0.0,
-          "season_ppg": 11.6,
-          "season_total": 104.3,
-          "games_played": 9,
-          "preseason_proj_total": 221.4,
-          "starter": false,
-          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4685261,
@@ -32341,6 +32326,21 @@
           "preseason_proj_total": 240.0,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4426515,
+          "name": "Puka Nacua",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "LAR",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 19.3,
+          "season_total": 173.6,
+          "games_played": 9,
+          "preseason_proj_total": 298.6,
+          "starter": false,
+          "injury": "DOUBTFUL"
         },
         {
           "player_id": 4372016,
