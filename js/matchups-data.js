@@ -1582,7 +1582,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "6-3",
           "actual": 0.0,
-          "projected": 116.3,
+          "projected": 124.0,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -1648,20 +1648,20 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Bears D/ST",
+              "name": "Packers D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "CHI",
-              "proj": 0.0,
+              "pro": "GB",
+              "proj": 5.6,
               "actual": 0.0,
               "injury": null
             },
             {
-              "name": "Chad Ryland",
+              "name": "Cam Little",
               "slot": "K",
               "pos": "K",
-              "pro": "ARI",
-              "proj": 7.8,
+              "pro": "JAX",
+              "proj": 9.8,
               "actual": 0.0,
               "injury": null
             }
@@ -1674,7 +1674,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (6-3) at Andy Jensen (3-6). Projected: Mitch Wiese 116.3 - Andy Jensen 96.1. Mitch Wiese favored by 20.2.",
+        "blurb": "Mitch Wiese (6-3) at Andy Jensen (3-6). Projected: Mitch Wiese 124.0 - Andy Jensen 96.1. Mitch Wiese favored by 27.9.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -1739,14 +1739,14 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 4.9,
-            "away_proj": 0.0,
-            "edge": "home"
+            "away_proj": 5.6,
+            "edge": "even"
           },
           {
             "pos": "K",
             "home_proj": 9.3,
-            "away_proj": 7.8,
-            "edge": "home"
+            "away_proj": 9.8,
+            "edge": "even"
           },
           {
             "pos": "QB",
@@ -2835,7 +2835,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 0.0,
-          "projected": 81.9,
+          "projected": 120.9,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -2845,6 +2845,15 @@ window.MATCHUPS_DATA = {
               "proj": 22.9,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Garrett Wilson",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "NYJ",
+              "proj": 12.7,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Colston Loveland",
@@ -2874,15 +2883,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Caleb Williams",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "CHI",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Chuba Hubbard",
               "slot": "RB",
               "pos": "RB",
@@ -2892,20 +2892,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jonah Coleman",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "DEN",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Chase McLaughlin",
-              "slot": "K",
-              "pos": "K",
-              "pro": "TB",
-              "proj": 0.0,
+              "name": "Jordan Love",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "GB",
+              "proj": 15.8,
               "actual": 0.0,
               "injury": null
             },
@@ -2917,17 +2908,36 @@ window.MATCHUPS_DATA = {
               "proj": 7.3,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Chris Boswell",
+              "slot": "K",
+              "pos": "K",
+              "pro": "PIT",
+              "proj": 10.5,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 65.6,
-          "injuries": []
+          "bench_proj": 37.6,
+          "injuries": [
+            {
+              "name": "Garrett Wilson",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "NYJ",
+              "proj": 12.7,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (1-8) at Dawson Leer (7-2). Projected: spencer glynn 81.9 - Dawson Leer 127.3. Dawson Leer favored by 45.4.",
+        "blurb": "spencer glynn (1-8) at Dawson Leer (7-2). Projected: spencer glynn 120.9 - Dawson Leer 127.3. Dawson Leer favored by 6.4.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2998,13 +3008,13 @@ window.MATCHUPS_DATA = {
           {
             "pos": "K",
             "home_proj": 10.6,
-            "away_proj": 0.0,
-            "edge": "home"
+            "away_proj": 10.5,
+            "edge": "even"
           },
           {
             "pos": "QB",
             "home_proj": 17.2,
-            "away_proj": 0.0,
+            "away_proj": 15.8,
             "edge": "home"
           },
           {
@@ -3022,8 +3032,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 39.8,
-            "away_proj": 37.3,
-            "edge": "home"
+            "away_proj": 50.0,
+            "edge": "away"
           }
         ],
         "revenge": {
@@ -3033,8 +3043,7 @@ window.MATCHUPS_DATA = {
           "away_pts": 101.6
         },
         "fun_facts": [
-          "This is their 2nd meeting this season.",
-          "If the projection holds, this would be spencer glynn's worst week of the season."
+          "This is their 2nd meeting this season."
         ],
         "head_to_head": {
           "home_w": 9,
