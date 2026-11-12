@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-11T18:53:56+00:00",
+  "generated_at": "2026-11-12T01:41:51+00:00",
   "current_week": 10,
   "standings": [
     {
@@ -97,7 +97,7 @@ window.SITE_DATA = {
     },
     {
       "team_id": 3,
-      "name": "Tank for Arch",
+      "name": "Hubbard's Cupboard of Sadness",
       "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
       "owner": "spencer glynn",
       "record": "1-8",
@@ -149,7 +149,7 @@ window.SITE_DATA = {
     },
     {
       "owner": "spencer glynn",
-      "team": "Tank for Arch",
+      "team": "Hubbard's Cupboard of Sadness",
       "waiver_rank": 9
     },
     {
@@ -531,17 +531,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4685382,
-          "name": "Omarion Hampton",
+          "player_id": 4685512,
+          "name": "Jadarian Price",
           "slot": "RB",
           "pos": "RB",
-          "pro": "LAC",
-          "proj": 7.9,
+          "pro": "SEA",
+          "proj": 11.9,
           "actual": 0.0,
-          "season_ppg": 8.5,
-          "season_total": 68.2,
-          "games_played": 8,
-          "preseason_proj_total": 259.4,
+          "season_ppg": 3.5,
+          "season_total": 31.5,
+          "games_played": 9,
+          "preseason_proj_total": 172.8,
           "starter": true,
           "injury": null
         },
@@ -576,17 +576,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 3929645,
-          "name": "Juwan Johnson",
+          "player_id": 4572680,
+          "name": "Tucker Kraft",
           "slot": "TE",
           "pos": "TE",
-          "pro": "NO",
-          "proj": 7.3,
+          "pro": "GB",
+          "proj": 9.4,
           "actual": 0.0,
-          "season_ppg": 9.0,
-          "season_total": 53.9,
-          "games_played": 6,
-          "preseason_proj_total": 117.3,
+          "season_ppg": 10.0,
+          "season_total": 90.4,
+          "games_played": 9,
+          "preseason_proj_total": 160.0,
           "starter": true,
           "injury": null
         },
@@ -666,32 +666,17 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 4685512,
-          "name": "Jadarian Price",
+          "player_id": 4685382,
+          "name": "Omarion Hampton",
           "slot": "BE",
           "pos": "RB",
-          "pro": "SEA",
-          "proj": 11.9,
+          "pro": "LAC",
+          "proj": 7.9,
           "actual": 0.0,
-          "season_ppg": 3.5,
-          "season_total": 31.5,
-          "games_played": 9,
-          "preseason_proj_total": 172.8,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4572680,
-          "name": "Tucker Kraft",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "GB",
-          "proj": 9.4,
-          "actual": 0.0,
-          "season_ppg": 10.0,
-          "season_total": 90.4,
-          "games_played": 9,
-          "preseason_proj_total": 160.0,
+          "season_ppg": 8.5,
+          "season_total": 68.2,
+          "games_played": 8,
+          "preseason_proj_total": 259.4,
           "starter": false,
           "injury": null
         },
@@ -707,6 +692,21 @@ window.SITE_DATA = {
           "season_total": 87.8,
           "games_played": 6,
           "preseason_proj_total": 94.2,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 3929645,
+          "name": "Juwan Johnson",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "NO",
+          "proj": 7.3,
+          "actual": 0.0,
+          "season_ppg": 9.0,
+          "season_total": 53.9,
+          "games_played": 6,
+          "preseason_proj_total": 117.3,
           "starter": false,
           "injury": null
         },
@@ -7033,7 +7033,7 @@ window.SITE_DATA = {
     },
     "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}": {
       "owner": "spencer glynn",
-      "team": "Tank for Arch",
+      "team": "Hubbard's Cupboard of Sadness",
       "record": "81-76",
       "pf": 17515.4,
       "win_pct": 52,
@@ -7106,7 +7106,7 @@ window.SITE_DATA = {
         },
         {
           "season": 2026,
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "record": "1-8",
           "pf": 1046.4
         }
@@ -7243,7 +7243,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 4.7,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4362628,
@@ -7276,19 +7276,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4723086,
-          "name": "Colston Loveland",
+          "player_id": 3046439,
+          "name": "Hunter Henry",
           "slot": "TE",
           "pos": "TE",
-          "pro": "CHI",
-          "proj": 0.0,
+          "pro": "NE",
+          "proj": 9.3,
           "actual": 0.0,
-          "season_ppg": 9.3,
-          "season_total": 83.3,
-          "games_played": 9,
-          "preseason_proj_total": 155.2,
+          "season_ppg": 3.8,
+          "season_total": 7.5,
+          "games_played": 2,
+          "preseason_proj_total": 148.1,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4569618,
@@ -7366,21 +7366,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 3046439,
-          "name": "Hunter Henry",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "NE",
-          "proj": 9.3,
-          "actual": 0.0,
-          "season_ppg": 3.8,
-          "season_total": 7.5,
-          "games_played": 2,
-          "preseason_proj_total": 148.1,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": -16023,
           "name": "Steelers D/ST",
           "slot": "BE",
@@ -7392,6 +7377,21 @@ window.SITE_DATA = {
           "season_total": 73.0,
           "games_played": 8,
           "preseason_proj_total": 132.7,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4723086,
+          "name": "Colston Loveland",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "CHI",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 9.3,
+          "season_total": 83.3,
+          "games_played": 9,
+          "preseason_proj_total": 155.2,
           "starter": false,
           "injury": null
         },
@@ -10608,7 +10608,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 290.6,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4429615,
@@ -10653,7 +10653,7 @@ window.SITE_DATA = {
           "games_played": 5,
           "preseason_proj_total": 73.3,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16004,
@@ -10743,7 +10743,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 0.0,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4683062,
@@ -13988,7 +13988,7 @@ window.SITE_DATA = {
           "games_played": 9,
           "preseason_proj_total": 53.5,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3915416,
@@ -14063,7 +14063,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 184.5,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4429205,
@@ -21948,7 +21948,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 266.7,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16012,
@@ -26674,7 +26674,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 219.6,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4431299,
@@ -29867,7 +29867,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 260.2,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4870653,
@@ -32310,7 +32310,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 240.0,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4426515,
@@ -32325,7 +32325,7 @@ window.SITE_DATA = {
           "games_played": 9,
           "preseason_proj_total": 298.6,
           "starter": false,
-          "injury": "DOUBTFUL"
+          "injury": "OUT"
         },
         {
           "player_id": 4372016,

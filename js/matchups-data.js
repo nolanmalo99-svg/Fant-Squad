@@ -135,7 +135,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 118.0,
@@ -297,7 +297,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 101.6,
@@ -407,7 +407,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 137.8,
@@ -505,7 +505,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 84.2,
@@ -719,7 +719,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 111.0,
@@ -913,7 +913,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 115.7,
@@ -1087,7 +1087,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 99.5,
@@ -1237,7 +1237,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 147.9,
@@ -1443,7 +1443,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 130.7,
@@ -1523,7 +1523,7 @@ window.MATCHUPS_DATA = {
               "pro": "NO",
               "proj": 10.2,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Harrison Butker",
@@ -1561,6 +1561,15 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "LAC",
               "proj": 10.4,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Alvin Kamara",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "NO",
+              "proj": 10.2,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -1815,7 +1824,7 @@ window.MATCHUPS_DATA = {
               "pro": "CLE",
               "proj": 10.1,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Trevor Lawrence",
@@ -1864,7 +1873,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 47.9,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Harold Fannin Jr.",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "CLE",
+              "proj": 10.1,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 10,
@@ -1918,7 +1937,7 @@ window.MATCHUPS_DATA = {
               "pro": "JAX",
               "proj": 11.6,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Jason Myers",
@@ -1958,7 +1977,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 41.0,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Jakobi Meyers",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "JAX",
+              "proj": 11.6,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "played": false,
         "playoff": false,
@@ -2422,7 +2451,7 @@ window.MATCHUPS_DATA = {
               "pro": "DET",
               "proj": 20.4,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "James Cook III",
@@ -2494,11 +2523,30 @@ window.MATCHUPS_DATA = {
               "pro": "HOU",
               "proj": 13.9,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             }
           ],
           "bench_proj": 45.2,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Amon-Ra St. Brown",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "DET",
+              "proj": 20.4,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Woody Marks",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "HOU",
+              "proj": 13.9,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 1,
@@ -2507,7 +2555,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "5-4",
           "actual": 0.0,
-          "projected": 121.1,
+          "projected": 127.2,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -2515,15 +2563,6 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "DET",
               "proj": 23.9,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Omarion Hampton",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "LAC",
-              "proj": 7.9,
               "actual": 0.0,
               "injury": null
             },
@@ -2546,6 +2585,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Jadarian Price",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "SEA",
+              "proj": 11.9,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Christian Watson",
               "slot": "WR",
               "pos": "WR",
@@ -2555,20 +2603,20 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Tucker Kraft",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "GB",
+              "proj": 9.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Seahawks D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "SEA",
               "proj": 7.1,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Juwan Johnson",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "NO",
-              "proj": 7.3,
               "actual": 0.0,
               "injury": null
             },
@@ -2591,7 +2639,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 54.0,
+          "bench_proj": 47.9,
           "injuries": []
         },
         "played": false,
@@ -2599,7 +2647,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "alex raichle (5-4) at Nolan Malo (6-3). Projected: alex raichle 121.1 - Nolan Malo 132.2. Nolan Malo favored by 11.1.",
+        "blurb": "alex raichle (5-4) at Nolan Malo (6-3). Projected: alex raichle 127.2 - Nolan Malo 132.2. Nolan Malo favored by 5.0.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2656,7 +2704,7 @@ window.MATCHUPS_DATA = {
             "pro": "DET",
             "proj": 20.4,
             "actual": 0.0,
-            "injury": null,
+            "injury": "QUESTIONABLE",
             "owner": "Nolan Malo"
           }
         ],
@@ -2682,13 +2730,13 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 49.4,
-            "away_proj": 31.8,
+            "away_proj": 35.8,
             "edge": "home"
           },
           {
             "pos": "TE",
             "home_proj": 12.5,
-            "away_proj": 7.3,
+            "away_proj": 9.4,
             "edge": "home"
           },
           {
@@ -2830,11 +2878,11 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 0.0,
-          "projected": 120.9,
+          "projected": 130.2,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -2855,22 +2903,13 @@ window.MATCHUPS_DATA = {
               "injury": "QUESTIONABLE"
             },
             {
-              "name": "Colston Loveland",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "CHI",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Bhayshul Tuten",
               "slot": "RB",
               "pos": "RB",
               "pro": "JAX",
               "proj": 17.3,
               "actual": 0.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Parker Washington",
@@ -2916,9 +2955,18 @@ window.MATCHUPS_DATA = {
               "proj": 10.5,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Hunter Henry",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "NE",
+              "proj": 9.3,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
             }
           ],
-          "bench_proj": 37.6,
+          "bench_proj": 28.3,
           "injuries": [
             {
               "name": "Garrett Wilson",
@@ -2926,6 +2974,24 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "NYJ",
               "proj": 12.7,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Bhayshul Tuten",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "JAX",
+              "proj": 17.3,
+              "actual": 0.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
+              "name": "Hunter Henry",
+              "slot": "TE",
+              "pos": "TE",
+              "pro": "NE",
+              "proj": 9.3,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
             }
@@ -2936,7 +3002,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (1-8) at Dawson Leer (7-2). Projected: spencer glynn 120.9 - Dawson Leer 130.0. Dawson Leer favored by 9.1.",
+        "blurb": "spencer glynn (1-8) at Dawson Leer (7-2). Projected: spencer glynn 130.2 - Dawson Leer 130.0. spencer glynn favored by 0.2.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -3025,7 +3091,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "TE",
             "home_proj": 11.4,
-            "away_proj": 0.0,
+            "away_proj": 9.3,
             "edge": "home"
           },
           {
@@ -3183,7 +3249,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 0.0,
@@ -3398,7 +3464,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 0.0,
@@ -3858,7 +3924,7 @@ window.MATCHUPS_DATA = {
         "away": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 0.0,
@@ -4250,7 +4316,7 @@ window.MATCHUPS_DATA = {
         "home": {
           "teamId": 3,
           "guid": "{8F23D13E-6F25-4EFD-A3D1-3E6F25BEFD6B}",
-          "team": "Tank for Arch",
+          "team": "Hubbard's Cupboard of Sadness",
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 0.0,
