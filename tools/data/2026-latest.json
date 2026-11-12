@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-12T11:55:53+00:00",
+  "generated_at": "2026-11-12T19:15:38+00:00",
   "current_week": 10,
   "standings": [
     {
@@ -3881,19 +3881,19 @@
           "injury": null
         },
         {
-          "player_id": 4569173,
-          "name": "Rhamondre Stevenson",
+          "player_id": 5081397,
+          "name": "Dylan Sampson",
           "slot": "RB",
           "pos": "RB",
-          "pro": "NE",
-          "proj": 0.0,
+          "pro": "CLE",
+          "proj": 8.9,
           "actual": 0.0,
-          "season_ppg": 12.6,
-          "season_total": 113.7,
-          "games_played": 9,
-          "preseason_proj_total": 173.1,
+          "season_ppg": 7.8,
+          "season_total": 7.8,
+          "games_played": 1,
+          "preseason_proj_total": 199.2,
           "starter": true,
-          "injury": "DOUBTFUL"
+          "injury": null
         },
         {
           "player_id": 4241389,
@@ -4001,21 +4001,6 @@
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 4696981,
-          "name": "Cam Skattebo",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "NYG",
-          "proj": 11.6,
-          "actual": 0.0,
-          "season_ppg": 8.8,
-          "season_total": 70.4,
-          "games_played": 8,
-          "preseason_proj_total": 139.3,
-          "starter": false,
-          "injury": "OUT"
-        },
-        {
           "player_id": 4047650,
           "name": "DK Metcalf",
           "slot": "BE",
@@ -4076,6 +4061,21 @@
           "injury": null
         },
         {
+          "player_id": 4569173,
+          "name": "Rhamondre Stevenson",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "NE",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 12.6,
+          "season_total": 113.7,
+          "games_played": 9,
+          "preseason_proj_total": 173.1,
+          "starter": false,
+          "injury": "DOUBTFUL"
+        },
+        {
           "player_id": 3121023,
           "name": "Dallas Goedert",
           "slot": "BE",
@@ -4087,6 +4087,21 @@
           "season_total": 74.0,
           "games_played": 9,
           "preseason_proj_total": 156.9,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4696981,
+          "name": "Cam Skattebo",
+          "slot": "IR",
+          "pos": "RB",
+          "pro": "NYG",
+          "proj": 11.6,
+          "actual": 0.0,
+          "season_ppg": 8.8,
+          "season_total": 70.4,
+          "games_played": 8,
+          "preseason_proj_total": 139.3,
           "starter": false,
           "injury": null
         }

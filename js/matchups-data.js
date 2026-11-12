@@ -2219,7 +2219,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "4-5",
           "actual": 0.0,
-          "projected": 112.5,
+          "projected": 121.4,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -2247,15 +2247,6 @@ window.MATCHUPS_DATA = {
               "proj": 15.8,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Rhamondre Stevenson",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "NE",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": "DOUBTFUL"
             },
             {
               "name": "Matthew Golden",
@@ -2301,27 +2292,26 @@ window.MATCHUPS_DATA = {
               "proj": 9.1,
               "actual": 0.0,
               "injury": null
-            }
-          ],
-          "bench_proj": 53.6,
-          "injuries": [
+            },
             {
-              "name": "Rhamondre Stevenson",
+              "name": "Dylan Sampson",
               "slot": "RB",
               "pos": "RB",
-              "pro": "NE",
-              "proj": 0.0,
+              "pro": "CLE",
+              "proj": 8.9,
               "actual": 0.0,
-              "injury": "DOUBTFUL"
+              "injury": null
             }
-          ]
+          ],
+          "bench_proj": 42.0,
+          "injuries": []
         },
         "played": false,
         "playoff": false,
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Brady Schuster (4-5) at Owen Koslosku (5-4). Projected: Brady Schuster 112.5 - Owen Koslosku 113.7. Owen Koslosku favored by 1.2.",
+        "blurb": "Brady Schuster (4-5) at Owen Koslosku (5-4). Projected: Brady Schuster 121.4 - Owen Koslosku 113.7. Brady Schuster favored by 7.7.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2404,7 +2394,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 43.3,
-            "away_proj": 13.5,
+            "away_proj": 22.4,
             "edge": "home"
           },
           {
