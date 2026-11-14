@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-14T00:30:02+00:00",
+  "generated_at": "2026-11-14T10:59:54+00:00",
   "current_week": 10,
   "standings": [
     {
