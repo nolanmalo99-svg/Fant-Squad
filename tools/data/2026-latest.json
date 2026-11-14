@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-14T17:20:37+00:00",
+  "generated_at": "2026-11-14T23:26:47+00:00",
   "current_week": 10,
   "standings": [
     {
@@ -3856,7 +3856,7 @@
           "slot": "QB",
           "pos": "QB",
           "pro": "HOU",
-          "proj": 18.1,
+          "proj": 18.3,
           "actual": 0.0,
           "season_ppg": 25.8,
           "season_total": 51.6,
@@ -7446,14 +7446,14 @@
           "slot": "IR",
           "pos": "RB",
           "pro": "NO",
-          "proj": 10.9,
+          "proj": 10.5,
           "actual": 0.0,
           "season_ppg": 3.9,
           "season_total": 30.9,
           "games_played": 8,
           "preseason_proj_total": 188.1,
           "starter": false,
-          "injury": "INJURY_RESERVE"
+          "injury": "QUESTIONABLE"
         }
       ],
       "draft": {
@@ -10661,7 +10661,7 @@
           "slot": "FLEX",
           "pos": "RB",
           "pro": "HOU",
-          "proj": 9.0,
+          "proj": 14.2,
           "actual": 0.0,
           "season_ppg": 8.2,
           "season_total": 41.1,
@@ -10721,7 +10721,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "HOU",
-          "proj": 10.1,
+          "proj": 10.2,
           "actual": 0.0,
           "season_ppg": 3.2,
           "season_total": 26.0,
@@ -13951,7 +13951,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "NO",
-          "proj": 4.1,
+          "proj": 5.0,
           "actual": 0.0,
           "season_ppg": 14.7,
           "season_total": 14.7,
@@ -14086,7 +14086,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "KC",
-          "proj": 10.3,
+          "proj": 10.2,
           "actual": 0.0,
           "season_ppg": 8.3,
           "season_total": 75.1,
@@ -18525,7 +18525,7 @@
           "slot": "QB",
           "pos": "QB",
           "pro": "KC",
-          "proj": 18.6,
+          "proj": 18.5,
           "actual": 0.0,
           "season_ppg": 17.6,
           "season_total": 140.9,
@@ -18550,17 +18550,17 @@
           "injury": null
         },
         {
-          "player_id": 4685702,
-          "name": "Quinshon Judkins",
+          "player_id": 4832955,
+          "name": "Emmett Johnson",
           "slot": "RB",
           "pos": "RB",
-          "pro": "CLE",
-          "proj": 11.8,
+          "pro": "KC",
+          "proj": 16.5,
           "actual": 0.0,
-          "season_ppg": 10.2,
-          "season_total": 92.1,
-          "games_played": 9,
-          "preseason_proj_total": 49.6,
+          "season_ppg": 9.4,
+          "season_total": 9.4,
+          "games_played": 1,
+          "preseason_proj_total": 100.5,
           "starter": true,
           "injury": null
         },
@@ -18610,19 +18610,19 @@
           "injury": null
         },
         {
-          "player_id": 4723820,
-          "name": "Omar Cooper Jr.",
+          "player_id": 4685702,
+          "name": "Quinshon Judkins",
           "slot": "FLEX",
-          "pos": "WR",
-          "pro": "NYJ",
-          "proj": 9.5,
+          "pos": "RB",
+          "pro": "CLE",
+          "proj": 11.8,
           "actual": 0.0,
-          "season_ppg": 12.1,
-          "season_total": 36.3,
-          "games_played": 3,
-          "preseason_proj_total": 0.0,
+          "season_ppg": 10.2,
+          "season_total": 92.1,
+          "games_played": 9,
+          "preseason_proj_total": 49.6,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16002,
@@ -18652,21 +18652,6 @@
           "games_played": 6,
           "preseason_proj_total": 132.5,
           "starter": true,
-          "injury": null
-        },
-        {
-          "player_id": 4832955,
-          "name": "Emmett Johnson",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "KC",
-          "proj": 16.9,
-          "actual": 0.0,
-          "season_ppg": 9.4,
-          "season_total": 9.4,
-          "games_played": 1,
-          "preseason_proj_total": 100.5,
-          "starter": false,
           "injury": null
         },
         {
@@ -18743,6 +18728,21 @@
           "preseason_proj_total": 84.0,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4723820,
+          "name": "Omar Cooper Jr.",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "NYJ",
+          "proj": 9.5,
+          "actual": 0.0,
+          "season_ppg": 12.1,
+          "season_total": 36.3,
+          "games_played": 3,
+          "preseason_proj_total": 0.0,
+          "starter": false,
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4685278,
@@ -22026,21 +22026,6 @@
           "injury": null
         },
         {
-          "player_id": 3054850,
-          "name": "Alvin Kamara",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "NO",
-          "proj": 8.6,
-          "actual": 0.0,
-          "season_ppg": 9.2,
-          "season_total": 73.7,
-          "games_played": 8,
-          "preseason_proj_total": 266.7,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4362081,
           "name": "Cameron Dicker",
           "slot": "BE",
@@ -22052,6 +22037,21 @@
           "season_total": 60.0,
           "games_played": 8,
           "preseason_proj_total": 143.9,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 3054850,
+          "name": "Alvin Kamara",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "NO",
+          "proj": 8.1,
+          "actual": 0.0,
+          "season_ppg": 9.2,
+          "season_total": 73.7,
+          "games_played": 8,
+          "preseason_proj_total": 266.7,
           "starter": false,
           "injury": null
         },
@@ -32283,21 +32283,6 @@
           "injury": null
         },
         {
-          "player_id": 4035538,
-          "name": "David Montgomery",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "HOU",
-          "proj": 10.9,
-          "actual": 0.0,
-          "season_ppg": 5.7,
-          "season_total": 45.5,
-          "games_played": 8,
-          "preseason_proj_total": 213.4,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4685261,
           "name": "Germie Bernard",
           "slot": "BE",
@@ -32356,6 +32341,21 @@
           "preseason_proj_total": 226.5,
           "starter": false,
           "injury": "QUESTIONABLE"
+        },
+        {
+          "player_id": 4035538,
+          "name": "David Montgomery",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "HOU",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 5.7,
+          "season_total": 45.5,
+          "games_played": 8,
+          "preseason_proj_total": 213.4,
+          "starter": false,
+          "injury": "OUT"
         },
         {
           "player_id": 4432708,

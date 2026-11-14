@@ -1553,7 +1553,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 42.1,
+          "bench_proj": 41.6,
           "injuries": [
             {
               "name": "Ladd McConkey",
@@ -1573,7 +1573,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "6-3",
           "actual": 0.0,
-          "projected": 124.4,
+          "projected": 124.5,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -1665,7 +1665,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (6-3) at Andy Jensen (3-6). Projected: Mitch Wiese 124.4 - Andy Jensen 118.5. Mitch Wiese favored by 5.9.",
+        "blurb": "Mitch Wiese (6-3) at Andy Jensen (3-6). Projected: Mitch Wiese 124.5 - Andy Jensen 118.5. Mitch Wiese favored by 6.0.",
         "home_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
@@ -1779,7 +1779,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "4-5",
           "actual": 0.0,
-          "projected": 112.9,
+          "projected": 113.7,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -1840,7 +1840,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "NO",
-              "proj": 4.1,
+              "proj": 5.0,
               "actual": 0.0,
               "injury": null
             },
@@ -1863,7 +1863,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 38.3,
+          "bench_proj": 38.2,
           "injuries": []
         },
         "away": {
@@ -2059,7 +2059,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 46.6,
+          "bench_proj": 35.7,
           "injuries": []
         },
         "away": {
@@ -2069,7 +2069,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "4-5",
           "actual": 0.0,
-          "projected": 120.0,
+          "projected": 120.1,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -2121,7 +2121,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "HOU",
-              "proj": 18.1,
+              "proj": 18.3,
               "actual": 0.0,
               "injury": null
             },
@@ -2171,7 +2171,7 @@ window.MATCHUPS_DATA = {
           "owner": "Nolan Malo",
           "record": "6-3",
           "actual": 27.7,
-          "projected": 142.2,
+          "projected": 147.5,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -2250,12 +2250,12 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "HOU",
-              "proj": 9.0,
+              "proj": 14.2,
               "actual": 0.0,
               "injury": null
             }
           ],
-          "bench_proj": 47.4,
+          "bench_proj": 47.5,
           "injuries": [
             {
               "name": "Amon-Ra St. Brown",
@@ -2377,7 +2377,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "7-2",
           "actual": 0.0,
-          "projected": 118.1,
+          "projected": 125.0,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -2408,7 +2408,7 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Quinshon Judkins",
-              "slot": "RB",
+              "slot": "FLEX",
               "pos": "RB",
               "pro": "CLE",
               "proj": 11.8,
@@ -2429,7 +2429,7 @@ window.MATCHUPS_DATA = {
               "slot": "QB",
               "pos": "QB",
               "pro": "KC",
-              "proj": 18.6,
+              "proj": 18.5,
               "actual": 0.0,
               "injury": null
             },
@@ -2443,15 +2443,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Omar Cooper Jr.",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "NYJ",
-              "proj": 9.5,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            },
-            {
               "name": "Bills D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
@@ -2459,20 +2450,19 @@ window.MATCHUPS_DATA = {
               "proj": 6.2,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Emmett Johnson",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "KC",
+              "proj": 16.5,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 70.9,
-          "injuries": [
-            {
-              "name": "Omar Cooper Jr.",
-              "slot": "FLEX",
-              "pos": "WR",
-              "pro": "NYJ",
-              "proj": 9.5,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "bench_proj": 63.5,
+          "injuries": []
         },
         "away": {
           "teamId": 3,
@@ -2583,7 +2573,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (1-8) at Dawson Leer (7-2). Projected: spencer glynn 129.6 - Dawson Leer 118.1. spencer glynn favored by 11.5.",
+        "blurb": "spencer glynn (1-8) at Dawson Leer (7-2). Projected: spencer glynn 129.6 - Dawson Leer 125.0. spencer glynn favored by 4.6.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2638,7 +2628,7 @@ window.MATCHUPS_DATA = {
             "slot": "QB",
             "pos": "QB",
             "pro": "KC",
-            "proj": 18.6,
+            "proj": 18.5,
             "actual": 0.0,
             "injury": null,
             "owner": "Dawson Leer"
@@ -2659,15 +2649,15 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "QB",
-            "home_proj": 18.6,
+            "home_proj": 18.5,
             "away_proj": 15.8,
             "edge": "home"
           },
           {
             "pos": "RB",
-            "home_proj": 30.4,
+            "home_proj": 46.9,
             "away_proj": 37.3,
-            "edge": "away"
+            "edge": "home"
           },
           {
             "pos": "TE",
@@ -2677,7 +2667,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 40.8,
+            "home_proj": 31.3,
             "away_proj": 50.0,
             "edge": "away"
           }
