@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-13T18:49:08+00:00",
+  "generated_at": "2026-11-14T00:30:02+00:00",
   "current_week": 10,
   "standings": [
     {
@@ -3856,7 +3856,7 @@ window.SITE_DATA = {
           "slot": "QB",
           "pos": "QB",
           "pro": "HOU",
-          "proj": 18.3,
+          "proj": 18.1,
           "actual": 0.0,
           "season_ppg": 25.8,
           "season_total": 51.6,
@@ -3998,7 +3998,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 203.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4047650,
@@ -7258,7 +7258,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 4.7,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4362628,
@@ -7326,7 +7326,7 @@ window.SITE_DATA = {
           "slot": "D/ST",
           "pos": "D/ST",
           "pro": "HOU",
-          "proj": 7.3,
+          "proj": 7.1,
           "actual": 0.0,
           "season_ppg": 3.7,
           "season_total": 26.0,
@@ -7446,7 +7446,7 @@ window.SITE_DATA = {
           "slot": "IR",
           "pos": "RB",
           "pro": "NO",
-          "proj": 0.0,
+          "proj": 10.9,
           "actual": 0.0,
           "season_ppg": 3.9,
           "season_total": 30.9,
@@ -10601,7 +10601,7 @@ window.SITE_DATA = {
           "slot": "RB",
           "pos": "RB",
           "pro": "DAL",
-          "proj": 15.0,
+          "proj": 14.8,
           "actual": 0.0,
           "season_ppg": 17.7,
           "season_total": 159.6,
@@ -10661,14 +10661,14 @@ window.SITE_DATA = {
           "slot": "FLEX",
           "pos": "RB",
           "pro": "HOU",
-          "proj": 13.9,
+          "proj": 9.0,
           "actual": 0.0,
           "season_ppg": 8.2,
           "season_total": 41.1,
           "games_played": 5,
           "preseason_proj_total": 73.3,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16004,
@@ -10716,6 +10716,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4366031,
+          "name": "Tank Dell",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "HOU",
+          "proj": 10.1,
+          "actual": 0.0,
+          "season_ppg": 3.2,
+          "season_total": 26.0,
+          "games_played": 8,
+          "preseason_proj_total": 0.0,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4869645,
           "name": "Caleb Douglas",
           "slot": "BE",
@@ -10742,21 +10757,6 @@ window.SITE_DATA = {
           "season_total": 5.0,
           "games_played": 3,
           "preseason_proj_total": 104.8,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4366031,
-          "name": "Tank Dell",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "HOU",
-          "proj": 8.4,
-          "actual": 0.0,
-          "season_ppg": 3.2,
-          "season_total": 26.0,
-          "games_played": 8,
-          "preseason_proj_total": 0.0,
           "starter": false,
           "injury": null
         },
@@ -10788,7 +10788,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 235.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         },
         {
           "player_id": 4870795,
@@ -13931,21 +13931,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4569682,
-          "name": "Audric Estime",
-          "slot": "RB",
-          "pos": "RB",
-          "pro": "NO",
-          "proj": 10.3,
-          "actual": 0.0,
-          "season_ppg": 14.7,
-          "season_total": 14.7,
-          "games_played": 1,
-          "preseason_proj_total": 0.0,
-          "starter": true,
-          "injury": null
-        },
-        {
           "player_id": 4038441,
           "name": "Justice Hill",
           "slot": "RB",
@@ -13957,6 +13942,21 @@ window.SITE_DATA = {
           "season_total": 18.2,
           "games_played": 1,
           "preseason_proj_total": 108.2,
+          "starter": true,
+          "injury": null
+        },
+        {
+          "player_id": 4569682,
+          "name": "Audric Estime",
+          "slot": "RB",
+          "pos": "RB",
+          "pro": "NO",
+          "proj": 4.1,
+          "actual": 0.0,
+          "season_ppg": 14.7,
+          "season_total": 14.7,
+          "games_played": 1,
+          "preseason_proj_total": 0.0,
           "starter": true,
           "injury": null
         },
@@ -14003,7 +14003,7 @@ window.SITE_DATA = {
           "games_played": 9,
           "preseason_proj_total": 53.5,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 3915416,
@@ -14066,34 +14066,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4036133,
-          "name": "T.J. Hockenson",
-          "slot": "BE",
-          "pos": "TE",
-          "pro": "MIN",
-          "proj": 11.5,
-          "actual": 0.0,
-          "season_ppg": 10.7,
-          "season_total": 85.8,
-          "games_played": 8,
-          "preseason_proj_total": 184.5,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4429205,
           "name": "Jordan Addison",
           "slot": "BE",
           "pos": "WR",
           "pro": "MIN",
-          "proj": 10.7,
+          "proj": 11.4,
           "actual": 0.0,
           "season_ppg": 6.7,
           "season_total": 53.9,
           "games_played": 8,
           "preseason_proj_total": 167.3,
           "starter": false,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4688813,
@@ -14154,6 +14139,21 @@ window.SITE_DATA = {
           "preseason_proj_total": 226.8,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4036133,
+          "name": "T.J. Hockenson",
+          "slot": "BE",
+          "pos": "TE",
+          "pro": "MIN",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 10.7,
+          "season_total": 85.8,
+          "games_played": 8,
+          "preseason_proj_total": 184.5,
+          "starter": false,
+          "injury": "OUT"
         }
       ],
       "draft": {
@@ -18547,7 +18547,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 238.8,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4430737,
@@ -18570,7 +18570,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "MIN",
-          "proj": 17.5,
+          "proj": 17.9,
           "actual": 0.0,
           "season_ppg": 11.9,
           "season_total": 95.2,
@@ -18622,7 +18622,7 @@ window.SITE_DATA = {
           "games_played": 3,
           "preseason_proj_total": 0.0,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": -16002,
@@ -21996,21 +21996,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 3054850,
-          "name": "Alvin Kamara",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "NO",
-          "proj": 10.3,
-          "actual": 0.0,
-          "season_ppg": 9.2,
-          "season_total": 73.7,
-          "games_played": 8,
-          "preseason_proj_total": 266.7,
-          "starter": false,
-          "injury": null
-        },
-        {
           "player_id": 4430539,
           "name": "Brenton Strange",
           "slot": "BE",
@@ -22037,6 +22022,21 @@ window.SITE_DATA = {
           "season_total": 20.3,
           "games_played": 2,
           "preseason_proj_total": 212.6,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 3054850,
+          "name": "Alvin Kamara",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "NO",
+          "proj": 8.6,
+          "actual": 0.0,
+          "season_ppg": 9.2,
+          "season_total": 73.7,
+          "games_played": 8,
+          "preseason_proj_total": 266.7,
           "starter": false,
           "injury": null
         },
@@ -26689,7 +26689,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 219.6,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4360797,
@@ -29800,7 +29800,7 @@ window.SITE_DATA = {
           "slot": "WR",
           "pos": "WR",
           "pro": "HOU",
-          "proj": 13.2,
+          "proj": 13.7,
           "actual": 0.0,
           "season_ppg": 11.4,
           "season_total": 91.6,
@@ -29915,6 +29915,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4360569,
+          "name": "Jordan Mason",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "MIN",
+          "proj": 9.2,
+          "actual": 0.0,
+          "season_ppg": 3.4,
+          "season_total": 26.9,
+          "games_played": 8,
+          "preseason_proj_total": 133.6,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 4360248,
           "name": "Kyle Pitts Sr.",
           "slot": "BE",
@@ -29926,21 +29941,6 @@ window.SITE_DATA = {
           "season_total": 25.1,
           "games_played": 6,
           "preseason_proj_total": 143.1,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4360569,
-          "name": "Jordan Mason",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "MIN",
-          "proj": 9.1,
-          "actual": 0.0,
-          "season_ppg": 3.4,
-          "season_total": 26.9,
-          "games_played": 8,
-          "preseason_proj_total": 133.6,
           "starter": false,
           "injury": null
         },
@@ -32205,7 +32205,7 @@ window.SITE_DATA = {
           "games_played": 9,
           "preseason_proj_total": 221.4,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 3040151,
@@ -32235,7 +32235,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 222.1,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16016,
@@ -32283,6 +32283,21 @@ window.SITE_DATA = {
           "injury": null
         },
         {
+          "player_id": 4035538,
+          "name": "David Montgomery",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "HOU",
+          "proj": 10.9,
+          "actual": 0.0,
+          "season_ppg": 5.7,
+          "season_total": 45.5,
+          "games_played": 8,
+          "preseason_proj_total": 213.4,
+          "starter": false,
+          "injury": "QUESTIONABLE"
+        },
+        {
           "player_id": 4685261,
           "name": "Germie Bernard",
           "slot": "BE",
@@ -32309,21 +32324,6 @@ window.SITE_DATA = {
           "season_total": 21.3,
           "games_played": 4,
           "preseason_proj_total": 84.4,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4432708,
-          "name": "Marvin Harrison Jr.",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "HOU",
-          "proj": 6.0,
-          "actual": 0.0,
-          "season_ppg": 4.7,
-          "season_total": 37.5,
-          "games_played": 8,
-          "preseason_proj_total": 240.0,
           "starter": false,
           "injury": "QUESTIONABLE"
         },
@@ -32358,19 +32358,19 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 4035538,
-          "name": "David Montgomery",
+          "player_id": 4432708,
+          "name": "Marvin Harrison Jr.",
           "slot": "BE",
-          "pos": "RB",
+          "pos": "WR",
           "pro": "HOU",
           "proj": 0.0,
           "actual": 0.0,
-          "season_ppg": 5.7,
-          "season_total": 45.5,
+          "season_ppg": 4.7,
+          "season_total": 37.5,
           "games_played": 8,
-          "preseason_proj_total": 213.4,
+          "preseason_proj_total": 240.0,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": "OUT"
         }
       ],
       "draft": {
