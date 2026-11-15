@@ -2,7 +2,7 @@
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-15T11:34:17+00:00",
+  "generated_at": "2026-11-15T18:01:29+00:00",
   "current_week": 10,
   "standings": [
     {
@@ -507,13 +507,13 @@
           "pos": "QB",
           "pro": "NE",
           "proj": 21.7,
-          "actual": 0.0,
+          "actual": 2.7,
           "season_ppg": 19.6,
           "season_total": 176.7,
           "games_played": 9,
           "preseason_proj_total": 285.1,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4429795,
@@ -522,7 +522,7 @@
           "pos": "RB",
           "pro": "DET",
           "proj": 23.9,
-          "actual": 0.0,
+          "actual": 44.2,
           "season_ppg": 26.1,
           "season_total": 209.2,
           "games_played": 8,
@@ -596,8 +596,8 @@
           "slot": "FLEX",
           "pos": "WR",
           "pro": "NE",
-          "proj": 10.1,
-          "actual": 0.0,
+          "proj": 10.0,
+          "actual": 1.4,
           "season_ppg": 14.2,
           "season_total": 56.7,
           "games_played": 4,
@@ -627,7 +627,7 @@
           "pos": "K",
           "pro": "DET",
           "proj": 9.3,
-          "actual": 0.0,
+          "actual": 5.0,
           "season_ppg": 11.3,
           "season_total": 34.0,
           "games_played": 3,
@@ -648,7 +648,7 @@
           "games_played": 8,
           "preseason_proj_total": 159.9,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4047646,
@@ -656,8 +656,8 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "NE",
-          "proj": 12.6,
-          "actual": 0.0,
+          "proj": 12.5,
+          "actual": 4.7,
           "season_ppg": 2.1,
           "season_total": 19.1,
           "games_played": 9,
@@ -3886,7 +3886,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "MIN",
-          "proj": 8.5,
+          "proj": 8.6,
           "actual": 0.0,
           "season_ppg": 10.4,
           "season_total": 82.9,
@@ -3932,7 +3932,7 @@
           "pos": "TE",
           "pro": "NE",
           "proj": 7.9,
-          "actual": 0.0,
+          "actual": 1.6,
           "season_ppg": 8.2,
           "season_total": 8.2,
           "games_played": 1,
@@ -3986,6 +3986,21 @@
           "injury": null
         },
         {
+          "player_id": 4569173,
+          "name": "Rhamondre Stevenson",
+          "slot": "BE",
+          "pos": "RB",
+          "pro": "NE",
+          "proj": 13.4,
+          "actual": 1.5,
+          "season_ppg": 12.6,
+          "season_total": 113.7,
+          "games_played": 9,
+          "preseason_proj_total": 173.1,
+          "starter": false,
+          "injury": null
+        },
+        {
           "player_id": 3126486,
           "name": "Deebo Samuel Sr.",
           "slot": "BE",
@@ -4021,8 +4036,8 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "NE",
-          "proj": 9.4,
-          "actual": 0.0,
+          "proj": 9.3,
+          "actual": 9.8,
           "season_ppg": 12.6,
           "season_total": 12.6,
           "games_played": 1,
@@ -4059,21 +4074,6 @@
           "preseason_proj_total": 176.0,
           "starter": false,
           "injury": null
-        },
-        {
-          "player_id": 4569173,
-          "name": "Rhamondre Stevenson",
-          "slot": "BE",
-          "pos": "RB",
-          "pro": "NE",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 12.6,
-          "season_total": 113.7,
-          "games_played": 9,
-          "preseason_proj_total": 173.1,
-          "starter": false,
-          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 3121023,
@@ -7221,7 +7221,7 @@
           "slot": "QB",
           "pos": "QB",
           "pro": "NO",
-          "proj": 17.4,
+          "proj": 17.3,
           "actual": 0.0,
           "season_ppg": 16.4,
           "season_total": 65.7,
@@ -7297,7 +7297,7 @@
           "pos": "TE",
           "pro": "NE",
           "proj": 8.8,
-          "actual": 0.0,
+          "actual": 4.2,
           "season_ppg": 3.8,
           "season_total": 7.5,
           "games_played": 2,
@@ -7318,7 +7318,7 @@
           "games_played": 9,
           "preseason_proj_total": 241.4,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": -16034,
@@ -7468,7 +7468,7 @@
           "games_played": 8,
           "preseason_proj_total": 188.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         }
       ],
       "draft": {
@@ -10632,13 +10632,13 @@
           "pos": "WR",
           "pro": "DET",
           "proj": 20.4,
-          "actual": 0.0,
+          "actual": 25.8,
           "season_ppg": 19.7,
           "season_total": 157.6,
           "games_played": 8,
           "preseason_proj_total": 290.6,
           "starter": true,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4429615,
@@ -10751,7 +10751,7 @@
           "slot": "BE",
           "pos": "WR",
           "pro": "KC",
-          "proj": 9.4,
+          "proj": 9.8,
           "actual": 0.0,
           "season_ppg": 7.5,
           "season_total": 52.5,
@@ -14081,27 +14081,12 @@
           "injury": null
         },
         {
-          "player_id": 4429205,
-          "name": "Jordan Addison",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "MIN",
-          "proj": 11.4,
-          "actual": 0.0,
-          "season_ppg": 6.7,
-          "season_total": 53.9,
-          "games_played": 8,
-          "preseason_proj_total": 167.3,
-          "starter": false,
-          "injury": "QUESTIONABLE"
-        },
-        {
           "player_id": 4688813,
           "name": "Josh Downs",
           "slot": "BE",
           "pos": "WR",
           "pro": "KC",
-          "proj": 10.2,
+          "proj": 10.4,
           "actual": 0.0,
           "season_ppg": 8.3,
           "season_total": 75.1,
@@ -14154,6 +14139,21 @@
           "preseason_proj_total": 226.8,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4429205,
+          "name": "Jordan Addison",
+          "slot": "BE",
+          "pos": "WR",
+          "pro": "MIN",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 6.7,
+          "season_total": 53.9,
+          "games_played": 8,
+          "preseason_proj_total": 167.3,
+          "starter": false,
+          "injury": "OUT"
         },
         {
           "player_id": 4036133,
@@ -18570,7 +18570,7 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "KC",
-          "proj": 16.5,
+          "proj": 18.3,
           "actual": 0.0,
           "season_ppg": 9.4,
           "season_total": 9.4,
@@ -18585,7 +18585,7 @@
           "slot": "WR",
           "pos": "WR",
           "pro": "MIN",
-          "proj": 17.9,
+          "proj": 18.8,
           "actual": 0.0,
           "season_ppg": 11.9,
           "season_total": 95.2,
@@ -18616,7 +18616,7 @@
           "pos": "TE",
           "pro": "DET",
           "proj": 11.4,
-          "actual": 0.0,
+          "actual": 2.6,
           "season_ppg": 11.6,
           "season_total": 93.1,
           "games_played": 8,
@@ -18757,7 +18757,7 @@
           "games_played": 3,
           "preseason_proj_total": 0.0,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4685278,
@@ -26682,8 +26682,8 @@
           "slot": "RB",
           "pos": "RB",
           "pro": "NE",
-          "proj": 10.2,
-          "actual": 0.0,
+          "proj": 6.8,
+          "actual": 2.5,
           "season_ppg": 7.7,
           "season_total": 15.3,
           "games_played": 2,
@@ -29846,7 +29846,7 @@
           "pos": "WR",
           "pro": "DET",
           "proj": 12.1,
-          "actual": 0.0,
+          "actual": 9.0,
           "season_ppg": 13.2,
           "season_total": 105.7,
           "games_played": 8,
@@ -29891,7 +29891,7 @@
           "pos": "QB",
           "pro": "DET",
           "proj": 17.2,
-          "actual": 0.0,
+          "actual": 20.3,
           "season_ppg": 18.2,
           "season_total": 146.0,
           "games_played": 8,
@@ -32325,7 +32325,7 @@
           "games_played": 4,
           "preseason_proj_total": 84.4,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4426515,
