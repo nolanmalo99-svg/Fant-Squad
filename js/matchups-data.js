@@ -2069,7 +2069,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "4-5",
           "actual": 0.0,
-          "projected": 120.1,
+          "projected": 119.7,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -2108,6 +2108,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Aaron Jones Sr.",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "MIN",
+              "proj": 8.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Will Reichard",
               "slot": "K",
               "pos": "K",
@@ -2142,18 +2151,9 @@ window.MATCHUPS_DATA = {
               "proj": 7.9,
               "actual": 0.0,
               "injury": null
-            },
-            {
-              "name": "Dylan Sampson",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "CLE",
-              "proj": 8.9,
-              "actual": 0.0,
-              "injury": null
             }
           ],
-          "bench_proj": 40.2,
+          "bench_proj": 40.6,
           "injuries": []
         },
         "played": true,
