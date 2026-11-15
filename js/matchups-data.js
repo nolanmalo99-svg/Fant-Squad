@@ -1548,7 +1548,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "IND",
-              "proj": 17.8,
+              "proj": 17.9,
               "actual": 0.0,
               "injury": null
             }
@@ -1643,7 +1643,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "GB",
-              "proj": 5.6,
+              "proj": 5.5,
               "actual": 0.0,
               "injury": null
             },
@@ -1730,7 +1730,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 4.9,
-            "away_proj": 5.6,
+            "away_proj": 5.5,
             "edge": "even"
           },
           {
@@ -1747,7 +1747,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 54.6,
+            "home_proj": 54.7,
             "away_proj": 29.1,
             "edge": "home"
           },
@@ -1795,7 +1795,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "CAR",
-              "proj": 16.1,
+              "proj": 16.0,
               "actual": 0.0,
               "injury": null
             },
@@ -1858,7 +1858,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "BAL",
-              "proj": 7.7,
+              "proj": 7.8,
               "actual": 0.0,
               "injury": null
             }
@@ -2275,7 +2275,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "5-4",
           "actual": 0.0,
-          "projected": 124.2,
+          "projected": 124.1,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -2359,7 +2359,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 62.6,
+          "bench_proj": 62.5,
           "injuries": []
         },
         "played": true,
@@ -2471,7 +2471,7 @@ window.MATCHUPS_DATA = {
           "owner": "spencer glynn",
           "record": "1-8",
           "actual": 0.0,
-          "projected": 129.6,
+          "projected": 131.1,
           "starters": [
             {
               "name": "Ja'Marr Chase",
@@ -2519,15 +2519,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Jordan Love",
-              "slot": "QB",
-              "pos": "QB",
-              "pro": "GB",
-              "proj": 15.8,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Texans D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
@@ -2553,9 +2544,18 @@ window.MATCHUPS_DATA = {
               "proj": 8.8,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Tyler Shough",
+              "slot": "QB",
+              "pos": "QB",
+              "pro": "NO",
+              "proj": 17.4,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 28.3,
+          "bench_proj": 44.2,
           "injuries": [
             {
               "name": "Garrett Wilson",
@@ -2573,7 +2573,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "spencer glynn (1-8) at Dawson Leer (7-2). Projected: spencer glynn 129.6 - Dawson Leer 125.0. spencer glynn favored by 4.6.",
+        "blurb": "spencer glynn (1-8) at Dawson Leer (7-2). Projected: spencer glynn 131.1 - Dawson Leer 125.0. spencer glynn favored by 6.1.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2650,7 +2650,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "QB",
             "home_proj": 18.5,
-            "away_proj": 15.8,
+            "away_proj": 17.4,
             "edge": "home"
           },
           {
