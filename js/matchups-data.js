@@ -1581,7 +1581,7 @@ window.MATCHUPS_DATA = {
               "pro": "ATL",
               "proj": 14.8,
               "actual": 16.9,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Nico Collins",
@@ -1656,15 +1656,6 @@ window.MATCHUPS_DATA = {
               "pro": "LV",
               "proj": 15.4,
               "actual": 3.8,
-              "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Drake London",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "ATL",
-              "proj": 14.8,
-              "actual": 16.9,
               "injury": "QUESTIONABLE"
             }
           ]
@@ -2207,7 +2198,7 @@ window.MATCHUPS_DATA = {
               "pro": "NE",
               "proj": 21.7,
               "actual": 2.7,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             },
             {
               "name": "Jadarian Price",
@@ -2273,7 +2264,7 @@ window.MATCHUPS_DATA = {
               "pro": "NE",
               "proj": 21.7,
               "actual": 2.7,
-              "injury": "QUESTIONABLE"
+              "injury": "DOUBTFUL"
             }
           ]
         },
