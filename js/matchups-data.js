@@ -1809,7 +1809,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 41.2,
+          "bench_proj": 40.6,
           "injuries": []
         },
         "played": false,
@@ -2346,7 +2346,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "7-3",
           "actual": 0.0,
-          "projected": 106.5,
+          "projected": 105.9,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -2407,7 +2407,7 @@ window.MATCHUPS_DATA = {
               "slot": "RB",
               "pos": "RB",
               "pro": "PIT",
-              "proj": 16.3,
+              "proj": 15.7,
               "actual": 0.0,
               "injury": null
             },
@@ -2430,7 +2430,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 46.2,
+          "bench_proj": 36.3,
           "injuries": [
             {
               "name": "Brock Bowers",
@@ -2448,7 +2448,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (7-3) at spencer glynn (2-8). Projected: Mitch Wiese 106.5 - spencer glynn 145.5. spencer glynn favored by 39.0.",
+        "blurb": "Mitch Wiese (7-3) at spencer glynn (2-8). Projected: Mitch Wiese 105.9 - spencer glynn 145.5. spencer glynn favored by 39.6.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2531,7 +2531,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 56.3,
-            "away_proj": 30.1,
+            "away_proj": 29.5,
             "edge": "home"
           },
           {
@@ -2653,7 +2653,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 78.0,
+          "bench_proj": 77.9,
           "injuries": []
         },
         "away": {
@@ -2888,7 +2888,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "7-3",
           "actual": 0.0,
-          "projected": 89.4,
+          "projected": 113.8,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -2900,29 +2900,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Rashee Rice",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "KC",
-              "proj": 12.8,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Kyren Williams",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "LAR",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Quinshon Judkins",
+              "name": "Luther Burden III",
               "slot": "FLEX",
-              "pos": "RB",
-              "pro": "CLE",
-              "proj": 0.0,
+              "pos": "WR",
+              "pro": "CHI",
+              "proj": 15.1,
               "actual": 0.0,
               "injury": null
             },
@@ -2936,11 +2918,29 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Rico Dowdle",
+              "slot": "RB",
+              "pos": "RB",
+              "pro": "PIT",
+              "proj": 9.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Patrick Mahomes",
               "slot": "QB",
               "pos": "QB",
               "pro": "KC",
               "proj": 21.4,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Stefon Diggs",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "WSH",
+              "proj": 12.9,
               "actual": 0.0,
               "injury": null
             },
@@ -2972,7 +2972,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 81.3,
+          "bench_proj": 53.3,
           "injuries": []
         },
         "away": {
@@ -3066,7 +3066,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 45.6,
+          "bench_proj": 40.0,
           "injuries": []
         },
         "played": false,
@@ -3074,7 +3074,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Owen Koslosku (6-4) at Dawson Leer (7-3). Projected: Owen Koslosku 127.0 - Dawson Leer 89.4. Owen Koslosku favored by 37.6.",
+        "blurb": "Owen Koslosku (6-4) at Dawson Leer (7-3). Projected: Owen Koslosku 127.0 - Dawson Leer 113.8. Owen Koslosku favored by 13.2.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -3156,7 +3156,7 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "RB",
-            "home_proj": 9.3,
+            "home_proj": 18.4,
             "away_proj": 45.1,
             "edge": "away"
           },
@@ -3168,9 +3168,9 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 32.8,
+            "home_proj": 48.0,
             "away_proj": 31.9,
-            "edge": "even"
+            "edge": "home"
           }
         ],
         "revenge": {
@@ -3180,8 +3180,7 @@ window.MATCHUPS_DATA = {
           "away_pts": 122.2
         },
         "fun_facts": [
-          "This is their 2nd meeting this season.",
-          "If the projection holds, this would be Dawson Leer's worst week of the season."
+          "This is their 2nd meeting this season."
         ],
         "head_to_head": {
           "home_w": 6,
