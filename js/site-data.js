@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-18T01:54:18+00:00",
+  "generated_at": "2026-11-18T12:21:26+00:00",
   "current_week": 11,
   "standings": [
     {
@@ -13,7 +13,7 @@ window.SITE_DATA = {
       "record": "7-3",
       "pf": 1294.4,
       "pa": 1047.0,
-      "waiver_rank": 9
+      "waiver_rank": 8
     },
     {
       "team_id": 7,
@@ -23,7 +23,7 @@ window.SITE_DATA = {
       "record": "7-3",
       "pf": 1249.2,
       "pa": 1158.0,
-      "waiver_rank": 10
+      "waiver_rank": 9
     },
     {
       "team_id": 8,
@@ -33,7 +33,7 @@ window.SITE_DATA = {
       "record": "7-3",
       "pf": 1227.8,
       "pa": 1177.9,
-      "waiver_rank": 8
+      "waiver_rank": 10
     },
     {
       "team_id": 6,
@@ -143,18 +143,18 @@ window.SITE_DATA = {
       "waiver_rank": 7
     },
     {
-      "owner": "Mitch Wiese",
-      "team": "Cream in my Jeantys",
-      "waiver_rank": 8
-    },
-    {
       "owner": "Nolan Malo",
       "team": "Amon-Ra Doggin",
-      "waiver_rank": 9
+      "waiver_rank": 8
     },
     {
       "owner": "Dawson Leer",
       "team": "This Just In",
+      "waiver_rank": 9
+    },
+    {
+      "owner": "Mitch Wiese",
+      "team": "Cream in my Jeantys",
       "waiver_rank": 10
     }
   ],
@@ -29810,17 +29810,17 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4426502,
-          "name": "Drake London",
+          "player_id": 4426388,
+          "name": "Jameson Williams",
           "slot": "WR",
           "pos": "WR",
-          "pro": "ATL",
-          "proj": 0.0,
+          "pro": "DET",
+          "proj": 11.2,
           "actual": 0.0,
-          "season_ppg": 13.8,
-          "season_total": 138.5,
-          "games_played": 10,
-          "preseason_proj_total": 267.4,
+          "season_ppg": 12.7,
+          "season_total": 114.7,
+          "games_played": 9,
+          "preseason_proj_total": 218.6,
           "starter": true,
           "injury": null
         },
@@ -29840,32 +29840,32 @@ window.SITE_DATA = {
           "injury": "QUESTIONABLE"
         },
         {
-          "player_id": 4426388,
-          "name": "Jameson Williams",
+          "player_id": 4686422,
+          "name": "Xavier Hutchinson",
           "slot": "FLEX",
           "pos": "WR",
-          "pro": "DET",
-          "proj": 11.2,
+          "pro": "HOU",
+          "proj": 10.7,
           "actual": 0.0,
-          "season_ppg": 12.7,
-          "season_total": 114.7,
-          "games_played": 9,
-          "preseason_proj_total": 218.6,
+          "season_ppg": 15.8,
+          "season_total": 15.8,
+          "games_played": 1,
+          "preseason_proj_total": 45.3,
           "starter": true,
           "injury": null
         },
         {
-          "player_id": -16009,
-          "name": "Packers D/ST",
+          "player_id": -16003,
+          "name": "Bears D/ST",
           "slot": "D/ST",
           "pos": "D/ST",
-          "pro": "GB",
-          "proj": 0.0,
+          "pro": "CHI",
+          "proj": 6.0,
           "actual": 0.0,
-          "season_ppg": 4.0,
-          "season_total": 4.0,
-          "games_played": 1,
-          "preseason_proj_total": 100.8,
+          "season_ppg": 5.5,
+          "season_total": 22.0,
+          "games_played": 4,
+          "preseason_proj_total": 90.6,
           "starter": true,
           "injury": null
         },
@@ -29930,34 +29930,19 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4569559,
-          "name": "Devaughn Vele",
+          "player_id": 4426502,
+          "name": "Drake London",
           "slot": "BE",
           "pos": "WR",
-          "pro": "NO",
-          "proj": 6.1,
-          "actual": 0.0,
-          "season_ppg": 8.8,
-          "season_total": 61.6,
-          "games_played": 7,
-          "preseason_proj_total": 45.4,
-          "starter": false,
-          "injury": null
-        },
-        {
-          "player_id": 4569587,
-          "name": "Wan'Dale Robinson",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "TEN",
+          "pro": "ATL",
           "proj": 0.0,
           "actual": 0.0,
-          "season_ppg": 9.0,
-          "season_total": 81.3,
-          "games_played": 9,
-          "preseason_proj_total": 152.8,
+          "season_ppg": 13.8,
+          "season_total": 138.5,
+          "games_played": 10,
+          "preseason_proj_total": 267.4,
           "starter": false,
-          "injury": "INJURY_RESERVE"
+          "injury": null
         },
         {
           "player_id": 4870653,
@@ -29988,6 +29973,36 @@ window.SITE_DATA = {
           "preseason_proj_total": 143.1,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": -16009,
+          "name": "Packers D/ST",
+          "slot": "BE",
+          "pos": "D/ST",
+          "pro": "GB",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 4.0,
+          "season_total": 4.0,
+          "games_played": 1,
+          "preseason_proj_total": 100.8,
+          "starter": false,
+          "injury": null
+        },
+        {
+          "player_id": 4569587,
+          "name": "Wan'Dale Robinson",
+          "slot": "IR",
+          "pos": "WR",
+          "pro": "TEN",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 9.0,
+          "season_total": 81.3,
+          "games_played": 9,
+          "preseason_proj_total": 152.8,
+          "starter": false,
+          "injury": "INJURY_RESERVE"
         }
       ],
       "draft": {

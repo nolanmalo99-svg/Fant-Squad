@@ -2346,7 +2346,7 @@ window.MATCHUPS_DATA = {
           "owner": "Mitch Wiese",
           "record": "7-3",
           "actual": 0.0,
-          "projected": 105.9,
+          "projected": 122.6,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -2356,15 +2356,6 @@ window.MATCHUPS_DATA = {
               "proj": 15.3,
               "actual": 0.0,
               "injury": "QUESTIONABLE"
-            },
-            {
-              "name": "Drake London",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "ATL",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
             },
             {
               "name": "Nico Collins",
@@ -2395,7 +2386,7 @@ window.MATCHUPS_DATA = {
             },
             {
               "name": "Jameson Williams",
-              "slot": "FLEX",
+              "slot": "WR",
               "pos": "WR",
               "pro": "DET",
               "proj": 11.2,
@@ -2412,15 +2403,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Packers D/ST",
-              "slot": "D/ST",
-              "pos": "D/ST",
-              "pro": "GB",
-              "proj": 0.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Cam Little",
               "slot": "K",
               "pos": "K",
@@ -2428,9 +2410,27 @@ window.MATCHUPS_DATA = {
               "proj": 10.9,
               "actual": 0.0,
               "injury": null
+            },
+            {
+              "name": "Xavier Hutchinson",
+              "slot": "FLEX",
+              "pos": "WR",
+              "pro": "HOU",
+              "proj": 10.7,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Bears D/ST",
+              "slot": "D/ST",
+              "pos": "D/ST",
+              "pro": "CHI",
+              "proj": 6.0,
+              "actual": 0.0,
+              "injury": null
             }
           ],
-          "bench_proj": 36.3,
+          "bench_proj": 30.2,
           "injuries": [
             {
               "name": "Brock Bowers",
@@ -2448,7 +2448,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Mitch Wiese (7-3) at spencer glynn (2-8). Projected: Mitch Wiese 105.9 - spencer glynn 145.5. spencer glynn favored by 39.6.",
+        "blurb": "Mitch Wiese (7-3) at spencer glynn (2-8). Projected: Mitch Wiese 122.6 - spencer glynn 145.5. spencer glynn favored by 22.9.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2513,8 +2513,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "D/ST",
             "home_proj": 6.9,
-            "away_proj": 0.0,
-            "edge": "home"
+            "away_proj": 6.0,
+            "edge": "even"
           },
           {
             "pos": "K",
@@ -2543,7 +2543,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 40.7,
-            "away_proj": 27.0,
+            "away_proj": 37.7,
             "edge": "home"
           }
         ],
