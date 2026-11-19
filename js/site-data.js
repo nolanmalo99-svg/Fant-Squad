@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-18T22:43:40+00:00",
+  "generated_at": "2026-11-19T04:36:37+00:00",
   "current_week": 11,
   "standings": [
     {
@@ -32343,21 +32343,6 @@ window.SITE_DATA = {
           "injury": null
         },
         {
-          "player_id": 4426515,
-          "name": "Puka Nacua",
-          "slot": "BE",
-          "pos": "WR",
-          "pro": "LAR",
-          "proj": 0.0,
-          "actual": 0.0,
-          "season_ppg": 17.4,
-          "season_total": 173.6,
-          "games_played": 10,
-          "preseason_proj_total": 298.6,
-          "starter": false,
-          "injury": "INJURY_RESERVE"
-        },
-        {
           "player_id": 4432708,
           "name": "Marvin Harrison Jr.",
           "slot": "BE",
@@ -32386,6 +32371,21 @@ window.SITE_DATA = {
           "preseason_proj_total": 137.0,
           "starter": false,
           "injury": null
+        },
+        {
+          "player_id": 4426515,
+          "name": "Puka Nacua",
+          "slot": "IR",
+          "pos": "WR",
+          "pro": "LAR",
+          "proj": 0.0,
+          "actual": 0.0,
+          "season_ppg": 17.4,
+          "season_total": 173.6,
+          "games_played": 10,
+          "preseason_proj_total": 298.6,
+          "starter": false,
+          "injury": "INJURY_RESERVE"
         }
       ],
       "draft": {
