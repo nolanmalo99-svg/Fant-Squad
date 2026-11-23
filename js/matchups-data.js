@@ -1631,7 +1631,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "5-5",
           "actual": 121.8,
-          "projected": 123.4,
+          "projected": 121.8,
           "starters": [
             {
               "name": "Tetairoa McMillan",
@@ -1725,7 +1725,7 @@ window.MATCHUPS_DATA = {
           "owner": "Brady Schuster",
           "record": "4-6",
           "actual": 96.5,
-          "projected": 113.5,
+          "projected": 112.1,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -1827,7 +1827,7 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "3-7",
           "actual": 108.1,
-          "projected": 109.2,
+          "projected": 108.1,
           "starters": [
             {
               "name": "Derrick Henry",
@@ -1920,8 +1920,8 @@ window.MATCHUPS_DATA = {
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
           "record": "7-3",
-          "actual": 111.9,
-          "projected": 132.9,
+          "actual": 109.9,
+          "projected": 132.4,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -2001,7 +2001,7 @@ window.MATCHUPS_DATA = {
               "pos": "D/ST",
               "pro": "SF",
               "proj": 5.4,
-              "actual": 16.0,
+              "actual": 14.0,
               "injury": null
             }
           ],
@@ -2010,10 +2010,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 3.8,
+        "margin": 1.8,
         "winner": "Nolan Malo",
         "phase": "recap",
-        "blurb": "Final: Nolan Malo 111.9 - Andy Jensen 108.1. Nolan Malo won by 3.8. Top scorers for Nolan Malo: Javonte Williams (24.1), James Cook III (17.2)."
+        "blurb": "Final: Nolan Malo 109.9 - Andy Jensen 108.1. Nolan Malo won by 1.8. Top scorers for Nolan Malo: Javonte Williams (24.1), James Cook III (17.2)."
       },
       {
         "home": {
@@ -2050,7 +2050,7 @@ window.MATCHUPS_DATA = {
               "pro": "JAX",
               "proj": 16.9,
               "actual": 8.3,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Parker Washington",
@@ -2108,7 +2108,17 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 29.6,
-          "injuries": []
+          "injuries": [
+            {
+              "name": "Bhayshul Tuten",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "JAX",
+              "proj": 16.9,
+              "actual": 8.3,
+              "injury": "QUESTIONABLE"
+            }
+          ]
         },
         "away": {
           "teamId": 8,
@@ -2219,7 +2229,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "4-6",
           "actual": 75.2,
-          "projected": 97.2,
+          "projected": 94.5,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -2435,7 +2445,7 @@ window.MATCHUPS_DATA = {
           "owner": "Dawson Leer",
           "record": "7-3",
           "actual": 93.7,
-          "projected": 109.4,
+          "projected": 106.6,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -2529,7 +2539,7 @@ window.MATCHUPS_DATA = {
           "owner": "Owen Koslosku",
           "record": "6-4",
           "actual": 141.1,
-          "projected": 143.5,
+          "projected": 141.1,
           "starters": [
             {
               "name": "George Pickens",
@@ -2659,8 +2669,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 127.8,
-          "recent_avg": 129.9,
+          "season_avg": 127.7,
+          "recent_avg": 129.2,
           "streak": 3,
           "streak_type": "W",
           "trend": "steady"
@@ -3052,8 +3062,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 127.8,
-          "recent_avg": 129.9,
+          "season_avg": 127.7,
+          "recent_avg": 129.2,
           "streak": 3,
           "streak_type": "W",
           "trend": "steady"
@@ -3465,8 +3475,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 127.8,
-          "recent_avg": 129.9,
+          "season_avg": 127.7,
+          "recent_avg": 129.2,
           "streak": 3,
           "streak_type": "W",
           "trend": "steady"
