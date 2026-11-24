@@ -2,7 +2,7 @@ window.SITE_DATA = {
   "league_name": "Fant Squad",
   "first_season": 2015,
   "current_season": 2026,
-  "generated_at": "2026-11-23T19:32:00+00:00",
+  "generated_at": "2026-11-24T04:27:36+00:00",
   "current_week": 11,
   "standings": [
     {
@@ -552,7 +552,7 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "CIN",
           "proj": 16.7,
-          "actual": 0.0,
+          "actual": 12.3,
           "season_ppg": 19.0,
           "season_total": 171.4,
           "games_played": 9,
@@ -3872,7 +3872,7 @@ window.SITE_DATA = {
           "pos": "RB",
           "pro": "CIN",
           "proj": 15.6,
-          "actual": 0.0,
+          "actual": 8.6,
           "season_ppg": 14.4,
           "season_total": 129.7,
           "games_played": 9,
@@ -3938,7 +3938,7 @@ window.SITE_DATA = {
           "games_played": 9,
           "preseason_proj_total": 156.9,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4361370,
@@ -7252,7 +7252,7 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "CIN",
           "proj": 25.4,
-          "actual": 0.0,
+          "actual": 8.1,
           "season_ppg": 21.5,
           "season_total": 193.8,
           "games_played": 9,
@@ -10557,7 +10557,7 @@ window.SITE_DATA = {
           "pos": "QB",
           "pro": "CIN",
           "proj": 22.5,
-          "actual": 0.0,
+          "actual": 19.9,
           "season_ppg": 25.7,
           "season_total": 230.9,
           "games_played": 9,
@@ -18571,7 +18571,7 @@ window.SITE_DATA = {
           "pos": "WR",
           "pro": "WSH",
           "proj": 12.9,
-          "actual": 0.0,
+          "actual": 8.5,
           "season_ppg": 12.3,
           "season_total": 110.6,
           "games_played": 9,
@@ -18592,7 +18592,7 @@ window.SITE_DATA = {
           "games_played": 9,
           "preseason_proj_total": 191.8,
           "starter": true,
-          "injury": null
+          "injury": "QUESTIONABLE"
         },
         {
           "player_id": 4685278,
@@ -18697,7 +18697,7 @@ window.SITE_DATA = {
           "games_played": 8,
           "preseason_proj_total": 128.1,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4430737,
@@ -18712,7 +18712,7 @@ window.SITE_DATA = {
           "games_played": 10,
           "preseason_proj_total": 284.0,
           "starter": false,
-          "injury": "QUESTIONABLE"
+          "injury": null
         },
         {
           "player_id": 4685702,
@@ -26623,7 +26623,7 @@ window.SITE_DATA = {
           "pos": "QB",
           "pro": "WSH",
           "proj": 19.3,
-          "actual": 0.0,
+          "actual": 16.7,
           "season_ppg": 14.9,
           "season_total": 134.4,
           "games_played": 9,
