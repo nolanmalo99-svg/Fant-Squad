@@ -2476,7 +2476,7 @@ window.MATCHUPS_DATA = {
               "pro": "PHI",
               "proj": 8.3,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Will Reichard",
@@ -2507,17 +2507,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 81.0,
-          "injuries": [
-            {
-              "name": "Dallas Goedert",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "PHI",
-              "proj": 8.3,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "away": {
           "teamId": 7,
@@ -2571,7 +2561,7 @@ window.MATCHUPS_DATA = {
               "pro": "DET",
               "proj": 10.8,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Patrick Mahomes",
@@ -2611,17 +2601,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 68.4,
-          "injuries": [
-            {
-              "name": "Sam LaPorta",
-              "slot": "TE",
-              "pos": "TE",
-              "pro": "DET",
-              "proj": 10.8,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "played": false,
         "playoff": false,
@@ -2767,7 +2747,7 @@ window.MATCHUPS_DATA = {
               "pro": "PHI",
               "proj": 14.2,
               "actual": 0.0,
-              "injury": "QUESTIONABLE"
+              "injury": null
             },
             {
               "name": "Trey McBride",
@@ -2834,17 +2814,7 @@ window.MATCHUPS_DATA = {
             }
           ],
           "bench_proj": 61.4,
-          "injuries": [
-            {
-              "name": "Saquon Barkley",
-              "slot": "RB",
-              "pos": "RB",
-              "pro": "PHI",
-              "proj": 14.2,
-              "actual": 0.0,
-              "injury": "QUESTIONABLE"
-            }
-          ]
+          "injuries": []
         },
         "away": {
           "teamId": 9,
@@ -2853,14 +2823,32 @@ window.MATCHUPS_DATA = {
           "owner": "Andy Jensen",
           "record": "3-8",
           "actual": 0.0,
-          "projected": 87.1,
+          "projected": 107.3,
           "starters": [
+            {
+              "name": "Bijan Robinson",
+              "slot": "FLEX",
+              "pos": "RB",
+              "pro": "ATL",
+              "proj": 17.7,
+              "actual": 0.0,
+              "injury": null
+            },
             {
               "name": "Derrick Henry",
               "slot": "RB",
               "pos": "RB",
               "pro": "BAL",
               "proj": 14.5,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
+              "name": "Ladd McConkey",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "LAC",
+              "proj": 12.2,
               "actual": 0.0,
               "injury": null
             },
@@ -2874,11 +2862,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Alvin Kamara",
-              "slot": "FLEX",
-              "pos": "RB",
-              "pro": "NO",
-              "proj": 4.9,
+              "name": "Cameron Dicker",
+              "slot": "K",
+              "pos": "K",
+              "pro": "LAC",
+              "proj": 9.5,
               "actual": 0.0,
               "injury": null
             },
@@ -2888,24 +2876,6 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "MIA",
               "proj": 8.5,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Harrison Butker",
-              "slot": "K",
-              "pos": "K",
-              "pro": "KC",
-              "proj": 7.4,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
-              "name": "Keenan Allen",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "SF",
-              "proj": 6.9,
               "actual": 0.0,
               "injury": null
             },
@@ -2937,7 +2907,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 58.1,
+          "bench_proj": 37.9,
           "injuries": []
         },
         "played": false,
@@ -2945,7 +2915,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Andy Jensen (3-8) at Noah Budach (4-7). Projected: Andy Jensen 87.1 - Noah Budach 115.4. Noah Budach favored by 28.3.",
+        "blurb": "Andy Jensen (3-8) at Noah Budach (4-7). Projected: Andy Jensen 107.3 - Noah Budach 115.4. Noah Budach favored by 8.1.",
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
@@ -2986,6 +2956,16 @@ window.MATCHUPS_DATA = {
             "owner": "Noah Budach"
           },
           {
+            "name": "Bijan Robinson",
+            "slot": "FLEX",
+            "pos": "RB",
+            "pro": "ATL",
+            "proj": 17.7,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Andy Jensen"
+          },
+          {
             "name": "Trey McBride",
             "slot": "TE",
             "pos": "TE",
@@ -2994,16 +2974,6 @@ window.MATCHUPS_DATA = {
             "actual": 0.0,
             "injury": null,
             "owner": "Noah Budach"
-          },
-          {
-            "name": "Derrick Henry",
-            "slot": "RB",
-            "pos": "RB",
-            "pro": "BAL",
-            "proj": 14.5,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Andy Jensen"
           }
         ],
         "positional_edges": [
@@ -3016,8 +2986,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "K",
             "home_proj": 9.3,
-            "away_proj": 7.4,
-            "edge": "home"
+            "away_proj": 9.5,
+            "edge": "even"
           },
           {
             "pos": "QB",
@@ -3028,8 +2998,8 @@ window.MATCHUPS_DATA = {
           {
             "pos": "RB",
             "home_proj": 40.1,
-            "away_proj": 33.4,
-            "edge": "home"
+            "away_proj": 46.2,
+            "edge": "away"
           },
           {
             "pos": "TE",
@@ -3040,7 +3010,7 @@ window.MATCHUPS_DATA = {
           {
             "pos": "WR",
             "home_proj": 26.2,
-            "away_proj": 15.4,
+            "away_proj": 20.7,
             "edge": "home"
           }
         ],
