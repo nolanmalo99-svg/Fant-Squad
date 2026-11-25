@@ -2105,7 +2105,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "6-5",
           "actual": 0.0,
-          "projected": 122.1,
+          "projected": 128.2,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -2144,6 +2144,15 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
+              "name": "Christian Watson",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "GB",
+              "proj": 14.1,
+              "actual": 0.0,
+              "injury": null
+            },
+            {
               "name": "Justin Herbert",
               "slot": "QB",
               "pos": "QB",
@@ -2171,15 +2180,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Courtland Sutton",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "DEN",
-              "proj": 8.0,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "Panthers D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
@@ -2189,7 +2189,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 53.3,
+          "bench_proj": 47.2,
           "injuries": [
             {
               "name": "Justin Herbert",
@@ -2209,8 +2209,17 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "6-5",
           "actual": 0.0,
-          "projected": 106.7,
+          "projected": 120.6,
           "starters": [
+            {
+              "name": "Jaxon Smith-Njigba",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "SEA",
+              "proj": 21.6,
+              "actual": 0.0,
+              "injury": null
+            },
             {
               "name": "Tetairoa McMillan",
               "slot": "WR",
@@ -2257,15 +2266,6 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Josh Downs",
-              "slot": "WR",
-              "pos": "WR",
-              "pro": "KC",
-              "proj": 7.6,
-              "actual": 0.0,
-              "injury": null
-            },
-            {
               "name": "T.J. Hockenson",
               "slot": "TE",
               "pos": "TE",
@@ -2293,7 +2293,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 47.7,
+          "bench_proj": 33.7,
           "injuries": []
         },
         "played": false,
@@ -2301,7 +2301,7 @@ window.MATCHUPS_DATA = {
         "margin": null,
         "winner": null,
         "phase": "preview",
-        "blurb": "Zach Mensink (6-5) at alex raichle (6-5). Projected: Zach Mensink 106.7 - alex raichle 122.1. alex raichle favored by 15.4.",
+        "blurb": "Zach Mensink (6-5) at alex raichle (6-5). Projected: Zach Mensink 120.6 - alex raichle 128.2. alex raichle favored by 7.6.",
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
@@ -2342,6 +2342,16 @@ window.MATCHUPS_DATA = {
             "owner": "Zach Mensink"
           },
           {
+            "name": "Jaxon Smith-Njigba",
+            "slot": "WR",
+            "pos": "WR",
+            "pro": "SEA",
+            "proj": 21.6,
+            "actual": 0.0,
+            "injury": null,
+            "owner": "Zach Mensink"
+          },
+          {
             "name": "Bucky Irving",
             "slot": "RB",
             "pos": "RB",
@@ -2349,16 +2359,6 @@ window.MATCHUPS_DATA = {
             "proj": 21.0,
             "actual": 0.0,
             "injury": null,
-            "owner": "alex raichle"
-          },
-          {
-            "name": "Justin Herbert",
-            "slot": "QB",
-            "pos": "QB",
-            "pro": "LAC",
-            "proj": 16.2,
-            "actual": 0.0,
-            "injury": "QUESTIONABLE",
             "owner": "alex raichle"
           }
         ],
@@ -2395,8 +2395,8 @@ window.MATCHUPS_DATA = {
           },
           {
             "pos": "WR",
-            "home_proj": 23.8,
-            "away_proj": 33.4,
+            "home_proj": 29.9,
+            "away_proj": 47.4,
             "edge": "away"
           }
         ],
@@ -2600,7 +2600,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 68.4,
+          "bench_proj": 78.1,
           "injuries": []
         },
         "played": false,
@@ -2813,7 +2813,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 61.4,
+          "bench_proj": 68.0,
           "injuries": []
         },
         "away": {
@@ -3224,7 +3224,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 70.7,
+          "bench_proj": 75.3,
           "injuries": []
         },
         "played": false,
