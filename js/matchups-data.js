@@ -1999,7 +1999,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 64.5,
+          "bench_proj": 64.4,
           "injuries": [
             {
               "name": "Bhayshul Tuten",
@@ -2246,7 +2246,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "6-5",
           "actual": 0.0,
-          "projected": 122.3,
+          "projected": 122.2,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -2325,7 +2325,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "NYG",
-              "proj": 7.1,
+              "proj": 7.0,
               "actual": 0.0,
               "injury": null
             }
@@ -2446,7 +2446,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "LAR",
-              "proj": 7.7,
+              "proj": 7.8,
               "actual": 12.0,
               "injury": null
             }
