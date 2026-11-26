@@ -2132,8 +2132,8 @@ window.MATCHUPS_DATA = {
           "team": "Double D Kupps",
           "owner": "alex raichle",
           "record": "6-5",
-          "actual": 0.0,
-          "projected": 128.2,
+          "actual": 16.5,
+          "projected": 130.6,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -2177,8 +2177,8 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "GB",
               "proj": 14.1,
-              "actual": 0.0,
-              "injury": null
+              "actual": 16.5,
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Justin Herbert",
@@ -2220,6 +2220,15 @@ window.MATCHUPS_DATA = {
           "bench_proj": 47.7,
           "injuries": [
             {
+              "name": "Christian Watson",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "GB",
+              "proj": 14.1,
+              "actual": 16.5,
+              "injury": "QUESTIONABLE"
+            },
+            {
               "name": "Justin Herbert",
               "slot": "QB",
               "pos": "QB",
@@ -2237,7 +2246,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "6-5",
           "actual": 0.0,
-          "projected": 120.7,
+          "projected": 122.3,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -2312,11 +2321,11 @@ window.MATCHUPS_DATA = {
               "injury": null
             },
             {
-              "name": "Lions D/ST",
+              "name": "Giants D/ST",
               "slot": "D/ST",
               "pos": "D/ST",
-              "pro": "DET",
-              "proj": 5.5,
+              "pro": "NYG",
+              "proj": 7.1,
               "actual": 0.0,
               "injury": null
             }
@@ -2343,123 +2352,12 @@ window.MATCHUPS_DATA = {
             }
           ]
         },
-        "played": false,
+        "played": true,
         "playoff": false,
-        "margin": null,
-        "winner": null,
-        "phase": "preview",
-        "blurb": "Zach Mensink (6-5) at alex raichle (6-5). Projected: Zach Mensink 120.7 - alex raichle 128.2. alex raichle favored by 7.5.",
-        "home_form": {
-          "record_last_n": "2-1",
-          "games_considered": 3,
-          "season_avg": 121.1,
-          "recent_avg": 120.9,
-          "streak": 1,
-          "streak_type": "W",
-          "trend": "steady"
-        },
-        "away_form": {
-          "record_last_n": "2-1",
-          "games_considered": 3,
-          "season_avg": 118.4,
-          "recent_avg": 109.8,
-          "streak": 2,
-          "streak_type": "W",
-          "trend": "down"
-        },
-        "players_to_watch": [
-          {
-            "name": "Jahmyr Gibbs",
-            "slot": "RB",
-            "pos": "RB",
-            "pro": "DET",
-            "proj": 25.6,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "alex raichle"
-          },
-          {
-            "name": "Trevor Lawrence",
-            "slot": "QB",
-            "pos": "QB",
-            "pro": "JAX",
-            "proj": 23.0,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Zach Mensink"
-          },
-          {
-            "name": "Jaxon Smith-Njigba",
-            "slot": "WR",
-            "pos": "WR",
-            "pro": "SEA",
-            "proj": 21.6,
-            "actual": 0.0,
-            "injury": "QUESTIONABLE",
-            "owner": "Zach Mensink"
-          },
-          {
-            "name": "Bucky Irving",
-            "slot": "RB",
-            "pos": "RB",
-            "pro": "TB",
-            "proj": 21.0,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "alex raichle"
-          }
-        ],
-        "positional_edges": [
-          {
-            "pos": "D/ST",
-            "home_proj": 5.2,
-            "away_proj": 5.5,
-            "edge": "even"
-          },
-          {
-            "pos": "K",
-            "home_proj": 9.6,
-            "away_proj": 10.4,
-            "edge": "even"
-          },
-          {
-            "pos": "QB",
-            "home_proj": 16.2,
-            "away_proj": 23.0,
-            "edge": "away"
-          },
-          {
-            "pos": "RB",
-            "home_proj": 60.2,
-            "away_proj": 23.5,
-            "edge": "home"
-          },
-          {
-            "pos": "TE",
-            "home_proj": 7.2,
-            "away_proj": 10.9,
-            "edge": "away"
-          },
-          {
-            "pos": "WR",
-            "home_proj": 29.9,
-            "away_proj": 47.4,
-            "edge": "away"
-          }
-        ],
-        "revenge": {
-          "week": 3,
-          "home_won": true,
-          "home_pts": 113.4,
-          "away_pts": 95.9
-        },
-        "fun_facts": [
-          "This is their 2nd meeting this season."
-        ],
-        "head_to_head": {
-          "home_w": 12,
-          "home_l": 12
-        }
+        "margin": 16.5,
+        "winner": "alex raichle",
+        "phase": "recap",
+        "blurb": "Final: Zach Mensink 0.0 - alex raichle 16.5. alex raichle won by 16.5. Top scorers for alex raichle: Christian Watson (16.5), Jahmyr Gibbs (0.0)."
       },
       {
         "home": {
@@ -2468,8 +2366,8 @@ window.MATCHUPS_DATA = {
           "team": "Cee Deez Ballz",
           "owner": "Brady Schuster",
           "record": "4-7",
-          "actual": 0.0,
-          "projected": 133.2,
+          "actual": 16.9,
+          "projected": 125.7,
           "starters": [
             {
               "name": "CeeDee Lamb",
@@ -2513,7 +2411,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "GB",
               "proj": 16.7,
-              "actual": 0.0,
+              "actual": 4.9,
               "injury": null
             },
             {
@@ -2549,7 +2447,7 @@ window.MATCHUPS_DATA = {
               "pos": "D/ST",
               "pro": "LAR",
               "proj": 7.7,
-              "actual": 0.0,
+              "actual": 12.0,
               "injury": null
             }
           ],
@@ -2562,8 +2460,8 @@ window.MATCHUPS_DATA = {
           "team": "This Just In",
           "owner": "Dawson Leer",
           "record": "7-4",
-          "actual": 0.0,
-          "projected": 129.7,
+          "actual": 16.5,
+          "projected": 129.4,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -2580,7 +2478,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "LAR",
               "proj": 16.8,
-              "actual": 0.0,
+              "actual": 16.5,
               "injury": null
             },
             {
@@ -2650,123 +2548,12 @@ window.MATCHUPS_DATA = {
           "bench_proj": 78.7,
           "injuries": []
         },
-        "played": false,
+        "played": true,
         "playoff": false,
-        "margin": null,
-        "winner": null,
-        "phase": "preview",
-        "blurb": "Dawson Leer (7-4) at Brady Schuster (4-7). Projected: Dawson Leer 129.7 - Brady Schuster 133.2. Brady Schuster favored by 3.5.",
-        "home_form": {
-          "record_last_n": "1-2",
-          "games_considered": 3,
-          "season_avg": 119.1,
-          "recent_avg": 136.8,
-          "streak": 2,
-          "streak_type": "L",
-          "trend": "up"
-        },
-        "away_form": {
-          "record_last_n": "1-2",
-          "games_considered": 3,
-          "season_avg": 122.9,
-          "recent_avg": 119.6,
-          "streak": 2,
-          "streak_type": "L",
-          "trend": "down"
-        },
-        "players_to_watch": [
-          {
-            "name": "C.J. Stroud",
-            "slot": "QB",
-            "pos": "QB",
-            "pro": "HOU",
-            "proj": 21.1,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Brady Schuster"
-          },
-          {
-            "name": "CeeDee Lamb",
-            "slot": "WR",
-            "pos": "WR",
-            "pro": "DAL",
-            "proj": 20.3,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Brady Schuster"
-          },
-          {
-            "name": "Justin Jefferson",
-            "slot": "WR",
-            "pos": "WR",
-            "pro": "MIN",
-            "proj": 20.1,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Dawson Leer"
-          },
-          {
-            "name": "Patrick Mahomes",
-            "slot": "QB",
-            "pos": "QB",
-            "pro": "KC",
-            "proj": 17.6,
-            "actual": 0.0,
-            "injury": null,
-            "owner": "Dawson Leer"
-          }
-        ],
-        "positional_edges": [
-          {
-            "pos": "D/ST",
-            "home_proj": 7.7,
-            "away_proj": 8.9,
-            "edge": "away"
-          },
-          {
-            "pos": "K",
-            "home_proj": 11.0,
-            "away_proj": 9.6,
-            "edge": "home"
-          },
-          {
-            "pos": "QB",
-            "home_proj": 21.1,
-            "away_proj": 17.6,
-            "edge": "home"
-          },
-          {
-            "pos": "RB",
-            "home_proj": 33.6,
-            "away_proj": 49.7,
-            "edge": "away"
-          },
-          {
-            "pos": "TE",
-            "home_proj": 8.3,
-            "away_proj": 10.8,
-            "edge": "away"
-          },
-          {
-            "pos": "WR",
-            "home_proj": 51.5,
-            "away_proj": 33.1,
-            "edge": "home"
-          }
-        ],
-        "revenge": {
-          "week": 4,
-          "home_won": false,
-          "home_pts": 150.4,
-          "away_pts": 164.8
-        },
-        "fun_facts": [
-          "This is their 2nd meeting this season."
-        ],
-        "head_to_head": {
-          "home_w": 12,
-          "home_l": 14
-        }
+        "margin": 0.4,
+        "winner": "Brady Schuster",
+        "phase": "recap",
+        "blurb": "Final: Dawson Leer 16.5 - Brady Schuster 16.9. Brady Schuster won by 0.4. Top scorers for Brady Schuster: Rams D/ST (12.0), Matthew Golden (4.9)."
       },
       {
         "home": {
@@ -3448,18 +3235,18 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 121.1,
-          "recent_avg": 120.9,
-          "streak": 1,
+          "season_avg": 112.4,
+          "recent_avg": 75.6,
+          "streak": 2,
           "streak_type": "W",
-          "trend": "steady"
+          "trend": "down"
         },
         "away_form": {
-          "record_last_n": "1-2",
+          "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 122.9,
-          "recent_avg": 119.6,
-          "streak": 2,
+          "season_avg": 114.0,
+          "recent_avg": 86.8,
+          "streak": 3,
           "streak_type": "L",
           "trend": "down"
         },
@@ -3643,10 +3430,10 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 118.4,
-          "recent_avg": 109.8,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 108.5,
+          "recent_avg": 82.8,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "down"
         },
         "away_form": {
@@ -3668,7 +3455,6 @@ window.MATCHUPS_DATA = {
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
-          "If the projection holds, this would be Zach Mensink's worst week of the season.",
           "If the projection holds, this would be Andy Jensen's worst week of the season."
         ],
         "head_to_head": {
@@ -3719,11 +3505,11 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 119.1,
-          "recent_avg": 136.8,
-          "streak": 2,
-          "streak_type": "L",
-          "trend": "up"
+          "season_avg": 110.5,
+          "recent_avg": 83.7,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "down"
         },
         "players_to_watch": [],
         "positional_edges": [],
@@ -3855,10 +3641,10 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 118.4,
-          "recent_avg": 109.8,
-          "streak": 2,
-          "streak_type": "W",
+          "season_avg": 108.5,
+          "recent_avg": 82.8,
+          "streak": 1,
+          "streak_type": "L",
           "trend": "down"
         },
         "players_to_watch": [],
@@ -3871,8 +3657,7 @@ window.MATCHUPS_DATA = {
         },
         "fun_facts": [
           "This is their 2nd meeting this season.",
-          "If the projection holds, this would be Mitch Wiese's worst week of the season.",
-          "If the projection holds, this would be Zach Mensink's worst week of the season."
+          "If the projection holds, this would be Mitch Wiese's worst week of the season."
         ],
         "head_to_head": {
           "home_w": 6,
@@ -3913,11 +3698,11 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 119.1,
-          "recent_avg": 136.8,
-          "streak": 2,
-          "streak_type": "L",
-          "trend": "up"
+          "season_avg": 110.5,
+          "recent_avg": 83.7,
+          "streak": 1,
+          "streak_type": "W",
+          "trend": "down"
         },
         "away_form": {
           "record_last_n": "3-0",
@@ -3989,11 +3774,11 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 121.1,
-          "recent_avg": 120.9,
-          "streak": 1,
+          "season_avg": 112.4,
+          "recent_avg": 75.6,
+          "streak": 2,
           "streak_type": "W",
-          "trend": "steady"
+          "trend": "down"
         },
         "players_to_watch": [],
         "positional_edges": [],
@@ -4045,11 +3830,11 @@ window.MATCHUPS_DATA = {
         "phase": "preview",
         "blurb": "Noah Budach (4-7) at Dawson Leer (7-4). Projected: Noah Budach 0 - Dawson Leer 0. Dawson Leer favored by 0.",
         "home_form": {
-          "record_last_n": "1-2",
+          "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 122.9,
-          "recent_avg": 119.6,
-          "streak": 2,
+          "season_avg": 114.0,
+          "recent_avg": 86.8,
+          "streak": 3,
           "streak_type": "L",
           "trend": "down"
         },
