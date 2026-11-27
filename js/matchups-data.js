@@ -1792,8 +1792,8 @@ window.MATCHUPS_DATA = {
           "team": "Amon-Ra Doggin",
           "owner": "Nolan Malo",
           "record": "8-3",
-          "actual": 69.5,
-          "projected": 157.4,
+          "actual": 85.4,
+          "projected": 158.8,
           "starters": [
             {
               "name": "Amon-Ra St. Brown",
@@ -1810,7 +1810,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "BUF",
               "proj": 14.2,
-              "actual": 13.6,
+              "actual": 19.5,
               "injury": null
             },
             {
@@ -1864,7 +1864,7 @@ window.MATCHUPS_DATA = {
               "pos": "K",
               "pro": "BUF",
               "proj": 10.3,
-              "actual": 1.0,
+              "actual": 11.0,
               "injury": null
             },
             {
@@ -1990,7 +1990,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 64.4,
+          "bench_proj": 64.5,
           "injuries": [
             {
               "name": "Colston Loveland",
@@ -2032,10 +2032,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 44.9,
+        "margin": 60.8,
         "winner": "Nolan Malo",
         "phase": "recap",
-        "blurb": "Final: spencer glynn 24.6 - Nolan Malo 69.5. Nolan Malo won by 44.9. Top scorers for Nolan Malo: Javonte Williams (33.3), Amon-Ra St. Brown (21.6)."
+        "blurb": "Final: spencer glynn 24.6 - Nolan Malo 85.4. Nolan Malo won by 60.8. Top scorers for Nolan Malo: Javonte Williams (33.3), Amon-Ra St. Brown (21.6)."
       },
       {
         "home": {
@@ -2166,8 +2166,8 @@ window.MATCHUPS_DATA = {
           "team": "Christian Mingle",
           "owner": "Zach Mensink",
           "record": "6-5",
-          "actual": 38.2,
-          "projected": 130.9,
+          "actual": 41.7,
+          "projected": 127.1,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -2202,7 +2202,7 @@ window.MATCHUPS_DATA = {
               "pos": "WR",
               "pro": "BUF",
               "proj": 12.4,
-              "actual": 0.0,
+              "actual": 3.5,
               "injury": null
             },
             {
@@ -2275,10 +2275,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 36.5,
+        "margin": 33.0,
         "winner": "alex raichle",
         "phase": "recap",
-        "blurb": "Final: Zach Mensink 38.2 - alex raichle 74.7. alex raichle won by 36.5. Top scorers for alex raichle: Jahmyr Gibbs (48.2), Christian Watson (16.5)."
+        "blurb": "Final: Zach Mensink 41.7 - alex raichle 74.7. alex raichle won by 33.0. Top scorers for alex raichle: Jahmyr Gibbs (48.2), Christian Watson (16.5)."
       },
       {
         "home": {
@@ -2391,8 +2391,8 @@ window.MATCHUPS_DATA = {
           "team": "This Just In",
           "owner": "Dawson Leer",
           "record": "7-4",
-          "actual": 41.6,
-          "projected": 123.0,
+          "actual": 58.0,
+          "projected": 128.1,
           "starters": [
             {
               "name": "Justin Jefferson",
@@ -2426,7 +2426,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "CHI",
-              "proj": 13.0,
+              "proj": 13.1,
               "actual": 7.5,
               "injury": null
             },
@@ -2463,7 +2463,7 @@ window.MATCHUPS_DATA = {
               "pos": "RB",
               "pro": "KC",
               "proj": 17.6,
-              "actual": 3.2,
+              "actual": 19.6,
               "injury": null
             },
             {
@@ -2471,7 +2471,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "WSH",
-              "proj": 8.9,
+              "proj": 8.1,
               "actual": 0.0,
               "injury": null
             }
@@ -2481,10 +2481,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 2.4,
+        "margin": 18.8,
         "winner": "Dawson Leer",
         "phase": "recap",
-        "blurb": "Final: Dawson Leer 41.6 - Brady Schuster 39.2. Dawson Leer won by 2.4. Top scorers for Dawson Leer: Kyren Williams (16.5), Sam LaPorta (14.4)."
+        "blurb": "Final: Dawson Leer 58.0 - Brady Schuster 39.2. Dawson Leer won by 18.8. Top scorers for Dawson Leer: Emmett Johnson (19.6), Kyren Williams (16.5)."
       },
       {
         "home": {
@@ -2494,7 +2494,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "4-7",
           "actual": 59.6,
-          "projected": 138.6,
+          "projected": 138.4,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -2519,7 +2519,7 @@ window.MATCHUPS_DATA = {
               "slot": "TE",
               "pos": "TE",
               "pro": "ARI",
-              "proj": 14.6,
+              "proj": 14.4,
               "actual": 0.0,
               "injury": null
             },
@@ -2530,7 +2530,7 @@ window.MATCHUPS_DATA = {
               "pro": "PHI",
               "proj": 14.4,
               "actual": 43.0,
-              "injury": null
+              "injury": "QUESTIONABLE"
             },
             {
               "name": "Carnell Tate",
@@ -2590,6 +2590,15 @@ window.MATCHUPS_DATA = {
               "injury": "QUESTIONABLE"
             },
             {
+              "name": "DeVonta Smith",
+              "slot": "WR",
+              "pos": "WR",
+              "pro": "PHI",
+              "proj": 14.4,
+              "actual": 43.0,
+              "injury": "QUESTIONABLE"
+            },
+            {
               "name": "Brock Purdy",
               "slot": "QB",
               "pos": "QB",
@@ -2606,8 +2615,8 @@ window.MATCHUPS_DATA = {
           "team": "Derrick Me Softly",
           "owner": "Andy Jensen",
           "record": "3-8",
-          "actual": 10.6,
-          "projected": 106.3,
+          "actual": 22.1,
+          "projected": 112.7,
           "starters": [
             {
               "name": "Bijan Robinson",
@@ -2642,7 +2651,7 @@ window.MATCHUPS_DATA = {
               "pos": "TE",
               "pro": "KC",
               "proj": 11.5,
-              "actual": 2.6,
+              "actual": 11.1,
               "injury": null
             },
             {
@@ -2669,7 +2678,7 @@ window.MATCHUPS_DATA = {
               "pos": "D/ST",
               "pro": "KC",
               "proj": 5.2,
-              "actual": 8.0,
+              "actual": 11.0,
               "injury": null
             },
             {
@@ -2706,10 +2715,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 49.0,
+        "margin": 37.5,
         "winner": "Noah Budach",
         "phase": "recap",
-        "blurb": "Final: Andy Jensen 10.6 - Noah Budach 59.6. Noah Budach won by 49.0. Top scorers for Noah Budach: DeVonta Smith (43.0), Kyle Monangai (15.9)."
+        "blurb": "Final: Andy Jensen 22.1 - Noah Budach 59.6. Noah Budach won by 37.5. Top scorers for Noah Budach: DeVonta Smith (43.0), Kyle Monangai (15.9)."
       },
       {
         "home": {
@@ -2718,8 +2727,8 @@ window.MATCHUPS_DATA = {
           "team": "Cream in my Jeantys",
           "owner": "Mitch Wiese",
           "record": "7-4",
-          "actual": 10.2,
-          "projected": 107.7,
+          "actual": 13.5,
+          "projected": 100.5,
           "starters": [
             {
               "name": "Brock Bowers",
@@ -2754,7 +2763,7 @@ window.MATCHUPS_DATA = {
               "pos": "QB",
               "pro": "BUF",
               "proj": 17.8,
-              "actual": 0.2,
+              "actual": 3.5,
               "injury": null
             },
             {
@@ -2803,7 +2812,7 @@ window.MATCHUPS_DATA = {
               "injury": null
             }
           ],
-          "bench_proj": 67.2,
+          "bench_proj": 67.0,
           "injuries": [
             {
               "name": "Brock Bowers",
@@ -2912,10 +2921,10 @@ window.MATCHUPS_DATA = {
         },
         "played": true,
         "playoff": false,
-        "margin": 27.0,
+        "margin": 23.7,
         "winner": "Owen Koslosku",
         "phase": "recap",
-        "blurb": "Final: Owen Koslosku 37.2 - Mitch Wiese 10.2. Owen Koslosku won by 27.0. Top scorers for Owen Koslosku: Dak Prescott (25.5), George Pickens (11.7)."
+        "blurb": "Final: Owen Koslosku 37.2 - Mitch Wiese 13.5. Owen Koslosku won by 23.7. Top scorers for Owen Koslosku: Dak Prescott (25.5), George Pickens (11.7)."
       }
     ],
     "13": [
@@ -2962,8 +2971,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 116.1,
-          "recent_avg": 95.2,
+          "season_avg": 117.5,
+          "recent_avg": 100.6,
           "streak": 1,
           "streak_type": "W",
           "trend": "down"
@@ -3014,8 +3023,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.5,
-          "recent_avg": 115.3,
+          "season_avg": 125.8,
+          "recent_avg": 120.6,
           "streak": 4,
           "streak_type": "W",
           "trend": "down"
@@ -3148,8 +3157,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 111.7,
-          "recent_avg": 95.6,
+          "season_avg": 112.0,
+          "recent_avg": 96.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
@@ -3157,8 +3166,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 99.8,
-          "recent_avg": 73.0,
+          "season_avg": 100.8,
+          "recent_avg": 76.9,
           "streak": 9,
           "streak_type": "L",
           "trend": "down"
@@ -3215,8 +3224,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 112.5,
-          "recent_avg": 80.2,
+          "season_avg": 112.7,
+          "recent_avg": 81.3,
           "streak": 2,
           "streak_type": "L",
           "trend": "down"
@@ -3293,8 +3302,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "0-3",
           "games_considered": 3,
-          "season_avg": 99.8,
-          "recent_avg": 73.0,
+          "season_avg": 100.8,
+          "recent_avg": 76.9,
           "streak": 9,
           "streak_type": "L",
           "trend": "down"
@@ -3351,8 +3360,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 112.5,
-          "recent_avg": 80.2,
+          "season_avg": 112.7,
+          "recent_avg": 81.3,
           "streak": 2,
           "streak_type": "L",
           "trend": "down"
@@ -3360,8 +3369,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "2-1",
           "games_considered": 3,
-          "season_avg": 111.7,
-          "recent_avg": 95.6,
+          "season_avg": 112.0,
+          "recent_avg": 96.7,
           "streak": 1,
           "streak_type": "L",
           "trend": "down"
@@ -3427,8 +3436,8 @@ window.MATCHUPS_DATA = {
         "away_form": {
           "record_last_n": "3-0",
           "games_considered": 3,
-          "season_avg": 124.5,
-          "recent_avg": 115.3,
+          "season_avg": 125.8,
+          "recent_avg": 120.6,
           "streak": 4,
           "streak_type": "W",
           "trend": "down"
@@ -3552,8 +3561,8 @@ window.MATCHUPS_DATA = {
         "home_form": {
           "record_last_n": "1-2",
           "games_considered": 3,
-          "season_avg": 116.1,
-          "recent_avg": 95.2,
+          "season_avg": 117.5,
+          "recent_avg": 100.6,
           "streak": 1,
           "streak_type": "W",
           "trend": "down"
