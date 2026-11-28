@@ -2027,7 +2027,7 @@ window.MATCHUPS_DATA = {
           "owner": "alex raichle",
           "record": "6-5",
           "actual": 74.7,
-          "projected": 136.5,
+          "projected": 137.8,
           "starters": [
             {
               "name": "Jahmyr Gibbs",
@@ -2043,7 +2043,7 @@ window.MATCHUPS_DATA = {
               "slot": "FLEX",
               "pos": "RB",
               "pro": "LAC",
-              "proj": 12.7,
+              "proj": 14.0,
               "actual": 0.0,
               "injury": null
             },
@@ -2158,7 +2158,7 @@ window.MATCHUPS_DATA = {
           "owner": "Zach Mensink",
           "record": "6-5",
           "actual": 41.7,
-          "projected": 127.0,
+          "projected": 127.1,
           "starters": [
             {
               "name": "Jaxon Smith-Njigba",
@@ -2237,7 +2237,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "NYG",
-              "proj": 6.9,
+              "proj": 7.0,
               "actual": 0.0,
               "injury": null
             }
@@ -2349,7 +2349,7 @@ window.MATCHUPS_DATA = {
               "slot": "D/ST",
               "pos": "D/ST",
               "pro": "LAR",
-              "proj": 7.7,
+              "proj": 7.6,
               "actual": 12.0,
               "injury": null
             }
@@ -2476,7 +2476,7 @@ window.MATCHUPS_DATA = {
           "owner": "Noah Budach",
           "record": "4-7",
           "actual": 59.6,
-          "projected": 120.3,
+          "projected": 120.4,
           "starters": [
             {
               "name": "Christian McCaffrey",
@@ -2623,7 +2623,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "LAC",
-              "proj": 11.7,
+              "proj": 11.8,
               "actual": 0.0,
               "injury": null
             },
@@ -2725,7 +2725,7 @@ window.MATCHUPS_DATA = {
               "slot": "WR",
               "pos": "WR",
               "pro": "HOU",
-              "proj": 15.3,
+              "proj": 15.2,
               "actual": 0.0,
               "injury": null
             },
